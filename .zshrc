@@ -32,6 +32,7 @@ export PATH="$HOME/Library/Haskell/bin:$PATH"
 #export EDITOR='mvim -f --nomru -c "au VimLeave * !open -a iTerm"'
 #export GIT_EDITOR='mvim -f --nomru -c "au VimLeave * !open -a iTerm"'
 
+# use ctrl-z to toggle between background and foreground
 fancy-ctrl-z () {
   if [[ $#BUFFER -eq 0 ]]; then
     BUFFER="fg"
