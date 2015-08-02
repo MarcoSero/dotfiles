@@ -1,4 +1,0 @@
-#name : fetchCollectionsInCollectionList:options
-#group : PHCollection
-# --
-fetchCollectionsInCollectionList:${1:(PHCollectionList *)collectionList} options:${2:(PHFetchOptions *)options}

@@ -1,4 +1,0 @@
-#name : apply
-#group : CIFilter
-# --
-apply:${1:(CIKernel *)k}

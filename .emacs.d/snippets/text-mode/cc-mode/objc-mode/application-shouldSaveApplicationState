@@ -1,4 +1,0 @@
-#name : application:shouldSaveApplicationState
-#group : UIApplication
-# --
-application:${1:(UIApplication *)application} shouldSaveApplicationState:${2:(NSCoder *)coder}

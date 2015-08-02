@@ -1,4 +1,0 @@
-#name : pageViewController:spineLocationForInterfaceOrientation
-#group : UIPageViewController
-# --
-pageViewController:${1:(UIPageViewController *)pageViewController} spineLocationForInterfaceOrientation:${2:(UIInterfaceOrientation)orientation}

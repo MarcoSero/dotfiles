@@ -1,4 +1,0 @@
-#name : setCropRectangle:atTime
-#group : AVVideoComposition
-# --
-setCropRectangle:${1:(CGRect)cropRectangle} atTime:${2:(CMTime)time}

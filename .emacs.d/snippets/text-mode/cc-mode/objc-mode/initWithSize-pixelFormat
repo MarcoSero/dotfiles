@@ -1,4 +1,0 @@
-#name : initWithSize:pixelFormat
-#group : SKMutableTexture
-# --
-initWithSize:${1:(CGSize)size} pixelFormat:${2:(int)format}

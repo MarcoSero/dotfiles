@@ -1,4 +1,0 @@
-#name : addAngularVelocity
-#group : UIDynamicItemBehavior
-# --
-addAngularVelocity:${1:(CGFloat)velocity}

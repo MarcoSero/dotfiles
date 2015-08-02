@@ -1,4 +1,0 @@
-#name : unprojectPoint
-#group : SK3DNode
-# --
-unprojectPoint:${1:(vector_float3)point}

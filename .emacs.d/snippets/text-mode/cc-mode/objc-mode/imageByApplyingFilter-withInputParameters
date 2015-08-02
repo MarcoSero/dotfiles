@@ -1,4 +1,0 @@
-#name : imageByApplyingFilter:withInputParameters
-#group : CIImage
-# --
-imageByApplyingFilter:${1:(NSString *)filterName} withInputParameters:${2:(NSDictionary*)params}

@@ -1,4 +1,0 @@
-#name : dismissViewControllerAnimated
-#group : UIViewController
-# --
-dismissViewControllerAnimated:${1:(BOOL)flag}

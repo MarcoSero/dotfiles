@@ -1,4 +1,0 @@
-#name : scopeBarButtonBackgroundImageForState
-#group : UISearchBar
-# --
-scopeBarButtonBackgroundImageForState:${1:(UIControlState)state}

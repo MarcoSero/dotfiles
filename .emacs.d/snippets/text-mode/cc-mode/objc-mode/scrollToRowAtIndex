@@ -1,4 +1,0 @@
-#name : scrollToRowAtIndex
-#group : WKInterfaceTable
-# --
-scrollToRowAtIndex:${1:(NSInteger)index}

@@ -1,4 +1,0 @@
-#name : drawIndexedPrimitives:indexCount:indexType
-#group : MTLRenderCommandEncoder
-# --
-drawIndexedPrimitives:${1:(MTLPrimitiveType)primitiveType} indexCount:${2:(NSUInteger)indexCount} indexType:${3:(MTLIndexType)indexType}

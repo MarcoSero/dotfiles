@@ -1,4 +1,0 @@
-#name : lookAtConstraintWithTarget
-#group : SCNConstraint
-# --
-lookAtConstraintWithTarget:${1:(SCNNode *)target}

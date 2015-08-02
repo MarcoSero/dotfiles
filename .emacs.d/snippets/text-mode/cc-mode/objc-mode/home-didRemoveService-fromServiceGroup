@@ -1,4 +1,0 @@
-#name : home:didRemoveService:fromServiceGroup
-#group : HMHome
-# --
-home:${1:(HMHome *)home} didRemoveService:${2:(HMService *)service} fromServiceGroup:${3:(HMServiceGroup *)group}

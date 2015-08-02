@@ -1,4 +1,0 @@
-#name : initWithFrame:collectionViewLayout
-#group : UICollectionView
-# --
-initWithFrame:${1:(CGRect)frame} collectionViewLayout:${2:(UICollectionViewLayout *)layout}

@@ -1,4 +1,0 @@
-#name : addCompletedHandler
-#group : MTLCommandBuffer
-# --
-addCompletedHandler:${1:(MTLCommandBufferHandler)block}

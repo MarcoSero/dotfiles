@@ -1,4 +1,0 @@
-#name : URLForUbiquityContainerIdentifier
-#group : NSFileManager
-# --
-URLForUbiquityContainerIdentifier:${1:(NSString *)containerIdentifier}

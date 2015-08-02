@@ -1,4 +1,0 @@
-#name : fadeInWithDuration
-#group : SKAction
-# --
-fadeInWithDuration:${1:(NSTimeInterval)sec}

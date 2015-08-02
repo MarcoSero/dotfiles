@@ -1,4 +1,0 @@
-#name : addLinearVelocity
-#group : UIDynamicItemBehavior
-# --
-addLinearVelocity:${1:(CGPoint)velocity}

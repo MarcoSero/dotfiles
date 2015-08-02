@@ -1,4 +1,0 @@
-#name : setImageNamed
-#group : WKInterfaceImage
-# --
-setImageNamed:${1:(NSString *)imageName}

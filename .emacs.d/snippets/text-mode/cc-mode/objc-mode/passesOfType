@@ -1,4 +1,0 @@
-#name : passesOfType
-#group : PKPassLibrary
-# --
-passesOfType:${1:(PKPassType)passType}

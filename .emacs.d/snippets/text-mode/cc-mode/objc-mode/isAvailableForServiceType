@@ -1,4 +1,0 @@
-#name : isAvailableForServiceType
-#group : SLComposeViewController
-# --
-isAvailableForServiceType:${1:(NSString *)serviceType}

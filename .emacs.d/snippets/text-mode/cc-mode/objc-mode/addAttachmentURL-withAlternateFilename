@@ -1,4 +1,0 @@
-#name : addAttachmentURL:withAlternateFilename
-#group : MFMessageComposeViewController
-# --
-addAttachmentURL:${1:(NSURL *)attachmentURL} withAlternateFilename:${2:(NSString *)alternateFilename}

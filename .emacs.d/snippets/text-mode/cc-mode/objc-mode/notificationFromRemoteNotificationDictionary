@@ -1,4 +1,0 @@
-#name : notificationFromRemoteNotificationDictionary
-#group : CKNotification
-# --
-notificationFromRemoteNotificationDictionary:${1:(NSDictionary *)notificationDictionary}

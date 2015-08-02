@@ -1,4 +1,0 @@
-#name : transformedMetadataObjectForMetadataObject:connection
-#group : AVCaptureOutput
-# --
-transformedMetadataObjectForMetadataObject:${1:(AVMetadataObject *)metadataObject} connection:${2:(AVCaptureConnection *)connection}

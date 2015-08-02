@@ -1,4 +1,5 @@
 Library/
+.emacs.d/
 .s3cfg
 .ssh/
 .netrc

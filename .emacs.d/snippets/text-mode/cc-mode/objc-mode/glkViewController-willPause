@@ -1,4 +1,0 @@
-#name : glkViewController:willPause
-#group : GLKViewController
-# --
-glkViewController:${1:(GLKViewController *)controller} willPause:${2:(BOOL)pause}

@@ -1,4 +1,0 @@
-#name : unitFromMassFormatterUnit
-#group : HKUnit
-# --
-unitFromMassFormatterUnit:${1:(NSMassFormatterUnit)massFormatterUnit}

@@ -1,4 +1,0 @@
-#name : setScissorRect
-#group : MTLRenderCommandEncoder
-# --
-setScissorRect:${1:(MTLScissorRect)rect}

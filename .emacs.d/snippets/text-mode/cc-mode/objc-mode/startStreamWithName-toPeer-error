@@ -1,4 +1,0 @@
-#name : startStreamWithName:toPeer:error
-#group : MCSession
-# --
-startStreamWithName:${1:(NSString *)streamName} toPeer:${2:(MCPeerID *)peerID} error:${3:(NSError **)error}

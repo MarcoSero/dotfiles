@@ -1,4 +1,0 @@
-#name : presentedSubitemAtURL:didGainVersion
-#group : NSFilePresenter
-# --
-presentedSubitemAtURL:${1:(NSURL *)url} didGainVersion:${2:(NSFileVersion *)version}

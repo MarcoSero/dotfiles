@@ -1,4 +1,0 @@
-#name : setRate:time:atHostTime
-#group : AVPlayer
-# --
-setRate:${1:(float)rate} time:${2:(CMTime)itemTime} atHostTime:${3:(CMTime)hostClockTime}

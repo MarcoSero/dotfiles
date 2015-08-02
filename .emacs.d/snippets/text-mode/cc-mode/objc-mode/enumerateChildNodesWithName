@@ -1,4 +1,0 @@
-#name : enumerateChildNodesWithName
-#group : SKNode
-# --
-enumerateChildNodesWithName:${1:(NSString *)name}

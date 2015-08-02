@@ -1,4 +1,0 @@
-#name : collectionView:layout:referenceSizeForHeaderInSection
-#group : UICollectionViewFlowLayout
-# --
-collectionView:${1:(UICollectionView *)collectionView} layout:${2:(UICollectionViewLayout*)collectionViewLayout} referenceSizeForHeaderInSection:${3:(NSInteger)section}

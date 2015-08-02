@@ -1,4 +1,0 @@
-#name : setTorchModeOnWithLevel:error
-#group : AVCaptureDevice
-# --
-setTorchModeOnWithLevel:${1:(float)torchLevel} error:${2:(NSError **)outError}

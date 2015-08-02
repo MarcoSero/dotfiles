@@ -1,4 +1,0 @@
-#name : fetchAssetsWithMediaType:options
-#group : PHAsset
-# --
-fetchAssetsWithMediaType:${1:(PHAssetMediaType)mediaType} options:${2:(PHFetchOptions *)options}

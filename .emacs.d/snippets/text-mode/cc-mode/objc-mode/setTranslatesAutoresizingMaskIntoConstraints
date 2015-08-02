@@ -1,4 +1,0 @@
-#name : setTranslatesAutoresizingMaskIntoConstraints
-#group : UIView
-# --
-setTranslatesAutoresizingMaskIntoConstraints:${1:(BOOL)flag}

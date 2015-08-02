@@ -1,4 +1,0 @@
-#name : executeActionSet
-#group : HMHome
-# --
-executeActionSet:${1:(HMActionSet *)actionSet}

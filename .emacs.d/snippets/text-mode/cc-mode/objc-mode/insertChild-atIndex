@@ -1,4 +1,0 @@
-#name : insertChild:atIndex
-#group : SKNode
-# --
-insertChild:${1:(SKNode *)node} atIndex:${2:(NSInteger)index}

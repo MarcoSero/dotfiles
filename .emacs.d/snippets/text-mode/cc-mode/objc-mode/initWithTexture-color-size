@@ -1,4 +1,0 @@
-#name : initWithTexture:color:size
-#group : SKSpriteNode
-# --
-initWithTexture:${1:(SKTexture *)texture} color:${2:(SKColor *)color} size:${3:(CGSize)size}

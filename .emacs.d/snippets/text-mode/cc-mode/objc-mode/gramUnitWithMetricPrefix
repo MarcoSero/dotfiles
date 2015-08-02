@@ -1,4 +1,0 @@
-#name : gramUnitWithMetricPrefix
-#group : HKUnit
-# --
-gramUnitWithMetricPrefix:${1:(HKMetricPrefix)prefix}

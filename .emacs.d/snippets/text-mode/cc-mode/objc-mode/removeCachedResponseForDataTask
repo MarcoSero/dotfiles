@@ -1,4 +1,0 @@
-#name : removeCachedResponseForDataTask
-#group : NSURLCache
-# --
-removeCachedResponseForDataTask:${1:(NSURLSessionDataTask *)dataTask}

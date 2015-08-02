@@ -1,4 +1,0 @@
-#name : containsTraitsInCollection
-#group : UITraitCollection
-# --
-containsTraitsInCollection:${1:(UITraitCollection *)trait}

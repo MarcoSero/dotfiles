@@ -1,4 +1,0 @@
-#name : didReceiveLocalNotification
-#group : WKInterfaceController
-# --
-didReceiveLocalNotification:${1:(UILocalNotification *)localNotification}

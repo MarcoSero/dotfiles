@@ -1,4 +1,0 @@
-#name : removeActionSet
-#group : HMTrigger
-# --
-removeActionSet:${1:(HMActionSet *)actionSet}

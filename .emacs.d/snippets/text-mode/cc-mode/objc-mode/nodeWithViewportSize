@@ -1,4 +1,0 @@
-#name : nodeWithViewportSize
-#group : SK3DNode
-# --
-nodeWithViewportSize:${1:(CGSize)viewportSize}

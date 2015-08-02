@@ -1,4 +1,0 @@
-#name : initialLayoutAttributesForAppearingDecorationElementOfKind:atIndexPath
-#group : UICollectionViewLayout
-# --
-initialLayoutAttributesForAppearingDecorationElementOfKind:${1:(NSString *)elementKind} atIndexPath:${2:(NSIndexPath *)decorationIndexPath}

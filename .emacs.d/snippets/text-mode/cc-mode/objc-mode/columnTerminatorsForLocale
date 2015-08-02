@@ -1,4 +1,0 @@
-#name : columnTerminatorsForLocale
-#group : NSParagraphStyle
-# --
-columnTerminatorsForLocale:${1:(NSLocale *)aLocale}

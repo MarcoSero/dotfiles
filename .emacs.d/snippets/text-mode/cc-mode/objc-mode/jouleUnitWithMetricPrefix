@@ -1,4 +1,0 @@
-#name : jouleUnitWithMetricPrefix
-#group : HKUnit
-# --
-jouleUnitWithMetricPrefix:${1:(HKMetricPrefix)prefix}

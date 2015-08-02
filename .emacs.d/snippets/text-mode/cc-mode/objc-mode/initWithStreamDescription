@@ -1,4 +1,0 @@
-#name : initWithStreamDescription
-#group : AVAudioFormat
-# --
-initWithStreamDescription:${1:(const AudioStreamBasicDescription *)asbd}

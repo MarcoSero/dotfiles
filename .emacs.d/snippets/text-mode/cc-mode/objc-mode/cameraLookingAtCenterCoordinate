@@ -1,4 +1,0 @@
-#name : cameraLookingAtCenterCoordinate
-#group : MKMapCamera
-# --
-cameraLookingAtCenterCoordinate:${1:(CLLocationCoordinate2D)centerCoordinate}

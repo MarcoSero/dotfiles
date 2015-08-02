@@ -1,4 +1,0 @@
-#name : setMessage
-#group : GKFriendRequestComposeViewController
-# --
-setMessage:${1:(NSString *)message}

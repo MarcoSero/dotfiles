@@ -1,4 +1,0 @@
-#name : initWithRequest
-#group : MKLocalSearch
-# --
-initWithRequest:${1:(MKLocalSearchRequest *)request}

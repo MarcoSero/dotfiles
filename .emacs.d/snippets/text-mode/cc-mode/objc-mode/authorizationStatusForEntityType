@@ -1,4 +1,0 @@
-#name : authorizationStatusForEntityType
-#group : EKEventStore
-# --
-authorizationStatusForEntityType:${1:(EKEntityType)entityType}

@@ -1,4 +1,0 @@
-#name : printToPrinter:completionHandler
-#group : UIPrintInteractionController
-# --
-printToPrinter:${1:(UIPrinter *)printer} completionHandler:${2:(UIPrintInteractionCompletionHandler)completion}

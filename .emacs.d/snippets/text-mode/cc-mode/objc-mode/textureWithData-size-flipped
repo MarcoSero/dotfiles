@@ -1,4 +1,0 @@
-#name : textureWithData:size:flipped
-#group : SKTexture
-# --
-textureWithData:${1:(NSData *)pixelData} size:${2:(CGSize)size} flipped:${3:(BOOL)flipped}

@@ -1,4 +1,0 @@
-#name : shouldInvalidateLayoutForPreferredLayoutAttributes:withOriginalAttributes
-#group : UICollectionViewLayout
-# --
-shouldInvalidateLayoutForPreferredLayoutAttributes:${1:(UICollectionViewLayoutAttributes *)preferredAttributes} withOriginalAttributes:${2:(UICollectionViewLayoutAttributes *)originalAttributes}

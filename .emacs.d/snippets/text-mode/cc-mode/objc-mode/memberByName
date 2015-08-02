@@ -1,4 +1,0 @@
-#name : memberByName
-#group : MTLArgument
-# --
-memberByName:${1:(NSString *)name}

@@ -1,4 +1,0 @@
-#name : initWithOrderedSet:copyItems
-#group : NSOrderedSet
-# --
-initWithOrderedSet:${1:(NSOrderedSet *)set} copyItems:${2:(BOOL)flag}

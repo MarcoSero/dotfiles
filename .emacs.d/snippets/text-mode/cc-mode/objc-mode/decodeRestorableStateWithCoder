@@ -1,4 +1,0 @@
-#name : decodeRestorableStateWithCoder
-#group : UIViewController
-# --
-decodeRestorableStateWithCoder:${1:(NSCoder *)coder}

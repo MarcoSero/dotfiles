@@ -1,4 +1,0 @@
-#name : glyphRangeForBoundingRectWithoutAdditionalLayout:inTextContainer
-#group : NSLayoutManager
-# --
-glyphRangeForBoundingRectWithoutAdditionalLayout:${1:(CGRect)bounds} inTextContainer:${2:(NSTextContainer *)container}

@@ -1,4 +1,0 @@
-#name : enumerateObjectsWithOptions
-#group : PHFetchResult
-# --
-enumerateObjectsWithOptions:${1:(NSEnumerationOptions)opts}

@@ -1,4 +1,0 @@
-#name : decodeObjectOfClasses:forKey
-#group : NSCoder
-# --
-decodeObjectOfClasses:${1:(NSSet *)classes} forKey:${2:(NSString *)key}

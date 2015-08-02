@@ -1,4 +1,0 @@
-#name : selectItemAtIndexPath:animated:scrollPosition
-#group : UICollectionView
-# --
-selectItemAtIndexPath:${1:(NSIndexPath *)indexPath} animated:${2:(BOOL)animated} scrollPosition:${3:(UICollectionViewScrollPosition)scrollPosition}

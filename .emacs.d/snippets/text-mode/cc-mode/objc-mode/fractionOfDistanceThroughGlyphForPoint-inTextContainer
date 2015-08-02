@@ -1,4 +1,0 @@
-#name : fractionOfDistanceThroughGlyphForPoint:inTextContainer
-#group : NSLayoutManager
-# --
-fractionOfDistanceThroughGlyphForPoint:${1:(CGPoint)point} inTextContainer:${2:(NSTextContainer *)container}

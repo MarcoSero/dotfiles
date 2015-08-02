@@ -1,4 +1,0 @@
-#name : targetContentOffsetForProposedContentOffset:withScrollingVelocity
-#group : UICollectionViewLayout
-# --
-targetContentOffsetForProposedContentOffset:${1:(CGPoint)proposedContentOffset} withScrollingVelocity:${2:(CGPoint)velocity}

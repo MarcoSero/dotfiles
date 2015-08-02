@@ -1,4 +1,0 @@
-#name : initWithVideoURL
-#group : SKVideoNode
-# --
-initWithVideoURL:${1:(NSURL *)url}

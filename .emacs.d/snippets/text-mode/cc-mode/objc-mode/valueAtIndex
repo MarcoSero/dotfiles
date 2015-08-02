@@ -1,4 +1,0 @@
-#name : valueAtIndex
-#group : JSValue
-# --
-valueAtIndex:${1:(NSUInteger)index}

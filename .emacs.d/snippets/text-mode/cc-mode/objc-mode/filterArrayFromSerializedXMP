@@ -1,4 +1,0 @@
-#name : filterArrayFromSerializedXMP
-#group : CIFilter
-# --
-filterArrayFromSerializedXMP:${1:(NSData *)xmpData}

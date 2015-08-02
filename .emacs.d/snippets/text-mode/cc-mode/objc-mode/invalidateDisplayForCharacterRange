@@ -1,4 +1,0 @@
-#name : invalidateDisplayForCharacterRange
-#group : NSLayoutManager
-# --
-invalidateDisplayForCharacterRange:${1:(NSRange)charRange}

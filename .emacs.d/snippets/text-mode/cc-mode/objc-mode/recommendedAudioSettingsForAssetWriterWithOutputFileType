@@ -1,4 +1,0 @@
-#name : recommendedAudioSettingsForAssetWriterWithOutputFileType
-#group : AVCaptureOutput
-# --
-recommendedAudioSettingsForAssetWriterWithOutputFileType:${1:(NSString *)outputFileType}

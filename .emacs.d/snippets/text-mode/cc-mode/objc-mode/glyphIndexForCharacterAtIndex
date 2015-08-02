@@ -1,4 +1,0 @@
-#name : glyphIndexForCharacterAtIndex
-#group : NSLayoutManager
-# --
-glyphIndexForCharacterAtIndex:${1:(NSUInteger)charIndex}

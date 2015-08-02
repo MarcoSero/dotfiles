@@ -1,4 +1,0 @@
-#name : systemLayoutSizeFittingSize
-#group : UIView
-# --
-systemLayoutSizeFittingSize:${1:(CGSize)targetSize}

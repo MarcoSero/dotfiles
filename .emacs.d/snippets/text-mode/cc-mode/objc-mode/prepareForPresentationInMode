@@ -1,4 +1,0 @@
-#name : prepareForPresentationInMode
-#group : UIDocumentPickerExtensionViewController
-# --
-prepareForPresentationInMode:${1:(UIDocumentPickerMode)mode}

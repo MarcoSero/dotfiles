@@ -1,4 +1,0 @@
-#name : setIncrementImage:forState
-#group : UIStepper
-# --
-setIncrementImage:${1:(UIImage *)image} forState:${2:(UIControlState)state}

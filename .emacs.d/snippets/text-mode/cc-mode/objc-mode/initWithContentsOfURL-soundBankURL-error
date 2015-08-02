@@ -1,4 +1,0 @@
-#name : initWithContentsOfURL:soundBankURL:error
-#group : AVMIDIPlayer
-# --
-initWithContentsOfURL:${1:(NSURL *)inURL} soundBankURL:${2:(NSURL *)bankURL} error:${3:(NSError **)outError}

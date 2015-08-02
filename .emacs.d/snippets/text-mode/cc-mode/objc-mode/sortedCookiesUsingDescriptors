@@ -1,4 +1,0 @@
-#name : sortedCookiesUsingDescriptors
-#group : NSHTTPCookieStorage
-# --
-sortedCookiesUsingDescriptors:${1:(NSArray*)sortOrder}

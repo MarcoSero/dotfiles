@@ -1,4 +1,0 @@
-#name : peripheralManagerDidUpdateState
-#group : CBPeripheralManager
-# --
-peripheralManagerDidUpdateState:${1:(CBPeripheralManager *)peripheral}

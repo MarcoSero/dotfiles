@@ -1,4 +1,0 @@
-#name : doorwayWithDuration
-#group : SKTransition
-# --
-doorwayWithDuration:${1:(NSTimeInterval)sec}

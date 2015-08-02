@@ -1,4 +1,0 @@
-#name : setBackgroundImageData
-#group : WKInterfaceGroup
-# --
-setBackgroundImageData:${1:(NSData *)imageData}

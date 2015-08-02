@@ -1,4 +1,0 @@
-#name : indexPathsToInsertForDecorationViewOfKind
-#group : UICollectionViewLayout
-# --
-indexPathsToInsertForDecorationViewOfKind:${1:(NSString *)elementKind}

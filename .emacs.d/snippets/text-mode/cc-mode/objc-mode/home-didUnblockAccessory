@@ -1,4 +1,0 @@
-#name : home:didUnblockAccessory
-#group : HMHome
-# --
-home:${1:(HMHome *)home} didUnblockAccessory:${2:(HMAccessory *)accessory}

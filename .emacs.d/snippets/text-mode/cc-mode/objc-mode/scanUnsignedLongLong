@@ -1,4 +1,0 @@
-#name : scanUnsignedLongLong
-#group : NSScanner
-# --
-scanUnsignedLongLong:${1:(unsigned long long *)result}

@@ -1,4 +1,0 @@
-#name : segueWithIdentifier:source:destination
-#group : UIStoryboardSegue
-# --
-segueWithIdentifier:${1:(NSString *)identifier} source:${2:(UIViewController *)source} destination:${3:(UIViewController *)destination}

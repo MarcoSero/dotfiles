@@ -1,4 +1,0 @@
-#name : changeDetailsForObject
-#group : PHChange
-# --
-changeDetailsForObject:${1:(PHObject *)object}

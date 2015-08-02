@@ -1,4 +1,0 @@
-#name : setActionIsDiscardable
-#group : NSUndoManager
-# --
-setActionIsDiscardable:${1:(BOOL)discardable}

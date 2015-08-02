@@ -1,4 +1,0 @@
-#name : removeBehavior
-#group : UIDynamicAnimator
-# --
-removeBehavior:${1:(UIDynamicBehavior *)behavior}

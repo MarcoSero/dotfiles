@@ -1,4 +1,0 @@
-#name : assetReaderOutputMetadataAdaptorWithAssetReaderTrackOutput
-#group : AVAssetReaderOutput
-# --
-assetReaderOutputMetadataAdaptorWithAssetReaderTrackOutput:${1:(AVAssetReaderTrackOutput *)trackOutput}

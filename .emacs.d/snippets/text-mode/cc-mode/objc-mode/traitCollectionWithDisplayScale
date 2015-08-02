@@ -1,4 +1,0 @@
-#name : traitCollectionWithDisplayScale
-#group : UITraitCollection
-# --
-traitCollectionWithDisplayScale:${1:(CGFloat)scale}

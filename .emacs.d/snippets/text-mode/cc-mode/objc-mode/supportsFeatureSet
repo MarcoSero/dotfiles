@@ -1,4 +1,0 @@
-#name : supportsFeatureSet
-#group : MTLDevice
-# --
-supportsFeatureSet:${1:(MTLFeatureSet)featureSet}

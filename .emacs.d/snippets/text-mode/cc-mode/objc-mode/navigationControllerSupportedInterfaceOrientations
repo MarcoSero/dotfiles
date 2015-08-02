@@ -1,4 +1,0 @@
-#name : navigationControllerSupportedInterfaceOrientations
-#group : UINavigationController
-# --
-navigationControllerSupportedInterfaceOrientations:${1:(UINavigationController *)navigationController}

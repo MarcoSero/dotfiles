@@ -1,4 +1,0 @@
-#name : deleteRecordZoneWithID
-#group : CKDatabase
-# --
-deleteRecordZoneWithID:${1:(CKRecordZoneID *)zoneID}

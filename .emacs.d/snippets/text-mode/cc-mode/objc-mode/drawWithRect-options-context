@@ -1,4 +1,0 @@
-#name : drawWithRect:options:context
-#group : NSStringDrawing
-# --
-drawWithRect:${1:(CGRect)rect} options:${2:(NSStringDrawingOptions)options} context:${3:(NSStringDrawingContext *)context}

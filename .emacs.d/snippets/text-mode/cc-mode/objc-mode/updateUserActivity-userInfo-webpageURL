@@ -1,4 +1,0 @@
-#name : updateUserActivity:userInfo:webpageURL
-#group : WKInterfaceController
-# --
-updateUserActivity:${1:(NSString *)type} userInfo:${2:(NSDictionary *)userInfo} webpageURL:${3:(NSURL *)webpageURL}

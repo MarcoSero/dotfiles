@@ -1,4 +1,0 @@
-#name : glkView:drawInRect
-#group : GLKView
-# --
-glkView:${1:(GLKView *)view} drawInRect:${2:(CGRect)rect}

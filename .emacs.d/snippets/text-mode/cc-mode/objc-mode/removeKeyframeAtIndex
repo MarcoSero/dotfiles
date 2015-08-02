@@ -1,4 +1,0 @@
-#name : removeKeyframeAtIndex
-#group : SKKeyframeSequence
-# --
-removeKeyframeAtIndex:${1:(NSUInteger)index}

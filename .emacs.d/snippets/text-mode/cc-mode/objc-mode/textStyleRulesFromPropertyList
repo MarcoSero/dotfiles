@@ -1,4 +1,0 @@
-#name : textStyleRulesFromPropertyList
-#group : AVTextStyleRule
-# --
-textStyleRulesFromPropertyList:${1:(id)plist}

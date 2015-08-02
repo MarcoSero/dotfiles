@@ -1,4 +1,0 @@
-#name : resetForReadingTimeRanges
-#group : AVAssetReaderOutput
-# --
-resetForReadingTimeRanges:${1:(NSArray *)timeRanges}

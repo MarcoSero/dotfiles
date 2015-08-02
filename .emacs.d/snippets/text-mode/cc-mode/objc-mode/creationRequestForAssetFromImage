@@ -1,4 +1,0 @@
-#name : creationRequestForAssetFromImage
-#group : PHAssetChangeRequest
-# --
-creationRequestForAssetFromImage:${1:(UIImage *)image}

@@ -1,4 +1,0 @@
-#name : newValuesForObjectWithID:withContext:error
-#group : NSIncrementalStore
-# --
-newValuesForObjectWithID:${1:(NSManagedObjectID*)objectID} withContext:${2:(NSManagedObjectContext*)context} error:${3:(NSError**)error}

@@ -1,4 +1,0 @@
-#name : removeUser
-#group : HMHome
-# --
-removeUser:${1:(HMUser *)user}

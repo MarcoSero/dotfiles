@@ -1,4 +1,0 @@
-#name : addAnnotation:withImage:centerOffset
-#group : WKInterfaceMap
-# --
-addAnnotation:${1:(CLLocationCoordinate2D)location} withImage:${2:(UIImage *)image} centerOffset:${3:(CGPoint)offset}

@@ -1,4 +1,0 @@
-#name : paymentQueue:updatedDownloads
-#group : SKPaymentQueue
-# --
-paymentQueue:${1:(SKPaymentQueue *)queue} updatedDownloads:${2:(NSArray *)downloads}

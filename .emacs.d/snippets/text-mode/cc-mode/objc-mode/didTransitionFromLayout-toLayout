@@ -1,4 +1,0 @@
-#name : didTransitionFromLayout:toLayout
-#group : UICollectionViewCell
-# --
-didTransitionFromLayout:${1:(UICollectionViewLayout *)oldLayout} toLayout:${2:(UICollectionViewLayout *)newLayout}

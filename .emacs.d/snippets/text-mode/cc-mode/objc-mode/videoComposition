@@ -1,4 +1,0 @@
-#name : videoComposition
-#group : AVVideoComposition
-# --
-videoComposition:${1:(AVVideoComposition *)videoComposition}

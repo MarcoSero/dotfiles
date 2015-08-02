@@ -1,4 +1,0 @@
-#name : sendMIDISysExEvent
-#group : AVAudioUnitMIDIInstrument
-# --
-sendMIDISysExEvent:${1:(NSData *)midiData}

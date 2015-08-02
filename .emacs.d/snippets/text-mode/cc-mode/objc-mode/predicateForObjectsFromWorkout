@@ -1,4 +1,0 @@
-#name : predicateForObjectsFromWorkout
-#group : HKQuery
-# --
-predicateForObjectsFromWorkout:${1:(HKWorkout *)workout}

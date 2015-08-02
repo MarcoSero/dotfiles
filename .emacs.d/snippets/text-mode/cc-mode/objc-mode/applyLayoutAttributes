@@ -1,4 +1,0 @@
-#name : applyLayoutAttributes
-#group : UICollectionViewCell
-# --
-applyLayoutAttributes:${1:(UICollectionViewLayoutAttributes *)layoutAttributes}

@@ -1,4 +1,0 @@
-#name : addAnimation:forKey
-#group : SCNAnimation
-# --
-addAnimation:${1:(CAAnimation *)animation} forKey:${2:(NSString *)key}

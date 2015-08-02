@@ -1,4 +1,0 @@
-#name : configureAccessory:withConfigurationUIOnViewController
-#group : EAWiFiUnconfiguredAccessoryBrowser
-# --
-configureAccessory:${1:(EAWiFiUnconfiguredAccessory*)accessory} withConfigurationUIOnViewController:${2:(UIViewController*)viewController}

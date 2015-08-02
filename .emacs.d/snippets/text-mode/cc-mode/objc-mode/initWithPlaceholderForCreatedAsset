@@ -1,4 +1,0 @@
-#name : initWithPlaceholderForCreatedAsset
-#group : PHAssetChangeRequest
-# --
-initWithPlaceholderForCreatedAsset:${1:(PHObjectPlaceholder *)placeholderForCreatedAsset}

@@ -1,4 +1,0 @@
-#name : fetchMomentListsWithSubtype:containingMoment:options
-#group : PHCollection
-# --
-fetchMomentListsWithSubtype:${1:(PHCollectionListSubtype)momentListSubtype} containingMoment:${2:(PHAssetCollection *)moment} options:${3:(PHFetchOptions *)options}

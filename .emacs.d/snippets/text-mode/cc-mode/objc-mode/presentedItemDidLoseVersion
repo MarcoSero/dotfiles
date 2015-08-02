@@ -1,4 +1,0 @@
-#name : presentedItemDidLoseVersion
-#group : NSFilePresenter
-# --
-presentedItemDidLoseVersion:${1:(NSFileVersion *)version}

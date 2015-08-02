@@ -1,4 +1,0 @@
-#name : setDesiredConnectionLatency:forCentral
-#group : CBPeripheralManager
-# --
-setDesiredConnectionLatency:${1:(CBPeripheralManagerConnectionLatency)latency} forCentral:${2:(CBCentral *)central}

@@ -1,4 +1,0 @@
-#name : setOutputSettings:forConnection
-#group : AVCaptureOutput
-# --
-setOutputSettings:${1:(NSDictionary *)outputSettings} forConnection:${2:(AVCaptureConnection *)connection}

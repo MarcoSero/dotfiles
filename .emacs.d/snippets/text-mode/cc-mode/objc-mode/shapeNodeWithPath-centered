@@ -1,4 +1,0 @@
-#name : shapeNodeWithPath:centered
-#group : SKShapeNode
-# --
-shapeNodeWithPath:${1:(CGPathRef)path} centered:${2:(BOOL)centered}

@@ -1,4 +1,0 @@
-#name : removeConstraints
-#group : UIView
-# --
-removeConstraints:${1:(NSArray *)constraints}

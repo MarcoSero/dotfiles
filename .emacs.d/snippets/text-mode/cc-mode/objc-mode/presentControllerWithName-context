@@ -1,4 +1,0 @@
-#name : presentControllerWithName:context
-#group : WKInterfaceController
-# --
-presentControllerWithName:${1:(NSString *)name} context:${2:(id)context}

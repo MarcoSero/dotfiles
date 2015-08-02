@@ -1,4 +1,0 @@
-#name : fileAttributesToWriteToURL:forSaveOperation:error
-#group : UIDocument
-# --
-fileAttributesToWriteToURL:${1:(NSURL *)url} forSaveOperation:${2:(UIDocumentSaveOperation)saveOperation} error:${3:(NSError **)outError}

@@ -1,4 +1,0 @@
-#name : capsuleWithCapRadius:height
-#group : SCNParametricGeometry
-# --
-capsuleWithCapRadius:${1:(CGFloat)capRadius} height:${2:(CGFloat)height}

@@ -1,4 +1,0 @@
-#name : deleteSavedGamesWithName
-#group : GKSavedGame
-# --
-deleteSavedGamesWithName:${1:(NSString *)name}

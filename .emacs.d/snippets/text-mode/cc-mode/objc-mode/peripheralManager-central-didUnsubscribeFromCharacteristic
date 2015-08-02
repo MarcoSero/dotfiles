@@ -1,4 +1,0 @@
-#name : peripheralManager:central:didUnsubscribeFromCharacteristic
-#group : CBPeripheralManager
-# --
-peripheralManager:${1:(CBPeripheralManager *)peripheral} central:${2:(CBCentral *)central} didUnsubscribeFromCharacteristic:${3:(CBCharacteristic *)characteristic}

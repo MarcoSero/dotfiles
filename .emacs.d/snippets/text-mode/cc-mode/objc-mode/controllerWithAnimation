@@ -1,4 +1,0 @@
-#name : controllerWithAnimation
-#group : SCNParticleSystem
-# --
-controllerWithAnimation:${1:(CAAnimation *)animation}

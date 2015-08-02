@@ -1,4 +1,0 @@
-#name : reloadFromOrigin
-#group : WKWebView
-# --
-reloadFromOrigin:${1:(id)sender}

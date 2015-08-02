@@ -1,4 +1,0 @@
-#name : setMagnification:centeredAtPoint
-#group : WKWebView
-# --
-setMagnification:${1:(CGFloat)magnification} centeredAtPoint:${2:(CGPoint)point}

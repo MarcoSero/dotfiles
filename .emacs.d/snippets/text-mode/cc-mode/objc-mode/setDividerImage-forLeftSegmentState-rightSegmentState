@@ -1,4 +1,0 @@
-#name : setDividerImage:forLeftSegmentState:rightSegmentState
-#group : UIStepper
-# --
-setDividerImage:${1:(UIImage*)image} forLeftSegmentState:${2:(UIControlState)leftState} rightSegmentState:${3:(UIControlState)rightState}

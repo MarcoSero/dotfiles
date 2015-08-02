@@ -1,4 +1,0 @@
-#name : addSubscriberForFileURL:withPublishingHandler
-#group : NSProgress
-# --
-addSubscriberForFileURL:${1:(NSURL *)url} withPublishingHandler:${2:(NSProgressPublishingHandler)publishingHandler}

@@ -1,4 +1,0 @@
-#name : predicateForCategorySamplesWithOperatorType:value
-#group : HKQuery
-# --
-predicateForCategorySamplesWithOperatorType:${1:(NSPredicateOperatorType)operatorType} value:${2:(NSInteger)value}

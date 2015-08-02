@@ -1,4 +1,0 @@
-#name : collectionView:canPerformAction:forItemAtIndexPath:withSender
-#group : UICollectionView
-# --
-collectionView:${1:(UICollectionView *)collectionView} canPerformAction:${2:(SEL)action} forItemAtIndexPath:${3:(NSIndexPath *)indexPath} withSender:${4:(id)sender}

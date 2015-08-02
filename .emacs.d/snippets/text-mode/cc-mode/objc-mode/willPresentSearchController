@@ -1,4 +1,0 @@
-#name : willPresentSearchController
-#group : UISearchController
-# --
-willPresentSearchController:${1:(UISearchController *)searchController}

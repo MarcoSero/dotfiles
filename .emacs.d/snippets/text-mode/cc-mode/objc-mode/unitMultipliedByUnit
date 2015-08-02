@@ -1,4 +1,0 @@
-#name : unitMultipliedByUnit
-#group : HKUnit
-# --
-unitMultipliedByUnit:${1:(HKUnit *)unit}

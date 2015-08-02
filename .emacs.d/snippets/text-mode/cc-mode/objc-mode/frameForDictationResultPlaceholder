@@ -1,4 +1,0 @@
-#name : frameForDictationResultPlaceholder
-#group : UITextInput
-# --
-frameForDictationResultPlaceholder:${1:(id)placeholder}

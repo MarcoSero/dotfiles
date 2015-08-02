@@ -1,4 +1,0 @@
-#name : browserViewControllerWasCancelled
-#group : MCBrowserViewController
-# --
-browserViewControllerWasCancelled:${1:(MCBrowserViewController *)browserViewController}

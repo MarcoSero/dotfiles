@@ -1,4 +1,0 @@
-#name : predicateForWorkoutsWithOperatorType:duration
-#group : HKQuery
-# --
-predicateForWorkoutsWithOperatorType:${1:(NSPredicateOperatorType)operatorType} duration:${2:(NSTimeInterval)duration}

@@ -1,4 +1,0 @@
-#name : selectChallengeablePlayerIDs
-#group : GKChallenge
-# --
-selectChallengeablePlayerIDs:${1:(NSArray *)playerIDs}

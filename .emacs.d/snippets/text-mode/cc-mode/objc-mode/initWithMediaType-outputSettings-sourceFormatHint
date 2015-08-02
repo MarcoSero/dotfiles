@@ -1,4 +1,0 @@
-#name : initWithMediaType:outputSettings:sourceFormatHint
-#group : AVAssetWriterInput
-# --
-initWithMediaType:${1:(NSString *)mediaType} outputSettings:${2:(NSDictionary *)outputSettings} sourceFormatHint:${3:(CMFormatDescriptionRef)sourceFormatHint}

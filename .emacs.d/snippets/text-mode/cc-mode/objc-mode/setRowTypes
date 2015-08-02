@@ -1,4 +1,0 @@
-#name : setRowTypes
-#group : WKInterfaceTable
-# --
-setRowTypes:${1:(NSArray *)rowTypes}

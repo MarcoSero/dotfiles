@@ -1,4 +1,0 @@
-#name : canPerformUnwindSegueAction:fromViewController:withSender
-#group : UIViewController
-# --
-canPerformUnwindSegueAction:${1:(SEL)action} fromViewController:${2:(UIViewController *)fromViewController} withSender:${3:(id)sender}

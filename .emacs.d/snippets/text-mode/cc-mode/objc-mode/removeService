@@ -1,4 +1,0 @@
-#name : removeService
-#group : HMServiceGroup
-# --
-removeService:${1:(HMService *)service}

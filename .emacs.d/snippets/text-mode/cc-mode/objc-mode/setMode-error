@@ -1,4 +1,0 @@
-#name : setMode:error
-#group : AVAudioSession
-# --
-setMode:${1:(NSString *)mode} error:${2:(NSError **)outError}

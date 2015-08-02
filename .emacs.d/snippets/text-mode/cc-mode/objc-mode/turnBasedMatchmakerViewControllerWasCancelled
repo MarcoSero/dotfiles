@@ -1,4 +1,0 @@
-#name : turnBasedMatchmakerViewControllerWasCancelled
-#group : GKTurnBasedMatchmakerViewController
-# --
-turnBasedMatchmakerViewControllerWasCancelled:${1:(GKTurnBasedMatchmakerViewController *)viewController}

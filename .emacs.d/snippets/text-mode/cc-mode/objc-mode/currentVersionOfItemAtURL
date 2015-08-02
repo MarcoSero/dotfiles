@@ -1,4 +1,0 @@
-#name : currentVersionOfItemAtURL
-#group : NSFileVersion
-# --
-currentVersionOfItemAtURL:${1:(NSURL *)url}

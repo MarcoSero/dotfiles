@@ -1,4 +1,0 @@
-#name : usedRectForTextContainer
-#group : NSLayoutManager
-# --
-usedRectForTextContainer:${1:(NSTextContainer *)container}

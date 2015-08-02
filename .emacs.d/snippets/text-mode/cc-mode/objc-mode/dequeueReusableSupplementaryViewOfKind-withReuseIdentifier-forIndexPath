@@ -1,4 +1,0 @@
-#name : dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath
-#group : UICollectionView
-# --
-dequeueReusableSupplementaryViewOfKind:${1:(NSString*)elementKind} withReuseIdentifier:${2:(NSString *)identifier} forIndexPath:${3:(NSIndexPath*)indexPath}

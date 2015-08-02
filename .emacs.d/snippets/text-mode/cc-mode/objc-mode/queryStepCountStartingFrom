@@ -1,4 +1,0 @@
-#name : queryStepCountStartingFrom
-#group : CMStepCounter
-# --
-queryStepCountStartingFrom:${1:(NSDate *)start}

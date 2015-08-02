@@ -1,4 +1,0 @@
-#name : removeManagedReference:withOwner
-#group : JSVirtualMachine
-# --
-removeManagedReference:${1:(id)object} withOwner:${2:(id)owner}

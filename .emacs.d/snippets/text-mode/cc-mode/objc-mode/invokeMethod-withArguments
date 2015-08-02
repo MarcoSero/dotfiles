@@ -1,4 +1,0 @@
-#name : invokeMethod:withArguments
-#group : JSValue
-# --
-invokeMethod:${1:(NSString *)method} withArguments:${2:(NSArray *)arguments}

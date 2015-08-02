@@ -1,4 +1,0 @@
-#name : valueWithNewErrorFromMessage:inContext
-#group : JSValue
-# --
-valueWithNewErrorFromMessage:${1:(NSString *)message} inContext:${2:(JSContext *)context}

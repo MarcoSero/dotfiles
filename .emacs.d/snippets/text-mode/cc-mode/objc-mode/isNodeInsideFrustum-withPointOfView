@@ -1,4 +1,0 @@
-#name : isNodeInsideFrustum:withPointOfView
-#group : SCNSceneRenderer
-# --
-isNodeInsideFrustum:${1:(SCNNode *)node} withPointOfView:${2:(SCNNode *)pointOfView}

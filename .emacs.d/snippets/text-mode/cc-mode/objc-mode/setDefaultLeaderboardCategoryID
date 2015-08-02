@@ -1,4 +1,0 @@
-#name : setDefaultLeaderboardCategoryID
-#group : GKLocalPlayer
-# --
-setDefaultLeaderboardCategoryID:${1:(NSString *)categoryID}

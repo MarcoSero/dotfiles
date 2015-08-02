@@ -1,4 +1,0 @@
-#name : nodeWithFileNamed
-#group : SKNode
-# --
-nodeWithFileNamed:${1:(NSString*)filename}

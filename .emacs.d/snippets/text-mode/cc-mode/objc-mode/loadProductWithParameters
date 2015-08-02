@@ -1,4 +1,0 @@
-#name : loadProductWithParameters
-#group : SKStoreProductViewController
-# --
-loadProductWithParameters:${1:(NSDictionary *)parameters}

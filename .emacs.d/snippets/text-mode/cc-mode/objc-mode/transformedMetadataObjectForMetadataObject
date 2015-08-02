@@ -1,4 +1,0 @@
-#name : transformedMetadataObjectForMetadataObject
-#group : AVCaptureVideoPreviewLayer
-# --
-transformedMetadataObjectForMetadataObject:${1:(AVMetadataObject *)metadataObject}

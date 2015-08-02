@@ -1,4 +1,0 @@
-#name : filterNamesInCategory
-#group : CIFilter
-# --
-filterNamesInCategory:${1:(NSString *)category}

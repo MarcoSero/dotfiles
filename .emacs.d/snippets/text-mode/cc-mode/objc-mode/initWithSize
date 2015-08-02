@@ -1,4 +1,0 @@
-#name : initWithSize
-#group : NSTextContainer
-# --
-initWithSize:${1:(CGSize)size}

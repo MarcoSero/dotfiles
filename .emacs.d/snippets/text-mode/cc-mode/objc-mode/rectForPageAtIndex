@@ -1,4 +1,0 @@
-#name : rectForPageAtIndex
-#group : UIPrintFormatter
-# --
-rectForPageAtIndex:${1:(NSInteger)pageIndex}

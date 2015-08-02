@@ -1,4 +1,0 @@
-#name : deviceWhiteBalanceGainsForChromaticityValues
-#group : AVCaptureDevice
-# --
-deviceWhiteBalanceGainsForChromaticityValues:${1:(AVCaptureWhiteBalanceChromaticityValues)chromaticityValues}

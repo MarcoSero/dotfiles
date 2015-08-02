@@ -1,4 +1,0 @@
-#name : layerWithSessionWithNoConnection
-#group : AVCaptureVideoPreviewLayer
-# --
-layerWithSessionWithNoConnection:${1:(AVCaptureSession *)session}

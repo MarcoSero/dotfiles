@@ -1,4 +1,0 @@
-#name : localizedCaseInsensitiveContainsString
-#group : NSString
-# --
-localizedCaseInsensitiveContainsString:${1:(NSString *)aString}

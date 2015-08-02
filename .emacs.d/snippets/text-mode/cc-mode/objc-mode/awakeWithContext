@@ -1,4 +1,0 @@
-#name : awakeWithContext
-#group : WKInterfaceController
-# --
-awakeWithContext:${1:(id)context}

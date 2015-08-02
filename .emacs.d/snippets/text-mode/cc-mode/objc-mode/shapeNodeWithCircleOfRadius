@@ -1,4 +1,0 @@
-#name : shapeNodeWithCircleOfRadius
-#group : SKShapeNode
-# --
-shapeNodeWithCircleOfRadius:${1:(CGFloat)radius}

@@ -1,4 +1,0 @@
-#name : beginBackgroundTaskWithName
-#group : UIApplication
-# --
-beginBackgroundTaskWithName:${1:(NSString *)taskName}

@@ -1,4 +1,0 @@
-#name : regionByUnionWithRegion
-#group : SKRegion
-# --
-regionByUnionWithRegion:${1:(SKRegion *)region}

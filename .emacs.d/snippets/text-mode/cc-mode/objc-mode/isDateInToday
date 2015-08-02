@@ -1,4 +1,0 @@
-#name : isDateInToday
-#group : NSCalendar
-# --
-isDateInToday:${1:(NSDate *)date}

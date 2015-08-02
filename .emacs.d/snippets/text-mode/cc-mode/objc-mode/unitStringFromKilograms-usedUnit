@@ -1,4 +1,0 @@
-#name : unitStringFromKilograms:usedUnit
-#group : NSMassFormatter
-# --
-unitStringFromKilograms:${1:(double)numberInKilograms} usedUnit:${2:(NSMassFormatterUnit *)unitp}

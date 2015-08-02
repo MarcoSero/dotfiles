@@ -1,4 +1,0 @@
-#name : layoutWithLayoutTag
-#group : AVAudioChannelLayout
-# --
-layoutWithLayoutTag:${1:(AudioChannelLayoutTag)layoutTag}

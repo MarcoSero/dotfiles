@@ -1,4 +1,0 @@
-#name : initWithCollectionViewLayout
-#group : UIDynamicAnimator
-# --
-initWithCollectionViewLayout:${1:(UICollectionViewLayout*)layout}

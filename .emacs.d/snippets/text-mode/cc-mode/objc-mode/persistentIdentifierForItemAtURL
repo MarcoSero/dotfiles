@@ -1,4 +1,0 @@
-#name : persistentIdentifierForItemAtURL
-#group : NSFileProviderExtension
-# --
-persistentIdentifierForItemAtURL:${1:(NSURL *)url}

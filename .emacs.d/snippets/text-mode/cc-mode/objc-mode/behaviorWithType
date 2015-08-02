@@ -1,4 +1,0 @@
-#name : behaviorWithType
-#group : CAEmitterBehavior
-# --
-behaviorWithType:${1:(NSString *)type}

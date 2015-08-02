@@ -1,4 +1,0 @@
-#name : addMotionEffect
-#group : UIView
-# --
-addMotionEffect:${1:(UIMotionEffect *)effect}

@@ -1,4 +1,0 @@
-#name : siemenUnitWithMetricPrefix
-#group : HKUnit
-# --
-siemenUnitWithMetricPrefix:${1:(HKMetricPrefix)prefix}

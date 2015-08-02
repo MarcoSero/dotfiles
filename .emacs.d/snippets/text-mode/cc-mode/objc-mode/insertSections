@@ -1,4 +1,0 @@
-#name : insertSections
-#group : UICollectionView
-# --
-insertSections:${1:(NSIndexSet *)sections}

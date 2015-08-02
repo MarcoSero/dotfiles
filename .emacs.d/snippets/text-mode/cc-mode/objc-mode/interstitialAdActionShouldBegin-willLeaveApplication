@@ -1,4 +1,0 @@
-#name : interstitialAdActionShouldBegin:willLeaveApplication
-#group : ADInterstitialAd
-# --
-interstitialAdActionShouldBegin:${1:(ADInterstitialAd *)interstitialAd} willLeaveApplication:${2:(BOOL)willLeave}

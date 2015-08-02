@@ -1,4 +1,0 @@
-#name : predicateForSamplesWithStartDate:endDate:options
-#group : HKQuery
-# --
-predicateForSamplesWithStartDate:${1:(NSDate *)startDate} endDate:${2:(NSDate *)endDate} options:${3:(HKQueryOptions)options}

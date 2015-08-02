@@ -1,4 +1,0 @@
-#name : bodyWithRectangleOfSize
-#group : SKPhysicsBody
-# --
-bodyWithRectangleOfSize:${1:(CGSize)s}

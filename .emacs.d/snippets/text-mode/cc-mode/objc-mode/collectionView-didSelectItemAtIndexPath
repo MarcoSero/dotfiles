@@ -1,4 +1,0 @@
-#name : collectionView:didSelectItemAtIndexPath
-#group : UICollectionView
-# --
-collectionView:${1:(UICollectionView *)collectionView} didSelectItemAtIndexPath:${2:(NSIndexPath *)indexPath}

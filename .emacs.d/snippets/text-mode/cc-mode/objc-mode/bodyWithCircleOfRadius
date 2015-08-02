@@ -1,4 +1,0 @@
-#name : bodyWithCircleOfRadius
-#group : SKPhysicsBody
-# --
-bodyWithCircleOfRadius:${1:(CGFloat)r}

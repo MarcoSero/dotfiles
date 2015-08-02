@@ -1,4 +1,0 @@
-#name : shouldShowBannerForLocallyCompletedChallenge
-#group : GKChallengeEventHandler
-# --
-shouldShowBannerForLocallyCompletedChallenge:${1:(GKChallenge *)challenge}

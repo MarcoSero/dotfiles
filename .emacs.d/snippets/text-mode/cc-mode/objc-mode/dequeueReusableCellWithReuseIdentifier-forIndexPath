@@ -1,4 +1,0 @@
-#name : dequeueReusableCellWithReuseIdentifier:forIndexPath
-#group : UICollectionView
-# --
-dequeueReusableCellWithReuseIdentifier:${1:(NSString *)identifier} forIndexPath:${2:(NSIndexPath*)indexPath}

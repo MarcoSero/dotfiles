@@ -1,4 +1,0 @@
-#name : connectionWithInputPort:videoPreviewLayer
-#group : AVCaptureSession
-# --
-connectionWithInputPort:${1:(AVCaptureInputPort *)port} videoPreviewLayer:${2:(AVCaptureVideoPreviewLayer *)layer}

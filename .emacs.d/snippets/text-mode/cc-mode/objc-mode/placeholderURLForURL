@@ -1,4 +1,0 @@
-#name : placeholderURLForURL
-#group : NSFileProviderExtension
-# --
-placeholderURLForURL:${1:(NSURL *)url}

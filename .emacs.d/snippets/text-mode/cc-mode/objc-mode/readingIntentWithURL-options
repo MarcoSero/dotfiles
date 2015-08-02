@@ -1,4 +1,0 @@
-#name : readingIntentWithURL:options
-#group : NSFileCoordinator
-# --
-readingIntentWithURL:${1:(NSURL *)url} options:${2:(NSFileCoordinatorReadingOptions)options}

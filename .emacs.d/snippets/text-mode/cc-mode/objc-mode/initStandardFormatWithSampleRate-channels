@@ -1,4 +1,0 @@
-#name : initStandardFormatWithSampleRate:channels
-#group : AVAudioFormat
-# --
-initStandardFormatWithSampleRate:${1:(double)sampleRate} channels:${2:(AVAudioChannelCount)channels}

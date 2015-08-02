@@ -1,4 +1,0 @@
-#name : accountWithIdentifier
-#group : ACAccountStore
-# --
-accountWithIdentifier:${1:(NSString *)identifier}

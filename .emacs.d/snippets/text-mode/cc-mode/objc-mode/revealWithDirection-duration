@@ -1,4 +1,0 @@
-#name : revealWithDirection:duration
-#group : SKTransition
-# --
-revealWithDirection:${1:(SKTransitionDirection)direction} duration:${2:(NSTimeInterval)sec}

@@ -1,4 +1,0 @@
-#name : removeTapOnBus
-#group : AVAudioNode
-# --
-removeTapOnBus:${1:(AVAudioNodeBus)bus}

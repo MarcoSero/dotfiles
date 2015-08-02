@@ -1,4 +1,0 @@
-#name : mutableOrderedSetValueForKey
-#group : NSKeyValueCoding
-# --
-mutableOrderedSetValueForKey:${1:(NSString *)key}

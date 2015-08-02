@@ -1,4 +1,0 @@
-#name : handleTurnEventForMatch:didBecomeActive
-#group : GKTurnBasedMatch
-# --
-handleTurnEventForMatch:${1:(GKTurnBasedMatch *)match} didBecomeActive:${2:(BOOL)didBecomeActive}

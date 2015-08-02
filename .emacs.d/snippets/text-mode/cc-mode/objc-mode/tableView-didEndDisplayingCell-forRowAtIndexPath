@@ -1,4 +1,0 @@
-#name : tableView:didEndDisplayingCell:forRowAtIndexPath
-#group : UITableView
-# --
-tableView:${1:(UITableView *)tableView} didEndDisplayingCell:${2:(UITableViewCell *)cell} forRowAtIndexPath:${3:(NSIndexPath*)indexPath}

@@ -1,4 +1,0 @@
-#name : titlePositionAdjustmentForBarMetrics
-#group : UIBarButtonItem
-# --
-titlePositionAdjustmentForBarMetrics:${1:(UIBarMetrics)barMetrics}

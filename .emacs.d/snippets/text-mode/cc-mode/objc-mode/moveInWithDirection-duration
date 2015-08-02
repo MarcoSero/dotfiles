@@ -1,4 +1,0 @@
-#name : moveInWithDirection:duration
-#group : SKTransition
-# --
-moveInWithDirection:${1:(SKTransitionDirection)direction} duration:${2:(NSTimeInterval)sec}

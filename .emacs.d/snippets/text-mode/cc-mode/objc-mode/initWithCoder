@@ -1,4 +1,0 @@
-#name : initWithCoder
-#group : WKWebView
-# --
-initWithCoder:${1:(NSCoder *)coder}

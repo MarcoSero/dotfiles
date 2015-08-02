@@ -1,4 +1,0 @@
-#name : respondToRequest:withResult
-#group : CBPeripheralManager
-# --
-respondToRequest:${1:(CBATTRequest *)request} withResult:${2:(CBATTError)result}

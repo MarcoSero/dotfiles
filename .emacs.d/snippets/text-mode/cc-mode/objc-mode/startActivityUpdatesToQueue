@@ -1,4 +1,0 @@
-#name : startActivityUpdatesToQueue
-#group : CMMotionActivityManager
-# --
-startActivityUpdatesToQueue:${1:(NSOperationQueue *)queue}

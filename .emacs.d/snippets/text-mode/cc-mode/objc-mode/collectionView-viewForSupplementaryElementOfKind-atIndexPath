@@ -1,4 +1,0 @@
-#name : collectionView:viewForSupplementaryElementOfKind:atIndexPath
-#group : UICollectionView
-# --
-collectionView:${1:(UICollectionView *)collectionView} viewForSupplementaryElementOfKind:${2:(NSString *)kind} atIndexPath:${3:(NSIndexPath *)indexPath}

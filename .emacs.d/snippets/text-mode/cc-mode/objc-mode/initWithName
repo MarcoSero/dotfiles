@@ -1,4 +1,0 @@
-#name : initWithName
-#group : SKUniform
-# --
-initWithName:${1:(NSString *)name}

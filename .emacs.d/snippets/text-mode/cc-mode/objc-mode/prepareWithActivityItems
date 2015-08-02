@@ -1,4 +1,0 @@
-#name : prepareWithActivityItems
-#group : UIActivity
-# --
-prepareWithActivityItems:${1:(NSArray *)activityItems}

@@ -1,4 +1,0 @@
-#name : layoutAttributesForItemAtIndexPath
-#group : UICollectionViewLayout
-# --
-layoutAttributesForItemAtIndexPath:${1:(NSIndexPath *)indexPath}

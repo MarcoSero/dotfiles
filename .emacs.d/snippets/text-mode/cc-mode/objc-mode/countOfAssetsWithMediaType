@@ -1,4 +1,0 @@
-#name : countOfAssetsWithMediaType
-#group : PHFetchResult
-# --
-countOfAssetsWithMediaType:${1:(PHAssetMediaType)mediaType}

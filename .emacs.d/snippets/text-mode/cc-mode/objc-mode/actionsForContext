@@ -1,4 +1,0 @@
-#name : actionsForContext
-#group : UIUserNotificationSettings
-# --
-actionsForContext:${1:(UIUserNotificationActionContext)context}

@@ -1,4 +1,0 @@
-#name : toggleBoldface
-#group : UIResponder
-# --
-toggleBoldface:${1:(id)sender}

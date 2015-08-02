@@ -1,4 +1,0 @@
-#name : player:didRequestMatchWithOtherPlayers
-#group : GKTurnBasedMatch
-# --
-player:${1:(GKPlayer *)player} didRequestMatchWithOtherPlayers:${2:(NSArray *)playersToInvite}

@@ -1,4 +1,0 @@
-#name : decodePropertyListForKey
-#group : NSCoder
-# --
-decodePropertyListForKey:${1:(NSString *)key}

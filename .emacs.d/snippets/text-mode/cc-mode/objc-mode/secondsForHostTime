@@ -1,4 +1,0 @@
-#name : secondsForHostTime
-#group : AVAudioTime
-# --
-secondsForHostTime:${1:(uint64_t)hostTime}

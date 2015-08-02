@@ -1,4 +1,0 @@
-#name : initWithMatchDomains:andAction
-#group : NEOnDemandRule
-# --
-initWithMatchDomains:${1:(NSArray *)domains} andAction:${2:(NEEvaluateConnectionRuleAction)action}

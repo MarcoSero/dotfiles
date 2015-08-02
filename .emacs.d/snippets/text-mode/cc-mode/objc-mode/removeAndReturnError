@@ -1,4 +1,0 @@
-#name : removeAndReturnError
-#group : NSFileVersion
-# --
-removeAndReturnError:${1:(NSError **)outError}

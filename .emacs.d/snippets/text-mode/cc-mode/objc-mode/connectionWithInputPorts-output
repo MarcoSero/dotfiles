@@ -1,4 +1,0 @@
-#name : connectionWithInputPorts:output
-#group : AVCaptureSession
-# --
-connectionWithInputPorts:${1:(NSArray *)ports} output:${2:(AVCaptureOutput *)output}

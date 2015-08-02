@@ -1,4 +1,0 @@
-#name : scaleBy:duration
-#group : SKAction
-# --
-scaleBy:${1:(CGFloat)scale} duration:${2:(NSTimeInterval)sec}

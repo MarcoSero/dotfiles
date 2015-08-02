@@ -1,4 +1,0 @@
-#name : reportAchievements
-#group : GKAchievement
-# --
-reportAchievements:${1:(NSArray *)achievements}

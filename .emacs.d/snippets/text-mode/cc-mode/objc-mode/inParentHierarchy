@@ -1,4 +1,0 @@
-#name : inParentHierarchy
-#group : SKNode
-# --
-inParentHierarchy:${1:(SKNode *)parent}

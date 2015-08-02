@@ -1,4 +1,0 @@
-#name : positionY
-#group : SKConstraint
-# --
-positionY:${1:(SKRange *)range}

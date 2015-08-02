@@ -1,4 +1,0 @@
-#name : endTurnWithNextParticipants
-#group : GKTurnBasedMatch
-# --
-endTurnWithNextParticipants:${1:(NSArray *)nextParticipants}

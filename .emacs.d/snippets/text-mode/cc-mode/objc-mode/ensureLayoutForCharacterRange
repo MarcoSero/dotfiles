@@ -1,4 +1,0 @@
-#name : ensureLayoutForCharacterRange
-#group : NSLayoutManager
-# --
-ensureLayoutForCharacterRange:${1:(NSRange)charRange}

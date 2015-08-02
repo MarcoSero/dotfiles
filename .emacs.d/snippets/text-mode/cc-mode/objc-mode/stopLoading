@@ -1,4 +1,0 @@
-#name : stopLoading
-#group : WKWebView
-# --
-stopLoading:${1:(id)sender}

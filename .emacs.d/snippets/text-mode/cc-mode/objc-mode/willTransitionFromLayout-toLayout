@@ -1,4 +1,0 @@
-#name : willTransitionFromLayout:toLayout
-#group : UICollectionViewCell
-# --
-willTransitionFromLayout:${1:(UICollectionViewLayout *)oldLayout} toLayout:${2:(UICollectionViewLayout *)newLayout}

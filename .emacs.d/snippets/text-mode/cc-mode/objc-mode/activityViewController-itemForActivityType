@@ -1,4 +1,0 @@
-#name : activityViewController:itemForActivityType
-#group : UIActivityItemProvider
-# --
-activityViewController:${1:(UIActivityViewController *)activityViewController} itemForActivityType:${2:(NSString *)activityType}

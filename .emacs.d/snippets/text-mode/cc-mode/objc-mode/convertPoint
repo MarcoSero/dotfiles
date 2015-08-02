@@ -1,4 +1,0 @@
-#name : convertPoint
-#group : UIView
-# --
-convertPoint:${1:(CGPoint)point}

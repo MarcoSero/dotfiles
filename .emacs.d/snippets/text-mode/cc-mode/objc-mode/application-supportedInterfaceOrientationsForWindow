@@ -1,4 +1,0 @@
-#name : application:supportedInterfaceOrientationsForWindow
-#group : UIApplication
-# --
-application:${1:(UIApplication *)application} supportedInterfaceOrientationsForWindow:${2:(UIWindow *)window}

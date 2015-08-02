@@ -1,4 +1,0 @@
-#name : crossFadeWithDuration
-#group : SKTransition
-# --
-crossFadeWithDuration:${1:(NSTimeInterval)sec}

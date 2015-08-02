@@ -1,4 +1,0 @@
-#name : hashTableWithOptions
-#group : NSHashTable
-# --
-hashTableWithOptions:${1:(NSPointerFunctionsOptions)options}

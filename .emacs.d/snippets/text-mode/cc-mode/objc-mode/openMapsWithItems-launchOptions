@@ -1,4 +1,0 @@
-#name : openMapsWithItems:launchOptions
-#group : MKMapItem
-# --
-openMapsWithItems:${1:(NSArray *)mapItems} launchOptions:${2:(NSDictionary *)launchOptions}

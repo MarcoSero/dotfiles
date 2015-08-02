@@ -1,4 +1,0 @@
-#name : dequeueReusableCellWithIdentifier:forIndexPath
-#group : UITableView
-# --
-dequeueReusableCellWithIdentifier:${1:(NSString *)identifier} forIndexPath:${2:(NSIndexPath *)indexPath}

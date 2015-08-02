@@ -1,4 +1,0 @@
-#name : initWithAudioComponentDescription
-#group : AVAudioUnitTimeEffect
-# --
-initWithAudioComponentDescription:${1:(AudioComponentDescription)audioComponentDescription}

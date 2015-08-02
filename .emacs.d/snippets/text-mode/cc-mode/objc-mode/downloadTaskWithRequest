@@ -1,4 +1,0 @@
-#name : downloadTaskWithRequest
-#group : NSURLSession
-# --
-downloadTaskWithRequest:${1:(NSURLRequest *)request}

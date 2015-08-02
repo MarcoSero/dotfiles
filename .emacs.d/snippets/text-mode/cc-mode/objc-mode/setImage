@@ -1,4 +1,0 @@
-#name : setImage
-#group : WKInterfaceImage
-# --
-setImage:${1:(UIImage *)image}

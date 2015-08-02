@@ -1,4 +1,0 @@
-#name : maxAllowedRotationAngleForJoint
-#group : SCNConstraint
-# --
-maxAllowedRotationAngleForJoint:${1:(SCNNode *)node}

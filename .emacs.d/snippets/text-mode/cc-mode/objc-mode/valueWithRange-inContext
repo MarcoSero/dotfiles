@@ -1,4 +1,0 @@
-#name : valueWithRange:inContext
-#group : JSValue
-# --
-valueWithRange:${1:(NSRange)range} inContext:${2:(JSContext *)context}

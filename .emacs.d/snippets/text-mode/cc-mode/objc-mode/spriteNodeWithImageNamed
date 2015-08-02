@@ -1,4 +1,0 @@
-#name : spriteNodeWithImageNamed
-#group : SKSpriteNode
-# --
-spriteNodeWithImageNamed:${1:(NSString *)name}

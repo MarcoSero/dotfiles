@@ -1,4 +1,0 @@
-#name : applyForce:atPoint
-#group : SKPhysicsBody
-# --
-applyForce:${1:(CGVector)force} atPoint:${2:(CGPoint)point}

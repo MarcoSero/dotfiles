@@ -1,4 +1,0 @@
-#name : removeRowsAtIndexes
-#group : WKInterfaceTable
-# --
-removeRowsAtIndexes:${1:(NSIndexSet *)rows}

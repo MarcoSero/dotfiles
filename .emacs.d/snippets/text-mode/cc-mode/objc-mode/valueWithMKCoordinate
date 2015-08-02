@@ -1,4 +1,0 @@
-#name : valueWithMKCoordinate
-#group : MKGeometry
-# --
-valueWithMKCoordinate:${1:(CLLocationCoordinate2D)coordinate}

@@ -1,4 +1,0 @@
-#name : reloadItemsAtIndexPaths
-#group : UICollectionView
-# --
-reloadItemsAtIndexPaths:${1:(NSArray *)indexPaths}

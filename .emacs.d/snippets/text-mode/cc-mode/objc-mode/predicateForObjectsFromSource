@@ -1,4 +1,0 @@
-#name : predicateForObjectsFromSource
-#group : HKQuery
-# --
-predicateForObjectsFromSource:${1:(HKSource *)source}

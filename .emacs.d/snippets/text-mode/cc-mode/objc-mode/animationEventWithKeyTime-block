@@ -1,4 +1,0 @@
-#name : animationEventWithKeyTime:block
-#group : SCNAnimation
-# --
-animationEventWithKeyTime:${1:(CGFloat)time} block:${2:(SCNAnimationEventBlock)eventBlock}

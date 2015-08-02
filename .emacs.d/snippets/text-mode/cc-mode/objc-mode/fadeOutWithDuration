@@ -1,4 +1,0 @@
-#name : fadeOutWithDuration
-#group : SKAction
-# --
-fadeOutWithDuration:${1:(NSTimeInterval)sec}

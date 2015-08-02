@@ -1,4 +1,0 @@
-#name : layoutManager:textContainer:didChangeGeometryFromSize
-#group : NSLayoutManager
-# --
-layoutManager:${1:(NSLayoutManager *)layoutManager} textContainer:${2:(NSTextContainer *)textContainer} didChangeGeometryFromSize:${3:(CGSize)oldSize}

@@ -1,4 +1,0 @@
-#name : initWithIdentifiers
-#group : AVPlayerItemOutput
-# --
-initWithIdentifiers:${1:(NSArray *)identifiers}

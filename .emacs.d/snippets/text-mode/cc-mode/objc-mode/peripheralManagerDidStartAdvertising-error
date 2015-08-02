@@ -1,4 +1,0 @@
-#name : peripheralManagerDidStartAdvertising:error
-#group : CBPeripheralManager
-# --
-peripheralManagerDidStartAdvertising:${1:(CBPeripheralManager *)peripheral} error:${2:(NSError *)error}

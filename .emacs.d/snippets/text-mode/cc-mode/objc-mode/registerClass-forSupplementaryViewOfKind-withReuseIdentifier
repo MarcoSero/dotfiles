@@ -1,4 +1,0 @@
-#name : registerClass:forSupplementaryViewOfKind:withReuseIdentifier
-#group : UICollectionView
-# --
-registerClass:${1:(Class)viewClass} forSupplementaryViewOfKind:${2:(NSString *)elementKind} withReuseIdentifier:${3:(NSString *)identifier}

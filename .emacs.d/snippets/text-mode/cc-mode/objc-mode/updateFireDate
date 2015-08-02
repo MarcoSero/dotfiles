@@ -1,4 +1,0 @@
-#name : updateFireDate
-#group : HMTimerTrigger
-# --
-updateFireDate:${1:(NSDate *)fireDate}

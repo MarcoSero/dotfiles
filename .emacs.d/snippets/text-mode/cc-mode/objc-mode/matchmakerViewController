@@ -1,4 +1,0 @@
-#name : matchmakerViewController
-#group : GKMatchmakerViewController
-# --
-matchmakerViewController:${1:(GKMatchmakerViewController *)viewController}

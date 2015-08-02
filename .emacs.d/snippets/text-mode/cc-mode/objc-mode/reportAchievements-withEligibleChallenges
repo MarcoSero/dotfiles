@@ -1,4 +1,0 @@
-#name : reportAchievements:withEligibleChallenges
-#group : GKChallenge
-# --
-reportAchievements:${1:(NSArray *)achievements} withEligibleChallenges:${2:(NSArray *)challenges}

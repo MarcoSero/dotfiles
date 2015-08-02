@@ -1,4 +1,0 @@
-#name : willMoveToParentViewController
-#group : UIViewController
-# --
-willMoveToParentViewController:${1:(UIViewController *)parent}

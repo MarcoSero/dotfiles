@@ -1,4 +1,0 @@
-#name : velocityFieldWithVector
-#group : SKFieldNode
-# --
-velocityFieldWithVector:${1:(vector_float3)direction}

@@ -1,4 +1,0 @@
-#name : setHasContent:forWidgetWithBundleIdentifier
-#group : NCWidgetController
-# --
-setHasContent:${1:(BOOL)flag} forWidgetWithBundleIdentifier:${2:(NSString *)bundleID}

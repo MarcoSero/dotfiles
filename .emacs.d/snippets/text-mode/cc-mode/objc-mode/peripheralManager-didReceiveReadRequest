@@ -1,4 +1,0 @@
-#name : peripheralManager:didReceiveReadRequest
-#group : CBPeripheralManager
-# --
-peripheralManager:${1:(CBPeripheralManager *)peripheral} didReceiveReadRequest:${2:(CBATTRequest *)request}

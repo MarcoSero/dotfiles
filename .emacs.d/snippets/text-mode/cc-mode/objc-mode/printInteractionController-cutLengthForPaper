@@ -1,4 +1,0 @@
-#name : printInteractionController:cutLengthForPaper
-#group : UIPrintInteractionController
-# --
-printInteractionController:${1:(UIPrintInteractionController *)printInteractionController} cutLengthForPaper:${2:(UIPrintPaper *)paper}

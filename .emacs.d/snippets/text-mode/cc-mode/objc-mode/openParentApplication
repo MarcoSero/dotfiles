@@ -1,4 +1,0 @@
-#name : openParentApplication
-#group : WKInterfaceController
-# --
-openParentApplication:${1:(NSDictionary *)userInfo}

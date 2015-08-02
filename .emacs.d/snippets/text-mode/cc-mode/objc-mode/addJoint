@@ -1,4 +1,0 @@
-#name : addJoint
-#group : SKPhysicsWorld
-# --
-addJoint:${1:(SKPhysicsJoint *)joint}

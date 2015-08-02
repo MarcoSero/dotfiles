@@ -1,4 +1,0 @@
-#name : applyForce
-#group : SKPhysicsBody
-# --
-applyForce:${1:(CGVector)force}

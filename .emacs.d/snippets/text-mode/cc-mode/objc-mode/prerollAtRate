@@ -1,4 +1,0 @@
-#name : prerollAtRate
-#group : AVPlayer
-# --
-prerollAtRate:${1:(float)rate}

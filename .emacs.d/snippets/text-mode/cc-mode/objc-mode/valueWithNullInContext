@@ -1,4 +1,0 @@
-#name : valueWithNullInContext
-#group : JSValue
-# --
-valueWithNullInContext:${1:(JSContext *)context}

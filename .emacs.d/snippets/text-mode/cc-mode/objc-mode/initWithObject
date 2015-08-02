@@ -1,4 +1,0 @@
-#name : initWithObject
-#group : NSOrderedSet
-# --
-initWithObject:${1:(id)object}

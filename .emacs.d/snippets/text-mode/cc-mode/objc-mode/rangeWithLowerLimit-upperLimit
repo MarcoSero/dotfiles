@@ -1,4 +1,0 @@
-#name : rangeWithLowerLimit:upperLimit
-#group : SKConstraint
-# --
-rangeWithLowerLimit:${1:(CGFloat)lower} upperLimit:${2:(CGFloat)upper}

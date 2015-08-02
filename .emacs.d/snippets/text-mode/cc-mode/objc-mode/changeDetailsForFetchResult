@@ -1,4 +1,0 @@
-#name : changeDetailsForFetchResult
-#group : PHChange
-# --
-changeDetailsForFetchResult:${1:(PHFetchResult *)object}

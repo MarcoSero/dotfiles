@@ -1,4 +1,0 @@
-#name : initWithContentsOfURL
-#group : MKDirectionsRequest
-# --
-initWithContentsOfURL:${1:(NSURL *)url}

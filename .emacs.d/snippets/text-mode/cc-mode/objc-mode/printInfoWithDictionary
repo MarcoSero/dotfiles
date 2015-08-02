@@ -1,4 +1,0 @@
-#name : printInfoWithDictionary
-#group : UIPrintInfo
-# --
-printInfoWithDictionary:${1:(NSDictionary *)dictionary}

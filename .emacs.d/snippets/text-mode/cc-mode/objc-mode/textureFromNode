@@ -1,4 +1,0 @@
-#name : textureFromNode
-#group : SKView
-# --
-textureFromNode:${1:(SKNode *)node}

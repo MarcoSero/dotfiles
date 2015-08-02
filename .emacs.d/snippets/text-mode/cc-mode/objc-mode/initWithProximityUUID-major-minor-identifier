@@ -1,4 +1,0 @@
-#name : initWithProximityUUID:major:minor:identifier
-#group : CLBeaconRegion
-# --
-initWithProximityUUID:${1:(NSUUID *)proximityUUID} major:${2:(CLBeaconMajorValue)major} minor:${3:(CLBeaconMinorValue)minor} identifier:${4:(NSString *)identifier}

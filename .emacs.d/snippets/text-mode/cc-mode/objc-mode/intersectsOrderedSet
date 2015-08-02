@@ -1,4 +1,0 @@
-#name : intersectsOrderedSet
-#group : NSOrderedSet
-# --
-intersectsOrderedSet:${1:(NSOrderedSet *)other}

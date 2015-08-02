@@ -1,4 +1,0 @@
-#name : hostTimeForSeconds
-#group : AVAudioTime
-# --
-hostTimeForSeconds:${1:(NSTimeInterval)seconds}

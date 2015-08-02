@@ -1,4 +1,0 @@
-#name : setPreferredSampleRate:error
-#group : AVAudioSession
-# --
-setPreferredSampleRate:${1:(double)sampleRate} error:${2:(NSError **)outError}

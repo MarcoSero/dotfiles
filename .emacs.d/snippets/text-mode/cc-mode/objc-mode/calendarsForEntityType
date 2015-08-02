@@ -1,4 +1,0 @@
-#name : calendarsForEntityType
-#group : EKSource
-# --
-calendarsForEntityType:${1:(EKEntityType)entityType}

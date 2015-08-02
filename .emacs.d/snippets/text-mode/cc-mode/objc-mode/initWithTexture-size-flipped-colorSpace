@@ -1,4 +1,0 @@
-#name : initWithTexture:size:flipped:colorSpace
-#group : CIImage
-# --
-initWithTexture:${1:(unsigned int)name} size:${2:(CGSize)size} flipped:${3:(BOOL)flag} colorSpace:${4:(CGColorSpaceRef)cs}

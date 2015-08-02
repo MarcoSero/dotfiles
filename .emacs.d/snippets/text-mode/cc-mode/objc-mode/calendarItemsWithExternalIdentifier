@@ -1,4 +1,0 @@
-#name : calendarItemsWithExternalIdentifier
-#group : EKEventStore
-# --
-calendarItemsWithExternalIdentifier:${1:(NSString *)externalIdentifier}

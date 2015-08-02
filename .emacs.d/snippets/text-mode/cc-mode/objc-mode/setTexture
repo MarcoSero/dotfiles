@@ -1,4 +1,0 @@
-#name : setTexture
-#group : SKAction
-# --
-setTexture:${1:(SKTexture *)texture}

@@ -1,4 +1,0 @@
-#name : moveBy:duration
-#group : SKAction
-# --
-moveBy:${1:(CGVector)delta} duration:${2:(NSTimeInterval)sec}

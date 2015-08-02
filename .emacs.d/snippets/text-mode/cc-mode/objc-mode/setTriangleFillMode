@@ -1,4 +1,0 @@
-#name : setTriangleFillMode
-#group : MTLRenderCommandEncoder
-# --
-setTriangleFillMode:${1:(MTLTriangleFillMode)fillMode}

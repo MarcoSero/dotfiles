@@ -1,4 +1,0 @@
-#name : speechUtteranceWithString
-#group : AVSpeechSynthesis
-# --
-speechUtteranceWithString:${1:(NSString *)string}

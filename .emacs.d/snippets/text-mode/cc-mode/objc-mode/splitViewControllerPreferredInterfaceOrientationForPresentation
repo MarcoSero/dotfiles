@@ -1,4 +1,0 @@
-#name : splitViewControllerPreferredInterfaceOrientationForPresentation
-#group : UISplitViewController
-# --
-splitViewControllerPreferredInterfaceOrientationForPresentation:${1:(UISplitViewController *)splitViewController}

@@ -1,4 +1,0 @@
-#name : intersectHashTable
-#group : NSHashTable
-# --
-intersectHashTable:${1:(NSHashTable *)other}

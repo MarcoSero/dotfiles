@@ -1,4 +1,0 @@
-#name : moveAssetsAtIndexes:toIndex
-#group : PHAssetCollectionChangeRequest
-# --
-moveAssetsAtIndexes:${1:(NSIndexSet *)fromIndexes} toIndex:${2:(NSUInteger)toIndex}

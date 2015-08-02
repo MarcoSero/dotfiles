@@ -1,4 +1,0 @@
-#name : attachmentSizeForGlyphAtIndex
-#group : NSLayoutManager
-# --
-attachmentSizeForGlyphAtIndex:${1:(NSUInteger)glyphIndex}

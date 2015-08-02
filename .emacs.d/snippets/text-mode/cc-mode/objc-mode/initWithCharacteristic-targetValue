@@ -1,4 +1,0 @@
-#name : initWithCharacteristic:targetValue
-#group : HMCharacteristicWriteAction
-# --
-initWithCharacteristic:${1:(HMCharacteristic *)characteristic} targetValue:${2:(id)targetValue}

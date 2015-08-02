@@ -1,4 +1,0 @@
-#name : waitForDuration:withRange
-#group : SKAction
-# --
-waitForDuration:${1:(NSTimeInterval)sec} withRange:${2:(NSTimeInterval)durationRange}

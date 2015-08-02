@@ -1,4 +1,0 @@
-#name : loadMatchWithID
-#group : GKTurnBasedMatch
-# --
-loadMatchWithID:${1:(NSString *)matchID}

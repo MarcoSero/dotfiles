@@ -1,4 +1,0 @@
-#name : setLeftBarButtonItems:animated
-#group : UINavigationBar
-# --
-setLeftBarButtonItems:${1:(NSArray *)items} animated:${2:(BOOL)animated}

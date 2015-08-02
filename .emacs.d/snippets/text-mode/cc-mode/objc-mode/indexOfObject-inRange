@@ -1,4 +1,0 @@
-#name : indexOfObject:inRange
-#group : PHFetchResult
-# --
-indexOfObject:${1:(id)anObject} inRange:${2:(NSRange)range}

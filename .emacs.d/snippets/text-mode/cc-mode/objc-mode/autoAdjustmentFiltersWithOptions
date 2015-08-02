@@ -1,4 +1,0 @@
-#name : autoAdjustmentFiltersWithOptions
-#group : CIImage
-# --
-autoAdjustmentFiltersWithOptions:${1:(NSDictionary *)dict}

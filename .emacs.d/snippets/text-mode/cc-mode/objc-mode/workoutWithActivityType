@@ -1,4 +1,0 @@
-#name : workoutWithActivityType
-#group : HKWorkout
-# --
-workoutWithActivityType:${1:(HKWorkoutActivityType)workoutActivityType}

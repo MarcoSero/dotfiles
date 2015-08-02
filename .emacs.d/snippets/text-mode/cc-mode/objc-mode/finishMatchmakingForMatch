@@ -1,4 +1,0 @@
-#name : finishMatchmakingForMatch
-#group : GKMatchmaker
-# --
-finishMatchmakingForMatch:${1:(GKMatch *)match}

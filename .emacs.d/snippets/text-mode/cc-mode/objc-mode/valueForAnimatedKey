@@ -1,4 +1,0 @@
-#name : valueForAnimatedKey
-#group : UICollectionViewTransitionLayout
-# --
-valueForAnimatedKey:${1:(NSString *)key}

@@ -1,4 +1,0 @@
-#name : accessibilityLineNumberForPoint
-#group : UIAccessibility
-# --
-accessibilityLineNumberForPoint:${1:(CGPoint)point}

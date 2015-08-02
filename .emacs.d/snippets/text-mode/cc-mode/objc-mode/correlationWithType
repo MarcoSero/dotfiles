@@ -1,4 +1,0 @@
-#name : correlationWithType
-#group : HKCorrelation
-# --
-correlationWithType:${1:(HKCorrelationType *)correlationType}

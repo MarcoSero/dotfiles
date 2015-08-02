@@ -1,4 +1,0 @@
-#name : primaryViewControllerForExpandingSplitViewController
-#group : UISplitViewController
-# --
-primaryViewControllerForExpandingSplitViewController:${1:(UISplitViewController *)splitViewController}

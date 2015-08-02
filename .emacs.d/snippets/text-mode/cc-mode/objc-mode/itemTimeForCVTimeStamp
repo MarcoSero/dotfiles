@@ -1,4 +1,0 @@
-#name : itemTimeForCVTimeStamp
-#group : AVPlayerItemOutput
-# --
-itemTimeForCVTimeStamp:${1:(CVTimeStamp)timestamp}

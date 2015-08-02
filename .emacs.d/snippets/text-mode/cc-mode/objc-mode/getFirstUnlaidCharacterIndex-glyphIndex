@@ -1,4 +1,0 @@
-#name : getFirstUnlaidCharacterIndex:glyphIndex
-#group : NSLayoutManager
-# --
-getFirstUnlaidCharacterIndex:${1:(NSUInteger *)charIndex} glyphIndex:${2:(NSUInteger *)glyphIndex}

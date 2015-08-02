@@ -1,4 +1,0 @@
-#name : setObject
-#group : JSValue
-# --
-setObject:${1:(id)object}

@@ -1,4 +1,0 @@
-#name : statisticsForDate
-#group : HKStatisticsCollectionQuery
-# --
-statisticsForDate:${1:(NSDate *)date}

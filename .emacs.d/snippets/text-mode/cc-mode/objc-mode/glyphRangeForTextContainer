@@ -1,4 +1,0 @@
-#name : glyphRangeForTextContainer
-#group : NSLayoutManager
-# --
-glyphRangeForTextContainer:${1:(NSTextContainer *)container}

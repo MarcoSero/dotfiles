@@ -1,4 +1,0 @@
-#name : presentedItemDidResolveConflictVersion
-#group : NSFilePresenter
-# --
-presentedItemDidResolveConflictVersion:${1:(NSFileVersion *)version}

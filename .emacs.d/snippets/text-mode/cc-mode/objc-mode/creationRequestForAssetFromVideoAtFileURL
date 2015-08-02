@@ -1,4 +1,0 @@
-#name : creationRequestForAssetFromVideoAtFileURL
-#group : PHAssetChangeRequest
-# --
-creationRequestForAssetFromVideoAtFileURL:${1:(NSURL *)fileURL}

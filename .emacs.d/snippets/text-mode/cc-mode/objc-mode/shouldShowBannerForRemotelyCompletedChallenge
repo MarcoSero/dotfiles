@@ -1,4 +1,0 @@
-#name : shouldShowBannerForRemotelyCompletedChallenge
-#group : GKChallengeEventHandler
-# --
-shouldShowBannerForRemotelyCompletedChallenge:${1:(GKChallenge *)challenge}

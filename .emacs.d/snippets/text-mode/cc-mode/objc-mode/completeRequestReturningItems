@@ -1,4 +1,0 @@
-#name : completeRequestReturningItems
-#group : NSExtensionContext
-# --
-completeRequestReturningItems:${1:(NSArray *)items}

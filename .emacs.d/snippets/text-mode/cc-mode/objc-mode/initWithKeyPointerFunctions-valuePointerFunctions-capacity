@@ -1,4 +1,0 @@
-#name : initWithKeyPointerFunctions:valuePointerFunctions:capacity
-#group : NSMapTable
-# --
-initWithKeyPointerFunctions:${1:(NSPointerFunctions *)keyFunctions} valuePointerFunctions:${2:(NSPointerFunctions *)valueFunctions} capacity:${3:(NSUInteger)initialCapacity}

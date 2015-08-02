@@ -1,4 +1,0 @@
-#name : calendarWithEventStore
-#group : EKCalendar
-# --
-calendarWithEventStore:${1:(EKEventStore *)eventStore}

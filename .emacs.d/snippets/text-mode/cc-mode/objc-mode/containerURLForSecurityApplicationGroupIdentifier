@@ -1,4 +1,0 @@
-#name : containerURLForSecurityApplicationGroupIdentifier
-#group : NSFileManager
-# --
-containerURLForSecurityApplicationGroupIdentifier:${1:(NSString *)groupIdentifier}

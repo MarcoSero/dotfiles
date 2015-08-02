@@ -1,4 +1,0 @@
-#name : imageForBounds:textContainer:characterIndex
-#group : NSTextAttachment
-# --
-imageForBounds:${1:(CGRect)imageBounds} textContainer:${2:(NSTextContainer *)textContainer} characterIndex:${3:(NSUInteger)charIndex}

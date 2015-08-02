@@ -1,4 +1,0 @@
-#name : initWithPeer:serviceType
-#group : MCNearbyServiceBrowser
-# --
-initWithPeer:${1:(MCPeerID *)myPeerID} serviceType:${2:(NSString *)serviceType}

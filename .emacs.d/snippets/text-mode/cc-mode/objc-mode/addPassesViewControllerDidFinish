@@ -1,4 +1,0 @@
-#name : addPassesViewControllerDidFinish
-#group : PKAddPassesViewController
-# --
-addPassesViewControllerDidFinish:${1:(PKAddPassesViewController *)controller}

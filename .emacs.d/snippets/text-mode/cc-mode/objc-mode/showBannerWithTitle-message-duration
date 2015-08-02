@@ -1,4 +1,0 @@
-#name : showBannerWithTitle:message:duration
-#group : GKNotificationBanner
-# --
-showBannerWithTitle:${1:(NSString *)title} message:${2:(NSString *)message} duration:${3:(NSTimeInterval)duration}

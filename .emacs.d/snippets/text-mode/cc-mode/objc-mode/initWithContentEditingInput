@@ -1,4 +1,0 @@
-#name : initWithContentEditingInput
-#group : PHContentEditingOutput
-# --
-initWithContentEditingInput:${1:(PHContentEditingInput *)contentEditingInput}

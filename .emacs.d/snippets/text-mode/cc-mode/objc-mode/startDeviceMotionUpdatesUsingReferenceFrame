@@ -1,4 +1,0 @@
-#name : startDeviceMotionUpdatesUsingReferenceFrame
-#group : CMMotionManager
-# --
-startDeviceMotionUpdatesUsingReferenceFrame:${1:(CMAttitudeReferenceFrame)referenceFrame}

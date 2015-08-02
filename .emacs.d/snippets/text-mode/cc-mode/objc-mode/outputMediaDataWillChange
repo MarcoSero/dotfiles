@@ -1,4 +1,0 @@
-#name : outputMediaDataWillChange
-#group : AVPlayerItemOutput
-# --
-outputMediaDataWillChange:${1:(AVPlayerItemOutput *)sender}

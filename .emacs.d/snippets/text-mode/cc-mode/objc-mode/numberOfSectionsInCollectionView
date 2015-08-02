@@ -1,4 +1,0 @@
-#name : numberOfSectionsInCollectionView
-#group : UICollectionView
-# --
-numberOfSectionsInCollectionView:${1:(UICollectionView *)collectionView}

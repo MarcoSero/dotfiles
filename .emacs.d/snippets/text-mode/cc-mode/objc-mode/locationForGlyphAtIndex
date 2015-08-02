@@ -1,4 +1,0 @@
-#name : locationForGlyphAtIndex
-#group : NSLayoutManager
-# --
-locationForGlyphAtIndex:${1:(NSUInteger)glyphIndex}

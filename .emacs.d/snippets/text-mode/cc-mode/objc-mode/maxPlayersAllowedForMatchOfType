@@ -1,4 +1,0 @@
-#name : maxPlayersAllowedForMatchOfType
-#group : GKMatchmaker
-# --
-maxPlayersAllowedForMatchOfType:${1:(GKMatchType)matchType}

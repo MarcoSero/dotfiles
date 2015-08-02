@@ -1,4 +1,0 @@
-#name : URLSession:dataTask
-#group : NSURLSession
-# --
-URLSession:${1:(NSURLSession *)session} dataTask:${2:(NSURLSessionDataTask *)dataTask}

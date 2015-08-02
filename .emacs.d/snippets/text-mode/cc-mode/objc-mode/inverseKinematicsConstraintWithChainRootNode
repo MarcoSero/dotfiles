@@ -1,4 +1,0 @@
-#name : inverseKinematicsConstraintWithChainRootNode
-#group : SCNConstraint
-# --
-inverseKinematicsConstraintWithChainRootNode:${1:(SCNNode *)chainRootNode}

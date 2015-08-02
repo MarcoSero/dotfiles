@@ -1,4 +1,0 @@
-#name : removeAnimationForKey
-#group : SCNAnimation
-# --
-removeAnimationForKey:${1:(NSString *)key}

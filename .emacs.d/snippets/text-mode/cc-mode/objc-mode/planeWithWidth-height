@@ -1,4 +1,0 @@
-#name : planeWithWidth:height
-#group : SCNParametricGeometry
-# --
-planeWithWidth:${1:(CGFloat)width} height:${2:(CGFloat)height}

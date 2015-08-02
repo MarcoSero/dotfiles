@@ -1,4 +1,0 @@
-#name : getKeyframeTimeForIndex
-#group : SKKeyframeSequence
-# --
-getKeyframeTimeForIndex:${1:(NSUInteger)index}

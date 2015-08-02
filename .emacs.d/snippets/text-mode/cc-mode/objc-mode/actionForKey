@@ -1,4 +1,0 @@
-#name : actionForKey
-#group : SKNode
-# --
-actionForKey:${1:(NSString *)key}

@@ -1,4 +1,0 @@
-#name : rejectProtectionSpaceAndContinueWithChallenge
-#group : NSURLAuthenticationChallenge
-# --
-rejectProtectionSpaceAndContinueWithChallenge:${1:(NSURLAuthenticationChallenge *)challenge}

@@ -1,4 +1,0 @@
-#name : removePass
-#group : PKPassLibrary
-# --
-removePass:${1:(PKPass *)pass}

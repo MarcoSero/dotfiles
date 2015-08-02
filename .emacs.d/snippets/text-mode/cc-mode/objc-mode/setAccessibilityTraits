@@ -1,4 +1,0 @@
-#name : setAccessibilityTraits
-#group : WKInterfaceObject
-# --
-setAccessibilityTraits:${1:(UIAccessibilityTraits)accessibilityTraits}

@@ -1,4 +1,0 @@
-#name : valueWithNewObjectInContext
-#group : JSValue
-# --
-valueWithNewObjectInContext:${1:(JSContext *)context}

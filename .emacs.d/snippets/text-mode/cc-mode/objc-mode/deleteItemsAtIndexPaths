@@ -1,4 +1,0 @@
-#name : deleteItemsAtIndexPaths
-#group : UICollectionView
-# --
-deleteItemsAtIndexPaths:${1:(NSArray *)indexPaths}

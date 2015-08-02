@@ -1,4 +1,0 @@
-#name : userActivityWasContinued
-#group : NSUserActivity
-# --
-userActivityWasContinued:${1:(NSUserActivity *)userActivity}

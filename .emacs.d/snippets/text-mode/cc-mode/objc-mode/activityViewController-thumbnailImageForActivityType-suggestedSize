@@ -1,4 +1,0 @@
-#name : activityViewController:thumbnailImageForActivityType:suggestedSize
-#group : UIActivityItemProvider
-# --
-activityViewController:${1:(UIActivityViewController *)activityViewController} thumbnailImageForActivityType:${2:(NSString *)activityType} suggestedSize:${3:(CGSize)size}

@@ -1,4 +1,0 @@
-#name : pushDebugGroup
-#group : MTLCommandEncoder
-# --
-pushDebugGroup:${1:(NSString *)string}

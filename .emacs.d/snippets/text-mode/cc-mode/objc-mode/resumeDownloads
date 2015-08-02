@@ -1,4 +1,0 @@
-#name : resumeDownloads
-#group : SKPaymentQueue
-# --
-resumeDownloads:${1:(NSArray *)downloads}

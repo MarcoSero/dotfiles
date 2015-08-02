@@ -1,4 +1,0 @@
-#name : titlePropertyForGroupingType
-#group : MPMediaQuery
-# --
-titlePropertyForGroupingType:${1:(MPMediaGrouping)groupingType}

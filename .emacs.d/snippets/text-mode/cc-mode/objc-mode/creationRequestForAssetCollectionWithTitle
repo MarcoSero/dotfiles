@@ -1,4 +1,0 @@
-#name : creationRequestForAssetCollectionWithTitle
-#group : PHAssetCollectionChangeRequest
-# --
-creationRequestForAssetCollectionWithTitle:${1:(NSString *)title}

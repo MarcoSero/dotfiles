@@ -1,4 +1,0 @@
-#name : initWithPlacemark
-#group : MKMapItem
-# --
-initWithPlacemark:${1:(MKPlacemark *)placemark}

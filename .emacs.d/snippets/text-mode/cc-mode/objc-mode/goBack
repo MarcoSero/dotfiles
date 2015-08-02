@@ -1,4 +1,0 @@
-#name : goBack
-#group : WKWebView
-# --
-goBack:${1:(id)sender}

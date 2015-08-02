@@ -1,4 +1,0 @@
-#name : issueChallengeToPlayers:message
-#group : GKChallenge
-# --
-issueChallengeToPlayers:${1:(NSArray *)playerIDs} message:${2:(NSString *)message}

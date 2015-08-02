@@ -1,4 +1,0 @@
-#name : handleActionWithIdentifier:forLocalNotification
-#group : WKInterfaceController
-# --
-handleActionWithIdentifier:${1:(NSString *)identifier} forLocalNotification:${2:(UILocalNotification *)localNotification}

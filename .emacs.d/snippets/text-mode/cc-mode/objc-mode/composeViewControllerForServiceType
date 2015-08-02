@@ -1,4 +1,0 @@
-#name : composeViewControllerForServiceType
-#group : SLComposeViewController
-# --
-composeViewControllerForServiceType:${1:(NSString *)serviceType}

@@ -1,4 +1,0 @@
-#name : sessionWithConfiguration
-#group : NSURLSession
-# --
-sessionWithConfiguration:${1:(NSURLSessionConfiguration *)configuration}

@@ -1,4 +1,0 @@
-#name : alertViewShouldEnableFirstOtherButton
-#group : UIAlertView
-# --
-alertViewShouldEnableFirstOtherButton:${1:(UIAlertView *)alertView}

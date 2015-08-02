@@ -1,4 +1,0 @@
-#name : captureOutput:didPauseRecordingToOutputFileAtURL:fromConnections
-#group : AVCaptureOutput
-# --
-captureOutput:${1:(AVCaptureFileOutput *)captureOutput} didPauseRecordingToOutputFileAtURL:${2:(NSURL *)fileURL} fromConnections:${3:(NSArray *)connections}

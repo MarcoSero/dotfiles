@@ -1,4 +1,0 @@
-#name : decrementImageForState
-#group : UIStepper
-# --
-decrementImageForState:${1:(UIControlState)state}

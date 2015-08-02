@@ -1,4 +1,0 @@
-#name : initWithDisplayID
-#group : AVCaptureInput
-# --
-initWithDisplayID:${1:(CGDirectDisplayID)displayID}

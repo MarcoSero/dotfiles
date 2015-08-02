@@ -1,4 +1,0 @@
-#name : setTextColor
-#group : WKInterfaceTimer
-# --
-setTextColor:${1:(UIColor *)color}

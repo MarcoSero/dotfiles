@@ -1,4 +1,0 @@
-#name : massFormatterUnitFromUnit
-#group : HKUnit
-# --
-massFormatterUnitFromUnit:${1:(HKUnit *)unit}

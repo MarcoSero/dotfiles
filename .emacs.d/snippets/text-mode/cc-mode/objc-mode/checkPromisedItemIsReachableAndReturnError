@@ -1,4 +1,0 @@
-#name : checkPromisedItemIsReachableAndReturnError
-#group : NSURL
-# --
-checkPromisedItemIsReachableAndReturnError:${1:(NSError **)error}

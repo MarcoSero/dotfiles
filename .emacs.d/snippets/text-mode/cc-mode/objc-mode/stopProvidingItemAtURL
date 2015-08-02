@@ -1,4 +1,0 @@
-#name : stopProvidingItemAtURL
-#group : NSFileProviderExtension
-# --
-stopProvidingItemAtURL:${1:(NSURL *)url}

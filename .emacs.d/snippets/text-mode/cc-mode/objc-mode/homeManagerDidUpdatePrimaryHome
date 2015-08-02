@@ -1,4 +1,0 @@
-#name : homeManagerDidUpdatePrimaryHome
-#group : HMHomeManager
-# --
-homeManagerDidUpdatePrimaryHome:${1:(HMHomeManager *)manager}

@@ -1,4 +1,0 @@
-#name : setHeight
-#group : WKInterfaceObject
-# --
-setHeight:${1:(CGFloat)height}

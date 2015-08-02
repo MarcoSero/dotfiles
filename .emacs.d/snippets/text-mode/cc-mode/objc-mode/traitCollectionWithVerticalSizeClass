@@ -1,4 +1,0 @@
-#name : traitCollectionWithVerticalSizeClass
-#group : UITraitCollection
-# --
-traitCollectionWithVerticalSizeClass:${1:(UIUserInterfaceSizeClass)verticalSizeClass}

@@ -1,4 +1,0 @@
-#name : requestAccessForMediaType
-#group : AVCaptureDevice
-# --
-requestAccessForMediaType:${1:(NSString *)mediaType}

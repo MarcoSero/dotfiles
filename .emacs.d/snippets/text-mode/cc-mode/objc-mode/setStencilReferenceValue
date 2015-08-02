@@ -1,4 +1,0 @@
-#name : setStencilReferenceValue
-#group : MTLRenderCommandEncoder
-# --
-setStencilReferenceValue:${1:(uint32_t)referenceValue}

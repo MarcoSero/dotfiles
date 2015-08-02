@@ -1,4 +1,0 @@
-#name : beginLoadingChildItemsAtIndexPath
-#group : MPPlayableContentDataSource
-# --
-beginLoadingChildItemsAtIndexPath:${1:(NSIndexPath *)indexPath}

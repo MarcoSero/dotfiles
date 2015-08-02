@@ -1,4 +1,0 @@
-#name : isOperatingSystemAtLeastVersion
-#group : NSProcessInfo
-# --
-isOperatingSystemAtLeastVersion:${1:(NSOperatingSystemVersion)version}

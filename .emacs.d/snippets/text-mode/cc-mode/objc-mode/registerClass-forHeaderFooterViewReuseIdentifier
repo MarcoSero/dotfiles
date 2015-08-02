@@ -1,4 +1,0 @@
-#name : registerClass:forHeaderFooterViewReuseIdentifier
-#group : UITableView
-# --
-registerClass:${1:(Class)aClass} forHeaderFooterViewReuseIdentifier:${2:(NSString *)identifier}

@@ -1,4 +1,0 @@
-#name : sceneWithSize
-#group : SKScene
-# --
-sceneWithSize:${1:(CGSize)size}

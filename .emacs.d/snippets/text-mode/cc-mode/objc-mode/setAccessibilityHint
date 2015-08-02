@@ -1,4 +1,0 @@
-#name : setAccessibilityHint
-#group : WKInterfaceObject
-# --
-setAccessibilityHint:${1:(NSString *)accessibilityHint}

@@ -1,4 +1,0 @@
-#name : initWithPCMFormat:frameCapacity
-#group : AVAudioBuffer
-# --
-initWithPCMFormat:${1:(AVAudioFormat *)format} frameCapacity:${2:(AVAudioFrameCount)frameCapacity}

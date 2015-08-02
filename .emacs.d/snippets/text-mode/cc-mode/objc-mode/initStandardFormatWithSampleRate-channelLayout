@@ -1,4 +1,0 @@
-#name : initStandardFormatWithSampleRate:channelLayout
-#group : AVAudioFormat
-# --
-initStandardFormatWithSampleRate:${1:(double)sampleRate} channelLayout:${2:(AVAudioChannelLayout *)layout}

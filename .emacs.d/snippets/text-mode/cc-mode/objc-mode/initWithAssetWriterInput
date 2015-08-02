@@ -1,4 +1,0 @@
-#name : initWithAssetWriterInput
-#group : AVAssetWriterInput
-# --
-initWithAssetWriterInput:${1:(AVAssetWriterInput *)input}

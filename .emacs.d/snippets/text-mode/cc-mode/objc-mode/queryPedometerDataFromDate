@@ -1,4 +1,0 @@
-#name : queryPedometerDataFromDate
-#group : CMPedometer
-# --
-queryPedometerDataFromDate:${1:(NSDate *)start}

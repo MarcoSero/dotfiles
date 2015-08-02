@@ -1,4 +1,0 @@
-#name : atlasNamed
-#group : SKTextureAtlas
-# --
-atlasNamed:${1:(NSString *)name}

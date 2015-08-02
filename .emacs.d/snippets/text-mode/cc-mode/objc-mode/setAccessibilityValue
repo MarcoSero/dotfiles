@@ -1,4 +1,0 @@
-#name : setAccessibilityValue
-#group : WKInterfaceObject
-# --
-setAccessibilityValue:${1:(NSString *)accessibilityValue}

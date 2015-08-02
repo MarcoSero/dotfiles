@@ -1,4 +1,0 @@
-#name : stringEncodingForData
-#group : NSString
-# --
-stringEncodingForData:${1:(NSData *)data}

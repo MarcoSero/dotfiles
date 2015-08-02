@@ -1,4 +1,0 @@
-#name : predicateForWorkoutsWithOperatorType:totalEnergyBurned
-#group : HKQuery
-# --
-predicateForWorkoutsWithOperatorType:${1:(NSPredicateOperatorType)operatorType} totalEnergyBurned:${2:(HKQuantity *)totalEnergyBurned}

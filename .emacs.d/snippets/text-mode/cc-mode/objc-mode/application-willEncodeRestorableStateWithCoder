@@ -1,4 +1,0 @@
-#name : application:willEncodeRestorableStateWithCoder
-#group : UIApplication
-# --
-application:${1:(UIApplication *)application} willEncodeRestorableStateWithCoder:${2:(NSCoder *)coder}

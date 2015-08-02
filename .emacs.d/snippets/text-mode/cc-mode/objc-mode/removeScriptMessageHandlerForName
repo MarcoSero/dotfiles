@@ -1,4 +1,0 @@
-#name : removeScriptMessageHandlerForName
-#group : WKUserContentController
-# --
-removeScriptMessageHandlerForName:${1:(NSString *)name}

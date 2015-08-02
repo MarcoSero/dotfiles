@@ -1,4 +1,0 @@
-#name : updateName
-#group : HMZone
-# --
-updateName:${1:(NSString *)name}

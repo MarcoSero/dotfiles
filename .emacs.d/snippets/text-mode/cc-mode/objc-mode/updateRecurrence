@@ -1,4 +1,0 @@
-#name : updateRecurrence
-#group : HMTimerTrigger
-# --
-updateRecurrence:${1:(NSDateComponents *)recurrence}

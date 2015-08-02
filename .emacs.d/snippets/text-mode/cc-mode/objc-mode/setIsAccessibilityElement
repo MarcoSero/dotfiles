@@ -1,4 +1,0 @@
-#name : setIsAccessibilityElement
-#group : WKInterfaceObject
-# --
-setIsAccessibilityElement:${1:(BOOL)isAccessibilityElement}

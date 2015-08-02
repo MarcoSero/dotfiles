@@ -1,4 +1,0 @@
-#name : addManagedReference:withOwner
-#group : JSVirtualMachine
-# --
-addManagedReference:${1:(id)object} withOwner:${2:(id)owner}

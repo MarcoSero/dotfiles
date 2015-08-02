@@ -1,4 +1,0 @@
-#name : setInputGain:error
-#group : AVAudioSession
-# --
-setInputGain:${1:(float)gain} error:${2:(NSError **)outError}

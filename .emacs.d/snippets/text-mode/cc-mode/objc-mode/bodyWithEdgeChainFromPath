@@ -1,4 +1,0 @@
-#name : bodyWithEdgeChainFromPath
-#group : SKPhysicsBody
-# --
-bodyWithEdgeChainFromPath:${1:(CGPathRef)path}

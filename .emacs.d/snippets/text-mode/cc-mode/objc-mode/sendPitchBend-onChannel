@@ -1,4 +1,0 @@
-#name : sendPitchBend:onChannel
-#group : AVAudioUnitMIDIInstrument
-# --
-sendPitchBend:${1:(uint16_t)pitchbend} onChannel:${2:(uint8_t)channel}

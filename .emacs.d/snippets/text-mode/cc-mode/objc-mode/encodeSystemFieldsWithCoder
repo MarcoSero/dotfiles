@@ -1,4 +1,0 @@
-#name : encodeSystemFieldsWithCoder
-#group : CKRecord
-# --
-encodeSystemFieldsWithCoder:${1:(NSCoder *)coder}

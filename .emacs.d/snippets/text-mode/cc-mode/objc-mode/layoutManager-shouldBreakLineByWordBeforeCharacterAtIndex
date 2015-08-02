@@ -1,4 +1,0 @@
-#name : layoutManager:shouldBreakLineByWordBeforeCharacterAtIndex
-#group : NSLayoutManager
-# --
-layoutManager:${1:(NSLayoutManager *)layoutManager} shouldBreakLineByWordBeforeCharacterAtIndex:${2:(NSUInteger)charIndex}

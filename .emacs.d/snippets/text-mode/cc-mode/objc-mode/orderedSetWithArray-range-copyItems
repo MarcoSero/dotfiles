@@ -1,4 +1,0 @@
-#name : orderedSetWithArray:range:copyItems
-#group : NSOrderedSet
-# --
-orderedSetWithArray:${1:(NSArray *)array} range:${2:(NSRange)range} copyItems:${3:(BOOL)flag}

@@ -1,4 +1,0 @@
-#name : uniformNamed
-#group : SKShader
-# --
-uniformNamed:${1:(NSString *)name}

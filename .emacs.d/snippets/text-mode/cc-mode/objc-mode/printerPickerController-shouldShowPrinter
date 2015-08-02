@@ -1,4 +1,0 @@
-#name : printerPickerController:shouldShowPrinter
-#group : UIPrinterPickerController
-# --
-printerPickerController:${1:(UIPrinterPickerController *)printerPickerController} shouldShowPrinter:${2:(UIPrinter *)printer}

@@ -1,4 +1,0 @@
-#name : valueWithUndefinedInContext
-#group : JSValue
-# --
-valueWithUndefinedInContext:${1:(JSContext *)context}

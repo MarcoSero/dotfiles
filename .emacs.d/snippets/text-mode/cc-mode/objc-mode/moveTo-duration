@@ -1,4 +1,0 @@
-#name : moveTo:duration
-#group : SKAction
-# --
-moveTo:${1:(CGPoint)location} duration:${2:(NSTimeInterval)sec}

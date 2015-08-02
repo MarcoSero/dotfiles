@@ -1,4 +1,0 @@
-#name : stop
-#group : SCNView
-# --
-stop:${1:(id)sender}

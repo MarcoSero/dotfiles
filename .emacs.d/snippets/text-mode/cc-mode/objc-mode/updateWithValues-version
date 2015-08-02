@@ -1,4 +1,0 @@
-#name : updateWithValues:version
-#group : NSIncrementalStoreNode
-# --
-updateWithValues:${1:(NSDictionary *)values} version:${2:(uint64_t)version}

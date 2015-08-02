@@ -1,4 +1,0 @@
-#name : keyPathsAndRelativeValuesForViewerOffset
-#group : UIMotionEffect
-# --
-keyPathsAndRelativeValuesForViewerOffset:${1:(UIOffset)viewerOffset}

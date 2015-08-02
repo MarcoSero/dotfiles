@@ -1,4 +1,0 @@
-#name : prepareWithFrameCount
-#group : AVAudioPlayerNode
-# --
-prepareWithFrameCount:${1:(AVAudioFrameCount)frameCount}

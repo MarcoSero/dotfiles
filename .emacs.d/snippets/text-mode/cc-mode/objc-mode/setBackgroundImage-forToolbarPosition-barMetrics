@@ -1,4 +1,0 @@
-#name : setBackgroundImage:forToolbarPosition:barMetrics
-#group : UIToolbar
-# --
-setBackgroundImage:${1:(UIImage *)backgroundImage} forToolbarPosition:${2:(UIBarPosition)topOrBottom} barMetrics:${3:(UIBarMetrics)barMetrics}

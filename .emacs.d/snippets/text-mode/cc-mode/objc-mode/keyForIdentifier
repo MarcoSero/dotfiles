@@ -1,4 +1,0 @@
-#name : keyForIdentifier
-#group : AVMetadataItem
-# --
-keyForIdentifier:${1:(NSString *)identifier}

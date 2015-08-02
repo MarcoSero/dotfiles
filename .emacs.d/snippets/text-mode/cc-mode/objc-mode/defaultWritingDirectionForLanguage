@@ -1,4 +1,0 @@
-#name : defaultWritingDirectionForLanguage
-#group : NSParagraphStyle
-# --
-defaultWritingDirectionForLanguage:${1:(NSString *)languageName}

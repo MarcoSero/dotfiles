@@ -1,4 +1,0 @@
-#name : removeOutput
-#group : AVPlayerItem
-# --
-removeOutput:${1:(AVPlayerItemOutput *)output}

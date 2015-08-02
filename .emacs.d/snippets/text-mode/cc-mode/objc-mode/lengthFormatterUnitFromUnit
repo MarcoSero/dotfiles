@@ -1,4 +1,0 @@
-#name : lengthFormatterUnitFromUnit
-#group : HKUnit
-# --
-lengthFormatterUnitFromUnit:${1:(HKUnit *)unit}

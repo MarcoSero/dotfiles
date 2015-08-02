@@ -1,4 +1,0 @@
-#name : addChild
-#group : SKNode
-# --
-addChild:${1:(SKNode *)node}

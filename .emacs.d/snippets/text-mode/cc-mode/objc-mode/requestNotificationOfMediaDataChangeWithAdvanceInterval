@@ -1,4 +1,0 @@
-#name : requestNotificationOfMediaDataChangeWithAdvanceInterval
-#group : AVPlayerItemOutput
-# --
-requestNotificationOfMediaDataChangeWithAdvanceInterval:${1:(NSTimeInterval)interval}

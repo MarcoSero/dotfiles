@@ -1,4 +1,0 @@
-#name : predicateForIncompleteRemindersWithDueDateStarting:ending:calendars
-#group : EKEventStore
-# --
-predicateForIncompleteRemindersWithDueDateStarting:${1:(NSDate *)startDate} ending:${2:(NSDate *)endDate} calendars:${3:(NSArray *)calendars}

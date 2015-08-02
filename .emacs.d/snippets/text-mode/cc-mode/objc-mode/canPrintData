@@ -1,4 +1,0 @@
-#name : canPrintData
-#group : UIPrintInteractionController
-# --
-canPrintData:${1:(NSData *)data}

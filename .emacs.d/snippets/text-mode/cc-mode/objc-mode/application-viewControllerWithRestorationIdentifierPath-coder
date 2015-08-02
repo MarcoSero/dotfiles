@@ -1,4 +1,0 @@
-#name : application:viewControllerWithRestorationIdentifierPath:coder
-#group : UIApplication
-# --
-application:${1:(UIApplication *)application} viewControllerWithRestorationIdentifierPath:${2:(NSArray *)identifierComponents} coder:${3:(NSCoder *)coder}

@@ -1,4 +1,0 @@
-#name : predicateFromMetadataQueryString
-#group : NSPredicate
-# --
-predicateFromMetadataQueryString:${1:(NSString *)queryString}

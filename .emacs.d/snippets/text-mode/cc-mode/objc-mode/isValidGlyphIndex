@@ -1,4 +1,0 @@
-#name : isValidGlyphIndex
-#group : NSLayoutManager
-# --
-isValidGlyphIndex:${1:(NSUInteger)glyphIndex}

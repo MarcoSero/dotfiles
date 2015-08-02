@@ -1,4 +1,0 @@
-#name : hostWithName:address:port
-#group : MIDINetworkSession
-# --
-hostWithName:${1:(NSString *)name} address:${2:(NSString *)address} port:${3:(NSUInteger)port}

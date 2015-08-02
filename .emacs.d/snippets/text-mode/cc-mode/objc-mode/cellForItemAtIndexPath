@@ -1,4 +1,0 @@
-#name : cellForItemAtIndexPath
-#group : UICollectionView
-# --
-cellForItemAtIndexPath:${1:(NSIndexPath *)indexPath}

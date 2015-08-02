@@ -1,4 +1,0 @@
-#name : correlationTypeForIdentifier
-#group : HKObjectType
-# --
-correlationTypeForIdentifier:${1:(NSString *)identifier}

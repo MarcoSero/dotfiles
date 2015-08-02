@@ -1,4 +1,0 @@
-#name : addLayoutManager
-#group : NSTextStorage
-# --
-addLayoutManager:${1:(NSLayoutManager *)aLayoutManager}

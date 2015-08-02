@@ -1,4 +1,0 @@
-#name : peripheralDidUpdateName
-#group : CBPeripheral
-# --
-peripheralDidUpdateName:${1:(CBPeripheral *)peripheral}

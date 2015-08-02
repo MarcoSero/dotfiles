@@ -1,4 +1,0 @@
-#name : peripheralDidInvalidateServices
-#group : CBPeripheral
-# --
-peripheralDidInvalidateServices:${1:(CBPeripheral *)peripheral}

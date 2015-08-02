@@ -1,4 +1,0 @@
-#name : containsString
-#group : NSString
-# --
-containsString:${1:(NSString *)aString}

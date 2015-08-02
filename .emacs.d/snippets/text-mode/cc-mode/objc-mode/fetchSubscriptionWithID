@@ -1,4 +1,0 @@
-#name : fetchSubscriptionWithID
-#group : CKDatabase
-# --
-fetchSubscriptionWithID:${1:(NSString *)subscriptionID}

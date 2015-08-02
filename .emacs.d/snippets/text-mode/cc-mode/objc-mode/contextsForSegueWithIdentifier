@@ -1,4 +1,0 @@
-#name : contextsForSegueWithIdentifier
-#group : WKInterfaceController
-# --
-contextsForSegueWithIdentifier:${1:(NSString *)segueIdentifier}

@@ -1,4 +1,0 @@
-#name : setAttributes:range
-#group : NSTextStorage
-# --
-setAttributes:${1:(NSDictionary *)attrs} range:${2:(NSRange)range}

@@ -1,4 +1,0 @@
-#name : containsObject
-#group : PHFetchResult
-# --
-containsObject:${1:(id)anObject}

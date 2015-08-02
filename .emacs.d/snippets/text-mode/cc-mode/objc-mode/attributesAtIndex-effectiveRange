@@ -1,4 +1,0 @@
-#name : attributesAtIndex:effectiveRange
-#group : NSTextStorage
-# --
-attributesAtIndex:${1:(NSUInteger)location} effectiveRange:${2:(NSRangePointer)range}

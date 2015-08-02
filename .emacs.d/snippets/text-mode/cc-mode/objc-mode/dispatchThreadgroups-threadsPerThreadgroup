@@ -1,4 +1,0 @@
-#name : dispatchThreadgroups:threadsPerThreadgroup
-#group : MTLComputeCommandEncoder
-# --
-dispatchThreadgroups:${1:(MTLSize)threadgroupsPerGrid} threadsPerThreadgroup:${2:(MTLSize)threadsPerThreadgroup}

@@ -1,1 +1,0 @@
-("~/Yammer/app/" "~/Yammer/app/Shared/")

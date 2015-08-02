@@ -1,4 +1,0 @@
-#name : addBehavior
-#group : UIDynamicAnimator
-# --
-addBehavior:${1:(UIDynamicBehavior *)behavior}

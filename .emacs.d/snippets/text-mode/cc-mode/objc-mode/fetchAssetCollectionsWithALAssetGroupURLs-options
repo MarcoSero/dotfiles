@@ -1,4 +1,0 @@
-#name : fetchAssetCollectionsWithALAssetGroupURLs:options
-#group : PHCollection
-# --
-fetchAssetCollectionsWithALAssetGroupURLs:${1:(NSArray *)assetGroupURLs} options:${2:(PHFetchOptions *)options}

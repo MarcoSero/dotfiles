@@ -1,4 +1,0 @@
-#name : removeJoint
-#group : SKPhysicsWorld
-# --
-removeJoint:${1:(SKPhysicsJoint *)joint}

@@ -1,4 +1,0 @@
-#name : pauseDownloads
-#group : SKPaymentQueue
-# --
-pauseDownloads:${1:(NSArray *)downloads}

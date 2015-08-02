@@ -1,4 +1,0 @@
-#name : additionalContentForURL:error
-#group : UIManagedDocument
-# --
-additionalContentForURL:${1:(NSURL *)absoluteURL} error:${2:(NSError **)error}

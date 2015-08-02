@@ -1,4 +1,0 @@
-#name : intersectsNode
-#group : SKNode
-# --
-intersectsNode:${1:(SKNode *)node}

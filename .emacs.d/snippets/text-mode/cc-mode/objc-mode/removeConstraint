@@ -1,4 +1,0 @@
-#name : removeConstraint
-#group : UIView
-# --
-removeConstraint:${1:(NSLayoutConstraint *)constraint}

@@ -1,4 +1,0 @@
-#name : setText
-#group : WKInterfaceLabel
-# --
-setText:${1:(NSString *)text}

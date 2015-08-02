@@ -1,4 +1,0 @@
-#name : insertTextContainer:atIndex
-#group : NSLayoutManager
-# --
-insertTextContainer:${1:(NSTextContainer *)container} atIndex:${2:(NSUInteger)index}

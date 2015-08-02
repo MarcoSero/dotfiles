@@ -1,4 +1,0 @@
-#name : mediaSelectionOptionsFromArray:withoutMediaCharacteristics
-#group : AVMediaSelectionGroup
-# --
-mediaSelectionOptionsFromArray:${1:(NSArray *)mediaSelectionOptions} withoutMediaCharacteristics:${2:(NSArray *)mediaCharacteristics}

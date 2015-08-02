@@ -1,4 +1,0 @@
-#name : initWithNumberOfBands
-#group : AVAudioUnitEQ
-# --
-initWithNumberOfBands:${1:(NSUInteger)numberOfBands}

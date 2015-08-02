@@ -1,4 +1,0 @@
-#name : initWithKeyOptions:valueOptions:capacity
-#group : NSMapTable
-# --
-initWithKeyOptions:${1:(NSPointerFunctionsOptions)keyOptions} valueOptions:${2:(NSPointerFunctionsOptions)valueOptions} capacity:${3:(NSUInteger)initialCapacity}

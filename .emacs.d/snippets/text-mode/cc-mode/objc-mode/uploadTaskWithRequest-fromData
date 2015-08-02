@@ -1,4 +1,0 @@
-#name : uploadTaskWithRequest:fromData
-#group : NSURLSession
-# --
-uploadTaskWithRequest:${1:(NSURLRequest *)request} fromData:${2:(NSData *)bodyData}

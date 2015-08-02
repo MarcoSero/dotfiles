@@ -1,4 +1,0 @@
-#name : initWithCGLayer
-#group : CIImage
-# --
-initWithCGLayer:${1:(CGLayerRef)layer}

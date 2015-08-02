@@ -1,4 +1,0 @@
-#name : startAndReturnError
-#group : AVAudioEngine
-# --
-startAndReturnError:${1:(NSError **)outError}

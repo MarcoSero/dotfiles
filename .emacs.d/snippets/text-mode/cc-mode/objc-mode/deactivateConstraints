@@ -1,4 +1,0 @@
-#name : deactivateConstraints
-#group : NSLayoutConstraint
-# --
-deactivateConstraints:${1:(NSArray *)constraints}

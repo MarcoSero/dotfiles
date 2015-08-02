@@ -1,4 +1,0 @@
-#name : captureOutput:willFinishRecordingToOutputFileAtURL:fromConnections:error
-#group : AVCaptureOutput
-# --
-captureOutput:${1:(AVCaptureFileOutput *)captureOutput} willFinishRecordingToOutputFileAtURL:${2:(NSURL *)fileURL} fromConnections:${3:(NSArray *)connections} error:${4:(NSError *)error}

@@ -1,4 +1,0 @@
-#name : textStyleRuleWithTextMarkupAttributes:textSelector
-#group : AVTextStyleRule
-# --
-textStyleRuleWithTextMarkupAttributes:${1:(NSDictionary *)textMarkupAttributes} textSelector:${2:(NSString *)textSelector}

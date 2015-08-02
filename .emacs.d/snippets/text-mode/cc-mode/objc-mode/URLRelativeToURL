@@ -1,4 +1,0 @@
-#name : URLRelativeToURL
-#group : NSURL
-# --
-URLRelativeToURL:${1:(NSURL *)baseURL}

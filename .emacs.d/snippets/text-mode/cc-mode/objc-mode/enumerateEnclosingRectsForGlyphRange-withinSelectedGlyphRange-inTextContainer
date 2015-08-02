@@ -1,4 +1,0 @@
-#name : enumerateEnclosingRectsForGlyphRange:withinSelectedGlyphRange:inTextContainer
-#group : NSLayoutManager
-# --
-enumerateEnclosingRectsForGlyphRange:${1:(NSRange)glyphRange} withinSelectedGlyphRange:${2:(NSRange)selectedRange} inTextContainer:${3:(NSTextContainer *)textContainer}

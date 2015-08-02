@@ -1,4 +1,0 @@
-#name : UUIDWithString
-#group : CBUUID
-# --
-UUIDWithString:${1:(NSString *)theString}

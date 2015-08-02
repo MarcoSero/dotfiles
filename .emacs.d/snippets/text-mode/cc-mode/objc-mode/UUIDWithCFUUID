@@ -1,4 +1,0 @@
-#name : UUIDWithCFUUID
-#group : CBUUID
-# --
-UUIDWithCFUUID:${1:(CFUUIDRef)theUUID}

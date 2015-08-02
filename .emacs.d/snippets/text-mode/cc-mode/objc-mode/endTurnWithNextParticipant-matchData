@@ -1,4 +1,0 @@
-#name : endTurnWithNextParticipant:matchData
-#group : GKTurnBasedMatch
-# --
-endTurnWithNextParticipant:${1:(GKTurnBasedParticipant *)nextParticipant} matchData:${2:(NSData*)matchData}

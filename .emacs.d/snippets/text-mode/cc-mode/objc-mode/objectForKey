@@ -1,4 +1,0 @@
-#name : objectForKey
-#group : UIFontDescriptor
-# --
-objectForKey:${1:(NSString *)anAttribute}

@@ -1,4 +1,0 @@
-#name : initWithQuery
-#group : CKQueryOperation
-# --
-initWithQuery:${1:(CKQuery *)query}

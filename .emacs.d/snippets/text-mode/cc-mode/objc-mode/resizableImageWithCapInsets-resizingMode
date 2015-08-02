@@ -1,4 +1,0 @@
-#name : resizableImageWithCapInsets:resizingMode
-#group : UIImage
-# --
-resizableImageWithCapInsets:${1:(UIEdgeInsets)capInsets} resizingMode:${2:(UIImageResizingMode)resizingMode}

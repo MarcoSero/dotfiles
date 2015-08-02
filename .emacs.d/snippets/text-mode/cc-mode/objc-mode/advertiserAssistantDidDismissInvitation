@@ -1,4 +1,0 @@
-#name : advertiserAssistantDidDismissInvitation
-#group : MCAdvertiserAssistant
-# --
-advertiserAssistantDidDismissInvitation:${1:(MCAdvertiserAssistant *)advertiserAssistant}

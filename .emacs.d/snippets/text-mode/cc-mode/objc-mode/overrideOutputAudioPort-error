@@ -1,4 +1,0 @@
-#name : overrideOutputAudioPort:error
-#group : AVAudioSession
-# --
-overrideOutputAudioPort:${1:(AVAudioSessionPortOverride)portOverride} error:${2:(NSError **)outError}

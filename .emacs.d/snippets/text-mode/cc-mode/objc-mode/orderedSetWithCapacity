@@ -1,4 +1,0 @@
-#name : orderedSetWithCapacity
-#group : NSOrderedSet
-# --
-orderedSetWithCapacity:${1:(NSUInteger)numItems}

@@ -1,4 +1,0 @@
-#name : animateWithTextures:timePerFrame
-#group : SKAction
-# --
-animateWithTextures:${1:(NSArray *)textures} timePerFrame:${2:(NSTimeInterval)sec}

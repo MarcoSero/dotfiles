@@ -1,4 +1,0 @@
-#name : recommendedVideoSettingsForAssetWriterWithOutputFileType
-#group : AVCaptureOutput
-# --
-recommendedVideoSettingsForAssetWriterWithOutputFileType:${1:(NSString *)outputFileType}

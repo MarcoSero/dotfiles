@@ -1,4 +1,0 @@
-#name : loadTileAtPath
-#group : MKTileOverlay
-# --
-loadTileAtPath:${1:(MKTileOverlayPath)path}

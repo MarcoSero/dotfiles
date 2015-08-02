@@ -1,4 +1,0 @@
-#name : collectionView:didHighlightItemAtIndexPath
-#group : UICollectionView
-# --
-collectionView:${1:(UICollectionView *)collectionView} didHighlightItemAtIndexPath:${2:(NSIndexPath *)indexPath}

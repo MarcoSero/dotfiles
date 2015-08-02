@@ -1,4 +1,0 @@
-#name : reminderWithEventStore
-#group : EKReminder
-# --
-reminderWithEventStore:${1:(EKEventStore *)eventStore}

@@ -1,4 +1,0 @@
-#name : setAccessibilityImageRegions
-#group : WKInterfaceObject
-# --
-setAccessibilityImageRegions:${1:(NSArray *)accessibilityImageRegions}

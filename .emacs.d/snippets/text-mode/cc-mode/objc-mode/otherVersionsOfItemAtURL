@@ -1,4 +1,0 @@
-#name : otherVersionsOfItemAtURL
-#group : NSFileVersion
-# --
-otherVersionsOfItemAtURL:${1:(NSURL *)url}

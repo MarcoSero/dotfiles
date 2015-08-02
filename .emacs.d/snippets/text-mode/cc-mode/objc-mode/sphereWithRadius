@@ -1,4 +1,0 @@
-#name : sphereWithRadius
-#group : SCNParametricGeometry
-# --
-sphereWithRadius:${1:(CGFloat)radius}

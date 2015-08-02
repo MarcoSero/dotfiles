@@ -1,4 +1,0 @@
-#name : animateAlongsideTransitionInView
-#group : UIViewControllerTransitionCoordinator
-# --
-animateAlongsideTransitionInView:${1:(UIView *)view}

@@ -1,4 +1,0 @@
-#name : startAdvertising
-#group : CBPeripheralManager
-# --
-startAdvertising:${1:(NSDictionary *)advertisementData}

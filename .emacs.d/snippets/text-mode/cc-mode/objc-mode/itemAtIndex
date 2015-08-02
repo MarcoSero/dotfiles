@@ -1,4 +1,0 @@
-#name : itemAtIndex
-#group : WKBackForwardList
-# --
-itemAtIndex:${1:(NSInteger)index}

@@ -1,4 +1,0 @@
-#name : adjustTextPositionByCharacterOffset
-#group : UIInputViewController
-# --
-adjustTextPositionByCharacterOffset:${1:(NSInteger)offset}

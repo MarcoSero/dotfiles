@@ -1,4 +1,0 @@
-#name : initWithUUIDString
-#group : NSUUID
-# --
-initWithUUIDString:${1:(NSString *)string}

@@ -1,4 +1,0 @@
-#name : removeContact
-#group : MIDINetworkSession
-# --
-removeContact:${1:(MIDINetworkHost *)contact}

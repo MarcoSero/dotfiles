@@ -1,4 +1,0 @@
-#name : peripheralManager:didReceiveWriteRequests
-#group : CBPeripheralManager
-# --
-peripheralManager:${1:(CBPeripheralManager *)peripheral} didReceiveWriteRequests:${2:(NSArray *)requests}

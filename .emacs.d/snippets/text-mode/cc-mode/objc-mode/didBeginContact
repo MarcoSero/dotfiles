@@ -1,4 +1,0 @@
-#name : didBeginContact
-#group : SKPhysicsWorld
-# --
-didBeginContact:${1:(SKPhysicsContact *)contact}

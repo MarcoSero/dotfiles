@@ -1,4 +1,0 @@
-#name : zRotation
-#group : SKConstraint
-# --
-zRotation:${1:(SKRange *)zRange}

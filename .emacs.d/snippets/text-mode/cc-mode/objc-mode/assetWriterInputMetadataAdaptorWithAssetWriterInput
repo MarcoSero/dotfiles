@@ -1,4 +1,0 @@
-#name : assetWriterInputMetadataAdaptorWithAssetWriterInput
-#group : AVAssetWriterInput
-# --
-assetWriterInputMetadataAdaptorWithAssetWriterInput:${1:(AVAssetWriterInput *)input}

@@ -1,4 +1,0 @@
-#name : extrapolateTimeFromAnchor
-#group : AVAudioTime
-# --
-extrapolateTimeFromAnchor:${1:(AVAudioTime *)anchorTime}

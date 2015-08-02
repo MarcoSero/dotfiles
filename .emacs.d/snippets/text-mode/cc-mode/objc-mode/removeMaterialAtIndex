@@ -1,4 +1,0 @@
-#name : removeMaterialAtIndex
-#group : SCNGeometry
-# --
-removeMaterialAtIndex:${1:(NSUInteger)index}

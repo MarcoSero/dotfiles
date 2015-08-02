@@ -1,4 +1,0 @@
-#name : setBackgroundImageNamed
-#group : WKInterfaceGroup
-# --
-setBackgroundImageNamed:${1:(NSString *)imageName}

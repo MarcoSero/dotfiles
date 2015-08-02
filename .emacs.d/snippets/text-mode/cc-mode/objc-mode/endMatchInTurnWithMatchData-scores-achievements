@@ -1,4 +1,0 @@
-#name : endMatchInTurnWithMatchData:scores:achievements
-#group : GKTurnBasedMatch
-# --
-endMatchInTurnWithMatchData:${1:(NSData*)matchData} scores:${2:(NSArray *)scores} achievements:${3:(NSArray *)achievements}

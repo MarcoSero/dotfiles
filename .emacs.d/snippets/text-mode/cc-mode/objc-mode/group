@@ -1,4 +1,0 @@
-#name : group
-#group : SKAction
-# --
-group:${1:(NSArray *)actions}

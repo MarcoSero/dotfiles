@@ -1,4 +1,0 @@
-#name : initWithReceiptProperties
-#group : SKReceiptRefreshRequest
-# --
-initWithReceiptProperties:${1:(NSDictionary *)properties}

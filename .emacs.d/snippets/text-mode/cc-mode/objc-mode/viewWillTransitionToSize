@@ -1,4 +1,0 @@
-#name : viewWillTransitionToSize
-#group : UIViewController
-# --
-viewWillTransitionToSize:${1:(CGSize)size}

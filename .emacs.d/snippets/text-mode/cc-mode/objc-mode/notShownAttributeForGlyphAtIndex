@@ -1,4 +1,0 @@
-#name : notShownAttributeForGlyphAtIndex
-#group : NSLayoutManager
-# --
-notShownAttributeForGlyphAtIndex:${1:(NSUInteger)glyphIndex}

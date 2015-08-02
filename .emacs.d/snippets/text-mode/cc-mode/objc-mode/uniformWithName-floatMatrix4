@@ -1,4 +1,0 @@
-#name : uniformWithName:floatMatrix4
-#group : SKUniform
-# --
-uniformWithName:${1:(NSString *)name} floatMatrix4:${2:(GLKMatrix4)value}

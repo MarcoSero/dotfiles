@@ -1,4 +1,0 @@
-#name : enumerateLineFragmentsForGlyphRange
-#group : NSLayoutManager
-# --
-enumerateLineFragmentsForGlyphRange:${1:(NSRange)glyphRange}

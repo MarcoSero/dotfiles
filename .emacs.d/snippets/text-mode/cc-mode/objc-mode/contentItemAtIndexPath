@@ -1,4 +1,0 @@
-#name : contentItemAtIndexPath
-#group : MPPlayableContentDataSource
-# --
-contentItemAtIndexPath:${1:(NSIndexPath *)indexPath}

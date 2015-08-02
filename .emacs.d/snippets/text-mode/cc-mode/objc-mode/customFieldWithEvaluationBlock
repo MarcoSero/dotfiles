@@ -1,4 +1,0 @@
-#name : customFieldWithEvaluationBlock
-#group : SKFieldNode
-# --
-customFieldWithEvaluationBlock:${1:(SKFieldForceEvaluator)block}

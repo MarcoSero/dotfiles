@@ -1,4 +1,0 @@
-#name : progressWithTotalUnitCount
-#group : NSProgress
-# --
-progressWithTotalUnitCount:${1:(int64_t)unitCount}

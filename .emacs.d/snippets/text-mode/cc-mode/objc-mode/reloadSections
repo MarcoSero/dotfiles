@@ -1,4 +1,0 @@
-#name : reloadSections
-#group : UICollectionView
-# --
-reloadSections:${1:(NSIndexSet *)sections}

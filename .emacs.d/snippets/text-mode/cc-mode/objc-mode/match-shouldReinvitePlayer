@@ -1,4 +1,0 @@
-#name : match:shouldReinvitePlayer
-#group : GKMatch
-# --
-match:${1:(GKMatch *)match} shouldReinvitePlayer:${2:(NSString *)playerID}

@@ -1,4 +1,0 @@
-#name : trashItemAtURL:resultingItemURL:error
-#group : NSFileManager
-# --
-trashItemAtURL:${1:(NSURL *)url} resultingItemURL:${2:(NSURL **)outResultingURL} error:${3:(NSError **)error}

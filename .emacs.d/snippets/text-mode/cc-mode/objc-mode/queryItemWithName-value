@@ -1,4 +1,0 @@
-#name : queryItemWithName:value
-#group : NSURL
-# --
-queryItemWithName:${1:(NSString *)name} value:${2:(NSString *)value}

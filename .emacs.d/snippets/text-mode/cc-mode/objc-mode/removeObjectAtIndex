@@ -1,4 +1,0 @@
-#name : removeObjectAtIndex
-#group : NSOrderedSet
-# --
-removeObjectAtIndex:${1:(NSUInteger)idx}

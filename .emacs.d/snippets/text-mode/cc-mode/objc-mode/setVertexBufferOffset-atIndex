@@ -1,4 +1,0 @@
-#name : setVertexBufferOffset:atIndex
-#group : MTLRenderCommandEncoder
-# --
-setVertexBufferOffset:${1:(NSUInteger)offset} atIndex:${2:(NSUInteger)index}

@@ -1,4 +1,0 @@
-#name : shouldInvalidateLayoutForBoundsChange
-#group : UICollectionViewLayout
-# --
-shouldInvalidateLayoutForBoundsChange:${1:(CGRect)newBounds}

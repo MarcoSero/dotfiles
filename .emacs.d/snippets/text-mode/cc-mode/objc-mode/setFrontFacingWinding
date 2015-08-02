@@ -1,4 +1,0 @@
-#name : setFrontFacingWinding
-#group : MTLRenderCommandEncoder
-# --
-setFrontFacingWinding:${1:(MTLWinding)frontFacingWinding}

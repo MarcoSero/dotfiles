@@ -1,4 +1,0 @@
-#name : captureDevicePointOfInterestForPoint
-#group : AVCaptureVideoPreviewLayer
-# --
-captureDevicePointOfInterestForPoint:${1:(CGPoint)pointInLayer}

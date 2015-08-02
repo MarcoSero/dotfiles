@@ -1,4 +1,0 @@
-#name : initWithUUIDBytes
-#group : NSUUID
-# --
-initWithUUIDBytes:${1:(const uuid_t)bytes}

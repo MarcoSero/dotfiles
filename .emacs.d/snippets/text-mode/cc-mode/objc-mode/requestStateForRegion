@@ -1,4 +1,0 @@
-#name : requestStateForRegion
-#group : CLLocationManager
-# --
-requestStateForRegion:${1:(CLRegion *)region}

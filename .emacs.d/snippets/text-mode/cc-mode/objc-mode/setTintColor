@@ -1,4 +1,0 @@
-#name : setTintColor
-#group : WKInterfaceImage
-# --
-setTintColor:${1:(UIColor *)tintColor}

@@ -1,4 +1,0 @@
-#name : contextWithEAGLContext
-#group : CIContext
-# --
-contextWithEAGLContext:${1:(EAGLContext *)eaglContext}

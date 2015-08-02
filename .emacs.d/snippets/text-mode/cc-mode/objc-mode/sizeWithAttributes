@@ -1,4 +1,0 @@
-#name : sizeWithAttributes
-#group : NSStringDrawing
-# --
-sizeWithAttributes:${1:(NSDictionary *)attrs}

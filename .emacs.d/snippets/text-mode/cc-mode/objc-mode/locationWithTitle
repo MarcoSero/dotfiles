@@ -1,4 +1,0 @@
-#name : locationWithTitle
-#group : EKStructuredLocation
-# --
-locationWithTitle:${1:(NSString *)title}

@@ -1,4 +1,0 @@
-#name : passWithPassTypeIdentifier:serialNumber
-#group : PKPassLibrary
-# --
-passWithPassTypeIdentifier:${1:(NSString *)identifier} serialNumber:${2:(NSString *)serialNumber}

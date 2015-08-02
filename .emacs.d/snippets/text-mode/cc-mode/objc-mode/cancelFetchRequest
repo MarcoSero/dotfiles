@@ -1,4 +1,0 @@
-#name : cancelFetchRequest
-#group : EKEventStore
-# --
-cancelFetchRequest:${1:(id)fetchIdentifier}

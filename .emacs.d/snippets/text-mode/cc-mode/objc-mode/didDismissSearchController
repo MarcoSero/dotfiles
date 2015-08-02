@@ -1,4 +1,0 @@
-#name : didDismissSearchController
-#group : UISearchController
-# --
-didDismissSearchController:${1:(UISearchController *)searchController}

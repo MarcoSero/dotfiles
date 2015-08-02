@@ -1,4 +1,0 @@
-#name : handleActionWithIdentifier:forRemoteNotification
-#group : WKInterfaceController
-# --
-handleActionWithIdentifier:${1:(NSString *)identifier} forRemoteNotification:${2:(NSDictionary *)remoteNotification}

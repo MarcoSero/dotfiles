@@ -1,4 +1,0 @@
-#name : unionOrderedSet
-#group : NSOrderedSet
-# --
-unionOrderedSet:${1:(NSOrderedSet *)other}

@@ -1,4 +1,0 @@
-#name : indexPathForItem:inSection
-#group : UICollectionView
-# --
-indexPathForItem:${1:(NSInteger)item} inSection:${2:(NSInteger)section}

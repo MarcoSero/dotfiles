@@ -1,4 +1,0 @@
-#name : collectionView:layout:referenceSizeForFooterInSection
-#group : UICollectionViewFlowLayout
-# --
-collectionView:${1:(UICollectionView *)collectionView} layout:${2:(UICollectionViewLayout*)collectionViewLayout} referenceSizeForFooterInSection:${3:(NSInteger)section}

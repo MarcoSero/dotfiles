@@ -1,4 +1,0 @@
-#name : initWithCIImage
-#group : UIImage
-# --
-initWithCIImage:${1:(CIImage *)ciImage}

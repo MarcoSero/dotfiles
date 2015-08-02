@@ -1,4 +1,0 @@
-#name : textContainerChangedGeometry
-#group : NSLayoutManager
-# --
-textContainerChangedGeometry:${1:(NSTextContainer *)container}

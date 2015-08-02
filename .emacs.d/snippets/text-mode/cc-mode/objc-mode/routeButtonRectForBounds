@@ -1,4 +1,0 @@
-#name : routeButtonRectForBounds
-#group : MPVolumeView
-# --
-routeButtonRectForBounds:${1:(CGRect)bounds}

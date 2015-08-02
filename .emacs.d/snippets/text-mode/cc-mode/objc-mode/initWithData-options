@@ -1,4 +1,0 @@
-#name : initWithData:options
-#group : SCNSceneSource
-# --
-initWithData:${1:(NSData *)data} options:${2:(NSDictionary *)options}

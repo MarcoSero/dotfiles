@@ -1,4 +1,0 @@
-#name : predicateForWorkoutsWithWorkoutActivityType
-#group : HKQuery
-# --
-predicateForWorkoutsWithWorkoutActivityType:${1:(HKWorkoutActivityType)workoutActivityType}

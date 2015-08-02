@@ -1,4 +1,0 @@
-#name : initWithType:value
-#group : CBDescriptor
-# --
-initWithType:${1:(CBUUID *)UUID} value:${2:(id)value}

@@ -1,4 +1,0 @@
-#name : application:handleWatchKitExtensionRequest
-#group : UIApplication
-# --
-application:${1:(UIApplication *)application} handleWatchKitExtensionRequest:${2:(NSDictionary *)userInfo}

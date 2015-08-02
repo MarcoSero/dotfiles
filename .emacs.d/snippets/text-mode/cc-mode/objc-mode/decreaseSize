@@ -1,4 +1,0 @@
-#name : decreaseSize
-#group : UIResponder
-# --
-decreaseSize:${1:(id)sender}

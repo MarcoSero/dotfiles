@@ -1,4 +1,0 @@
-#name : willMoveFromView
-#group : SKScene
-# --
-willMoveFromView:${1:(SKView *)view}

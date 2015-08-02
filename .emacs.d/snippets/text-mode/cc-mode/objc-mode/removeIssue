@@ -1,4 +1,0 @@
-#name : removeIssue
-#group : NKLibrary
-# --
-removeIssue:${1:(NKIssue *)issue}

@@ -1,4 +1,0 @@
-#name : pushConfigurationViewController
-#group : SLComposeServiceViewController
-# --
-pushConfigurationViewController:${1:(UIViewController *)viewController}

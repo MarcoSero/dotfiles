@@ -1,4 +1,0 @@
-#name : localPlayerDidReceiveChallenge
-#group : GKChallengeEventHandler
-# --
-localPlayerDidReceiveChallenge:${1:(GKChallenge *)challenge}

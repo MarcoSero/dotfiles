@@ -1,4 +1,0 @@
-#name : accessoryBrowser:didFindNewAccessory
-#group : HMAccessoryBrowser
-# --
-accessoryBrowser:${1:(HMAccessoryBrowser *)browser} didFindNewAccessory:${2:(HMAccessory *)accessory}

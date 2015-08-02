@@ -1,4 +1,0 @@
-#name : collectionView:shouldDeselectItemAtIndexPath
-#group : UICollectionView
-# --
-collectionView:${1:(UICollectionView *)collectionView} shouldDeselectItemAtIndexPath:${2:(NSIndexPath *)indexPath}

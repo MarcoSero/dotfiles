@@ -1,4 +1,0 @@
-#name : removeAction
-#group : HMActionSet
-# --
-removeAction:${1:(HMAction *)action}

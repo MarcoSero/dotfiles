@@ -1,4 +1,0 @@
-#name : targetForAction:withSender
-#group : UIResponder
-# --
-targetForAction:${1:(SEL)action} withSender:${2:(id)sender}

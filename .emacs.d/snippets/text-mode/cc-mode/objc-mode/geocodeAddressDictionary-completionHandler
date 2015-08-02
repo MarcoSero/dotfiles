@@ -1,4 +1,0 @@
-#name : geocodeAddressDictionary:completionHandler
-#group : CLGeocoder
-# --
-geocodeAddressDictionary:${1:(NSDictionary *)addressDictionary} completionHandler:${2:(CLGeocodeCompletionHandler)completionHandler}

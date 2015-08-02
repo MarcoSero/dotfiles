@@ -1,4 +1,0 @@
-#name : managedValueWithValue
-#group : JSManagedValue
-# --
-managedValueWithValue:${1:(JSValue *)value}

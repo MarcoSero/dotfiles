@@ -1,4 +1,0 @@
-#name : nodeWithGeometry
-#group : SCNNode
-# --
-nodeWithGeometry:${1:(SCNGeometry *)geometry}

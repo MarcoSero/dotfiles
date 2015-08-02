@@ -1,4 +1,0 @@
-#name : captureOutputShouldProvideSampleAccurateRecordingStart
-#group : AVCaptureOutput
-# --
-captureOutputShouldProvideSampleAccurateRecordingStart:${1:(AVCaptureOutput *)captureOutput}

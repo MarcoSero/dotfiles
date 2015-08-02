@@ -1,4 +1,0 @@
-#name : saveObjects
-#group : HKHealthStore
-# --
-saveObjects:${1:(NSArray *)objects}

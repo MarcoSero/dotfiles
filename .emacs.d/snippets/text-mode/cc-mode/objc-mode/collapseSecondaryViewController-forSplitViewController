@@ -1,4 +1,0 @@
-#name : collapseSecondaryViewController:forSplitViewController
-#group : UISplitViewController
-# --
-collapseSecondaryViewController:${1:(UIViewController *)secondaryViewController} forSplitViewController:${2:(UISplitViewController *)splitViewController}

@@ -1,4 +1,0 @@
-#name : decodeUIOffsetForKey
-#group : UIGeometry
-# --
-decodeUIOffsetForKey:${1:(NSString *)key}

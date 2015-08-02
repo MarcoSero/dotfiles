@@ -1,4 +1,0 @@
-#name : startDownloads
-#group : SKPaymentQueue
-# --
-startDownloads:${1:(NSArray *)downloads}

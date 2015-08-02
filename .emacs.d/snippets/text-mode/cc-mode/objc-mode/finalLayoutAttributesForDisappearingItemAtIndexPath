@@ -1,4 +1,0 @@
-#name : finalLayoutAttributesForDisappearingItemAtIndexPath
-#group : UICollectionViewLayout
-# --
-finalLayoutAttributesForDisappearingItemAtIndexPath:${1:(NSIndexPath *)itemIndexPath}

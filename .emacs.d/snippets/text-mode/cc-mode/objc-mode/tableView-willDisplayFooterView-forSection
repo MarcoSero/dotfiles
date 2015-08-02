@@ -1,4 +1,0 @@
-#name : tableView:willDisplayFooterView:forSection
-#group : UITableView
-# --
-tableView:${1:(UITableView *)tableView} willDisplayFooterView:${2:(UIView *)view} forSection:${3:(NSInteger)section}

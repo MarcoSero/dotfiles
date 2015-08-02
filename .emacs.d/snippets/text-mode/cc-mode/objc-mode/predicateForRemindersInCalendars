@@ -1,4 +1,0 @@
-#name : predicateForRemindersInCalendars
-#group : EKEventStore
-# --
-predicateForRemindersInCalendars:${1:(NSArray *)calendars}

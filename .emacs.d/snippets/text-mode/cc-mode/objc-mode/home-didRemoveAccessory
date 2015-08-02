@@ -1,4 +1,0 @@
-#name : home:didRemoveAccessory
-#group : HMHome
-# --
-home:${1:(HMHome *)home} didRemoveAccessory:${2:(HMAccessory *)accessory}

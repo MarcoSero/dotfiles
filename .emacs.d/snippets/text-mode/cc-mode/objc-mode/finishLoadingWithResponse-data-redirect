@@ -1,4 +1,0 @@
-#name : finishLoadingWithResponse:data:redirect
-#group : AVAssetResourceLoader
-# --
-finishLoadingWithResponse:${1:(NSURLResponse *)response} data:${2:(NSData *)data} redirect:${3:(NSURLRequest *)redirect}

@@ -1,4 +1,0 @@
-#name : batchUpdateRequestWithEntityName
-#group : NSBatchUpdateRequest
-# --
-batchUpdateRequestWithEntityName:${1:(NSString*)entityName}

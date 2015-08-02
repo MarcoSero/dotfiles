@@ -1,4 +1,0 @@
-#name : addConstraints
-#group : UIView
-# --
-addConstraints:${1:(NSArray *)constraints}

@@ -1,4 +1,0 @@
-#name : removeModifiersOfStage
-#group : SCNParticleSystem
-# --
-removeModifiersOfStage:${1:(SCNParticleModifierStage)stage}

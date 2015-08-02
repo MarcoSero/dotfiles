@@ -1,4 +1,0 @@
-#name : removeChildBehavior
-#group : UIDynamicBehavior
-# --
-removeChildBehavior:${1:(UIDynamicBehavior *)behavior}

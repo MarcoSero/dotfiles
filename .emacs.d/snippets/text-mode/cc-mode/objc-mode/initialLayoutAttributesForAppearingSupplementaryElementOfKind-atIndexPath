@@ -1,4 +1,0 @@
-#name : initialLayoutAttributesForAppearingSupplementaryElementOfKind:atIndexPath
-#group : UICollectionViewLayout
-# --
-initialLayoutAttributesForAppearingSupplementaryElementOfKind:${1:(NSString *)elementKind} atIndexPath:${2:(NSIndexPath *)elementIndexPath}

@@ -1,4 +1,0 @@
-#name : literUnitWithMetricPrefix
-#group : HKUnit
-# --
-literUnitWithMetricPrefix:${1:(HKMetricPrefix)prefix}

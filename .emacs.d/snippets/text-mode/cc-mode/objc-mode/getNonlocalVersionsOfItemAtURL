@@ -1,4 +1,0 @@
-#name : getNonlocalVersionsOfItemAtURL
-#group : NSFileVersion
-# --
-getNonlocalVersionsOfItemAtURL:${1:(NSURL *)url}

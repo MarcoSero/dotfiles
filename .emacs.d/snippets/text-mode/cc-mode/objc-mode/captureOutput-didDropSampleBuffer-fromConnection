@@ -1,4 +1,0 @@
-#name : captureOutput:didDropSampleBuffer:fromConnection
-#group : AVCaptureOutput
-# --
-captureOutput:${1:(AVCaptureOutput *)captureOutput} didDropSampleBuffer:${2:(CMSampleBufferRef)sampleBuffer} fromConnection:${3:(AVCaptureConnection *)connection}

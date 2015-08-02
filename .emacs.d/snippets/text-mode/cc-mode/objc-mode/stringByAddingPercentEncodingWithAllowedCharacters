@@ -1,4 +1,0 @@
-#name : stringByAddingPercentEncodingWithAllowedCharacters
-#group : NSURL
-# --
-stringByAddingPercentEncodingWithAllowedCharacters:${1:(NSCharacterSet *)allowedCharacters}

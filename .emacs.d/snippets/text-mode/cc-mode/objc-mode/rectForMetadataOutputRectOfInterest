@@ -1,4 +1,0 @@
-#name : rectForMetadataOutputRectOfInterest
-#group : AVCaptureVideoPreviewLayer
-# --
-rectForMetadataOutputRectOfInterest:${1:(CGRect)rectInMetadataOutputCoordinates}

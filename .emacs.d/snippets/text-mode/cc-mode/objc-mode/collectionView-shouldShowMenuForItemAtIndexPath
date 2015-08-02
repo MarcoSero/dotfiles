@@ -1,4 +1,0 @@
-#name : collectionView:shouldShowMenuForItemAtIndexPath
-#group : UICollectionView
-# --
-collectionView:${1:(UICollectionView *)collectionView} shouldShowMenuForItemAtIndexPath:${2:(NSIndexPath *)indexPath}

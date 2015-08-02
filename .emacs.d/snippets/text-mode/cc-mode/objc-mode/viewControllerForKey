@@ -1,4 +1,0 @@
-#name : viewControllerForKey
-#group : UIViewControllerTransitioning
-# --
-viewControllerForKey:${1:(NSString *)key}

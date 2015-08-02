@@ -1,4 +1,0 @@
-#name : setPurgeableState
-#group : MTLResource
-# --
-setPurgeableState:${1:(MTLPurgeableState)state}

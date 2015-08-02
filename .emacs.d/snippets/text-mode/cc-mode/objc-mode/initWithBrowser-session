@@ -1,4 +1,0 @@
-#name : initWithBrowser:session
-#group : MCBrowserViewController
-# --
-initWithBrowser:${1:(MCNearbyServiceBrowser *)browser} session:${2:(MCSession *)session}

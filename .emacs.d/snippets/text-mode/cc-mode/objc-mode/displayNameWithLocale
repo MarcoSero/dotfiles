@@ -1,4 +1,0 @@
-#name : displayNameWithLocale
-#group : AVMediaSelectionGroup
-# --
-displayNameWithLocale:${1:(NSLocale *)locale}

@@ -1,4 +1,0 @@
-#name : authorizationStatusForType
-#group : HKHealthStore
-# --
-authorizationStatusForType:${1:(HKObjectType *)type}

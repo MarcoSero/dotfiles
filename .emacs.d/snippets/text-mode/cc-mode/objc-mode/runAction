@@ -1,4 +1,0 @@
-#name : runAction
-#group : SKNode
-# --
-runAction:${1:(SKAction *)action}

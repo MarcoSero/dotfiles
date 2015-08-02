@@ -1,4 +1,0 @@
-#name : cancelPendingInviteToPlayer
-#group : GKMatchmaker
-# --
-cancelPendingInviteToPlayer:${1:(GKPlayer *)player}

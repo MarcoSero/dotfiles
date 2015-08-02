@@ -1,4 +1,0 @@
-#name : shapeWithPath:extrusionDepth
-#group : SCNParametricGeometry
-# --
-shapeWithPath:${1:(UIBezierPath *)path} extrusionDepth:${2:(CGFloat)extrusionDepth}

@@ -1,4 +1,0 @@
-#name : newObjectIDForEntity:referenceObject
-#group : NSIncrementalStore
-# --
-newObjectIDForEntity:${1:(NSEntityDescription *)entity} referenceObject:${2:(id)data}

@@ -1,4 +1,0 @@
-#name : collectionView:didEndDisplayingCell:forItemAtIndexPath
-#group : UICollectionView
-# --
-collectionView:${1:(UICollectionView *)collectionView} didEndDisplayingCell:${2:(UICollectionViewCell *)cell} forItemAtIndexPath:${3:(NSIndexPath *)indexPath}

@@ -1,4 +1,0 @@
-#name : materialPropertyWithContents
-#group : SCNMaterialProperty
-# --
-materialPropertyWithContents:${1:(id)contents}

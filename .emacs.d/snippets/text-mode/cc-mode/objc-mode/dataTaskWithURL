@@ -1,4 +1,0 @@
-#name : dataTaskWithURL
-#group : NSURLSession
-# --
-dataTaskWithURL:${1:(NSURL *)url}

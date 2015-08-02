@@ -1,4 +1,0 @@
-#name : matchingFontDescriptorsWithMandatoryKeys
-#group : UIFontDescriptor
-# --
-matchingFontDescriptorsWithMandatoryKeys:${1:(NSSet *)mandatoryKeys}

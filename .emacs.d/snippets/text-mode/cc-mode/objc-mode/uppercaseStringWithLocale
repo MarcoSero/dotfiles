@@ -1,4 +1,0 @@
-#name : uppercaseStringWithLocale
-#group : NSString
-# --
-uppercaseStringWithLocale:${1:(NSLocale *)locale}

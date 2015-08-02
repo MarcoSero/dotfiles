@@ -1,4 +1,0 @@
-#name : setDate
-#group : WKInterfaceTimer
-# --
-setDate:${1:(NSDate *)date}

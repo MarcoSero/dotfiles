@@ -1,4 +1,0 @@
-#name : requestContentEditingInputWithOptions
-#group : PHAssetChangeRequest
-# --
-requestContentEditingInputWithOptions:${1:(PHContentEditingInputRequestOptions *)options}

@@ -1,4 +1,0 @@
-#name : resizableSnapshotViewFromRect:afterScreenUpdates:withCapInsets
-#group : UIView
-# --
-resizableSnapshotViewFromRect:${1:(CGRect)rect} afterScreenUpdates:${2:(BOOL)afterUpdates} withCapInsets:${3:(UIEdgeInsets)capInsets}

@@ -1,4 +1,0 @@
-#name : mutableTextureWithSize
-#group : SKMutableTexture
-# --
-mutableTextureWithSize:${1:(CGSize)size}

@@ -1,4 +1,0 @@
-#name : addModifierForProperties:atStage:withBlock
-#group : SCNParticleSystem
-# --
-addModifierForProperties:${1:(NSArray *)properties} atStage:${2:(SCNParticleModifierStage)stage} withBlock:${3:(SCNParticleModifierBlock)block}

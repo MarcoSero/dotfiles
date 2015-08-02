@@ -1,4 +1,0 @@
-#name : dequeueReusableHeaderFooterViewWithIdentifier
-#group : UITableView
-# --
-dequeueReusableHeaderFooterViewWithIdentifier:${1:(NSString *)identifier}

@@ -1,4 +1,0 @@
-#name : initWithCVPixelBuffer
-#group : CIImage
-# --
-initWithCVPixelBuffer:${1:(CVPixelBufferRef)buffer}

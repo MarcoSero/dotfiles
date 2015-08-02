@@ -1,4 +1,0 @@
-#name : presentationController:willPresentWithAdaptiveStyle
-#group : UIPresentationController
-# --
-presentationController:${1:(UIPresentationController *)presentationController} willPresentWithAdaptiveStyle:${2:(UIModalPresentationStyle)style}

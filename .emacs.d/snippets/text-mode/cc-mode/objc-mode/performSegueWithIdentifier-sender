@@ -1,4 +1,0 @@
-#name : performSegueWithIdentifier:sender
-#group : UIViewController
-# --
-performSegueWithIdentifier:${1:(NSString *)identifier} sender:${2:(id)sender}

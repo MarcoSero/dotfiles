@@ -1,4 +1,0 @@
-#name : initWithTextMarkupAttributes
-#group : AVTextStyleRule
-# --
-initWithTextMarkupAttributes:${1:(NSDictionary *)textMarkupAttributes}

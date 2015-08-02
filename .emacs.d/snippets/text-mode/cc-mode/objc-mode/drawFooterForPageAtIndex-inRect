@@ -1,4 +1,0 @@
-#name : drawFooterForPageAtIndex:inRect
-#group : UIPrintPageRenderer
-# --
-drawFooterForPageAtIndex:${1:(NSInteger)pageIndex} inRect:${2:(CGRect)footerRect}

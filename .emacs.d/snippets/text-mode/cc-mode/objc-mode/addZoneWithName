@@ -1,4 +1,0 @@
-#name : addZoneWithName
-#group : HMHome
-# --
-addZoneWithName:${1:(NSString *)zoneName}

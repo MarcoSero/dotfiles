@@ -1,4 +1,0 @@
-#name : childNodeWithName
-#group : SKNode
-# --
-childNodeWithName:${1:(NSString *)name}

@@ -1,4 +1,0 @@
-#name : pageViewControllerPreferredInterfaceOrientationForPresentation
-#group : UIPageViewController
-# --
-pageViewControllerPreferredInterfaceOrientationForPresentation:${1:(UIPageViewController *)pageViewController}

@@ -1,4 +1,0 @@
-#name : beginAppearanceTransition:animated
-#group : UIViewController
-# --
-beginAppearanceTransition:${1:(BOOL)isAppearing} animated:${2:(BOOL)animated}

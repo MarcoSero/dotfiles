@@ -1,4 +1,0 @@
-#name : insertPointer:atIndex
-#group : NSPointerArray
-# --
-insertPointer:${1:(void *)item} atIndex:${2:(NSUInteger)index}

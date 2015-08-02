@@ -1,4 +1,0 @@
-#name : setTitle
-#group : WKInterfaceSwitch
-# --
-setTitle:${1:(NSString *)title}

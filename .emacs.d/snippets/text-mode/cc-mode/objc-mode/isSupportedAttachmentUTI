@@ -1,4 +1,0 @@
-#name : isSupportedAttachmentUTI
-#group : MFMessageComposeViewController
-# --
-isSupportedAttachmentUTI:${1:(NSString *)uti}

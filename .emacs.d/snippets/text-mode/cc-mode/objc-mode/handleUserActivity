@@ -1,4 +1,0 @@
-#name : handleUserActivity
-#group : WKInterfaceController
-# --
-handleUserActivity:${1:(NSDictionary *)userInfo}

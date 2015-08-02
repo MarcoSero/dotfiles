@@ -1,4 +1,0 @@
-#name : creationRequestForCollectionListWithTitle
-#group : PHCollectionListChangeRequest
-# --
-creationRequestForCollectionListWithTitle:${1:(NSString *)title}

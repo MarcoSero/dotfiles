@@ -1,4 +1,0 @@
-#name : registerNib:forHeaderFooterViewReuseIdentifier
-#group : UITableView
-# --
-registerNib:${1:(UINib *)nib} forHeaderFooterViewReuseIdentifier:${2:(NSString *)identifier}

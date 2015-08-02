@@ -1,4 +1,0 @@
-#name : restoreUserActivityState
-#group : UIResponder
-# --
-restoreUserActivityState:${1:(NSUserActivity *)activity}

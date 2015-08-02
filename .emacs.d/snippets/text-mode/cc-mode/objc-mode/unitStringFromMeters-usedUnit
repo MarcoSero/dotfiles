@@ -1,4 +1,0 @@
-#name : unitStringFromMeters:usedUnit
-#group : NSLengthFormatter
-# --
-unitStringFromMeters:${1:(double)numberInMeters} usedUnit:${2:(NSLengthFormatterUnit *)unitp}

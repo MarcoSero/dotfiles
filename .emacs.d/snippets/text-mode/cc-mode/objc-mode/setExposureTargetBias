@@ -1,4 +1,0 @@
-#name : setExposureTargetBias
-#group : AVCaptureDevice
-# --
-setExposureTargetBias:${1:(float)bias}

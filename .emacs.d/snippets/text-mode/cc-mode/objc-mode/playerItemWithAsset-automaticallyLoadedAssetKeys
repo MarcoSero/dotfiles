@@ -1,4 +1,0 @@
-#name : playerItemWithAsset:automaticallyLoadedAssetKeys
-#group : AVPlayerItem
-# --
-playerItemWithAsset:${1:(AVAsset *)asset} automaticallyLoadedAssetKeys:${2:(NSArray *)automaticallyLoadedAssetKeys}

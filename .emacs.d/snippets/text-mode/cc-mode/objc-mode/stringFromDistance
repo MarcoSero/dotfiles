@@ -1,4 +1,0 @@
-#name : stringFromDistance
-#group : MKDistanceFormatter
-# --
-stringFromDistance:${1:(CLLocationDistance)distance}

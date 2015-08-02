@@ -1,4 +1,0 @@
-#name : techniqueWithDictionary
-#group : SCNTechnique
-# --
-techniqueWithDictionary:${1:(NSDictionary *)dictionary}

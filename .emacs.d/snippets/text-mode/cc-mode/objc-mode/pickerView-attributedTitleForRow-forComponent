@@ -1,4 +1,0 @@
-#name : pickerView:attributedTitleForRow:forComponent
-#group : UIPickerView
-# --
-pickerView:${1:(UIPickerView *)pickerView} attributedTitleForRow:${2:(NSInteger)row} forComponent:${3:(NSInteger)component}

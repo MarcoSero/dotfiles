@@ -1,4 +1,0 @@
-#name : presentTextInputControllerWithSuggestions:allowedInputMode
-#group : WKInterfaceController
-# --
-presentTextInputControllerWithSuggestions:${1:(NSArray *)suggestions} allowedInputMode:${2:(WKTextInputMode)inputMode}

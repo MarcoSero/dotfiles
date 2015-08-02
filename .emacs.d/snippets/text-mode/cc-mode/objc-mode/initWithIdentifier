@@ -1,4 +1,0 @@
-#name : initWithIdentifier
-#group : MPContentItem
-# --
-initWithIdentifier:${1:(NSString *)identifier}

@@ -1,4 +1,0 @@
-#name : setScale
-#group : SKNode
-# --
-setScale:${1:(CGFloat)scale}

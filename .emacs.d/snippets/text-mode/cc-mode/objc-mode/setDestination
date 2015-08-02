@@ -1,4 +1,0 @@
-#name : setDestination
-#group : MKDirectionsRequest
-# --
-setDestination:${1:(MKMapItem *)destination}

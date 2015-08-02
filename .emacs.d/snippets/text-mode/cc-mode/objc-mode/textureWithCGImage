@@ -1,4 +1,0 @@
-#name : textureWithCGImage
-#group : SKTexture
-# --
-textureWithCGImage:${1:(CGImageRef)image}

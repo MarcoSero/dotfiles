@@ -1,4 +1,0 @@
-#name : fetchCollectionListsWithLocalIdentifiers:options
-#group : PHCollection
-# --
-fetchCollectionListsWithLocalIdentifiers:${1:(NSArray *)identifiers} options:${2:(PHFetchOptions *)options}

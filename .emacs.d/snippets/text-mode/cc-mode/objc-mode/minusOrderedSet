@@ -1,4 +1,0 @@
-#name : minusOrderedSet
-#group : NSOrderedSet
-# --
-minusOrderedSet:${1:(NSOrderedSet *)other}

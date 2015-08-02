@@ -1,4 +1,0 @@
-#name : setWidth
-#group : WKInterfaceObject
-# --
-setWidth:${1:(CGFloat)width}

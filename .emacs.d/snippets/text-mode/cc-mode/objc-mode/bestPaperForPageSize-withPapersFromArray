@@ -1,4 +1,0 @@
-#name : bestPaperForPageSize:withPapersFromArray
-#group : UIPrintPaper
-# --
-bestPaperForPageSize:${1:(CGSize)contentSize} withPapersFromArray:${2:(NSArray *)paperList}

@@ -1,4 +1,0 @@
-#name : setAnimationTimingFunction
-#group : SCNTransaction
-# --
-setAnimationTimingFunction:${1:(CAMediaTimingFunction *)function}

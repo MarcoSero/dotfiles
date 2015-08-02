@@ -1,4 +1,0 @@
-#name : removeChildCollectionsAtIndexes
-#group : PHCollectionListChangeRequest
-# --
-removeChildCollectionsAtIndexes:${1:(NSIndexSet *)indexes}

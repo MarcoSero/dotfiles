@@ -1,4 +1,0 @@
-#name : headerViewForSection
-#group : UITableView
-# --
-headerViewForSection:${1:(NSInteger)section}

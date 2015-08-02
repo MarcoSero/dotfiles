@@ -1,4 +1,0 @@
-#name : drawRect:forViewPrintFormatter
-#group : UIPrintFormatter
-# --
-drawRect:${1:(CGRect)rect} forViewPrintFormatter:${2:(UIViewPrintFormatter *)formatter}

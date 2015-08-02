@@ -1,4 +1,0 @@
-#name : modelIdentifierForElementAtIndexPath:inView
-#group : UIStateRestoration
-# --
-modelIdentifierForElementAtIndexPath:${1:(NSIndexPath *)idx} inView:${2:(UIView *)view}

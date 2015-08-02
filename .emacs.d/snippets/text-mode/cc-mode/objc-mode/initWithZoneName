@@ -1,4 +1,0 @@
-#name : initWithZoneName
-#group : CKRecordZone
-# --
-initWithZoneName:${1:(NSString *)zoneName}

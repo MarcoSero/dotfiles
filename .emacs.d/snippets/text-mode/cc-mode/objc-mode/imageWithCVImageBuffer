@@ -1,4 +1,0 @@
-#name : imageWithCVImageBuffer
-#group : CIImage
-# --
-imageWithCVImageBuffer:${1:(CVImageBufferRef)imageBuffer}

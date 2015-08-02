@@ -1,4 +1,0 @@
-#name : sceneNamed
-#group : SCNScene
-# --
-sceneNamed:${1:(NSString *)name}
