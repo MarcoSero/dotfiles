@@ -1,0 +1,4 @@
+#name : initForReading:error
+#group : AVAudioFile
+# --
+initForReading:${1:(NSURL *)fileURL} error:${2:(NSError **)outError}

@@ -1,0 +1,4 @@
+#name : ensureLayoutForBoundingRect:inTextContainer
+#group : NSLayoutManager
+# --
+ensureLayoutForBoundingRect:${1:(CGRect)bounds} inTextContainer:${2:(NSTextContainer *)container}

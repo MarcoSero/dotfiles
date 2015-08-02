@@ -1,0 +1,4 @@
+#name : updateTimeZone
+#group : HMTimerTrigger
+# --
+updateTimeZone:${1:(NSTimeZone *)timeZone}

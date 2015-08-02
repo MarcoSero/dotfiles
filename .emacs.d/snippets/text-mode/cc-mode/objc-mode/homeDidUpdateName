@@ -1,0 +1,4 @@
+#name : homeDidUpdateName
+#group : HMHome
+# --
+homeDidUpdateName:${1:(HMHome *)home}

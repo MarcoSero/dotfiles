@@ -1,0 +1,4 @@
+#name : replaceAssetsAtIndexes
+#group : PHAssetCollectionChangeRequest
+# --
+replaceAssetsAtIndexes:${1:(NSIndexSet *)indexes}

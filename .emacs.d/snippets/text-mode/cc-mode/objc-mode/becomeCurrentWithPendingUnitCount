@@ -1,0 +1,4 @@
+#name : becomeCurrentWithPendingUnitCount
+#group : NSProgress
+# --
+becomeCurrentWithPendingUnitCount:${1:(int64_t)unitCount}

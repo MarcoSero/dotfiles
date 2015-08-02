@@ -1,0 +1,4 @@
+#name : encodeCGVector:forKey
+#group : UIGeometry
+# --
+encodeCGVector:${1:(CGVector)vector} forKey:${2:(NSString *)key}

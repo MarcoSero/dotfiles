@@ -1,0 +1,4 @@
+#name : selectMediaOptionAutomaticallyInMediaSelectionGroup
+#group : AVPlayerItem
+# --
+selectMediaOptionAutomaticallyInMediaSelectionGroup:${1:(AVMediaSelectionGroup *)mediaSelectionGroup}

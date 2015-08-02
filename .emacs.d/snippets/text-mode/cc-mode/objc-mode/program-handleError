@@ -1,0 +1,4 @@
+#name : program:handleError
+#group : SCNShadable
+# --
+program:${1:(SCNProgram *)program} handleError:${2:(NSError *)error}

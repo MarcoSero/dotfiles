@@ -1,0 +1,4 @@
+#name : videoNodeWithVideoURL
+#group : SKVideoNode
+# --
+videoNodeWithVideoURL:${1:(NSURL *)videoURL}

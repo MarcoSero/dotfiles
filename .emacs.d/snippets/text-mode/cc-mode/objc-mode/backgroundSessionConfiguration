@@ -1,0 +1,4 @@
+#name : backgroundSessionConfiguration
+#group : NSURLSession
+# --
+backgroundSessionConfiguration:${1:(NSString *)identifier}

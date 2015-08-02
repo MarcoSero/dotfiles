@@ -1,0 +1,4 @@
+#name : stopCachingImagesForAssets:targetSize:contentMode:options
+#group : PHImageManager
+# --
+stopCachingImagesForAssets:${1:(NSArray *)assets} targetSize:${2:(CGSize)targetSize} contentMode:${3:(PHImageContentMode)contentMode} options:${4:(PHImageRequestOptions *)options}

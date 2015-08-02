@@ -1,0 +1,4 @@
+#name : shadowImageForToolbarPosition
+#group : UIToolbar
+# --
+shadowImageForToolbarPosition:${1:(UIBarPosition)topOrBottom}

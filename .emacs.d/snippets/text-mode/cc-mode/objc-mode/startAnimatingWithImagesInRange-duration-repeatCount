@@ -1,0 +1,4 @@
+#name : startAnimatingWithImagesInRange:duration:repeatCount
+#group : WKInterfaceImage
+# --
+startAnimatingWithImagesInRange:${1:(NSRange)imageRange} duration:${2:(NSTimeInterval)duration} repeatCount:${3:(NSInteger)repeatCount}

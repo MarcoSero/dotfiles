@@ -1,0 +1,4 @@
+#name : layoutAttributesForDecorationViewOfKind:atIndexPath
+#group : UIDynamicAnimator
+# --
+layoutAttributesForDecorationViewOfKind:${1:(NSString*)decorationViewKind} atIndexPath:${2:(NSIndexPath *)indexPath}

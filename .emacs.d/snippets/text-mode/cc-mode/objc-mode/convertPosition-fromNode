@@ -1,0 +1,4 @@
+#name : convertPosition:fromNode
+#group : SCNNode
+# --
+convertPosition:${1:(SCNVector3)position} fromNode:${2:(SCNNode *)node}

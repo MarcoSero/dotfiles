@@ -1,0 +1,4 @@
+#name : respondWithData
+#group : AVAssetResourceLoader
+# --
+respondWithData:${1:(NSData *)data}

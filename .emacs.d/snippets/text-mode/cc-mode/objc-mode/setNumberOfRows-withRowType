@@ -1,0 +1,4 @@
+#name : setNumberOfRows:withRowType
+#group : WKInterfaceTable
+# --
+setNumberOfRows:${1:(NSInteger)numberOfRows} withRowType:${2:(NSString *)rowType}

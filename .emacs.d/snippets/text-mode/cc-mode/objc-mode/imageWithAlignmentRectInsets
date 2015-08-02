@@ -1,0 +1,4 @@
+#name : imageWithAlignmentRectInsets
+#group : UIImage
+# --
+imageWithAlignmentRectInsets:${1:(UIEdgeInsets)alignmentInsets}

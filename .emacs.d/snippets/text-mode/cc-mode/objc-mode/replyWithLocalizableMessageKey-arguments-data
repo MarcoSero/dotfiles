@@ -1,0 +1,4 @@
+#name : replyWithLocalizableMessageKey:arguments:data
+#group : GKTurnBasedMatch
+# --
+replyWithLocalizableMessageKey:${1:(NSString *)key} arguments:${2:(NSArray *)arguments} data:${3:(NSData *)data}

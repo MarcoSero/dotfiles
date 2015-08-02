@@ -1,0 +1,4 @@
+#name : spriteNodeWithTexture:size
+#group : SKSpriteNode
+# --
+spriteNodeWithTexture:${1:(SKTexture *)texture} size:${2:(CGSize)size}

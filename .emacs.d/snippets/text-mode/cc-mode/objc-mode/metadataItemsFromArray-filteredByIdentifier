@@ -1,0 +1,4 @@
+#name : metadataItemsFromArray:filteredByIdentifier
+#group : AVMetadataItem
+# --
+metadataItemsFromArray:${1:(NSArray *)metadataItems} filteredByIdentifier:${2:(NSString *)identifier}

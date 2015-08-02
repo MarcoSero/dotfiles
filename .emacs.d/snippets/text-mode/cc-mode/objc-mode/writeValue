@@ -1,0 +1,4 @@
+#name : writeValue
+#group : HMCharacteristic
+# --
+writeValue:${1:(id)value}

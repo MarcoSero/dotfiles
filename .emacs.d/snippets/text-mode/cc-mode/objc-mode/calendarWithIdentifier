@@ -1,0 +1,4 @@
+#name : calendarWithIdentifier
+#group : NSCalendar
+# --
+calendarWithIdentifier:${1:(NSString *)calendarIdentifierConstant}

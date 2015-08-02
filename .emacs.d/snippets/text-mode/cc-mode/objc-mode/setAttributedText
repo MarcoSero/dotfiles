@@ -1,0 +1,4 @@
+#name : setAttributedText
+#group : WKInterfaceLabel
+# --
+setAttributedText:${1:(NSAttributedString *)attributedText}

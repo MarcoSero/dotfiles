@@ -1,0 +1,4 @@
+#name : URLSession:didReceiveChallenge
+#group : NSURLSession
+# --
+URLSession:${1:(NSURLSession *)session} didReceiveChallenge:${2:(NSURLAuthenticationChallenge *)challenge}

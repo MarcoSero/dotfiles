@@ -1,0 +1,4 @@
+#name : hasProperty
+#group : JSValue
+# --
+hasProperty:${1:(NSString *)property}

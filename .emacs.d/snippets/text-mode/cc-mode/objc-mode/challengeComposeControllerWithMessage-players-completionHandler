@@ -1,0 +1,4 @@
+#name : challengeComposeControllerWithMessage:players:completionHandler
+#group : GKChallenge
+# --
+challengeComposeControllerWithMessage:${1:(NSString *)message} players:${2:(NSArray *)players} completionHandler:${3:(GKChallengeComposeCompletionBlock)completionHandler}

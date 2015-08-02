@@ -1,0 +1,4 @@
+#name : newRenderPipelineStateWithDescriptor:options
+#group : MTLDevice
+# --
+newRenderPipelineStateWithDescriptor:${1:(MTLRenderPipelineDescriptor *)descriptor} options:${2:(MTLPipelineOption)options}

@@ -1,0 +1,4 @@
+#name : targetContentOffsetForProposedContentOffset
+#group : UICollectionViewLayout
+# --
+targetContentOffsetForProposedContentOffset:${1:(CGPoint)proposedContentOffset}

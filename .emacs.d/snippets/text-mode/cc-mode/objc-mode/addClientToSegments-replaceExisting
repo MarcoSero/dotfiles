@@ -1,0 +1,4 @@
+#name : addClientToSegments:replaceExisting
+#group : ADClient
+# --
+addClientToSegments:${1:(NSArray *)segmentIdentifiers} replaceExisting:${2:(BOOL)replaceExisting}

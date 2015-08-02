@@ -1,0 +1,4 @@
+#name : routeButtonImageForState
+#group : MPVolumeView
+# --
+routeButtonImageForState:${1:(UIControlState)state}

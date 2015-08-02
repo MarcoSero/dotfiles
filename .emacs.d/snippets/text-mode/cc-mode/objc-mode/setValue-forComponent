@@ -1,0 +1,4 @@
+#name : setValue:forComponent
+#group : NSCalendar
+# --
+setValue:${1:(NSInteger)value} forComponent:${2:(NSCalendarUnit)unit}

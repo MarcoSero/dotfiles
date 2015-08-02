@@ -1,0 +1,4 @@
+#name : session:didReceiveCertificate:fromPeer
+#group : MCSession
+# --
+session:${1:(MCSession *)session} didReceiveCertificate:${2:(NSArray *)certificate} fromPeer:${3:(MCPeerID *)peerID}

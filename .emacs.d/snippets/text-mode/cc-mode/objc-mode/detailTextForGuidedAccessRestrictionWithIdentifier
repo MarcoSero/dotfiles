@@ -1,0 +1,4 @@
+#name : detailTextForGuidedAccessRestrictionWithIdentifier
+#group : UIGuidedAccessRestrictions
+# --
+detailTextForGuidedAccessRestrictionWithIdentifier:${1:(NSString *)restrictionIdentifier}

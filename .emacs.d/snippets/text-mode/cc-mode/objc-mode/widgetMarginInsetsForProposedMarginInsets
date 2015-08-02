@@ -1,0 +1,4 @@
+#name : widgetMarginInsetsForProposedMarginInsets
+#group : NCWidgetProviding
+# --
+widgetMarginInsetsForProposedMarginInsets:${1:(UIEdgeInsets)defaultMarginInsets}

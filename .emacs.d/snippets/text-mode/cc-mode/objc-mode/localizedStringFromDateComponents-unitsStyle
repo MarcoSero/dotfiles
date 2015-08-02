@@ -1,0 +1,4 @@
+#name : localizedStringFromDateComponents:unitsStyle
+#group : NSDateComponentsFormatter
+# --
+localizedStringFromDateComponents:${1:(NSDateComponents *)components} unitsStyle:${2:(NSDateComponentsFormatterUnitsStyle)unitsStyle}

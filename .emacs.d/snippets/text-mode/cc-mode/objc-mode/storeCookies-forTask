@@ -1,0 +1,4 @@
+#name : storeCookies:forTask
+#group : NSHTTPCookieStorage
+# --
+storeCookies:${1:(NSArray *)cookies} forTask:${2:(NSURLSessionTask *)task}

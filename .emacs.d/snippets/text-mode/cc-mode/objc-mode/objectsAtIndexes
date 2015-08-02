@@ -1,0 +1,4 @@
+#name : objectsAtIndexes
+#group : PHFetchResult
+# --
+objectsAtIndexes:${1:(NSIndexSet *)indexes}

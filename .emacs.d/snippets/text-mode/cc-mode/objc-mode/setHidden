@@ -1,0 +1,4 @@
+#name : setHidden
+#group : WKInterfaceObject
+# --
+setHidden:${1:(BOOL)hidden}

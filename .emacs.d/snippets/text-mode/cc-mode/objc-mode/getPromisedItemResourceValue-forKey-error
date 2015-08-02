@@ -1,0 +1,4 @@
+#name : getPromisedItemResourceValue:forKey:error
+#group : NSURL
+# --
+getPromisedItemResourceValue:${1:(id *)value} forKey:${2:(NSString *)key} error:${3:(NSError **)error}

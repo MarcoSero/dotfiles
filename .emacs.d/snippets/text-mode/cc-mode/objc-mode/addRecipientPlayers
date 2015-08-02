@@ -1,0 +1,4 @@
+#name : addRecipientPlayers
+#group : GKFriendRequestComposeViewController
+# --
+addRecipientPlayers:${1:(NSArray *)players}

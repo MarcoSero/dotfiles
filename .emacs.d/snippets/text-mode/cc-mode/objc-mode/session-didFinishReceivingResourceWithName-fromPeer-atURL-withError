@@ -1,0 +1,4 @@
+#name : session:didFinishReceivingResourceWithName:fromPeer:atURL:withError
+#group : MCSession
+# --
+session:${1:(MCSession *)session} didFinishReceivingResourceWithName:${2:(NSString *)resourceName} fromPeer:${3:(MCPeerID *)peerID} atURL:${4:(NSURL *)localURL} withError:${5:(NSError *)error}

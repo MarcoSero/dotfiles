@@ -1,0 +1,4 @@
+#name : photoLibraryDidChange
+#group : PHPhotoLibrary
+# --
+photoLibraryDidChange:${1:(PHChange *)changeInstance}

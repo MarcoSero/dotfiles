@@ -1,0 +1,4 @@
+#name : setFocusModeLockedWithLensPosition
+#group : AVCaptureDevice
+# --
+setFocusModeLockedWithLensPosition:${1:(float)lensPosition}

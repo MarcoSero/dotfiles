@@ -1,0 +1,17 @@
+K 8
+passtype
+V 6
+simple
+K 8
+password
+V 11
+r@ndomqu3ry
+K 15
+svn:realmstring
+V 68
+<https://theappbusiness.svn.cloudforge.com:443> theappbusiness login
+K 8
+username
+V 9
+marcosero
+END

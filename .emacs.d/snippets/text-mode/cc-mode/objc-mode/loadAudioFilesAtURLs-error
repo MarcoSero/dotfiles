@@ -1,0 +1,4 @@
+#name : loadAudioFilesAtURLs:error
+#group : AVAudioUnitSampler
+# --
+loadAudioFilesAtURLs:${1:(NSArray *)audioFiles} error:${2:(NSError **)outError}

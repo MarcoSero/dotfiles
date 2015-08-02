@@ -1,0 +1,4 @@
+#name : prepareForAnimatedBoundsChange
+#group : UICollectionViewLayout
+# --
+prepareForAnimatedBoundsChange:${1:(CGRect)oldBounds}

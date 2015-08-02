@@ -1,0 +1,4 @@
+#name : connectPeer:withNearbyConnectionData
+#group : MCSession
+# --
+connectPeer:${1:(MCPeerID *)peerID} withNearbyConnectionData:${2:(NSData *)data}

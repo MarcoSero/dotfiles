@@ -1,0 +1,4 @@
+#name : bodyWithEdgeLoopFromPath
+#group : SKPhysicsBody
+# --
+bodyWithEdgeLoopFromPath:${1:(CGPathRef)path}

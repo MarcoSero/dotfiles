@@ -1,0 +1,4 @@
+#name : removeUbiquitousContentAndPersistentStoreAtURL:options:error
+#group : NSPersistentStoreCoordinator
+# --
+removeUbiquitousContentAndPersistentStoreAtURL:${1:(NSURL *)storeURL} options:${2:(NSDictionary *)options} error:${3:(NSError**)error}

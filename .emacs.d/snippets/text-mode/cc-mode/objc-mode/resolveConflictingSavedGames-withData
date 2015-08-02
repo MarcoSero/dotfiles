@@ -1,0 +1,4 @@
+#name : resolveConflictingSavedGames:withData
+#group : GKSavedGame
+# --
+resolveConflictingSavedGames:${1:(NSArray *)conflictingSavedGames} withData:${2:(NSData *)data}

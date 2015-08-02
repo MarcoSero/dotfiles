@@ -1,0 +1,4 @@
+#name : fontWithDescriptor:size
+#group : UIFont
+# --
+fontWithDescriptor:${1:(UIFontDescriptor *)descriptor} size:${2:(CGFloat)pointSize}

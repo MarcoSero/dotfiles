@@ -1,0 +1,4 @@
+#name : recordAtTime
+#group : AVAudioRecorder
+# --
+recordAtTime:${1:(NSTimeInterval)time}

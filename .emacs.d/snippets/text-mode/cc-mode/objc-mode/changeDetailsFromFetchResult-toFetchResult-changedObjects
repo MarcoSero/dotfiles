@@ -1,0 +1,4 @@
+#name : changeDetailsFromFetchResult:toFetchResult:changedObjects
+#group : PHChange
+# --
+changeDetailsFromFetchResult:${1:(PHFetchResult *)fromResult} toFetchResult:${2:(PHFetchResult *)toResult} changedObjects:${3:(NSArray *)changedObjects}

@@ -1,0 +1,4 @@
+#name : isDateInWeekend
+#group : NSCalendar
+# --
+isDateInWeekend:${1:(NSDate *)date}

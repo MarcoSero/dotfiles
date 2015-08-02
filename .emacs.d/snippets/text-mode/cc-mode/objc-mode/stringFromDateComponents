@@ -1,0 +1,4 @@
+#name : stringFromDateComponents
+#group : NSDateComponentsFormatter
+# --
+stringFromDateComponents:${1:(NSDateComponents *)components}

@@ -1,0 +1,4 @@
+#name : fetchAssetsWithBurstIdentifier:options
+#group : PHAsset
+# --
+fetchAssetsWithBurstIdentifier:${1:(NSString *)burstIdentifier} options:${2:(PHFetchOptions *)options}

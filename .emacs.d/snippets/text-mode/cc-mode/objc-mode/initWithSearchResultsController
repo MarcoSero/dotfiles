@@ -1,0 +1,4 @@
+#name : initWithSearchResultsController
+#group : UISearchController
+# --
+initWithSearchResultsController:${1:(UIViewController *)searchResultsController}

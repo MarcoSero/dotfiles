@@ -1,0 +1,4 @@
+#name : traitCollectionWithUserInterfaceIdiom
+#group : UITraitCollection
+# --
+traitCollectionWithUserInterfaceIdiom:${1:(UIUserInterfaceIdiom)idiom}

@@ -1,0 +1,4 @@
+#name : session:didReceiveStream:withName:fromPeer
+#group : MCSession
+# --
+session:${1:(MCSession *)session} didReceiveStream:${2:(NSInputStream *)stream} withName:${3:(NSString *)streamName} fromPeer:${4:(MCPeerID *)peerID}

@@ -1,0 +1,4 @@
+#name : removeAssetsAtIndexes
+#group : PHAssetCollectionChangeRequest
+# --
+removeAssetsAtIndexes:${1:(NSIndexSet *)indexes}

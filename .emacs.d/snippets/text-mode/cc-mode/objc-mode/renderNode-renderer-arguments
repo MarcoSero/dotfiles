@@ -1,0 +1,4 @@
+#name : renderNode:renderer:arguments
+#group : SCNNode
+# --
+renderNode:${1:(SCNNode *)node} renderer:${2:(SCNRenderer *)renderer} arguments:${3:(NSDictionary *)arguments}

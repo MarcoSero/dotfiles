@@ -1,0 +1,4 @@
+#name : accessoryDidUpdateServices
+#group : HMAccessory
+# --
+accessoryDidUpdateServices:${1:(HMAccessory *)accessory}

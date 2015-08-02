@@ -1,0 +1,4 @@
+#name : scheduleBuffer:completionHandler
+#group : AVAudioPlayerNode
+# --
+scheduleBuffer:${1:(AVAudioPCMBuffer *)buffer} completionHandler:${2:(AVAudioNodeCompletionHandler)completionHandler}

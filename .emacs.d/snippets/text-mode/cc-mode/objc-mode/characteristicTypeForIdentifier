@@ -1,0 +1,4 @@
+#name : characteristicTypeForIdentifier
+#group : HKObjectType
+# --
+characteristicTypeForIdentifier:${1:(NSString *)identifier}

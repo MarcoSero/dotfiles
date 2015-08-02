@@ -1,0 +1,4 @@
+#name : initWithQueue
+#group : PKPushRegistry
+# --
+initWithQueue:${1:(dispatch_queue_t)queue}

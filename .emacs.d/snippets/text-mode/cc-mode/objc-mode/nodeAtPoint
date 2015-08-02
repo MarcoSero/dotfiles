@@ -1,0 +1,4 @@
+#name : nodeAtPoint
+#group : SKNode
+# --
+nodeAtPoint:${1:(CGPoint)p}

@@ -1,0 +1,4 @@
+#name : setActive:withOptions:error
+#group : AVAudioSession
+# --
+setActive:${1:(BOOL)active} withOptions:${2:(AVAudioSessionSetActiveOptions)options} error:${3:(NSError **)outError}

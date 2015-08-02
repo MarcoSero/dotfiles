@@ -1,0 +1,4 @@
+#name : boundingRectForGlyphRange:inTextContainer
+#group : NSLayoutManager
+# --
+boundingRectForGlyphRange:${1:(NSRange)glyphRange} inTextContainer:${2:(NSTextContainer *)container}

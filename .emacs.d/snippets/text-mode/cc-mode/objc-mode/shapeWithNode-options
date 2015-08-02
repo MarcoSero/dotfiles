@@ -1,0 +1,4 @@
+#name : shapeWithNode:options
+#group : SCNPhysicsShape
+# --
+shapeWithNode:${1:(SCNNode *)node} options:${2:(NSDictionary *)options}

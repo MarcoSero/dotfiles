@@ -1,0 +1,4 @@
+#name : browser:didNotStartBrowsingForPeers
+#group : MCNearbyServiceBrowser
+# --
+browser:${1:(MCNearbyServiceBrowser *)browser} didNotStartBrowsingForPeers:${2:(NSError *)error}

@@ -1,0 +1,4 @@
+#name : setVisibleMapRect
+#group : WKInterfaceMap
+# --
+setVisibleMapRect:${1:(MKMapRect)mapRect}

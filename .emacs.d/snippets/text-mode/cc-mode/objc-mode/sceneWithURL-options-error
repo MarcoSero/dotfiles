@@ -1,0 +1,4 @@
+#name : sceneWithURL:options:error
+#group : SCNScene
+# --
+sceneWithURL:${1:(NSURL *)url} options:${2:(NSDictionary *)options} error:${3:(NSError **)error}

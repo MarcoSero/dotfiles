@@ -1,0 +1,4 @@
+#name : setCornerRadius
+#group : WKInterfaceGroup
+# --
+setCornerRadius:${1:(CGFloat)cornerRadius}

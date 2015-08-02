@@ -1,0 +1,4 @@
+#name : invalidateAttributesInRange
+#group : NSTextStorage
+# --
+invalidateAttributesInRange:${1:(NSRange)range}

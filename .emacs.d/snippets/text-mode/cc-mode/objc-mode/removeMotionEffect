@@ -1,0 +1,4 @@
+#name : removeMotionEffect
+#group : UIView
+# --
+removeMotionEffect:${1:(UIMotionEffect *)effect}

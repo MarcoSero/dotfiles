@@ -1,0 +1,4 @@
+#name : deleteObject
+#group : HKHealthStore
+# --
+deleteObject:${1:(HKObject *)object}

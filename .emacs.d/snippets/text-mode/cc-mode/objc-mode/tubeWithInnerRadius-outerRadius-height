@@ -1,0 +1,4 @@
+#name : tubeWithInnerRadius:outerRadius:height
+#group : SCNParametricGeometry
+# --
+tubeWithInnerRadius:${1:(CGFloat)innerRadius} outerRadius:${2:(CGFloat)outerRadius} height:${3:(CGFloat)height}

@@ -1,0 +1,4 @@
+#name : sendProgramChange:onChannel
+#group : AVAudioUnitMIDIInstrument
+# --
+sendProgramChange:${1:(uint8_t)program} onChannel:${2:(uint8_t)channel}

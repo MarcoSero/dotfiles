@@ -1,0 +1,4 @@
+#name : setGlyphs:properties:characterIndexes:font:forGlyphRange
+#group : NSLayoutManager
+# --
+setGlyphs:${1:(const CGGlyph *)glyphs} properties:${2:(const NSGlyphProperty *)props} characterIndexes:${3:(const NSUInteger *)charIndexes} font:${4:(UIFont *)aFont} forGlyphRange:${5:(NSRange)glyphRange}

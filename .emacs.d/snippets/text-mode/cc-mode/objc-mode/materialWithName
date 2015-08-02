@@ -1,0 +1,4 @@
+#name : materialWithName
+#group : SCNGeometry
+# --
+materialWithName:${1:(NSString *)name}

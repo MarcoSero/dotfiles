@@ -1,0 +1,4 @@
+#name : presentationController:viewControllerForAdaptivePresentationStyle
+#group : UIPresentationController
+# --
+presentationController:${1:(UIPresentationController *)controller} viewControllerForAdaptivePresentationStyle:${2:(UIModalPresentationStyle)style}

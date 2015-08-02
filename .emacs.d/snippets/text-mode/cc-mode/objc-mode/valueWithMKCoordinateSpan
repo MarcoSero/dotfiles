@@ -1,0 +1,4 @@
+#name : valueWithMKCoordinateSpan
+#group : MKGeometry
+# --
+valueWithMKCoordinateSpan:${1:(MKCoordinateSpan)span}

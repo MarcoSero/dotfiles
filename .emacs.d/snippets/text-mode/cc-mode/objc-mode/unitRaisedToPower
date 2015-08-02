@@ -1,0 +1,4 @@
+#name : unitRaisedToPower
+#group : HKUnit
+# --
+unitRaisedToPower:${1:(NSInteger)power}

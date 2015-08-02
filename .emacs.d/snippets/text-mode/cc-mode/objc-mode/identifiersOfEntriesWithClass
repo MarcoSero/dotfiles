@@ -1,0 +1,4 @@
+#name : identifiersOfEntriesWithClass
+#group : SCNSceneSource
+# --
+identifiersOfEntriesWithClass:${1:(Class)entryClass}

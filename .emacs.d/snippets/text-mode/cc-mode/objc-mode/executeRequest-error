@@ -1,0 +1,4 @@
+#name : executeRequest:error
+#group : NSManagedObjectContext
+# --
+executeRequest:${1:(NSPersistentStoreRequest*)request} error:${2:(NSError **)error}

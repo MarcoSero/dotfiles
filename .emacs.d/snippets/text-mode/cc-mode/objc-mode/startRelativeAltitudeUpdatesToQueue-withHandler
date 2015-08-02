@@ -1,0 +1,4 @@
+#name : startRelativeAltitudeUpdatesToQueue:withHandler
+#group : CMAltimeter
+# --
+startRelativeAltitudeUpdatesToQueue:${1:(NSOperationQueue *)queue} withHandler:${2:(CMAltitudeHandler)handler}

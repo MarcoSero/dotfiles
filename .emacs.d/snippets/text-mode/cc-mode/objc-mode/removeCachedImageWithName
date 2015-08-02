@@ -1,0 +1,4 @@
+#name : removeCachedImageWithName
+#group : WKInterfaceDevice
+# --
+removeCachedImageWithName:${1:(NSString *)name}

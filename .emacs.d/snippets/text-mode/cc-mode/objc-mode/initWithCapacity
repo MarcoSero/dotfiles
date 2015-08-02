@@ -1,0 +1,4 @@
+#name : initWithCapacity
+#group : SKKeyframeSequence
+# --
+initWithCapacity:${1:(NSUInteger)numItems}

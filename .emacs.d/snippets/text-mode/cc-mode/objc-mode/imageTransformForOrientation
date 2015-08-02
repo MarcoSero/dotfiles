@@ -1,0 +1,4 @@
+#name : imageTransformForOrientation
+#group : CIImage
+# --
+imageTransformForOrientation:${1:(int)orientation}

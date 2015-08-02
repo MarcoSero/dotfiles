@@ -1,0 +1,4 @@
+#name : attributedStringWithAttachment
+#group : NSTextAttachment
+# --
+attributedStringWithAttachment:${1:(NSTextAttachment *)attachment}

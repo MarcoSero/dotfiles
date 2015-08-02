@@ -1,0 +1,4 @@
+#name : colorizeWithColor:colorBlendFactor:duration
+#group : SKAction
+# --
+colorizeWithColor:${1:(SKColor *)color} colorBlendFactor:${2:(CGFloat)colorBlendFactor} duration:${3:(NSTimeInterval)sec}

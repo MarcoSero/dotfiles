@@ -1,0 +1,4 @@
+#name : loadPreviewImageWithOptions:completionHandler
+#group : NSItemProvider
+# --
+loadPreviewImageWithOptions:${1:(NSDictionary *)options} completionHandler:${2:(NSItemProviderCompletionHandler)completionHandler}

@@ -1,0 +1,4 @@
+#name : captureOutput:didOutputMetadataObjects:fromConnection
+#group : AVCaptureOutput
+# --
+captureOutput:${1:(AVCaptureOutput *)captureOutput} didOutputMetadataObjects:${2:(NSArray *)metadataObjects} fromConnection:${3:(AVCaptureConnection *)connection}

@@ -1,0 +1,4 @@
+#name : speedBy:duration
+#group : SKAction
+# --
+speedBy:${1:(CGFloat)speed} duration:${2:(NSTimeInterval)sec}

@@ -1,0 +1,4 @@
+#name : objectAtIndex
+#group : PHFetchResult
+# --
+objectAtIndex:${1:(NSUInteger)index}

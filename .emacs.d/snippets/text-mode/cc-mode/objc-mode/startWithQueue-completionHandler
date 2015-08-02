@@ -1,0 +1,4 @@
+#name : startWithQueue:completionHandler
+#group : MKMapSnapshotter
+# --
+startWithQueue:${1:(dispatch_queue_t)queue} completionHandler:${2:(MKMapSnapshotCompletionHandler)completionHandler}

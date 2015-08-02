@@ -1,0 +1,4 @@
+#name : handleEvent:forProperties:withBlock
+#group : SCNParticleSystem
+# --
+handleEvent:${1:(SCNParticleEvent)event} forProperties:${2:(NSArray *)properties} withBlock:${3:(SCNParticleEventBlock)block}

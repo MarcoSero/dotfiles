@@ -1,0 +1,4 @@
+#name : textureFromNode:crop
+#group : SKView
+# --
+textureFromNode:${1:(SKNode *)node} crop:${2:(CGRect)crop}

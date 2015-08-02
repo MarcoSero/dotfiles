@@ -1,0 +1,4 @@
+#name : documentMenu:didPickDocumentPicker
+#group : UIDocumentMenuViewController
+# --
+documentMenu:${1:(UIDocumentMenuViewController *)documentMenu} didPickDocumentPicker:${2:(UIDocumentPickerViewController *)documentPicker}

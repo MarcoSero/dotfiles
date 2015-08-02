@@ -1,0 +1,4 @@
+#name : linearGravityFieldWithVector
+#group : SKFieldNode
+# --
+linearGravityFieldWithVector:${1:(vector_float3)direction}

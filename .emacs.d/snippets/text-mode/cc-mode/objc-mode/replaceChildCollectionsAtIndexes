@@ -1,0 +1,4 @@
+#name : replaceChildCollectionsAtIndexes
+#group : PHCollectionListChangeRequest
+# --
+replaceChildCollectionsAtIndexes:${1:(NSIndexSet *)indexes}

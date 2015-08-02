@@ -1,0 +1,4 @@
+#name : handleUnbindingOfSymbol:usingBlock
+#group : SCNShadable
+# --
+handleUnbindingOfSymbol:${1:(NSString *)symbol} usingBlock:${2:(SCNBindingBlock)block}

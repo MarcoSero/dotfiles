@@ -1,0 +1,4 @@
+#name : writePlaceholderAtURL:withMetadata:error
+#group : NSFileProviderExtension
+# --
+writePlaceholderAtURL:${1:(NSURL *)placeholderURL} withMetadata:${2:(NSDictionary *)metadata} error:${3:(NSError **)error}

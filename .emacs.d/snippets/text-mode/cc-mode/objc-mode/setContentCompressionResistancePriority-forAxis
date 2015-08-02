@@ -1,0 +1,4 @@
+#name : setContentCompressionResistancePriority:forAxis
+#group : UIView
+# --
+setContentCompressionResistancePriority:${1:(UILayoutPriority)priority} forAxis:${2:(UILayoutConstraintAxis)axis}

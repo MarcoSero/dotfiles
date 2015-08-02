@@ -1,0 +1,4 @@
+#name : prepareForCollectionViewUpdates
+#group : UICollectionViewLayout
+# --
+prepareForCollectionViewUpdates:${1:(NSArray *)updateItems}

@@ -1,0 +1,4 @@
+#name : characterIndexForPoint:inTextContainer:fractionOfDistanceBetweenInsertionPoints
+#group : NSLayoutManager
+# --
+characterIndexForPoint:${1:(CGPoint)point} inTextContainer:${2:(NSTextContainer *)container} fractionOfDistanceBetweenInsertionPoints:${3:(CGFloat *)partialFraction}

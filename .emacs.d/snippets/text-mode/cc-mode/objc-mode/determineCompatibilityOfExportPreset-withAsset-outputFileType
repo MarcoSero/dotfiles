@@ -1,0 +1,4 @@
+#name : determineCompatibilityOfExportPreset:withAsset:outputFileType
+#group : AVAssetExportSession
+# --
+determineCompatibilityOfExportPreset:${1:(NSString *)presetName} withAsset:${2:(AVAsset *)asset} outputFileType:${3:(NSString *)outputFileType}

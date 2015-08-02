@@ -1,0 +1,4 @@
+#name : itemTimeForHostTime
+#group : AVPlayerItemOutput
+# --
+itemTimeForHostTime:${1:(CFTimeInterval)hostTimeInSeconds}

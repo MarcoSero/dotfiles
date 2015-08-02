@@ -1,0 +1,4 @@
+#name : advanceSimulationTime
+#group : SKEmitterNode
+# --
+advanceSimulationTime:${1:(NSTimeInterval)sec}

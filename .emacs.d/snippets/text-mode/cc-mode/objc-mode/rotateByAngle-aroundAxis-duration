@@ -1,0 +1,4 @@
+#name : rotateByAngle:aroundAxis:duration
+#group : SCNAction
+# --
+rotateByAngle:${1:(CGFloat)angle} aroundAxis:${2:(SCNVector3)axis} duration:${3:(NSTimeInterval)duration}

@@ -1,0 +1,4 @@
+#name : addRoom
+#group : HMZone
+# --
+addRoom:${1:(HMRoom *)room}

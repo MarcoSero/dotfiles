@@ -1,0 +1,4 @@
+#name : restoreCompletedTransactionsWithApplicationUsername
+#group : SKPaymentQueue
+# --
+restoreCompletedTransactionsWithApplicationUsername:${1:(NSString *)username}

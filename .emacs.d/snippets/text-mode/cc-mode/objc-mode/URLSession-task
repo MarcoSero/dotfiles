@@ -1,0 +1,4 @@
+#name : URLSession:task
+#group : NSURLSession
+# --
+URLSession:${1:(NSURLSession *)session} task:${2:(NSURLSessionTask *)task}

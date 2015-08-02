@@ -1,0 +1,4 @@
+#name : geometrySourceWithVertices:count
+#group : SCNGeometry
+# --
+geometrySourceWithVertices:${1:(const SCNVector3 *)vertices} count:${2:(NSInteger)count}

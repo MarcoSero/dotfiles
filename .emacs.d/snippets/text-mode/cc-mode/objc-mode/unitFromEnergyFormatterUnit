@@ -1,0 +1,4 @@
+#name : unitFromEnergyFormatterUnit
+#group : HKUnit
+# --
+unitFromEnergyFormatterUnit:${1:(NSEnergyFormatterUnit)energyFormatterUnit}

@@ -1,0 +1,4 @@
+#name : falloffBy:duration
+#group : SKAction
+# --
+falloffBy:${1:(float)falloff} duration:${2:(NSTimeInterval)sec}

@@ -1,0 +1,4 @@
+#name : tableView:didEndDisplayingHeaderView:forSection
+#group : UITableView
+# --
+tableView:${1:(UITableView *)tableView} didEndDisplayingHeaderView:${2:(UIView *)view} forSection:${3:(NSInteger)section}

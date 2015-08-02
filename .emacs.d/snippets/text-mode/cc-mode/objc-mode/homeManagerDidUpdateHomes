@@ -1,0 +1,4 @@
+#name : homeManagerDidUpdateHomes
+#group : HMHomeManager
+# --
+homeManagerDidUpdateHomes:${1:(HMHomeManager *)manager}

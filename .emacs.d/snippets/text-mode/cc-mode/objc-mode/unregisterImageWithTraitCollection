@@ -1,0 +1,4 @@
+#name : unregisterImageWithTraitCollection
+#group : UIImageAsset
+# --
+unregisterImageWithTraitCollection:${1:(UITraitCollection *)traitCollection}

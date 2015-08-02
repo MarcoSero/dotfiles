@@ -1,0 +1,4 @@
+#name : initWithRecordType:predicate
+#group : CKQuery
+# --
+initWithRecordType:${1:(NSString *)recordType} predicate:${2:(NSPredicate *)predicate}

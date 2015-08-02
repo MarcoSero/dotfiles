@@ -1,0 +1,4 @@
+#name : layoutAttributesForSupplementaryViewOfKind:atIndexPath
+#group : UIDynamicAnimator
+# --
+layoutAttributesForSupplementaryViewOfKind:${1:(NSString *)kind} atIndexPath:${2:(NSIndexPath *)indexPath}

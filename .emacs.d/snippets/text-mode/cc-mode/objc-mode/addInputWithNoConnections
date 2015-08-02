@@ -1,0 +1,4 @@
+#name : addInputWithNoConnections
+#group : AVCaptureSession
+# --
+addInputWithNoConnections:${1:(AVCaptureInput *)input}

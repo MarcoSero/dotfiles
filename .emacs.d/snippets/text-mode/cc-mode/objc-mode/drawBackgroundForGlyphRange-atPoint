@@ -1,0 +1,4 @@
+#name : drawBackgroundForGlyphRange:atPoint
+#group : NSLayoutManager
+# --
+drawBackgroundForGlyphRange:${1:(NSRange)glyphsToShow} atPoint:${2:(CGPoint)origin}

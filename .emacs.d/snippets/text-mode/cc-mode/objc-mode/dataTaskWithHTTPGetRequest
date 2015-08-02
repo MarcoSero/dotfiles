@@ -1,0 +1,4 @@
+#name : dataTaskWithHTTPGetRequest
+#group : NSURLSession
+# --
+dataTaskWithHTTPGetRequest:${1:(NSURL *)url}

@@ -1,0 +1,4 @@
+#name : setAttachmentSize:forGlyphRange
+#group : NSLayoutManager
+# --
+setAttachmentSize:${1:(CGSize)attachmentSize} forGlyphRange:${2:(NSRange)glyphRange}

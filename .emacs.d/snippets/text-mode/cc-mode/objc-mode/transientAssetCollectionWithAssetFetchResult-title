@@ -1,0 +1,4 @@
+#name : transientAssetCollectionWithAssetFetchResult:title
+#group : PHCollection
+# --
+transientAssetCollectionWithAssetFetchResult:${1:(PHFetchResult *)fetchResult} title:${2:(NSString *)title}

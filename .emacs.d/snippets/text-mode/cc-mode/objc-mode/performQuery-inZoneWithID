@@ -1,0 +1,4 @@
+#name : performQuery:inZoneWithID
+#group : CKDatabase
+# --
+performQuery:${1:(CKQuery *)query} inZoneWithID:${2:(CKRecordZoneID *)zoneID}

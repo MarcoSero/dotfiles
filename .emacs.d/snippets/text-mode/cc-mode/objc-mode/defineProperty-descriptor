@@ -1,0 +1,4 @@
+#name : defineProperty:descriptor
+#group : JSValue
+# --
+defineProperty:${1:(NSString *)property} descriptor:${2:(id)descriptor}

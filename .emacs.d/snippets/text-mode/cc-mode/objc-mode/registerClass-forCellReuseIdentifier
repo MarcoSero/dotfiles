@@ -1,0 +1,4 @@
+#name : registerClass:forCellReuseIdentifier
+#group : UITableView
+# --
+registerClass:${1:(Class)cellClass} forCellReuseIdentifier:${2:(NSString *)identifier}

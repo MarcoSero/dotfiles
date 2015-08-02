@@ -1,0 +1,4 @@
+#name : printerPickerControllerWillPresent
+#group : UIPrinterPickerController
+# --
+printerPickerControllerWillPresent:${1:(UIPrinterPickerController *)printerPickerController}

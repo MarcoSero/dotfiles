@@ -1,0 +1,4 @@
+#name : sendController:withValue:onChannel
+#group : AVAudioUnitMIDIInstrument
+# --
+sendController:${1:(uint8_t)controller} withValue:${2:(uint8_t)value} onChannel:${3:(uint8_t)channel}

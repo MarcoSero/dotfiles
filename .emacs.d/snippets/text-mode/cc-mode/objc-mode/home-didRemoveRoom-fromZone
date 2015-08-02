@@ -1,0 +1,4 @@
+#name : home:didRemoveRoom:fromZone
+#group : HMHome
+# --
+home:${1:(HMHome *)home} didRemoveRoom:${2:(HMRoom *)room} fromZone:${3:(HMZone *)zone}

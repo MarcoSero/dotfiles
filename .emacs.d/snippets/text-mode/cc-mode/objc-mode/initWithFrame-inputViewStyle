@@ -1,0 +1,4 @@
+#name : initWithFrame:inputViewStyle
+#group : UIInputView
+# --
+initWithFrame:${1:(CGRect)frame} inputViewStyle:${2:(UIInputViewStyle)inputViewStyle}

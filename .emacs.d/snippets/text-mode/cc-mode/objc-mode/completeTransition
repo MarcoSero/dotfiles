@@ -1,0 +1,4 @@
+#name : completeTransition
+#group : UIViewControllerTransitioning
+# --
+completeTransition:${1:(BOOL)didComplete}

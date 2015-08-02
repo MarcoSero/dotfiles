@@ -1,0 +1,4 @@
+#name : initForReading:commonFormat:interleaved:error
+#group : AVAudioFile
+# --
+initForReading:${1:(NSURL *)fileURL} commonFormat:${2:(AVAudioCommonFormat)format} interleaved:${3:(BOOL)interleaved} error:${4:(NSError **)outError}

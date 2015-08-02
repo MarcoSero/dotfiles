@@ -1,0 +1,4 @@
+#name : quantityWithUnit:doubleValue
+#group : HKQuantity
+# --
+quantityWithUnit:${1:(HKUnit *)unit} doubleValue:${2:(double)value}

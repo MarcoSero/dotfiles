@@ -1,0 +1,4 @@
+#name : followPath:speed
+#group : SKAction
+# --
+followPath:${1:(CGPathRef)path} speed:${2:(CGFloat)speed}

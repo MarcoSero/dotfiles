@@ -1,0 +1,4 @@
+#name : followPath:asOffset:orientToPath:duration
+#group : SKAction
+# --
+followPath:${1:(CGPathRef)path} asOffset:${2:(BOOL)offset} orientToPath:${3:(BOOL)orient} duration:${4:(NSTimeInterval)sec}

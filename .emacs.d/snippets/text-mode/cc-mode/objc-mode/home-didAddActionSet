@@ -1,0 +1,4 @@
+#name : home:didAddActionSet
+#group : HMHome
+# --
+home:${1:(HMHome *)home} didAddActionSet:${2:(HMActionSet *)actionSet}

@@ -1,0 +1,4 @@
+#name : initWithShareContext
+#group : GLKTextureLoader
+# --
+initWithShareContext:${1:(NSOpenGLContext *)context}

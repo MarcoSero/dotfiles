@@ -1,0 +1,4 @@
+#name : enumerateBodiesAlongRayStart:end
+#group : SKPhysicsWorld
+# --
+enumerateBodiesAlongRayStart:${1:(CGPoint)start} end:${2:(CGPoint)end}

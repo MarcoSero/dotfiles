@@ -1,0 +1,4 @@
+#name : updateSearchResultsForSearchController
+#group : UISearchController
+# --
+updateSearchResultsForSearchController:${1:(UISearchController *)searchController}

@@ -1,0 +1,4 @@
+#name : activityViewControllerPlaceholderItem
+#group : UIActivityItemProvider
+# --
+activityViewControllerPlaceholderItem:${1:(UIActivityViewController *)activityViewController}

@@ -1,0 +1,4 @@
+#name : valueWithObject:inContext
+#group : JSValue
+# --
+valueWithObject:${1:(id)value} inContext:${2:(JSContext *)context}

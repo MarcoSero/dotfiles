@@ -1,0 +1,4 @@
+#name : tableView:didEndDisplayingFooterView:forSection
+#group : UITableView
+# --
+tableView:${1:(UITableView *)tableView} didEndDisplayingFooterView:${2:(UIView *)view} forSection:${3:(NSInteger)section}

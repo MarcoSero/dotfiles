@@ -1,0 +1,4 @@
+#name : textureVectorNoiseWithSmoothness:size
+#group : SKTexture
+# --
+textureVectorNoiseWithSmoothness:${1:(CGFloat)smoothness} size:${2:(CGSize)size}

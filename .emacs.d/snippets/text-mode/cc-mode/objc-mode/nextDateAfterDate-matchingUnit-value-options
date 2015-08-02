@@ -1,0 +1,4 @@
+#name : nextDateAfterDate:matchingUnit:value:options
+#group : NSCalendar
+# --
+nextDateAfterDate:${1:(NSDate *)date} matchingUnit:${2:(NSCalendarUnit)unit} value:${3:(NSInteger)value} options:${4:(NSCalendarOptions)options}

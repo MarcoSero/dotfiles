@@ -1,0 +1,4 @@
+#name : performSystemAnimation:onViews:options
+#group : UIView
+# --
+performSystemAnimation:${1:(UISystemAnimation)animation} onViews:${2:(NSArray *)views} options:${3:(UIViewAnimationOptions)options}

@@ -1,0 +1,4 @@
+#name : dateBySettingHour:minute:second:ofDate:options
+#group : NSCalendar
+# --
+dateBySettingHour:${1:(NSInteger)h} minute:${2:(NSInteger)m} second:${3:(NSInteger)s} ofDate:${4:(NSDate *)date} options:${5:(NSCalendarOptions)opts}

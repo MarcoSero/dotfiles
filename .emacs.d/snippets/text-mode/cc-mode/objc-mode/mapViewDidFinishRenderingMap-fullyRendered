@@ -1,0 +1,4 @@
+#name : mapViewDidFinishRenderingMap:fullyRendered
+#group : MKMapView
+# --
+mapViewDidFinishRenderingMap:${1:(MKMapView *)mapView} fullyRendered:${2:(BOOL)fullyRendered}

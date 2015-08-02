@@ -1,0 +1,4 @@
+#name : shouldChangeTextInRange:replacementText
+#group : UITextInput
+# --
+shouldChangeTextInRange:${1:(UITextRange *)range} replacementText:${2:(NSString *)text}

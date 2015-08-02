@@ -1,0 +1,4 @@
+#name : textView:shouldInteractWithTextAttachment:inRange
+#group : UITextView
+# --
+textView:${1:(UITextView *)textView} shouldInteractWithTextAttachment:${2:(NSTextAttachment *)textAttachment} inRange:${3:(NSRange)characterRange}

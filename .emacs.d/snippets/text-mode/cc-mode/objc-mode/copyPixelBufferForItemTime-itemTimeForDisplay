@@ -1,0 +1,4 @@
+#name : copyPixelBufferForItemTime:itemTimeForDisplay
+#group : AVPlayerItemOutput
+# --
+copyPixelBufferForItemTime:${1:(CMTime)itemTime} itemTimeForDisplay:${2:(CMTime *)outItemTimeForDisplay}

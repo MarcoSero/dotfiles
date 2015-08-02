@@ -1,0 +1,4 @@
+#name : setObject:atIndexedSubscript
+#group : MTLVertexDescriptor
+# --
+setObject:${1:(MTLVertexAttributeDescriptor *)attributeDesc} atIndexedSubscript:${2:(NSUInteger)index}

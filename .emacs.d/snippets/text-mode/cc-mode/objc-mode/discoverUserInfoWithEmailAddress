@@ -1,0 +1,4 @@
+#name : discoverUserInfoWithEmailAddress
+#group : CKContainer
+# --
+discoverUserInfoWithEmailAddress:${1:(NSString *)email}

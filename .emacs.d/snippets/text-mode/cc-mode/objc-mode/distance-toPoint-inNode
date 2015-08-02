@@ -1,0 +1,4 @@
+#name : distance:toPoint:inNode
+#group : SKConstraint
+# --
+distance:${1:(SKRange *)range} toPoint:${2:(CGPoint)point} inNode:${3:(SKNode *)node}

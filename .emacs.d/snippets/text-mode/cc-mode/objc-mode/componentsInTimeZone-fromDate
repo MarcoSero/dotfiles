@@ -1,0 +1,4 @@
+#name : componentsInTimeZone:fromDate
+#group : NSCalendar
+# --
+componentsInTimeZone:${1:(NSTimeZone *)timezone} fromDate:${2:(NSDate *)date}

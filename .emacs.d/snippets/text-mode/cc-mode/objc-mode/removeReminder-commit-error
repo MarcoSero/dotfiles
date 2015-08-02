@@ -1,0 +1,4 @@
+#name : removeReminder:commit:error
+#group : EKEventStore
+# --
+removeReminder:${1:(EKReminder *)reminder} commit:${2:(BOOL)commit} error:${3:(NSError **)error}

@@ -1,0 +1,4 @@
+#name : followPath:asOffset:orientToPath:speed
+#group : SKAction
+# --
+followPath:${1:(CGPathRef)path} asOffset:${2:(BOOL)offset} orientToPath:${3:(BOOL)orient} speed:${4:(CGFloat)speed}

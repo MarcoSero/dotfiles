@@ -1,0 +1,4 @@
+#name : rangeWithValue:variance
+#group : SKConstraint
+# --
+rangeWithValue:${1:(CGFloat)value} variance:${2:(CGFloat)variance}

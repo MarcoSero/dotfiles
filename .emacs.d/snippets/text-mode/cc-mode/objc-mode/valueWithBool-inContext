@@ -1,0 +1,4 @@
+#name : valueWithBool:inContext
+#group : JSValue
+# --
+valueWithBool:${1:(BOOL)value} inContext:${2:(JSContext *)context}

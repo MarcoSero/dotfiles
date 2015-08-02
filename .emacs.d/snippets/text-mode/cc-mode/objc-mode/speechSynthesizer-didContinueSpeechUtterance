@@ -1,0 +1,4 @@
+#name : speechSynthesizer:didContinueSpeechUtterance
+#group : AVSpeechSynthesis
+# --
+speechSynthesizer:${1:(AVSpeechSynthesizer *)synthesizer} didContinueSpeechUtterance:${2:(AVSpeechUtterance *)utterance}

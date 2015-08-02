@@ -1,0 +1,4 @@
+#name : itemTimeForMachAbsoluteTime
+#group : AVPlayerItemOutput
+# --
+itemTimeForMachAbsoluteTime:${1:(int64_t)machAbsoluteTime}

@@ -1,0 +1,4 @@
+#name : truncatedGlyphRangeInLineFragmentForGlyphAtIndex
+#group : NSLayoutManager
+# --
+truncatedGlyphRangeInLineFragmentForGlyphAtIndex:${1:(NSUInteger)glyphIndex}

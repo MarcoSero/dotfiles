@@ -1,0 +1,4 @@
+#name : startProvidingItemAtURL
+#group : NSFileProviderExtension
+# --
+startProvidingItemAtURL:${1:(NSURL *)url}

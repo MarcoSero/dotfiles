@@ -1,0 +1,4 @@
+#name : collectionView:willDisplayCell:forItemAtIndexPath
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} willDisplayCell:${2:(UICollectionViewCell *)cell} forItemAtIndexPath:${3:(NSIndexPath *)indexPath}

@@ -1,0 +1,4 @@
+#name : initWithPreferredLanguages:preferredMediaCharacteristics
+#group : AVPlayerMediaSelectionCriteria
+# --
+initWithPreferredLanguages:${1:(NSArray *)preferredLanguages} preferredMediaCharacteristics:${2:(NSArray *)preferredMediaCharacteristics}

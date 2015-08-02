@@ -1,0 +1,4 @@
+#name : removeTarget
+#group : MPRemoteCommand
+# --
+removeTarget:${1:(id)target}

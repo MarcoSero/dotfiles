@@ -1,0 +1,4 @@
+#name : textureByGeneratingNormalMapWithSmoothness:contrast
+#group : SKTexture
+# --
+textureByGeneratingNormalMapWithSmoothness:${1:(CGFloat)smoothness} contrast:${2:(CGFloat)contrast}

@@ -1,0 +1,4 @@
+#name : initWithValue
+#group : JSManagedValue
+# --
+initWithValue:${1:(JSValue *)value}

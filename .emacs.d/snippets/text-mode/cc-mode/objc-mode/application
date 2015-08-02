@@ -1,0 +1,4 @@
+#name : application
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application}

@@ -1,0 +1,4 @@
+#name : nextDateAfterDate:matchingHour:minute:second:options
+#group : NSCalendar
+# --
+nextDateAfterDate:${1:(NSDate *)date} matchingHour:${2:(NSInteger)hourValue} minute:${3:(NSInteger)minuteValue} second:${4:(NSInteger)secondValue} options:${5:(NSCalendarOptions)options}

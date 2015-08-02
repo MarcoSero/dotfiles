@@ -1,0 +1,4 @@
+#name : componentsWithString
+#group : NSURL
+# --
+componentsWithString:${1:(NSString *)URLString}

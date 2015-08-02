@@ -1,0 +1,4 @@
+#name : enableNotification
+#group : HMCharacteristic
+# --
+enableNotification:${1:(BOOL)enable}

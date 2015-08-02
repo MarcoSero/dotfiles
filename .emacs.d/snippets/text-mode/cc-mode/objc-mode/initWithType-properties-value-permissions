@@ -1,0 +1,4 @@
+#name : initWithType:properties:value:permissions
+#group : CBCharacteristic
+# --
+initWithType:${1:(CBUUID *)UUID} properties:${2:(CBCharacteristicProperties)properties} value:${3:(NSData *)value} permissions:${4:(CBAttributePermissions)permissions}

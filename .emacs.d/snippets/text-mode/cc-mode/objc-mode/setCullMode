@@ -1,0 +1,4 @@
+#name : setCullMode
+#group : MTLRenderCommandEncoder
+# --
+setCullMode:${1:(MTLCullMode)cullMode}

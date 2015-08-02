@@ -1,0 +1,4 @@
+#name : initWithController:snapshotData
+#group : GCGamepadSnapshot
+# --
+initWithController:${1:(GCController *)controller} snapshotData:${2:(NSData *)data}

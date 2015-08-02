@@ -1,0 +1,4 @@
+#name : pyramidWithWidth:height:length
+#group : SCNParametricGeometry
+# --
+pyramidWithWidth:${1:(CGFloat)width} height:${2:(CGFloat)height} length:${3:(CGFloat)length}

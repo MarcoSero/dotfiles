@@ -1,0 +1,4 @@
+#name : labelNodeWithText
+#group : SKLabelNode
+# --
+labelNodeWithText:${1:(NSString *)text}

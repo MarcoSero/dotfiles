@@ -1,0 +1,4 @@
+#name : setAttribute:forKey
+#group : SCNScene
+# --
+setAttribute:${1:(id)attribute} forKey:${2:(NSString *)key}

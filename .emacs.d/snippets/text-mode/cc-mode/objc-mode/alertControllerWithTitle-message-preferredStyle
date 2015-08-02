@@ -1,0 +1,4 @@
+#name : alertControllerWithTitle:message:preferredStyle
+#group : UIAlertController
+# --
+alertControllerWithTitle:${1:(NSString *)title} message:${2:(NSString *)message} preferredStyle:${3:(UIAlertControllerStyle)preferredStyle}

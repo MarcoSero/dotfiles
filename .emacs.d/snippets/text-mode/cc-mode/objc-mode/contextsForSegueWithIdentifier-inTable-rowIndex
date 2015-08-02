@@ -1,0 +1,4 @@
+#name : contextsForSegueWithIdentifier:inTable:rowIndex
+#group : WKInterfaceController
+# --
+contextsForSegueWithIdentifier:${1:(NSString *)segueIdentifier} inTable:${2:(WKInterfaceTable *)table} rowIndex:${3:(NSInteger)rowIndex}

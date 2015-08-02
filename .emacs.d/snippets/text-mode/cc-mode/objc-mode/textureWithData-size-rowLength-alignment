@@ -1,0 +1,4 @@
+#name : textureWithData:size:rowLength:alignment
+#group : SKTexture
+# --
+textureWithData:${1:(NSData *)pixelData} size:${2:(CGSize)size} rowLength:${3:(unsigned int)rowLength} alignment:${4:(unsigned int)alignment}

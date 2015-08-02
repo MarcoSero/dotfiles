@@ -1,0 +1,4 @@
+#name : fetchRecordZoneWithID
+#group : CKDatabase
+# --
+fetchRecordZoneWithID:${1:(CKRecordZoneID *)zoneID}

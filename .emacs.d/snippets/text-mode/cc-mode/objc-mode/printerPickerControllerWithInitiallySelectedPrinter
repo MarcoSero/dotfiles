@@ -1,0 +1,4 @@
+#name : printerPickerControllerWithInitiallySelectedPrinter
+#group : UIPrinterPickerController
+# --
+printerPickerControllerWithInitiallySelectedPrinter:${1:(UIPrinter *)printer}

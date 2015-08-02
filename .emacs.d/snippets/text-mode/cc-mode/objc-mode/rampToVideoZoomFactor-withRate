@@ -1,0 +1,4 @@
+#name : rampToVideoZoomFactor:withRate
+#group : AVCaptureDevice
+# --
+rampToVideoZoomFactor:${1:(CGFloat)factor} withRate:${2:(float)rate}

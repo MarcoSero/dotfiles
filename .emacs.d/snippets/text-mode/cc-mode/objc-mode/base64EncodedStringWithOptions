@@ -1,0 +1,4 @@
+#name : base64EncodedStringWithOptions
+#group : NSData
+# --
+base64EncodedStringWithOptions:${1:(NSDataBase64EncodingOptions)options}

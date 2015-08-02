@@ -1,0 +1,4 @@
+#name : applyImpulse
+#group : SKPhysicsBody
+# --
+applyImpulse:${1:(CGVector)impulse}

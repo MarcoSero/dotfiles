@@ -1,0 +1,4 @@
+#name : orientToNode:offset
+#group : SKConstraint
+# --
+orientToNode:${1:(SKNode *)node} offset:${2:(SKRange *)radians}

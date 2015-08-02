@@ -1,0 +1,4 @@
+#name : initWithPointerFunctions:capacity
+#group : NSHashTable
+# --
+initWithPointerFunctions:${1:(NSPointerFunctions *)functions} capacity:${2:(NSUInteger)initialCapacity}

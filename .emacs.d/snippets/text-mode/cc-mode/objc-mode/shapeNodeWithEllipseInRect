@@ -1,0 +1,4 @@
+#name : shapeNodeWithEllipseInRect
+#group : SKShapeNode
+# --
+shapeNodeWithEllipseInRect:${1:(CGRect)rect}

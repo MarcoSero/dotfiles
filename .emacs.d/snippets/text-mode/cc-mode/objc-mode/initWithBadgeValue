@@ -1,0 +1,4 @@
+#name : initWithBadgeValue
+#group : CKModifyBadgeOperation
+# --
+initWithBadgeValue:${1:(NSUInteger)badgeValue}

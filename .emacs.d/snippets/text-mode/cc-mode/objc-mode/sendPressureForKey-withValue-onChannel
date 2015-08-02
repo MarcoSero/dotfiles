@@ -1,0 +1,4 @@
+#name : sendPressureForKey:withValue:onChannel
+#group : AVAudioUnitMIDIInstrument
+# --
+sendPressureForKey:${1:(uint8_t)key} withValue:${2:(uint8_t)value} onChannel:${3:(uint8_t)channel}

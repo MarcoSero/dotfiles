@@ -1,0 +1,4 @@
+#name : getKeyframeValueForIndex
+#group : SKKeyframeSequence
+# --
+getKeyframeValueForIndex:${1:(NSUInteger)index}

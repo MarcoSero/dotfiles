@@ -1,0 +1,4 @@
+#name : saveGameData:withName
+#group : GKSavedGame
+# --
+saveGameData:${1:(NSData *)data} withName:${2:(NSString *)name}

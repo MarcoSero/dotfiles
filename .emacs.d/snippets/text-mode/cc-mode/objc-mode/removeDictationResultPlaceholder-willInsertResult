@@ -1,0 +1,4 @@
+#name : removeDictationResultPlaceholder:willInsertResult
+#group : UITextInput
+# --
+removeDictationResultPlaceholder:${1:(id)placeholder} willInsertResult:${2:(BOOL)willInsertResult}

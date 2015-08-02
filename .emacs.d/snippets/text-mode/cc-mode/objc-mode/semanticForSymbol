@@ -1,0 +1,4 @@
+#name : semanticForSymbol
+#group : SCNShadable
+# --
+semanticForSymbol:${1:(NSString *)symbol}

@@ -1,0 +1,4 @@
+#name : predicateForWorkoutsWithOperatorType:totalDistance
+#group : HKQuery
+# --
+predicateForWorkoutsWithOperatorType:${1:(NSPredicateOperatorType)operatorType} totalDistance:${2:(HKQuantity *)totalDistance}

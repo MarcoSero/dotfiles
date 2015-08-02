@@ -1,0 +1,4 @@
+#name : applyForce:impulse
+#group : SCNPhysicsBody
+# --
+applyForce:${1:(SCNVector3)direction} impulse:${2:(BOOL)impulse}

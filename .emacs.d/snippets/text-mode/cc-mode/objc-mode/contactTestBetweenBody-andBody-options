@@ -1,0 +1,4 @@
+#name : contactTestBetweenBody:andBody:options
+#group : SCNPhysicsWorld
+# --
+contactTestBetweenBody:${1:(SCNPhysicsBody *)bodyA} andBody:${2:(SCNPhysicsBody *)bodyB} options:${3:(NSDictionary *)options}

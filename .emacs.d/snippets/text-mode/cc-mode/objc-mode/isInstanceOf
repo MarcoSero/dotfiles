@@ -1,0 +1,4 @@
+#name : isInstanceOf
+#group : JSValue
+# --
+isInstanceOf:${1:(id)value}

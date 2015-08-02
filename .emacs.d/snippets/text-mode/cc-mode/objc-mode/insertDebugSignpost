@@ -1,0 +1,4 @@
+#name : insertDebugSignpost
+#group : MTLCommandEncoder
+# --
+insertDebugSignpost:${1:(NSString *)string}

@@ -1,0 +1,4 @@
+#name : invalidateLayoutWithContext
+#group : UICollectionViewLayout
+# --
+invalidateLayoutWithContext:${1:(UICollectionViewLayoutInvalidationContext *)context}

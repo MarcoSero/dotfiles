@@ -1,0 +1,4 @@
+#name : drawInRect:withAttributes
+#group : NSStringDrawing
+# --
+drawInRect:${1:(CGRect)rect} withAttributes:${2:(NSDictionary *)attrs}

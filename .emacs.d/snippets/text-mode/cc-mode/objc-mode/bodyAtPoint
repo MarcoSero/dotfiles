@@ -1,0 +1,4 @@
+#name : bodyAtPoint
+#group : SKPhysicsWorld
+# --
+bodyAtPoint:${1:(CGPoint)point}

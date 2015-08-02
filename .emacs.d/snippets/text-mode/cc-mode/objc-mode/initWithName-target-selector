@@ -1,0 +1,4 @@
+#name : initWithName:target:selector
+#group : UIAccessibilityCustomAction
+# --
+initWithName:${1:(NSString *)name} target:${2:(id)target} selector:${3:(SEL)selector}

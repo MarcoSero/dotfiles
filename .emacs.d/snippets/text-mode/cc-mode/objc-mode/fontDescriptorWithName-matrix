@@ -1,0 +1,4 @@
+#name : fontDescriptorWithName:matrix
+#group : UIFontDescriptor
+# --
+fontDescriptorWithName:${1:(NSString *)fontName} matrix:${2:(CGAffineTransform)matrix}

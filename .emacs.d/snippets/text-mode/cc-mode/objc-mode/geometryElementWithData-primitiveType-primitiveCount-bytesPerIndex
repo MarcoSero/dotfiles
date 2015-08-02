@@ -1,0 +1,4 @@
+#name : geometryElementWithData:primitiveType:primitiveCount:bytesPerIndex
+#group : SCNGeometry
+# --
+geometryElementWithData:${1:(NSData *)data} primitiveType:${2:(SCNGeometryPrimitiveType)primitiveType} primitiveCount:${3:(NSInteger)primitiveCount} bytesPerIndex:${4:(NSInteger)bytesPerIndex}

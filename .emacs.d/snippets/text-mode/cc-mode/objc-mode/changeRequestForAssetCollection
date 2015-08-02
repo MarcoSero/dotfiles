@@ -1,0 +1,4 @@
+#name : changeRequestForAssetCollection
+#group : PHAssetCollectionChangeRequest
+# --
+changeRequestForAssetCollection:${1:(PHAssetCollection *)assetCollection}

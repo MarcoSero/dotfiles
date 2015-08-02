@@ -1,0 +1,4 @@
+#name : initWithKey:relativeLocation
+#group : CKLocationSortDescriptor
+# --
+initWithKey:${1:(NSString *)key} relativeLocation:${2:(CLLocation *)relativeLocation}

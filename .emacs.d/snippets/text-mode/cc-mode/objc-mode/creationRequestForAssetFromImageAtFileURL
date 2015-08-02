@@ -1,0 +1,4 @@
+#name : creationRequestForAssetFromImageAtFileURL
+#group : PHAssetChangeRequest
+# --
+creationRequestForAssetFromImageAtFileURL:${1:(NSURL *)fileURL}

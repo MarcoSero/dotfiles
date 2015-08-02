@@ -1,0 +1,4 @@
+#name : contactTestWithBody:options
+#group : SCNPhysicsWorld
+# --
+contactTestWithBody:${1:(SCNPhysicsBody *)body} options:${2:(NSDictionary *)options}

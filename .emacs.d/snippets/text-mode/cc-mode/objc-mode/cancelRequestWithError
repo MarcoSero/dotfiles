@@ -1,0 +1,4 @@
+#name : cancelRequestWithError
+#group : NSExtensionContext
+# --
+cancelRequestWithError:${1:(NSError *)error}

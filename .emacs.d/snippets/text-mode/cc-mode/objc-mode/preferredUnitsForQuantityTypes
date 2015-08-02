@@ -1,0 +1,4 @@
+#name : preferredUnitsForQuantityTypes
+#group : HKHealthStore
+# --
+preferredUnitsForQuantityTypes:${1:(NSSet *)quantityTypes}

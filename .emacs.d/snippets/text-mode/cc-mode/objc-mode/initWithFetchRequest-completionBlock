@@ -1,0 +1,4 @@
+#name : initWithFetchRequest:completionBlock
+#group : NSPersistentStoreRequest
+# --
+initWithFetchRequest:${1:(NSFetchRequest*)request} completionBlock:${2:(NSPersistentStoreAsynchronousFetchResultCompletionBlock)blk}

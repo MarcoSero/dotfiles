@@ -1,0 +1,4 @@
+#name : viewForKey
+#group : UIViewControllerTransitioning
+# --
+viewForKey:${1:(NSString *)key}

@@ -1,0 +1,4 @@
+#name : readFromData:options:documentAttributes:error
+#group : NSAttributedString
+# --
+readFromData:${1:(NSData *)data} options:${2:(NSDictionary *)opts} documentAttributes:${3:(NSDictionary **)dict} error:${4:(NSError **)error}

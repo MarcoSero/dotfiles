@@ -1,0 +1,4 @@
+#name : removeTrigger
+#group : HMHome
+# --
+removeTrigger:${1:(HMTrigger *)trigger}

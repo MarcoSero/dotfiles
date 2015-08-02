@@ -1,0 +1,4 @@
+#name : sendProgramChange:bankMSB:bankLSB:onChannel
+#group : AVAudioUnitMIDIInstrument
+# --
+sendProgramChange:${1:(uint8_t)program} bankMSB:${2:(uint8_t)bankMSB} bankLSB:${3:(uint8_t)bankLSB} onChannel:${4:(uint8_t)channel}

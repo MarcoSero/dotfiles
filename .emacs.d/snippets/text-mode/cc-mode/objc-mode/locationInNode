@@ -1,0 +1,4 @@
+#name : locationInNode
+#group : SKNode
+# --
+locationInNode:${1:(SKNode *)node}

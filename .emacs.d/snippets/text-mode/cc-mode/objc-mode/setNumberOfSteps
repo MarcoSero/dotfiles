@@ -1,0 +1,4 @@
+#name : setNumberOfSteps
+#group : WKInterfaceSlider
+# --
+setNumberOfSteps:${1:(NSInteger)numberOfSteps}

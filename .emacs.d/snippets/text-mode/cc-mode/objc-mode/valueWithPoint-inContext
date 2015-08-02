@@ -1,0 +1,4 @@
+#name : valueWithPoint:inContext
+#group : JSValue
+# --
+valueWithPoint:${1:(CGPoint)point} inContext:${2:(JSContext *)context}

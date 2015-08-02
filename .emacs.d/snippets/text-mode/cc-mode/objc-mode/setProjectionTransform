@@ -1,0 +1,4 @@
+#name : setProjectionTransform
+#group : SCNCamera
+# --
+setProjectionTransform:${1:(SCNMatrix4)projectionTransform}

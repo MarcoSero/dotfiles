@@ -1,0 +1,4 @@
+#name : collectionView:transitionLayoutForOldLayout:newLayout
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} transitionLayoutForOldLayout:${2:(UICollectionViewLayout *)fromLayout} newLayout:${3:(UICollectionViewLayout *)toLayout}

@@ -1,0 +1,4 @@
+#name : regionByDifferenceFromRegion
+#group : SKRegion
+# --
+regionByDifferenceFromRegion:${1:(SKRegion *)region}

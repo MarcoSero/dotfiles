@@ -1,0 +1,4 @@
+#name : removeAccount:withCompletionHandler
+#group : ACAccountStore
+# --
+removeAccount:${1:(ACAccount *)account} withCompletionHandler:${2:(ACAccountStoreRemoveCompletionHandler)completionHandler}

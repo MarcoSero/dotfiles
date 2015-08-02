@@ -1,0 +1,4 @@
+#name : addConstraint
+#group : UIView
+# --
+addConstraint:${1:(NSLayoutConstraint *)constraint}

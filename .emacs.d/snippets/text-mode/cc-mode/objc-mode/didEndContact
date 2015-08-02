@@ -1,0 +1,4 @@
+#name : didEndContact
+#group : SKPhysicsWorld
+# --
+didEndContact:${1:(SKPhysicsContact *)contact}

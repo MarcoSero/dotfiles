@@ -1,0 +1,4 @@
+#name : application:willContinueUserActivityWithType
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} willContinueUserActivityWithType:${2:(NSString *)userActivityType}

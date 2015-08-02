@@ -1,0 +1,4 @@
+#name : sendData:toPeers:withMode:error
+#group : MCSession
+# --
+sendData:${1:(NSData *)data} toPeers:${2:(NSArray *)peerIDs} withMode:${3:(MCSessionSendDataMode)mode} error:${4:(NSError **)error}

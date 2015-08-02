@@ -1,0 +1,4 @@
+#name : setValue
+#group : WKInterfaceSlider
+# --
+setValue:${1:(float)value}

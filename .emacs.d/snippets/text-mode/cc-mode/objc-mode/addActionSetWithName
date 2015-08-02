@@ -1,0 +1,4 @@
+#name : addActionSetWithName
+#group : HMHome
+# --
+addActionSetWithName:${1:(NSString *)actionSetName}

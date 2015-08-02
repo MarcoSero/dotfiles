@@ -1,0 +1,4 @@
+#name : systemFontOfSize:weight
+#group : UIFont
+# --
+systemFontOfSize:${1:(CGFloat)fontSize} weight:${2:(CGFloat)weight}

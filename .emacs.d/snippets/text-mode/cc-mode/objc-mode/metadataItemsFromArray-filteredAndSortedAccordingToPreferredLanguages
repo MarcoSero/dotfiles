@@ -1,0 +1,4 @@
+#name : metadataItemsFromArray:filteredAndSortedAccordingToPreferredLanguages
+#group : AVMetadataItem
+# --
+metadataItemsFromArray:${1:(NSArray *)metadataItems} filteredAndSortedAccordingToPreferredLanguages:${2:(NSArray *)preferredLanguages}

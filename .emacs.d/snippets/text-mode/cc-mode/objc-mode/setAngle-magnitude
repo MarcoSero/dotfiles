@@ -1,0 +1,4 @@
+#name : setAngle:magnitude
+#group : UIPushBehavior
+# --
+setAngle:${1:(CGFloat)angle} magnitude:${2:(CGFloat)magnitude}

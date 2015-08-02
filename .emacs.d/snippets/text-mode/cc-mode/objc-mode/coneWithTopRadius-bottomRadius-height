@@ -1,0 +1,4 @@
+#name : coneWithTopRadius:bottomRadius:height
+#group : SCNParametricGeometry
+# --
+coneWithTopRadius:${1:(CGFloat)topRadius} bottomRadius:${2:(CGFloat)bottomRadius} height:${3:(CGFloat)height}

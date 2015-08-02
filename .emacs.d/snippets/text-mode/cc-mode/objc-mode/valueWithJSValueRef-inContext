@@ -1,0 +1,4 @@
+#name : valueWithJSValueRef:inContext
+#group : JSValue
+# --
+valueWithJSValueRef:${1:(JSValueRef)value} inContext:${2:(JSContext *)context}

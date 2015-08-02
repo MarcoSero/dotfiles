@@ -1,0 +1,4 @@
+#name : pointerAtIndex
+#group : NSPointerArray
+# --
+pointerAtIndex:${1:(NSUInteger)index}

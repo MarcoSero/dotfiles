@@ -1,0 +1,4 @@
+#name : objectsForType
+#group : HKCorrelation
+# --
+objectsForType:${1:(HKObjectType *)objectType}

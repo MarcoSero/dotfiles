@@ -1,0 +1,4 @@
+#name : textureNoiseWithSmoothness:size:grayscale
+#group : SKTexture
+# --
+textureNoiseWithSmoothness:${1:(CGFloat)smoothness} size:${2:(CGSize)size} grayscale:${3:(BOOL)grayscale}

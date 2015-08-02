@@ -1,0 +1,4 @@
+#name : changeRequestForAssetCollection:assets
+#group : PHAssetCollectionChangeRequest
+# --
+changeRequestForAssetCollection:${1:(PHAssetCollection *)assetCollection} assets:${2:(PHFetchResult *)assets}

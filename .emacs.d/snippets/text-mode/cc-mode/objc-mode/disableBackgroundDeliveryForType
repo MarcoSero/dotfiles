@@ -1,0 +1,4 @@
+#name : disableBackgroundDeliveryForType
+#group : HKHealthStore
+# --
+disableBackgroundDeliveryForType:${1:(HKObjectType *)type}

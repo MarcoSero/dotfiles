@@ -1,0 +1,4 @@
+#name : application:shouldAllowExtensionPointIdentifier
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} shouldAllowExtensionPointIdentifier:${2:(NSString *)extensionPointIdentifier}

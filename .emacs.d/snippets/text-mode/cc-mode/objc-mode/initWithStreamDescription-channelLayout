@@ -1,0 +1,4 @@
+#name : initWithStreamDescription:channelLayout
+#group : AVAudioFormat
+# --
+initWithStreamDescription:${1:(const AudioStreamBasicDescription *)asbd} channelLayout:${2:(AVAudioChannelLayout *)layout}

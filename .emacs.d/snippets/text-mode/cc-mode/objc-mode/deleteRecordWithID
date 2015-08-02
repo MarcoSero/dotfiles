@@ -1,0 +1,4 @@
+#name : deleteRecordWithID
+#group : CKDatabase
+# --
+deleteRecordWithID:${1:(CKRecordID *)recordID}

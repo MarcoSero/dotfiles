@@ -1,0 +1,4 @@
+#name : collectionView:didUnhighlightItemAtIndexPath
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} didUnhighlightItemAtIndexPath:${2:(NSIndexPath *)indexPath}

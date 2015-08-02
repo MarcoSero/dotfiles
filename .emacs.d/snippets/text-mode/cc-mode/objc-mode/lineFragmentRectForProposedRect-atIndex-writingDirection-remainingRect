@@ -1,0 +1,4 @@
+#name : lineFragmentRectForProposedRect:atIndex:writingDirection:remainingRect
+#group : NSTextContainer
+# --
+lineFragmentRectForProposedRect:${1:(CGRect)proposedRect} atIndex:${2:(NSUInteger)characterIndex} writingDirection:${3:(NSWritingDirection)baseWritingDirection} remainingRect:${4:(CGRect *)remainingRect}

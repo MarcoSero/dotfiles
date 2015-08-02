@@ -1,0 +1,4 @@
+#name : torusWithRingRadius:pipeRadius
+#group : SCNParametricGeometry
+# --
+torusWithRingRadius:${1:(CGFloat)ringRadius} pipeRadius:${2:(CGFloat)pipeRadius}

@@ -1,0 +1,4 @@
+#name : initWithPreviousServerChangeToken
+#group : CKFetchNotificationChangesOperation
+# --
+initWithPreviousServerChangeToken:${1:(CKServerChangeToken *)previousServerChangeToken}

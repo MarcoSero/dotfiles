@@ -1,0 +1,4 @@
+#name : distanceFromString
+#group : MKDistanceFormatter
+# --
+distanceFromString:${1:(NSString *)distance}

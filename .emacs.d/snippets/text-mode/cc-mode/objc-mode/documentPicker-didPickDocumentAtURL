@@ -1,0 +1,4 @@
+#name : documentPicker:didPickDocumentAtURL
+#group : UIDocumentPickerViewController
+# --
+documentPicker:${1:(UIDocumentPickerViewController *)controller} didPickDocumentAtURL:${2:(NSURL *)url}

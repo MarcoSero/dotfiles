@@ -1,0 +1,4 @@
+#name : volumeThumbRectForBounds:volumeSliderRect:value
+#group : MPVolumeView
+# --
+volumeThumbRectForBounds:${1:(CGRect)bounds} volumeSliderRect:${2:(CGRect)rect} value:${3:(float)value}

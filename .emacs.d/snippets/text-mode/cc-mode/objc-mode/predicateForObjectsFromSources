@@ -1,0 +1,4 @@
+#name : predicateForObjectsFromSources
+#group : HKQuery
+# --
+predicateForObjectsFromSources:${1:(NSSet *)sources}

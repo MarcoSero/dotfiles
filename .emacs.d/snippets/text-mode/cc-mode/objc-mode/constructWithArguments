@@ -1,0 +1,4 @@
+#name : constructWithArguments
+#group : JSValue
+# --
+constructWithArguments:${1:(NSArray *)arguments}

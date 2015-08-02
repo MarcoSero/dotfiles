@@ -1,0 +1,4 @@
+#name : quantityTypeForIdentifier
+#group : HKObjectType
+# --
+quantityTypeForIdentifier:${1:(NSString *)identifier}

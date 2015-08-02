@@ -1,0 +1,4 @@
+#name : mapTableWithKeyOptions:valueOptions
+#group : NSMapTable
+# --
+mapTableWithKeyOptions:${1:(NSPointerFunctionsOptions)keyOptions} valueOptions:${2:(NSPointerFunctionsOptions)valueOptions}

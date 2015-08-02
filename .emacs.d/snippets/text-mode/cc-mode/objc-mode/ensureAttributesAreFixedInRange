@@ -1,0 +1,4 @@
+#name : ensureAttributesAreFixedInRange
+#group : NSTextStorage
+# --
+ensureAttributesAreFixedInRange:${1:(NSRange)range}

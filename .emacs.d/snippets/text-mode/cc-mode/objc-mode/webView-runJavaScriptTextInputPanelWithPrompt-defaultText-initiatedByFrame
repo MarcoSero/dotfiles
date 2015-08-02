@@ -1,0 +1,4 @@
+#name : webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame
+#group : WKUIDelegate
+# --
+webView:${1:(WKWebView *)webView} runJavaScriptTextInputPanelWithPrompt:${2:(NSString *)prompt} defaultText:${3:(NSString *)defaultText} initiatedByFrame:${4:(WKFrameInfo *)frame}

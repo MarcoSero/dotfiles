@@ -1,0 +1,4 @@
+#name : finalLayoutAttributesForDisappearingDecorationElementOfKind:atIndexPath
+#group : UICollectionViewLayout
+# --
+finalLayoutAttributesForDisappearingDecorationElementOfKind:${1:(NSString *)elementKind} atIndexPath:${2:(NSIndexPath *)decorationIndexPath}

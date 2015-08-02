@@ -1,0 +1,4 @@
+#name : fetchAssetCollectionsWithLocalIdentifiers:options
+#group : PHCollection
+# --
+fetchAssetCollectionsWithLocalIdentifiers:${1:(NSArray *)identifiers} options:${2:(PHFetchOptions *)options}

@@ -1,0 +1,4 @@
+#name : advertiser:didReceiveInvitationFromPeer:withContext
+#group : MCNearbyServiceAdvertiser
+# --
+advertiser:${1:(MCNearbyServiceAdvertiser *)advertiser} didReceiveInvitationFromPeer:${2:(MCPeerID *)peerID} withContext:${3:(NSData *)context}

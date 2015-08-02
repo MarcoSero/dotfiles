@@ -1,0 +1,4 @@
+#name : getLineFragmentInsertionPointsForCharacterAtIndex:alternatePositions:inDisplayOrder:positions:characterIndexes
+#group : NSLayoutManager
+# --
+getLineFragmentInsertionPointsForCharacterAtIndex:${1:(NSUInteger)charIndex} alternatePositions:${2:(BOOL)aFlag} inDisplayOrder:${3:(BOOL)dFlag} positions:${4:(CGFloat *)positions} characterIndexes:${5:(NSUInteger *)charIndexes}

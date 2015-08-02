@@ -1,0 +1,4 @@
+#name : initWithFrame:textContainer
+#group : UITextView
+# --
+initWithFrame:${1:(CGRect)frame} textContainer:${2:(NSTextContainer *)textContainer}

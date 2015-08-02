@@ -1,0 +1,4 @@
+#name : sampleFieldsAt
+#group : SKPhysicsWorld
+# --
+sampleFieldsAt:${1:(vector_float3)position}

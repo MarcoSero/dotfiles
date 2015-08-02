@@ -1,0 +1,4 @@
+#name : maximumVolumeSliderImageForState
+#group : MPVolumeView
+# --
+maximumVolumeSliderImageForState:${1:(UIControlState)state}

@@ -1,0 +1,4 @@
+#name : canHandleAdjustmentData
+#group : PHContentEditingController
+# --
+canHandleAdjustmentData:${1:(PHAdjustmentData *)adjustmentData}

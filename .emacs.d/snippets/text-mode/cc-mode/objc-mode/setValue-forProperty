@@ -1,0 +1,4 @@
+#name : setValue:forProperty
+#group : JSValue
+# --
+setValue:${1:(id)value} forProperty:${2:(NSString *)property}

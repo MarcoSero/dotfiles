@@ -1,0 +1,4 @@
+#name : backgroundImageForState
+#group : UIStepper
+# --
+backgroundImageForState:${1:(UIControlState)state}

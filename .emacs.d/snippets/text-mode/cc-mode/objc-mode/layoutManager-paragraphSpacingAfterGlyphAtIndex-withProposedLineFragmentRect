@@ -1,0 +1,4 @@
+#name : layoutManager:paragraphSpacingAfterGlyphAtIndex:withProposedLineFragmentRect
+#group : NSLayoutManager
+# --
+layoutManager:${1:(NSLayoutManager *)layoutManager} paragraphSpacingAfterGlyphAtIndex:${2:(NSUInteger)glyphIndex} withProposedLineFragmentRect:${3:(CGRect)rect}

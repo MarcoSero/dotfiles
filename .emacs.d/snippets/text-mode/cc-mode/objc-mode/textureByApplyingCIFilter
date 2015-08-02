@@ -1,0 +1,4 @@
+#name : textureByApplyingCIFilter
+#group : SKTexture
+# --
+textureByApplyingCIFilter:${1:(CIFilter *)filter}

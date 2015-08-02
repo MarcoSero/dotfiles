@@ -1,0 +1,4 @@
+#name : startWithCompletionHandler
+#group : MKMapSnapshotter
+# --
+startWithCompletionHandler:${1:(MKMapSnapshotCompletionHandler)completionHandler}

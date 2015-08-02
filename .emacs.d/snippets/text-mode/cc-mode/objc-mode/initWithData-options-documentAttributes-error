@@ -1,0 +1,4 @@
+#name : initWithData:options:documentAttributes:error
+#group : NSAttributedString
+# --
+initWithData:${1:(NSData *)data} options:${2:(NSDictionary *)options} documentAttributes:${3:(NSDictionary **)dict} error:${4:(NSError **)error}

@@ -1,0 +1,4 @@
+#name : removeAccessory
+#group : HMHome
+# --
+removeAccessory:${1:(HMAccessory *)accessory}

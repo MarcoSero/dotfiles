@@ -1,0 +1,4 @@
+#name : startPedometerUpdatesFromDate
+#group : CMPedometer
+# --
+startPedometerUpdatesFromDate:${1:(NSDate *)start}

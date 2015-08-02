@@ -1,0 +1,4 @@
+#name : activityDidFinish
+#group : UIActivity
+# --
+activityDidFinish:${1:(BOOL)completed}

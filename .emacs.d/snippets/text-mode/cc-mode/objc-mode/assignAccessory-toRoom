@@ -1,0 +1,4 @@
+#name : assignAccessory:toRoom
+#group : HMHome
+# --
+assignAccessory:${1:(HMAccessory *)accessory} toRoom:${2:(HMRoom *)room}

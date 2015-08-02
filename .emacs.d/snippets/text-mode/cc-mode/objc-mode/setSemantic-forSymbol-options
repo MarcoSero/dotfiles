@@ -1,0 +1,4 @@
+#name : setSemantic:forSymbol:options
+#group : SCNShadable
+# --
+setSemantic:${1:(NSString *)semantic} forSymbol:${2:(NSString *)symbol} options:${3:(NSDictionary *)options}

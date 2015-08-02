@@ -1,0 +1,4 @@
+#name : isMonitoringAvailableForClass
+#group : CLLocationManager
+# --
+isMonitoringAvailableForClass:${1:(Class)regionClass}

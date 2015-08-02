@@ -1,0 +1,4 @@
+#name : initWithType:primary
+#group : CBService
+# --
+initWithType:${1:(CBUUID *)UUID} primary:${2:(BOOL)isPrimary}

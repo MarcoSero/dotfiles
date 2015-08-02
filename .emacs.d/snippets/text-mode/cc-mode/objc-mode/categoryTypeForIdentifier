@@ -1,0 +1,4 @@
+#name : categoryTypeForIdentifier
+#group : HKObjectType
+# --
+categoryTypeForIdentifier:${1:(NSString *)identifier}

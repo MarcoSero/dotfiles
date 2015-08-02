@@ -1,0 +1,4 @@
+#name : componentsWithURL:resolvingAgainstBaseURL
+#group : NSURL
+# --
+componentsWithURL:${1:(NSURL *)url} resolvingAgainstBaseURL:${2:(BOOL)resolve}

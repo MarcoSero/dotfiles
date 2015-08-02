@@ -1,0 +1,4 @@
+#name : dateWithEra:year:month:day:hour:minute:second:nanosecond
+#group : NSCalendar
+# --
+dateWithEra:${1:(NSInteger)eraValue} year:${2:(NSInteger)yearValue} month:${3:(NSInteger)monthValue} day:${4:(NSInteger)dayValue} hour:${5:(NSInteger)hourValue} minute:${6:(NSInteger)minuteValue} second:${7:(NSInteger)secondValue} nanosecond:${8:(NSInteger)nanosecondValue}

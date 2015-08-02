@@ -1,0 +1,4 @@
+#name : filterWithName:withInputParameters
+#group : CIFilter
+# --
+filterWithName:${1:(NSString *)name} withInputParameters:${2:(NSDictionary*)params}

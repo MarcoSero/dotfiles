@@ -1,0 +1,4 @@
+#name : getCachedResponseForDataTask
+#group : NSURLCache
+# --
+getCachedResponseForDataTask:${1:(NSURLSessionDataTask *)dataTask}

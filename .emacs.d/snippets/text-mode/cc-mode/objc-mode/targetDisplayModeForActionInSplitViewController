@@ -1,0 +1,4 @@
+#name : targetDisplayModeForActionInSplitViewController
+#group : UISplitViewController
+# --
+targetDisplayModeForActionInSplitViewController:${1:(UISplitViewController *)svc}

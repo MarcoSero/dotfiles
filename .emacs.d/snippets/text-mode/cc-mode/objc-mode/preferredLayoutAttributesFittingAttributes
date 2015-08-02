@@ -1,0 +1,4 @@
+#name : preferredLayoutAttributesFittingAttributes
+#group : UICollectionViewCell
+# --
+preferredLayoutAttributesFittingAttributes:${1:(UICollectionViewLayoutAttributes *)layoutAttributes}

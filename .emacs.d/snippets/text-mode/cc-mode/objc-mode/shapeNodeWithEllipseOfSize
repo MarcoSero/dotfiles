@@ -1,0 +1,4 @@
+#name : shapeNodeWithEllipseOfSize
+#group : SKShapeNode
+# --
+shapeNodeWithEllipseOfSize:${1:(CGSize)size}

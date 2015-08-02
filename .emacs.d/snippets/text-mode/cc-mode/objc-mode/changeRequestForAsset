@@ -1,0 +1,4 @@
+#name : changeRequestForAsset
+#group : PHAssetChangeRequest
+# --
+changeRequestForAsset:${1:(PHAsset *)asset}

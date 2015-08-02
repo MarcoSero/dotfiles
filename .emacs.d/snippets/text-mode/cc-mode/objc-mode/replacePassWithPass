@@ -1,0 +1,4 @@
+#name : replacePassWithPass
+#group : PKPassLibrary
+# --
+replacePassWithPass:${1:(PKPass *)pass}

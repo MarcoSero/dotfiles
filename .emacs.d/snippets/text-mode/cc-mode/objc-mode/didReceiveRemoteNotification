@@ -1,0 +1,4 @@
+#name : didReceiveRemoteNotification
+#group : WKInterfaceController
+# --
+didReceiveRemoteNotification:${1:(NSDictionary *)remoteNotification}

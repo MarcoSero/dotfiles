@@ -1,0 +1,4 @@
+#name : transformConstraintInWorldSpace
+#group : SCNConstraint
+# --
+transformConstraintInWorldSpace:${1:(BOOL)world}

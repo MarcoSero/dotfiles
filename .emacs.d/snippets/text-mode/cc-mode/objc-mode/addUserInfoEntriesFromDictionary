@@ -1,0 +1,4 @@
+#name : addUserInfoEntriesFromDictionary
+#group : NSUserActivity
+# --
+addUserInfoEntriesFromDictionary:${1:(NSDictionary *)otherDictionary}

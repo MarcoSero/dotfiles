@@ -1,0 +1,4 @@
+#name : lowercaseStringWithLocale
+#group : NSString
+# --
+lowercaseStringWithLocale:${1:(NSLocale *)locale}

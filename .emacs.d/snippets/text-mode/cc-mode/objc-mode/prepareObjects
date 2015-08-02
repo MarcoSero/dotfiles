@@ -1,0 +1,4 @@
+#name : prepareObjects
+#group : SCNSceneRenderer
+# --
+prepareObjects:${1:(NSArray *)objects}

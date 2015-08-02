@@ -1,0 +1,4 @@
+#name : invalidateLayoutForCharacterRange:actualCharacterRange
+#group : NSLayoutManager
+# --
+invalidateLayoutForCharacterRange:${1:(NSRange)charRange} actualCharacterRange:${2:(NSRangePointer)actualCharRange}

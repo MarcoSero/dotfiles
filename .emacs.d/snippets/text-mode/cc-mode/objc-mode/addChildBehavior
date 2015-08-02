@@ -1,0 +1,4 @@
+#name : addChildBehavior
+#group : UIDynamicBehavior
+# --
+addChildBehavior:${1:(UIDynamicBehavior *)behavior}

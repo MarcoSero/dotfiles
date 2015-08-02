@@ -1,0 +1,4 @@
+#name : initWithTitle:image:selectedImage
+#group : UITabBarItem
+# --
+initWithTitle:${1:(NSString *)title} image:${2:(UIImage *)image} selectedImage:${3:(UIImage *)selectedImage}

@@ -1,0 +1,4 @@
+#name : tableView:editActionsForRowAtIndexPath
+#group : UITableView
+# --
+tableView:${1:(UITableView *)tableView} editActionsForRowAtIndexPath:${2:(NSIndexPath *)indexPath}

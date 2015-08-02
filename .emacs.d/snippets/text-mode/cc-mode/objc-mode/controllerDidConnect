@@ -1,0 +1,4 @@
+#name : controllerDidConnect
+#group : GCController
+# --
+controllerDidConnect:${1:(NSNotification *)note}

@@ -1,0 +1,4 @@
+#name : initWithPeer
+#group : MCSession
+# --
+initWithPeer:${1:(MCPeerID *)myPeerID}

@@ -1,0 +1,4 @@
+#name : strengthTo:duration
+#group : SKAction
+# --
+strengthTo:${1:(float)strength} duration:${2:(NSTimeInterval)sec}

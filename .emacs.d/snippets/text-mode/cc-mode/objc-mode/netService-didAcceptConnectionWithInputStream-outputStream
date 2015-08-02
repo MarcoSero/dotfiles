@@ -1,0 +1,4 @@
+#name : netService:didAcceptConnectionWithInputStream:outputStream
+#group : NSNetServices
+# --
+netService:${1:(NSNetService *)sender} didAcceptConnectionWithInputStream:${2:(NSInputStream *)inputStream} outputStream:${3:(NSOutputStream *)outputStream}

@@ -1,0 +1,4 @@
+#name : stopNote:onChannel
+#group : AVAudioUnitMIDIInstrument
+# --
+stopNote:${1:(uint8_t)note} onChannel:${2:(uint8_t)channel}

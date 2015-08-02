@@ -1,0 +1,4 @@
+#name : finishLoadingWithError
+#group : AVAssetResourceLoader
+# --
+finishLoadingWithError:${1:(NSError *)error}

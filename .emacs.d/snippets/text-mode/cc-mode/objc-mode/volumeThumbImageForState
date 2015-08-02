@@ -1,0 +1,4 @@
+#name : volumeThumbImageForState
+#group : MPVolumeView
+# --
+volumeThumbImageForState:${1:(UIControlState)state}

@@ -1,0 +1,4 @@
+#name : calendarForEntityType:eventStore
+#group : EKCalendar
+# --
+calendarForEntityType:${1:(EKEntityType)entityType} eventStore:${2:(EKEventStore *)eventStore}

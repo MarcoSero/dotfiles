@@ -1,0 +1,4 @@
+#name : dictionaryWithSharedKeySet
+#group : NSDictionary
+# --
+dictionaryWithSharedKeySet:${1:(id)keyset}

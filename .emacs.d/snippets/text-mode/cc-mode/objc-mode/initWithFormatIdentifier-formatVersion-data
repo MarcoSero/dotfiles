@@ -1,0 +1,4 @@
+#name : initWithFormatIdentifier:formatVersion:data
+#group : PHAdjustmentData
+# --
+initWithFormatIdentifier:${1:(NSString *)formatIdentifier} formatVersion:${2:(NSString *)formatVersion} data:${3:(NSData *)data}

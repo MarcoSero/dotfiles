@@ -1,0 +1,4 @@
+#name : initWithData:fileTypeHint:error
+#group : AVAudioPlayer
+# --
+initWithData:${1:(NSData *)data} fileTypeHint:${2:(NSString *)utiString} error:${3:(NSError **)outError}

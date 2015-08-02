@@ -1,0 +1,4 @@
+#name : setAccessibilityLabel
+#group : WKInterfaceObject
+# --
+setAccessibilityLabel:${1:(NSString *)accessibilityLabel}

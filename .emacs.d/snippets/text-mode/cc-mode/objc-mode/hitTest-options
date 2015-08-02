@@ -1,0 +1,4 @@
+#name : hitTest:options
+#group : SK3DNode
+# --
+hitTest:${1:(CGPoint)thePoint} options:${2:(NSDictionary *)options}

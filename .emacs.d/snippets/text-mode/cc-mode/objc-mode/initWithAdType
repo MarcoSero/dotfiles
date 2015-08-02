@@ -1,0 +1,4 @@
+#name : initWithAdType
+#group : ADBannerView
+# --
+initWithAdType:${1:(ADAdType)type}

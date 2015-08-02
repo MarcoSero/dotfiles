@@ -1,0 +1,4 @@
+#name : applyTorque
+#group : SKPhysicsBody
+# --
+applyTorque:${1:(CGFloat)torque}

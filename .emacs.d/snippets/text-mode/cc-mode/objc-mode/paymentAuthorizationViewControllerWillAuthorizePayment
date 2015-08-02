@@ -1,0 +1,4 @@
+#name : paymentAuthorizationViewControllerWillAuthorizePayment
+#group : PKPaymentAuthorizationViewController
+# --
+paymentAuthorizationViewControllerWillAuthorizePayment:${1:(PKPaymentAuthorizationViewController *)controller}

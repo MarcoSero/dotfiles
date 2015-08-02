@@ -1,0 +1,4 @@
+#name : sharedKeySetForKeys
+#group : NSDictionary
+# --
+sharedKeySetForKeys:${1:(NSArray *)keys}

@@ -1,0 +1,4 @@
+#name : dateBySettingUnit:value:ofDate:options
+#group : NSCalendar
+# --
+dateBySettingUnit:${1:(NSCalendarUnit)unit} value:${2:(NSInteger)v} ofDate:${3:(NSDate *)date} options:${4:(NSCalendarOptions)opts}

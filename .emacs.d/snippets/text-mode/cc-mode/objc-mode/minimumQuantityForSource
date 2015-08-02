@@ -1,0 +1,4 @@
+#name : minimumQuantityForSource
+#group : HKStatistics
+# --
+minimumQuantityForSource:${1:(HKSource *)source}

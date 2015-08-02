@@ -1,0 +1,4 @@
+#name : enumerateStatisticsFromDate:toDate
+#group : HKStatisticsCollectionQuery
+# --
+enumerateStatisticsFromDate:${1:(NSDate *)startDate} toDate:${2:(NSDate *)endDate}

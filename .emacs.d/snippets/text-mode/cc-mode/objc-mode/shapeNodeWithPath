@@ -1,0 +1,4 @@
+#name : shapeNodeWithPath
+#group : SKShapeNode
+# --
+shapeNodeWithPath:${1:(CGPathRef)path}

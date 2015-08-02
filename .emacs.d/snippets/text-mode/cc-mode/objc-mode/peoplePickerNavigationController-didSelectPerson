@@ -1,0 +1,4 @@
+#name : peoplePickerNavigationController:didSelectPerson
+#group : ABPeoplePickerNavigationController
+# --
+peoplePickerNavigationController:${1:(ABPeoplePickerNavigationController*)peoplePicker} didSelectPerson:${2:(ABRecordRef)person}

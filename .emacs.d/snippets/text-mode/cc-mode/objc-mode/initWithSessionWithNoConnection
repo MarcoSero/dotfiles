@@ -1,0 +1,4 @@
+#name : initWithSessionWithNoConnection
+#group : AVCaptureVideoPreviewLayer
+# --
+initWithSessionWithNoConnection:${1:(AVCaptureSession *)session}

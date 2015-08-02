@@ -1,0 +1,4 @@
+#name : webView:didFinishNavigation
+#group : WKNavigationDelegate
+# --
+webView:${1:(WKWebView *)webView} didFinishNavigation:${2:(WKNavigation *)navigation}

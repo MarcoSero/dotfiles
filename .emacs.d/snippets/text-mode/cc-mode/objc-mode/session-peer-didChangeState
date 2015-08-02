@@ -1,0 +1,4 @@
+#name : session:peer:didChangeState
+#group : MCSession
+# --
+session:${1:(MCSession *)session} peer:${2:(MCPeerID *)peerID} didChangeState:${3:(MCSessionState)state}

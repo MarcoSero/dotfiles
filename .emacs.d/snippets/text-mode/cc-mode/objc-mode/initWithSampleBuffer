@@ -1,0 +1,4 @@
+#name : initWithSampleBuffer
+#group : AVTimedMetadataGroup
+# --
+initWithSampleBuffer:${1:(CMSampleBufferRef)sampleBuffer}

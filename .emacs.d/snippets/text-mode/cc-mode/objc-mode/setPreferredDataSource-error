@@ -1,0 +1,4 @@
+#name : setPreferredDataSource:error
+#group : AVAudioSession
+# --
+setPreferredDataSource:${1:(AVAudioSessionDataSourceDescription *)dataSource} error:${2:(NSError **)outError}

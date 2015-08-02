@@ -1,0 +1,4 @@
+#name : addPointer
+#group : NSPointerArray
+# --
+addPointer:${1:(void *)pointer}

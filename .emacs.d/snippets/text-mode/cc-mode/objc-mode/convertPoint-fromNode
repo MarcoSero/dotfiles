@@ -1,0 +1,4 @@
+#name : convertPoint:fromNode
+#group : SKNode
+# --
+convertPoint:${1:(CGPoint)point} fromNode:${2:(SKNode *)node}

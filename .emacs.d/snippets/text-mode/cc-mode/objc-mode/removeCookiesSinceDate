@@ -1,0 +1,4 @@
+#name : removeCookiesSinceDate
+#group : NSHTTPCookieStorage
+# --
+removeCookiesSinceDate:${1:(NSDate *)date}

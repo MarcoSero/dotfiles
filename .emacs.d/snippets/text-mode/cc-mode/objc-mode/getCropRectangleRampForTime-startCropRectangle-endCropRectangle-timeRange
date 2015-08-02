@@ -1,0 +1,4 @@
+#name : getCropRectangleRampForTime:startCropRectangle:endCropRectangle:timeRange
+#group : AVVideoComposition
+# --
+getCropRectangleRampForTime:${1:(CMTime)time} startCropRectangle:${2:(CGRect *)startCropRectangle} endCropRectangle:${3:(CGRect *)endCropRectangle} timeRange:${4:(CMTimeRange *)timeRange}

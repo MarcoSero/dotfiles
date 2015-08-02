@@ -1,0 +1,4 @@
+#name : textureWithImageNamed
+#group : SKTexture
+# --
+textureWithImageNamed:${1:(NSString *)name}

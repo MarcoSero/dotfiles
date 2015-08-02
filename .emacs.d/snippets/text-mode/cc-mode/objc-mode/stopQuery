@@ -1,0 +1,4 @@
+#name : stopQuery
+#group : HKHealthStore
+# --
+stopQuery:${1:(HKQuery *)query}

@@ -1,0 +1,4 @@
+#name : sceneSourceWithData:options
+#group : SCNSceneSource
+# --
+sceneSourceWithData:${1:(NSData *)data} options:${2:(NSDictionary *)options}

@@ -1,0 +1,4 @@
+#name : accessory:service:didUpdateValueForCharacteristic
+#group : HMAccessory
+# --
+accessory:${1:(HMAccessory *)accessory} service:${2:(HMService *)service} didUpdateValueForCharacteristic:${3:(HMCharacteristic *)characteristic}

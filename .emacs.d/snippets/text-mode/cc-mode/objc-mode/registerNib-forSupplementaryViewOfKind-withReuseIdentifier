@@ -1,0 +1,4 @@
+#name : registerNib:forSupplementaryViewOfKind:withReuseIdentifier
+#group : UICollectionView
+# --
+registerNib:${1:(UINib *)nib} forSupplementaryViewOfKind:${2:(NSString *)kind} withReuseIdentifier:${3:(NSString *)identifier}

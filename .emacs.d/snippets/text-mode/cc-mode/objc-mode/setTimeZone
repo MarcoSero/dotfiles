@@ -1,0 +1,4 @@
+#name : setTimeZone
+#group : WKInterfaceDate
+# --
+setTimeZone:${1:(NSTimeZone *)timeZone}

@@ -1,0 +1,4 @@
+#name : didPresentSearchController
+#group : UISearchController
+# --
+didPresentSearchController:${1:(UISearchController *)searchController}

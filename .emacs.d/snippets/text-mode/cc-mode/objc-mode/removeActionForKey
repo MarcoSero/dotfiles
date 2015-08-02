@@ -1,0 +1,4 @@
+#name : removeActionForKey
+#group : SKNode
+# --
+removeActionForKey:${1:(NSString *)key}

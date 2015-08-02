@@ -1,0 +1,4 @@
+#name : update
+#group : SKScene
+# --
+update:${1:(NSTimeInterval)currentTime}

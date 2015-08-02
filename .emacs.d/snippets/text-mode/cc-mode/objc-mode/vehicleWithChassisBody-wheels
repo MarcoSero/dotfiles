@@ -1,0 +1,4 @@
+#name : vehicleWithChassisBody:wheels
+#group : SCNPhysicsBehavior
+# --
+vehicleWithChassisBody:${1:(SCNPhysicsBody *)chassisBody} wheels:${2:(NSArray *)wheels}

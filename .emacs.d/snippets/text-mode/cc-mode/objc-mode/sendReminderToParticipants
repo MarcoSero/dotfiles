@@ -1,0 +1,4 @@
+#name : sendReminderToParticipants
+#group : GKTurnBasedMatch
+# --
+sendReminderToParticipants:${1:(NSArray *)participants}

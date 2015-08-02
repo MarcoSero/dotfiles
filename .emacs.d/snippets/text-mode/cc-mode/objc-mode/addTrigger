@@ -1,0 +1,4 @@
+#name : addTrigger
+#group : HMHome
+# --
+addTrigger:${1:(HMTrigger *)trigger}

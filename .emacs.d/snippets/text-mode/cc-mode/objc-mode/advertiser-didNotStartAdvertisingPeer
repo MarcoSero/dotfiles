@@ -1,0 +1,4 @@
+#name : advertiser:didNotStartAdvertisingPeer
+#group : MCNearbyServiceAdvertiser
+# --
+advertiser:${1:(MCNearbyServiceAdvertiser *)advertiser} didNotStartAdvertisingPeer:${2:(NSError *)error}

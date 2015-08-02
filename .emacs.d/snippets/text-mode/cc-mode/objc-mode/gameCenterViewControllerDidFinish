@@ -1,0 +1,4 @@
+#name : gameCenterViewControllerDidFinish
+#group : GKGameCenterViewController
+# --
+gameCenterViewControllerDidFinish:${1:(GKGameCenterViewController *)gameCenterViewController}

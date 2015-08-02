@@ -1,0 +1,4 @@
+#name : initWithBase64EncodedData:options
+#group : NSData
+# --
+initWithBase64EncodedData:${1:(NSData *)base64Data} options:${2:(NSDataBase64DecodingOptions)options}

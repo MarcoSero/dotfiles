@@ -1,0 +1,4 @@
+#name : URLForTilePath
+#group : MKTileOverlay
+# --
+URLForTilePath:${1:(MKTileOverlayPath)path}

@@ -1,0 +1,4 @@
+#name : home:didAddUser
+#group : HMHome
+# --
+home:${1:(HMHome *)home} didAddUser:${2:(HMUser *)user}

@@ -1,0 +1,4 @@
+#name : didMoveToView
+#group : SKScene
+# --
+didMoveToView:${1:(SKView *)view}

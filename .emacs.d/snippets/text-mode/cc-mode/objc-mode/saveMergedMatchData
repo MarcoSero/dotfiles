@@ -1,0 +1,4 @@
+#name : saveMergedMatchData
+#group : GKTurnBasedMatch
+# --
+saveMergedMatchData:${1:(NSData *)matchData}

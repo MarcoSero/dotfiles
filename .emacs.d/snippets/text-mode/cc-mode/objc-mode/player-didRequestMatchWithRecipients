@@ -1,0 +1,4 @@
+#name : player:didRequestMatchWithRecipients
+#group : GKMatchmaker
+# --
+player:${1:(GKPlayer *)player} didRequestMatchWithRecipients:${2:(NSArray *)recipientPlayers}

@@ -1,0 +1,4 @@
+#name : updatePrimaryHome
+#group : HMHomeManager
+# --
+updatePrimaryHome:${1:(HMHome *)home}

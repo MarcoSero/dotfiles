@@ -1,0 +1,4 @@
+#name : initWithServiceType:session
+#group : MCBrowserViewController
+# --
+initWithServiceType:${1:(NSString *)serviceType} session:${2:(MCSession *)session}

@@ -1,0 +1,4 @@
+#name : fontDescriptorWithFace
+#group : UIFontDescriptor
+# --
+fontDescriptorWithFace:${1:(NSString *)newFace}

@@ -1,0 +1,4 @@
+#name : resourceLoader:shouldWaitForLoadingOfRequestedResource
+#group : AVAssetResourceLoader
+# --
+resourceLoader:${1:(AVAssetResourceLoader *)resourceLoader} shouldWaitForLoadingOfRequestedResource:${2:(AVAssetResourceLoadingRequest *)loadingRequest}

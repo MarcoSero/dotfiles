@@ -1,0 +1,4 @@
+#name : fadeOpacityBy:duration
+#group : SCNAction
+# --
+fadeOpacityBy:${1:(CGFloat)factor} duration:${2:(NSTimeInterval)sec}

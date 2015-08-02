@@ -1,0 +1,4 @@
+#name : quantitySampleWithType
+#group : HKQuantitySample
+# --
+quantitySampleWithType:${1:(HKQuantityType *)quantityType}

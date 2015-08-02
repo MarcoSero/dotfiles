@@ -1,0 +1,4 @@
+#name : hitTestWithSegmentFromPoint:toPoint:options
+#group : SCNNode
+# --
+hitTestWithSegmentFromPoint:${1:(SCNVector3)pointA} toPoint:${2:(SCNVector3)pointB} options:${3:(NSDictionary *)options}

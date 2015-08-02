@@ -1,0 +1,4 @@
+#name : startRangingBeaconsInRegion
+#group : CLLocationManager
+# --
+startRangingBeaconsInRegion:${1:(CLBeaconRegion *)region}

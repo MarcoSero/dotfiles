@@ -1,0 +1,4 @@
+#name : setExtraLineFragmentRect:usedRect:textContainer
+#group : NSLayoutManager
+# --
+setExtraLineFragmentRect:${1:(CGRect)fragmentRect} usedRect:${2:(CGRect)usedRect} textContainer:${3:(NSTextContainer *)container}

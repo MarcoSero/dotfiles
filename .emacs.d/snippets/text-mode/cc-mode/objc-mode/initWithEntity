@@ -1,0 +1,4 @@
+#name : initWithEntity
+#group : NSBatchUpdateRequest
+# --
+initWithEntity:${1:(NSEntityDescription *)entity}

@@ -1,0 +1,4 @@
+#name : setWeight:forTargetAtIndex
+#group : SCNMorpher
+# --
+setWeight:${1:(CGFloat)weight} forTargetAtIndex:${2:(NSUInteger)targetIndex}

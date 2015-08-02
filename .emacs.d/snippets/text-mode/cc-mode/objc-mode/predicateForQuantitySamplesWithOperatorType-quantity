@@ -1,0 +1,4 @@
+#name : predicateForQuantitySamplesWithOperatorType:quantity
+#group : HKQuery
+# --
+predicateForQuantitySamplesWithOperatorType:${1:(NSPredicateOperatorType)operatorType} quantity:${2:(HKQuantity *)quantity}

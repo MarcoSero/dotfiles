@@ -1,0 +1,4 @@
+#name : cancelConnectPeer
+#group : MCSession
+# --
+cancelConnectPeer:${1:(MCPeerID *)peerID}

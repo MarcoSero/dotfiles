@@ -1,0 +1,4 @@
+#name : setDepthBias:slopeScale:clamp
+#group : MTLRenderCommandEncoder
+# --
+setDepthBias:${1:(float)depthBias} slopeScale:${2:(float)slopeScale} clamp:${3:(float)clamp}

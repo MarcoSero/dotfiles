@@ -1,0 +1,4 @@
+#name : application:handleEventsForBackgroundURLSession
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} handleEventsForBackgroundURLSession:${2:(NSString *)identifier}

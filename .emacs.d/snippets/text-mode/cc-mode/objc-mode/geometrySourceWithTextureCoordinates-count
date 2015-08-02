@@ -1,0 +1,4 @@
+#name : geometrySourceWithTextureCoordinates:count
+#group : SCNGeometry
+# --
+geometrySourceWithTextureCoordinates:${1:(const CGPoint *)texcoord} count:${2:(NSInteger)count}

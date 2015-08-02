@@ -1,0 +1,4 @@
+#name : application:didFailToContinueUserActivityWithType:error
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} didFailToContinueUserActivityWithType:${2:(NSString *)userActivityType} error:${3:(NSError *)error}

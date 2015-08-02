@@ -1,0 +1,4 @@
+#name : initWithPeer:discoveryInfo:serviceType
+#group : MCNearbyServiceAdvertiser
+# --
+initWithPeer:${1:(MCPeerID *)myPeerID} discoveryInfo:${2:(NSDictionary *)info} serviceType:${3:(NSString *)serviceType}

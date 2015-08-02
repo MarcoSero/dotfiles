@@ -1,0 +1,4 @@
+#name : preferredFontDescriptorWithTextStyle
+#group : UIFontDescriptor
+# --
+preferredFontDescriptorWithTextStyle:${1:(NSString *)style}

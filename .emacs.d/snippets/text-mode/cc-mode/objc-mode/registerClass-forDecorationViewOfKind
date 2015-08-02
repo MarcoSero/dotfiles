@@ -1,0 +1,4 @@
+#name : registerClass:forDecorationViewOfKind
+#group : UICollectionViewLayout
+# --
+registerClass:${1:(Class)viewClass} forDecorationViewOfKind:${2:(NSString *)elementKind}

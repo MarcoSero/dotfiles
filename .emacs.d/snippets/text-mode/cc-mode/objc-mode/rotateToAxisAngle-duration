@@ -1,0 +1,4 @@
+#name : rotateToAxisAngle:duration
+#group : SCNAction
+# --
+rotateToAxisAngle:${1:(SCNVector4)axisAngle} duration:${2:(NSTimeInterval)duration}

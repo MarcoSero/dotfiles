@@ -1,0 +1,4 @@
+#name : willDismissSearchController
+#group : UISearchController
+# --
+willDismissSearchController:${1:(UISearchController *)searchController}

@@ -1,0 +1,4 @@
+#name : initWithTextAlignment:location:options
+#group : NSParagraphStyle
+# --
+initWithTextAlignment:${1:(NSTextAlignment)alignment} location:${2:(CGFloat)loc} options:${3:(NSDictionary *)options}

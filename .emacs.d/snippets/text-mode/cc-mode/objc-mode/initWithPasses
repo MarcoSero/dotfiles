@@ -1,0 +1,4 @@
+#name : initWithPasses
+#group : PKAddPassesViewController
+# --
+initWithPasses:${1:(NSArray *)passes}

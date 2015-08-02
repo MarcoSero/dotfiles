@@ -1,0 +1,4 @@
+#name : setVisibilityResultMode:offset
+#group : MTLRenderCommandEncoder
+# --
+setVisibilityResultMode:${1:(MTLVisibilityResultMode)mode} offset:${2:(NSUInteger)offset}

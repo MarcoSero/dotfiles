@@ -1,0 +1,4 @@
+#name : getEra:yearForWeekOfYear:weekOfYear:weekday:fromDate
+#group : NSCalendar
+# --
+getEra:${1:(out NSInteger *)eraValuePointer} yearForWeekOfYear:${2:(out NSInteger *)yearValuePointer} weekOfYear:${3:(out NSInteger *)weekValuePointer} weekday:${4:(out NSInteger *)weekdayValuePointer} fromDate:${5:(NSDate *)date}

@@ -1,0 +1,4 @@
+#name : initWithVirtualMachine
+#group : JSContext
+# --
+initWithVirtualMachine:${1:(JSVirtualMachine *)virtualMachine}

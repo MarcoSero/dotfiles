@@ -1,0 +1,4 @@
+#name : increaseSize
+#group : UIResponder
+# --
+increaseSize:${1:(id)sender}

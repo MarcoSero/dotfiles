@@ -1,0 +1,4 @@
+#name : resizeToHeight:duration
+#group : SKAction
+# --
+resizeToHeight:${1:(CGFloat)height} duration:${2:(NSTimeInterval)duration}

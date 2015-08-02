@@ -1,0 +1,4 @@
+#name : shapeNodeWithRectOfSize:cornerRadius
+#group : SKShapeNode
+# --
+shapeNodeWithRectOfSize:${1:(CGSize)size} cornerRadius:${2:(CGFloat)cornerRadius}

@@ -1,0 +1,4 @@
+#name : initWithKeyframeValues:times
+#group : SKKeyframeSequence
+# --
+initWithKeyframeValues:${1:(NSArray*)values} times:${2:(NSArray*)times}

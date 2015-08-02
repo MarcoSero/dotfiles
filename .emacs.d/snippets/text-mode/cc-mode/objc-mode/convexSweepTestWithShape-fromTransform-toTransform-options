@@ -1,0 +1,4 @@
+#name : convexSweepTestWithShape:fromTransform:toTransform:options
+#group : SCNPhysicsWorld
+# --
+convexSweepTestWithShape:${1:(SCNPhysicsShape *)shape} fromTransform:${2:(SCNMatrix4)from} toTransform:${3:(SCNMatrix4)to} options:${4:(NSDictionary *)options}

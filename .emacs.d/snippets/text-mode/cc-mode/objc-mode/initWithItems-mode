@@ -1,0 +1,4 @@
+#name : initWithItems:mode
+#group : UIPushBehavior
+# --
+initWithItems:${1:(NSArray *)items} mode:${2:(UIPushBehaviorMode)mode}

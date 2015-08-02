@@ -1,0 +1,4 @@
+#name : readIntoBuffer:error
+#group : AVAudioFile
+# --
+readIntoBuffer:${1:(AVAudioPCMBuffer *)buffer} error:${2:(NSError **)outError}

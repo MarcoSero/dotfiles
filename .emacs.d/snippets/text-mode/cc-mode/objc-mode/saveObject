@@ -1,0 +1,4 @@
+#name : saveObject
+#group : HKHealthStore
+# --
+saveObject:${1:(HKObject *)object}

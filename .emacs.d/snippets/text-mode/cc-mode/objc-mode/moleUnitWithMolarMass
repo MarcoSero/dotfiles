@@ -1,0 +1,4 @@
+#name : moleUnitWithMolarMass
+#group : HKUnit
+# --
+moleUnitWithMolarMass:${1:(double)gramsPerMole}

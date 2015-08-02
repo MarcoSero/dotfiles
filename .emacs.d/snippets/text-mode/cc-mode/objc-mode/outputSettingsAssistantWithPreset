@@ -1,0 +1,4 @@
+#name : outputSettingsAssistantWithPreset
+#group : AVOutputSettingsAssistant
+# --
+outputSettingsAssistantWithPreset:${1:(NSString *)presetIdentifier}

@@ -1,0 +1,4 @@
+#name : initWithRecordType:predicate:options
+#group : CKSubscription
+# --
+initWithRecordType:${1:(NSString *)recordType} predicate:${2:(NSPredicate *)predicate} options:${3:(CKSubscriptionOptions)subscriptionOptions}

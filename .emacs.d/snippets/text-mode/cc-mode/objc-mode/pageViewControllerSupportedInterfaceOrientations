@@ -1,0 +1,4 @@
+#name : pageViewControllerSupportedInterfaceOrientations
+#group : UIPageViewController
+# --
+pageViewControllerSupportedInterfaceOrientations:${1:(UIPageViewController *)pageViewController}

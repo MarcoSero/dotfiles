@@ -1,0 +1,4 @@
+#name : webView:didFailNavigation:withError
+#group : WKNavigationDelegate
+# --
+webView:${1:(WKWebView *)webView} didFailNavigation:${2:(WKNavigation *)navigation} withError:${3:(NSError *)error}

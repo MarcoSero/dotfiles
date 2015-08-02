@@ -1,0 +1,4 @@
+#name : traitCollectionWithTraitsFromCollections
+#group : UITraitCollection
+# --
+traitCollectionWithTraitsFromCollections:${1:(NSArray *)traitCollections}

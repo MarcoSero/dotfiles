@@ -1,0 +1,4 @@
+#name : footerViewForSection
+#group : UITableView
+# --
+footerViewForSection:${1:(NSInteger)section}

@@ -1,0 +1,4 @@
+#name : transientAssetCollectionWithAssets:title
+#group : PHCollection
+# --
+transientAssetCollectionWithAssets:${1:(NSArray *)assets} title:${2:(NSString *)title}

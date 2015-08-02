@@ -1,0 +1,4 @@
+#name : initWithOptions:capacity
+#group : NSHashTable
+# --
+initWithOptions:${1:(NSPointerFunctionsOptions)options} capacity:${2:(NSUInteger)initialCapacity}

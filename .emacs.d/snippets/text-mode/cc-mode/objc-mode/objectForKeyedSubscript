@@ -1,0 +1,4 @@
+#name : objectForKeyedSubscript
+#group : SKNode
+# --
+objectForKeyedSubscript:${1:(NSString *)name}

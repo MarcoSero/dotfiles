@@ -1,0 +1,4 @@
+#name : initWithSampleTime:atRate
+#group : AVAudioTime
+# --
+initWithSampleTime:${1:(AVAudioFramePosition)sampleTime} atRate:${2:(double)sampleRate}

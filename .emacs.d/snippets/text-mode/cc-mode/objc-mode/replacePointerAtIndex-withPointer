@@ -1,0 +1,4 @@
+#name : replacePointerAtIndex:withPointer
+#group : NSPointerArray
+# --
+replacePointerAtIndex:${1:(NSUInteger)index} withPointer:${2:(void *)item}

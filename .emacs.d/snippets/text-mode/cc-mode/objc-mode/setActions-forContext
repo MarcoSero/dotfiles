@@ -1,0 +1,4 @@
+#name : setActions:forContext
+#group : UIUserNotificationSettings
+# --
+setActions:${1:(NSArray *)actions} forContext:${2:(UIUserNotificationActionContext)context}

@@ -1,0 +1,4 @@
+#name : initWithContentsOfURL:fileTypeHint:error
+#group : AVAudioPlayer
+# --
+initWithContentsOfURL:${1:(NSURL *)url} fileTypeHint:${2:(NSString *)utiString} error:${3:(NSError **)outError}

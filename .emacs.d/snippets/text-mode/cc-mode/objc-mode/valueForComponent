@@ -1,0 +1,4 @@
+#name : valueForComponent
+#group : NSCalendar
+# --
+valueForComponent:${1:(NSCalendarUnit)unit}

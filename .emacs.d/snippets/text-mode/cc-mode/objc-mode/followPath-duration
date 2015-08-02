@@ -1,0 +1,4 @@
+#name : followPath:duration
+#group : SKAction
+# --
+followPath:${1:(CGPathRef)path} duration:${2:(NSTimeInterval)sec}

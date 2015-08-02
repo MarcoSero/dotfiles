@@ -1,0 +1,4 @@
+#name : overrideTraitCollectionForChildViewController
+#group : UIViewController
+# --
+overrideTraitCollectionForChildViewController:${1:(UIViewController *)childViewController}

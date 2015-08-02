@@ -1,0 +1,4 @@
+#name : manualExposureSettingsWithExposureDuration:ISO
+#group : AVCaptureOutput
+# --
+manualExposureSettingsWithExposureDuration:${1:(CMTime)duration} ISO:${2:(float)ISO}

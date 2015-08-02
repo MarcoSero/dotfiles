@@ -1,0 +1,4 @@
+#name : keySpaceForIdentifier
+#group : AVMetadataItem
+# --
+keySpaceForIdentifier:${1:(NSString *)identifier}

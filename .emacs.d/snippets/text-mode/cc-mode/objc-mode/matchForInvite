@@ -1,0 +1,4 @@
+#name : matchForInvite
+#group : GKMatchmaker
+# --
+matchForInvite:${1:(GKInvite *)invite}

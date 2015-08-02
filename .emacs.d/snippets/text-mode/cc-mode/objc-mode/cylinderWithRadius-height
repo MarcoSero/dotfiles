@@ -1,0 +1,4 @@
+#name : cylinderWithRadius:height
+#group : SCNParametricGeometry
+# --
+cylinderWithRadius:${1:(CGFloat)radius} height:${2:(CGFloat)height}

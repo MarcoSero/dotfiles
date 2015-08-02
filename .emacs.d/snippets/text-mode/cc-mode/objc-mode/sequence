@@ -1,0 +1,4 @@
+#name : sequence
+#group : SKAction
+# --
+sequence:${1:(NSArray *)actions}

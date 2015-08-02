@@ -1,0 +1,4 @@
+#name : invalidationContextForPreferredLayoutAttributes:withOriginalAttributes
+#group : UICollectionViewLayout
+# --
+invalidationContextForPreferredLayoutAttributes:${1:(UICollectionViewLayoutAttributes *)preferredAttributes} withOriginalAttributes:${2:(UICollectionViewLayoutAttributes *)originalAttributes}

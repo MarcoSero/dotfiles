@@ -1,0 +1,4 @@
+#name : rendererWithContext:options
+#group : SCNRenderer
+# --
+rendererWithContext:${1:(void *)context} options:${2:(NSDictionary *)options}

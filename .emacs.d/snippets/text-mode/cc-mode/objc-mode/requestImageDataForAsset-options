@@ -1,0 +1,4 @@
+#name : requestImageDataForAsset:options
+#group : PHImageManager
+# --
+requestImageDataForAsset:${1:(PHAsset *)asset} options:${2:(PHImageRequestOptions *)options}

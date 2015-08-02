@@ -1,0 +1,4 @@
+#name : peripheralDataWithMeasuredPower
+#group : CLBeaconRegion
+# --
+peripheralDataWithMeasuredPower:${1:(NSNumber *)measuredPower}

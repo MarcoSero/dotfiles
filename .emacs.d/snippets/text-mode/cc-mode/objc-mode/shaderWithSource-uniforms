@@ -1,0 +1,4 @@
+#name : shaderWithSource:uniforms
+#group : SKShader
+# --
+shaderWithSource:${1:(NSString *)source} uniforms:${2:(NSArray *)uniforms}

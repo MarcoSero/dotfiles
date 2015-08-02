@@ -1,0 +1,4 @@
+#name : accessoryBrowser:didRemoveNewAccessory
+#group : HMAccessoryBrowser
+# --
+accessoryBrowser:${1:(HMAccessoryBrowser *)browser} didRemoveNewAccessory:${2:(HMAccessory *)accessory}

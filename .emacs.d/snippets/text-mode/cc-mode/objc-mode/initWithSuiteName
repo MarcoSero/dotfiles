@@ -1,0 +1,4 @@
+#name : initWithSuiteName
+#group : NSUserDefaults
+# --
+initWithSuiteName:${1:(NSString *)suitename}

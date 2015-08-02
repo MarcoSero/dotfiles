@@ -1,0 +1,4 @@
+#name : bodyWithBodies
+#group : SKPhysicsBody
+# --
+bodyWithBodies:${1:(NSArray *)bodies}

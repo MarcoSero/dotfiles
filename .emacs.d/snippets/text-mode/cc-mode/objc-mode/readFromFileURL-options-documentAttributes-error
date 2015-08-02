@@ -1,0 +1,4 @@
+#name : readFromFileURL:options:documentAttributes:error
+#group : NSAttributedString
+# --
+readFromFileURL:${1:(NSURL *)url} options:${2:(NSDictionary *)opts} documentAttributes:${3:(NSDictionary **)dict} error:${4:(NSError **)error}

@@ -1,0 +1,4 @@
+#name : initWithZoneID:subscriptionID:options
+#group : CKSubscription
+# --
+initWithZoneID:${1:(CKRecordZoneID *)zoneID} subscriptionID:${2:(NSString *)subscriptionID} options:${3:(CKSubscriptionOptions)subscriptionOptions}

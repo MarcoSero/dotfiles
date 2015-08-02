@@ -1,0 +1,4 @@
+#name : fontDescriptorWithFontAttributes
+#group : UIFontDescriptor
+# --
+fontDescriptorWithFontAttributes:${1:(NSDictionary *)attributes}

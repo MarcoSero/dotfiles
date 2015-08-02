@@ -1,0 +1,4 @@
+#name : resumeAnimationForKey
+#group : SCNAnimation
+# --
+resumeAnimationForKey:${1:(NSString *)key}

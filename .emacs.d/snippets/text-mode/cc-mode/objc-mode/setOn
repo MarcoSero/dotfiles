@@ -1,0 +1,4 @@
+#name : setOn
+#group : WKInterfaceSwitch
+# --
+setOn:${1:(BOOL)on}

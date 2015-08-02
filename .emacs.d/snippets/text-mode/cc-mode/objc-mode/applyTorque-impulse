@@ -1,0 +1,4 @@
+#name : applyTorque:impulse
+#group : SCNPhysicsBody
+# --
+applyTorque:${1:(SCNVector4)torque} impulse:${2:(BOOL)impulse}

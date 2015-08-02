@@ -1,0 +1,4 @@
+#name : enable
+#group : HMTrigger
+# --
+enable:${1:(BOOL)enable}

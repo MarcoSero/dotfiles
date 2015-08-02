@@ -1,0 +1,4 @@
+#name : moveByX:y:duration
+#group : SKAction
+# --
+moveByX:${1:(CGFloat)deltaX} y:${2:(CGFloat)deltaY} duration:${3:(NSTimeInterval)sec}

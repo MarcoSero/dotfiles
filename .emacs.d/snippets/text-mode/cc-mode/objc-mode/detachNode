@@ -1,0 +1,4 @@
+#name : detachNode
+#group : AVAudioEngine
+# --
+detachNode:${1:(AVAudioNode *)node}

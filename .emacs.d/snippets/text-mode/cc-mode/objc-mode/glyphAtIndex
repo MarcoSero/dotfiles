@@ -1,0 +1,4 @@
+#name : glyphAtIndex
+#group : NSLayoutManager
+# --
+glyphAtIndex:${1:(NSUInteger)glyphIndex}

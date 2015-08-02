@@ -1,0 +1,4 @@
+#name : registerNib:forDecorationViewOfKind
+#group : UICollectionViewLayout
+# --
+registerNib:${1:(UINib *)nib} forDecorationViewOfKind:${2:(NSString *)elementKind}

@@ -1,0 +1,4 @@
+#name : sendResourceAtURL:withName:toPeer
+#group : MCSession
+# --
+sendResourceAtURL:${1:(NSURL *)resourceURL} withName:${2:(NSString *)resourceName} toPeer:${3:(MCPeerID *)peerID}

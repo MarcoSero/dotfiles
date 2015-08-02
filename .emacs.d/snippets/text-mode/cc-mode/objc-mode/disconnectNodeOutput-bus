@@ -1,0 +1,4 @@
+#name : disconnectNodeOutput:bus
+#group : AVAudioEngine
+# --
+disconnectNodeOutput:${1:(AVAudioNode *)node} bus:${2:(AVAudioNodeBus)bus}

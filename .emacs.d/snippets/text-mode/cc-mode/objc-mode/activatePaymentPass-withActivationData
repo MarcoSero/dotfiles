@@ -1,0 +1,4 @@
+#name : activatePaymentPass:withActivationData
+#group : PKPassLibrary
+# --
+activatePaymentPass:${1:(PKPaymentPass *)paymentPass} withActivationData:${2:(NSData *)activationData}

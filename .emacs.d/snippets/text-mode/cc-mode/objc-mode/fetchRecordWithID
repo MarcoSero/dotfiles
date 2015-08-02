@@ -1,0 +1,4 @@
+#name : fetchRecordWithID
+#group : CKDatabase
+# --
+fetchRecordWithID:${1:(CKRecordID *)recordID}

@@ -1,0 +1,4 @@
+#name : initWithZoneID
+#group : CKRecordZone
+# --
+initWithZoneID:${1:(CKRecordZoneID *)zoneID}

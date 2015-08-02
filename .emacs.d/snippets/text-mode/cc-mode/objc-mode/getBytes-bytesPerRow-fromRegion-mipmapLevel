@@ -1,0 +1,4 @@
+#name : getBytes:bytesPerRow:fromRegion:mipmapLevel
+#group : MTLTexture
+# --
+getBytes:${1:(void *)pixelBytes} bytesPerRow:${2:(NSUInteger)bytesPerRow} fromRegion:${3:(MTLRegion)region} mipmapLevel:${4:(NSUInteger)level}

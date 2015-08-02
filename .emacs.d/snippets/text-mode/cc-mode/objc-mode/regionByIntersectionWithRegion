@@ -1,0 +1,4 @@
+#name : regionByIntersectionWithRegion
+#group : SKRegion
+# --
+regionByIntersectionWithRegion:${1:(SKRegion *)region}

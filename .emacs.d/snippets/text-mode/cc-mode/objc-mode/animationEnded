@@ -1,0 +1,4 @@
+#name : animationEnded
+#group : UIViewControllerTransitioning
+# --
+animationEnded:${1:(BOOL)transitionCompleted}

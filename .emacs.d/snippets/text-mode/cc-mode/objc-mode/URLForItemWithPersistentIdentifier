@@ -1,0 +1,4 @@
+#name : URLForItemWithPersistentIdentifier
+#group : NSFileProviderExtension
+# --
+URLForItemWithPersistentIdentifier:${1:(NSString *)identifier}

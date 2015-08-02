@@ -1,0 +1,4 @@
+#name : finishWithError
+#group : AVVideoCompositing
+# --
+finishWithError:${1:(NSError *)error}

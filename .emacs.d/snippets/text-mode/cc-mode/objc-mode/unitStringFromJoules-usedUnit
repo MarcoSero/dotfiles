@@ -1,0 +1,4 @@
+#name : unitStringFromJoules:usedUnit
+#group : NSEnergyFormatter
+# --
+unitStringFromJoules:${1:(double)numberInJoules} usedUnit:${2:(NSEnergyFormatterUnit *)unitp}

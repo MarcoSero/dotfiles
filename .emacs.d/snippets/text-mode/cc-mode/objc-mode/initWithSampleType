@@ -1,0 +1,4 @@
+#name : initWithSampleType
+#group : HKSourceQuery
+# --
+initWithSampleType:${1:(HKSampleType *)sampleType}

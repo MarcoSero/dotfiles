@@ -1,0 +1,4 @@
+#name : prepareForTransitionToLayout
+#group : UICollectionViewLayout
+# --
+prepareForTransitionToLayout:${1:(UICollectionViewLayout *)newLayout}

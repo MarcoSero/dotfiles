@@ -1,0 +1,4 @@
+#name : myPerformActionMethod
+#group : UIAccessibilityCustomAction
+# --
+myPerformActionMethod:${1:(UIAccessibilityCustomAction *)action}

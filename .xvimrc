@@ -1,0 +1,88 @@
+
+" use ; for ;w ;wq - much easier 
+" nnoremap ; :
+
+nmap :q :xccmd<Space>closeDocument
+
+" Comments
+nnoremap gcc :xccmd commentAndUncommentCurrentLines<CR>
+
+" Emulate CTRL-P
+noremap <C-p> :xccmd openQuickly<CR>
+nnoremap <Space>o :xccmd openQuickly<CR>
+
+i kk <Esc>
+set incsearch
+
+" Case-insensitive searching.
+set ignorecase
+" But case-sensitive if expression contains a capital letter.
+set smartcase
+
+set hlsearch
+
+" stop highlighting search result
+nnoremap <CR> :nohlsearch<cr>
+
+nnoremap <Space>4 /~<CR>
+
+" Setup the number line
+set number
+set relativenumber
+
+" Use the system pasteboard
+set clipboard=unnamed
+
+" Default to global substitutions on lines
+set gdefault
+
+" noremap <space>b to toggle a breakpoint at the current line
+nnoremap ,b :xccmd toggleBreakpointAtCurrentLine<CR>
+
+" Better navigation
+nnoremap H ^
+nnoremap L $
+
+" Window navigation
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+" Tab noremappings
+nnoremap ,tt :xccmd newTab<CR>
+nnoremap ,tc :tabclose<CR>
+
+" Make computers make sense
+nnoremap Y y$
+
+" I'd like the following command to save too
+" it doesn't seem like xvim supports this: \| update<CR>
+vnoremap s :sort ui<CR>
+
+" vim-unimpared knock off
+nnoremap ]e "udd"up
+nnoremap [e "uddk"uP
+
+" Center after find
+nnoremap n nzz
+nnoremap N Nzz
+
+" visual line mode
+nnoremap <Space><Space> V
+
+"reselect visual block after indent
+vnoremap < <gv
+vnoremap > >gv
+
+" auto center
+nnoremap n nzz
+nnoremap N Nzz
+
+" do not lose register when pasting over a word
+xnoremap p pgvy
+
+" Documentation
+nmap <space>D :xccmd showDeveloperDocumentation<CR>
+nmap <space>d :xcmenucmd Quick Help for Selected Item<CR>
+

@@ -1,0 +1,4 @@
+#name : home:didUpdateRoom:forAccessory
+#group : HMHome
+# --
+home:${1:(HMHome *)home} didUpdateRoom:${2:(HMRoom *)room} forAccessory:${3:(HMAccessory *)accessory}

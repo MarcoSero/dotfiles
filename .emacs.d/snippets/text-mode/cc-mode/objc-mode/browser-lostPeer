@@ -1,0 +1,4 @@
+#name : browser:lostPeer
+#group : MCNearbyServiceBrowser
+# --
+browser:${1:(MCNearbyServiceBrowser *)browser} lostPeer:${2:(MCPeerID *)peerID}

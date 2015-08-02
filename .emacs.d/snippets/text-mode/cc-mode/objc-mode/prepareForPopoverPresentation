@@ -1,0 +1,4 @@
+#name : prepareForPopoverPresentation
+#group : UIPopoverPresentationController
+# --
+prepareForPopoverPresentation:${1:(UIPopoverPresentationController *)popoverPresentationController}

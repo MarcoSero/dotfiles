@@ -1,0 +1,4 @@
+#name : replaceRegion:mipmapLevel:withBytes:bytesPerRow
+#group : MTLTexture
+# --
+replaceRegion:${1:(MTLRegion)region} mipmapLevel:${2:(NSUInteger)level} withBytes:${3:(const void *)pixelBytes} bytesPerRow:${4:(NSUInteger)bytesPerRow}

@@ -1,0 +1,4 @@
+#name : pointerFunctionsWithOptions
+#group : NSPointerFunctions
+# --
+pointerFunctionsWithOptions:${1:(NSPointerFunctionsOptions)options}

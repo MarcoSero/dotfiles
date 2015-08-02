@@ -1,0 +1,4 @@
+#name : bodyAlongRayStart:end
+#group : SKPhysicsWorld
+# --
+bodyAlongRayStart:${1:(CGPoint)start} end:${2:(CGPoint)end}

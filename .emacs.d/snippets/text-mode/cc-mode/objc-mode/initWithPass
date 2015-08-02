@@ -1,0 +1,4 @@
+#name : initWithPass
+#group : PKAddPassesViewController
+# --
+initWithPass:${1:(id)pass}

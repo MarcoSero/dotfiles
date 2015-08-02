@@ -1,0 +1,4 @@
+#name : texture2DDescriptorWithPixelFormat:width:height:mipmapped
+#group : MTLTexture
+# --
+texture2DDescriptorWithPixelFormat:${1:(MTLPixelFormat)pixelFormat} width:${2:(NSUInteger)width} height:${3:(NSUInteger)height} mipmapped:${4:(BOOL)mipmapped}

@@ -1,0 +1,4 @@
+#name : setMaxAllowedRotationAngle:forJoint
+#group : SCNConstraint
+# --
+setMaxAllowedRotationAngle:${1:(CGFloat)angle} forJoint:${2:(SCNNode *)node}

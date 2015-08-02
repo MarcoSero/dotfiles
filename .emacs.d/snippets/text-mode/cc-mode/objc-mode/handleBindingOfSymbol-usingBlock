@@ -1,0 +1,4 @@
+#name : handleBindingOfSymbol:usingBlock
+#group : SCNTechnique
+# --
+handleBindingOfSymbol:${1:(NSString *)symbol} usingBlock:${2:(SCNBindingBlock)block}

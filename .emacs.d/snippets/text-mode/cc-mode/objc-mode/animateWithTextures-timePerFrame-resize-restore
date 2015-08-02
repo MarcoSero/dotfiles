@@ -1,0 +1,4 @@
+#name : animateWithTextures:timePerFrame:resize:restore
+#group : SKAction
+# --
+animateWithTextures:${1:(NSArray *)textures} timePerFrame:${2:(NSTimeInterval)sec} resize:${3:(BOOL)resize} restore:${4:(BOOL)restore}

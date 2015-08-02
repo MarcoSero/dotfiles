@@ -1,0 +1,4 @@
+#name : setLocalizableMessageWithKey:arguments
+#group : GKTurnBasedMatch
+# --
+setLocalizableMessageWithKey:${1:(NSString*)key} arguments:${2:(NSArray *)arguments}

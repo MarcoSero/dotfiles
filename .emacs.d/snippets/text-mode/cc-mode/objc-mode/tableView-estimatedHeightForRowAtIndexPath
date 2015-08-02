@@ -1,0 +1,4 @@
+#name : tableView:estimatedHeightForRowAtIndexPath
+#group : UITableView
+# --
+tableView:${1:(UITableView *)tableView} estimatedHeightForRowAtIndexPath:${2:(NSIndexPath *)indexPath}

@@ -1,0 +1,4 @@
+#name : addKeyframeWithRelativeStartTime:relativeDuration
+#group : UIView
+# --
+addKeyframeWithRelativeStartTime:${1:(double)frameStartTime} relativeDuration:${2:(double)frameDuration}

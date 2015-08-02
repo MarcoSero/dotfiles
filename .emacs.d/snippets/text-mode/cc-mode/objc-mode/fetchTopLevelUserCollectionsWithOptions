@@ -1,0 +1,4 @@
+#name : fetchTopLevelUserCollectionsWithOptions
+#group : PHCollection
+# --
+fetchTopLevelUserCollectionsWithOptions:${1:(PHFetchOptions *)options}

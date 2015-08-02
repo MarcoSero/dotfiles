@@ -1,0 +1,4 @@
+#name : performExpiringActivityWithReason
+#group : NSProcessInfo
+# --
+performExpiringActivityWithReason:${1:(NSString *)reason}

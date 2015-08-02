@@ -1,0 +1,4 @@
+#name : shapeWithGeometry:options
+#group : SCNPhysicsShape
+# --
+shapeWithGeometry:${1:(SCNGeometry *)geometry} options:${2:(NSDictionary *)options}

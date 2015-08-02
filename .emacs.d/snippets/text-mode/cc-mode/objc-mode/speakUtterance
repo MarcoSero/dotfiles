@@ -1,0 +1,4 @@
+#name : speakUtterance
+#group : AVSpeechSynthesis
+# --
+speakUtterance:${1:(AVSpeechUtterance *)utterance}

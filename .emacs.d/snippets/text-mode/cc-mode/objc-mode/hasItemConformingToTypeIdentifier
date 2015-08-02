@@ -1,0 +1,4 @@
+#name : hasItemConformingToTypeIdentifier
+#group : NSItemProvider
+# --
+hasItemConformingToTypeIdentifier:${1:(NSString *)typeIdentifier}

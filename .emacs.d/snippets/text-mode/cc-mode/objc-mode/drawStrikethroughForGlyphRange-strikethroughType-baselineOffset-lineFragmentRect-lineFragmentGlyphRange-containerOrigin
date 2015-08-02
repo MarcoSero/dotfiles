@@ -1,0 +1,4 @@
+#name : drawStrikethroughForGlyphRange:strikethroughType:baselineOffset:lineFragmentRect:lineFragmentGlyphRange:containerOrigin
+#group : NSLayoutManager
+# --
+drawStrikethroughForGlyphRange:${1:(NSRange)glyphRange} strikethroughType:${2:(NSUnderlineStyle)strikethroughVal} baselineOffset:${3:(CGFloat)baselineOffset} lineFragmentRect:${4:(CGRect)lineRect} lineFragmentGlyphRange:${5:(NSRange)lineGlyphRange} containerOrigin:${6:(CGPoint)containerOrigin}

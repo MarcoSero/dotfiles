@@ -1,0 +1,4 @@
+#name : streamingContentKeyRequestDataForApp:contentIdentifier:options:error
+#group : AVAssetResourceLoader
+# --
+streamingContentKeyRequestDataForApp:${1:(NSData *)appIdentifier} contentIdentifier:${2:(NSData *)contentIdentifier} options:${3:(NSDictionary *)options} error:${4:(NSError **)outError}

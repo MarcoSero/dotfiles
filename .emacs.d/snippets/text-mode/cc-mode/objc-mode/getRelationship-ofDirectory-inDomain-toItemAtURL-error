@@ -1,0 +1,4 @@
+#name : getRelationship:ofDirectory:inDomain:toItemAtURL:error
+#group : NSFileManager
+# --
+getRelationship:${1:(NSURLRelationship *)outRelationship} ofDirectory:${2:(NSSearchPathDirectory)directory} inDomain:${3:(NSSearchPathDomainMask)domainMask} toItemAtURL:${4:(NSURL *)url} error:${5:(NSError **)error}

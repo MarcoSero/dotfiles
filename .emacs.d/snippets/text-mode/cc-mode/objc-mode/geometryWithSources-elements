@@ -1,0 +1,4 @@
+#name : geometryWithSources:elements
+#group : SCNGeometry
+# --
+geometryWithSources:${1:(NSArray *)sources} elements:${2:(NSArray *)elements}

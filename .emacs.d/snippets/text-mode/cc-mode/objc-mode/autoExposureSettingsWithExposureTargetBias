@@ -1,0 +1,4 @@
+#name : autoExposureSettingsWithExposureTargetBias
+#group : AVCaptureOutput
+# --
+autoExposureSettingsWithExposureTargetBias:${1:(float)exposureTargetBias}

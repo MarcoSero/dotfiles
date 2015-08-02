@@ -1,0 +1,4 @@
+#name : initWithRecordName
+#group : CKRecordID
+# --
+initWithRecordName:${1:(NSString *)recordName}

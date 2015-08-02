@@ -1,0 +1,4 @@
+#name : isEqual
+#group : AVAudioFormat
+# --
+isEqual:${1:(id)object}

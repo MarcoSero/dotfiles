@@ -1,0 +1,4 @@
+#name : initWithAttributedText
+#group : UIPrintFormatter
+# --
+initWithAttributedText:${1:(NSAttributedString *)attributedText}

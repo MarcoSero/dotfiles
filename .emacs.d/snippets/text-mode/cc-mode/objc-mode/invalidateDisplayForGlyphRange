@@ -1,0 +1,4 @@
+#name : invalidateDisplayForGlyphRange
+#group : NSLayoutManager
+# --
+invalidateDisplayForGlyphRange:${1:(NSRange)glyphRange}

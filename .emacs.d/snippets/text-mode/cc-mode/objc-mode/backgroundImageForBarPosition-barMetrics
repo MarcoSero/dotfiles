@@ -1,0 +1,4 @@
+#name : backgroundImageForBarPosition:barMetrics
+#group : UISearchBar
+# --
+backgroundImageForBarPosition:${1:(UIBarPosition)barPosition} barMetrics:${2:(UIBarMetrics)barMetrics}

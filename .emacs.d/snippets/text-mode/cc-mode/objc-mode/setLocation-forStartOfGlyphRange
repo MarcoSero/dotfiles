@@ -1,0 +1,4 @@
+#name : setLocation:forStartOfGlyphRange
+#group : NSLayoutManager
+# --
+setLocation:${1:(CGPoint)location} forStartOfGlyphRange:${2:(NSRange)glyphRange}

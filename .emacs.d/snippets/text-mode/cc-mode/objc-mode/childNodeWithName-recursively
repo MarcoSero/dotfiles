@@ -1,0 +1,4 @@
+#name : childNodeWithName:recursively
+#group : SCNNode
+# --
+childNodeWithName:${1:(NSString *)name} recursively:${2:(BOOL)recursively}

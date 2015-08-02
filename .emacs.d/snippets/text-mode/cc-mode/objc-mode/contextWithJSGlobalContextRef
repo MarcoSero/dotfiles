@@ -1,0 +1,4 @@
+#name : contextWithJSGlobalContextRef
+#group : JSContext
+# --
+contextWithJSGlobalContextRef:${1:(JSGlobalContextRef)jsGlobalContextRef}

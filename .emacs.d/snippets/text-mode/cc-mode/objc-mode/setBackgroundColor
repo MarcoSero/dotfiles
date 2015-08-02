@@ -1,0 +1,4 @@
+#name : setBackgroundColor
+#group : WKInterfaceGroup
+# --
+setBackgroundColor:${1:(UIColor *)color}

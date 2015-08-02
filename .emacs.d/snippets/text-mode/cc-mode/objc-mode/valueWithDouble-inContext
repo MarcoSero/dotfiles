@@ -1,0 +1,4 @@
+#name : valueWithDouble:inContext
+#group : JSValue
+# --
+valueWithDouble:${1:(double)value} inContext:${2:(JSContext *)context}

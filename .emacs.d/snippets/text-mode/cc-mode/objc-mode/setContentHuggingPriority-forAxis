@@ -1,0 +1,4 @@
+#name : setContentHuggingPriority:forAxis
+#group : UIView
+# --
+setContentHuggingPriority:${1:(UILayoutPriority)priority} forAxis:${2:(UILayoutConstraintAxis)axis}

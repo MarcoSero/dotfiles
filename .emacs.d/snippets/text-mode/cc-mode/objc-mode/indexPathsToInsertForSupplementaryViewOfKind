@@ -1,0 +1,4 @@
+#name : indexPathsToInsertForSupplementaryViewOfKind
+#group : UICollectionViewLayout
+# --
+indexPathsToInsertForSupplementaryViewOfKind:${1:(NSString *)elementKind}

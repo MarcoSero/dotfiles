@@ -1,0 +1,4 @@
+#name : saveRecord
+#group : CKDatabase
+# --
+saveRecord:${1:(CKRecord *)record}

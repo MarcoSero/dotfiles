@@ -1,0 +1,4 @@
+#name : renderContextChanged
+#group : AVVideoCompositing
+# --
+renderContextChanged:${1:(AVVideoCompositionRenderContext *)newRenderContext}

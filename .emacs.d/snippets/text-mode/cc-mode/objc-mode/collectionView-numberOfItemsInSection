@@ -1,0 +1,4 @@
+#name : collectionView:numberOfItemsInSection
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} numberOfItemsInSection:${2:(NSInteger)section}

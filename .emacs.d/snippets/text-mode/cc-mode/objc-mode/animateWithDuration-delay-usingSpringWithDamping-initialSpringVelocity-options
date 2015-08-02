@@ -1,0 +1,4 @@
+#name : animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options
+#group : UIView
+# --
+animateWithDuration:${1:(NSTimeInterval)duration} delay:${2:(NSTimeInterval)delay} usingSpringWithDamping:${3:(CGFloat)dampingRatio} initialSpringVelocity:${4:(CGFloat)velocity} options:${5:(UIViewAnimationOptions)options}

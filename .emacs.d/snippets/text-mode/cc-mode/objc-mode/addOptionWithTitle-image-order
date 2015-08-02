@@ -1,0 +1,4 @@
+#name : addOptionWithTitle:image:order
+#group : UIDocumentMenuViewController
+# --
+addOptionWithTitle:${1:(NSString *)title} image:${2:(UIImage *)image} order:${3:(UIDocumentMenuOrder)order}

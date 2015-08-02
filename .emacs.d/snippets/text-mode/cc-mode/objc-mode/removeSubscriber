@@ -1,0 +1,4 @@
+#name : removeSubscriber
+#group : NSProgress
+# --
+removeSubscriber:${1:(id)subscriber}

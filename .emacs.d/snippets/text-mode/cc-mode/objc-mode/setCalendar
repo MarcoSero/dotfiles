@@ -1,0 +1,4 @@
+#name : setCalendar
+#group : WKInterfaceDate
+# --
+setCalendar:${1:(NSCalendar *)calendar}

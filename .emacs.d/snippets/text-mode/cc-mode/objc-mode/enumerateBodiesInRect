@@ -1,0 +1,4 @@
+#name : enumerateBodiesInRect
+#group : SKPhysicsWorld
+# --
+enumerateBodiesInRect:${1:(CGRect)rect}

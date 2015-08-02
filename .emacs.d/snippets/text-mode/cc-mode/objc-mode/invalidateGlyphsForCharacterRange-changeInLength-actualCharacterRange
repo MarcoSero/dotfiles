@@ -1,0 +1,4 @@
+#name : invalidateGlyphsForCharacterRange:changeInLength:actualCharacterRange
+#group : NSLayoutManager
+# --
+invalidateGlyphsForCharacterRange:${1:(NSRange)charRange} changeInLength:${2:(NSInteger)delta} actualCharacterRange:${3:(NSRangePointer)actualCharRange}

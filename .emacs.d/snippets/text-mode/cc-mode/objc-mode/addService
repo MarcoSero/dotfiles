@@ -1,0 +1,4 @@
+#name : addService
+#group : HMServiceGroup
+# --
+addService:${1:(HMService *)service}

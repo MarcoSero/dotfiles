@@ -1,0 +1,4 @@
+#name : printerPickerControllerWillDismiss
+#group : UIPrinterPickerController
+# --
+printerPickerControllerWillDismiss:${1:(UIPrinterPickerController *)printerPickerController}

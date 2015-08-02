@@ -1,0 +1,4 @@
+#name : setSteeringAngle:forWheelAtIndex
+#group : SCNPhysicsBehavior
+# --
+setSteeringAngle:${1:(CGFloat)value} forWheelAtIndex:${2:(NSInteger)index}

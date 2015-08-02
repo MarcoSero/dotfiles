@@ -1,0 +1,4 @@
+#name : fetchCollectionListsWithType:subtype:options
+#group : PHCollection
+# --
+fetchCollectionListsWithType:${1:(PHCollectionListType)collectionListType} subtype:${2:(PHCollectionListSubtype)subtype} options:${3:(PHFetchOptions *)options}

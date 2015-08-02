@@ -1,0 +1,4 @@
+#name : runAction:onChildWithName
+#group : SKAction
+# --
+runAction:${1:(SKAction *)action} onChildWithName:${2:(NSString*)name}

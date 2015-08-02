@@ -1,0 +1,4 @@
+#name : readIntoBuffer:frameCount:error
+#group : AVAudioFile
+# --
+readIntoBuffer:${1:(AVAudioPCMBuffer *)buffer} frameCount:${2:(AVAudioFrameCount)frames} error:${3:(NSError **)outError}

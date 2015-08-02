@@ -1,0 +1,4 @@
+#name : resourceLoader:didCancelLoadingRequest
+#group : AVAssetResourceLoader
+# --
+resourceLoader:${1:(AVAssetResourceLoader *)resourceLoader} didCancelLoadingRequest:${2:(AVAssetResourceLoadingRequest *)loadingRequest}

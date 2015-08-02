@@ -1,0 +1,4 @@
+#name : renderAtTime
+#group : SCNRenderer
+# --
+renderAtTime:${1:(CFTimeInterval)time}

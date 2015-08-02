@@ -1,0 +1,4 @@
+#name : requestApplicationPermission:completionHandler
+#group : CKContainer
+# --
+requestApplicationPermission:${1:(CKApplicationPermissions)applicationPermission} completionHandler:${2:(CKApplicationPermissionBlock)completionHandler}

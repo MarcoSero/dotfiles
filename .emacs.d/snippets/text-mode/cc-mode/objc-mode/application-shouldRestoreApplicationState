@@ -1,0 +1,4 @@
+#name : application:shouldRestoreApplicationState
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} shouldRestoreApplicationState:${2:(NSCoder *)coder}

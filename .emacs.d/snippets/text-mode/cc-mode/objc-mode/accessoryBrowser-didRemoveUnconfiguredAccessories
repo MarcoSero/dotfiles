@@ -1,0 +1,4 @@
+#name : accessoryBrowser:didRemoveUnconfiguredAccessories
+#group : EAWiFiUnconfiguredAccessoryBrowser
+# --
+accessoryBrowser:${1:(EAWiFiUnconfiguredAccessoryBrowser*)browser} didRemoveUnconfiguredAccessories:${2:(NSSet*)accessories}

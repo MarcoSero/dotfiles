@@ -1,0 +1,4 @@
+#name : attachNode
+#group : AVAudioEngine
+# --
+attachNode:${1:(AVAudioNode *)node}

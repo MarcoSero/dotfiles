@@ -1,0 +1,4 @@
+#name : paymentAuthorizationViewControllerDidFinish
+#group : PKPaymentAuthorizationViewController
+# --
+paymentAuthorizationViewControllerDidFinish:${1:(PKPaymentAuthorizationViewController *)controller}

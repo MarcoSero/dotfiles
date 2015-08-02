@@ -1,0 +1,4 @@
+#name : nextDateAfterDate:matchingComponents:options
+#group : NSCalendar
+# --
+nextDateAfterDate:${1:(NSDate *)date} matchingComponents:${2:(NSDateComponents *)comps} options:${3:(NSCalendarOptions)options}

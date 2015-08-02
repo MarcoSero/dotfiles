@@ -1,0 +1,4 @@
+#name : startSearchingForUnconfiguredAccessoriesMatchingPredicate
+#group : EAWiFiUnconfiguredAccessoryBrowser
+# --
+startSearchingForUnconfiguredAccessoriesMatchingPredicate:${1:(NSPredicate*)predicate}

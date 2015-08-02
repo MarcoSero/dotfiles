@@ -1,0 +1,4 @@
+#name : boxWithWidth:height:length:chamferRadius
+#group : SCNParametricGeometry
+# --
+boxWithWidth:${1:(CGFloat)width} height:${2:(CGFloat)height} length:${3:(CGFloat)length} chamferRadius:${4:(CGFloat)chamferRadius}

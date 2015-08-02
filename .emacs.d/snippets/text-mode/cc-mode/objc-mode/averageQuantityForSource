@@ -1,0 +1,4 @@
+#name : averageQuantityForSource
+#group : HKStatistics
+# --
+averageQuantityForSource:${1:(HKSource *)source}

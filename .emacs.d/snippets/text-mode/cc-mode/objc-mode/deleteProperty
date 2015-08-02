@@ -1,0 +1,4 @@
+#name : deleteProperty
+#group : JSValue
+# --
+deleteProperty:${1:(NSString *)property}

@@ -1,0 +1,4 @@
+#name : updateAssociatedServiceType
+#group : HMService
+# --
+updateAssociatedServiceType:${1:(NSString *)serviceType}

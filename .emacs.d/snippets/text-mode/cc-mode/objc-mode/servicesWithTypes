@@ -1,0 +1,4 @@
+#name : servicesWithTypes
+#group : HMHome
+# --
+servicesWithTypes:${1:(NSArray *)serviceTypes}

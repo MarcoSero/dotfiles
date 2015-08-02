@@ -1,0 +1,4 @@
+#name : initWithDocumentTypes:inMode
+#group : UIDocumentPickerViewController
+# --
+initWithDocumentTypes:${1:(NSArray *)allowedUTIs} inMode:${2:(UIDocumentPickerMode)mode}

@@ -1,0 +1,4 @@
+#name : resourceLoader:didCancelAuthenticationChallenge
+#group : AVAssetResourceLoader
+# --
+resourceLoader:${1:(AVAssetResourceLoader *)resourceLoader} didCancelAuthenticationChallenge:${2:(NSURLAuthenticationChallenge *)authenticationChallenge}

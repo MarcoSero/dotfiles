@@ -1,0 +1,4 @@
+#name : addAttachmentData:typeIdentifier:filename
+#group : MFMessageComposeViewController
+# --
+addAttachmentData:${1:(NSData *)attachmentData} typeIdentifier:${2:(NSString *)uti} filename:${3:(NSString *)filename}

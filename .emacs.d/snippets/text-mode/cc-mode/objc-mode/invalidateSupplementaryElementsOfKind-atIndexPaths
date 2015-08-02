@@ -1,0 +1,4 @@
+#name : invalidateSupplementaryElementsOfKind:atIndexPaths
+#group : UICollectionViewLayout
+# --
+invalidateSupplementaryElementsOfKind:${1:(NSString *)elementKind} atIndexPaths:${2:(NSArray *)indexPaths}

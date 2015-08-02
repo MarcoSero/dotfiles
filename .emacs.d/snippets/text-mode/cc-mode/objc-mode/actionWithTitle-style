@@ -1,0 +1,4 @@
+#name : actionWithTitle:style
+#group : UIAlertController
+# --
+actionWithTitle:${1:(NSString *)title} style:${2:(UIAlertActionStyle)style}

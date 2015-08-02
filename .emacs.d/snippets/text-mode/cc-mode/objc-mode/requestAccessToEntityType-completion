@@ -1,0 +1,4 @@
+#name : requestAccessToEntityType:completion
+#group : EKEventStore
+# --
+requestAccessToEntityType:${1:(EKEntityType)entityType} completion:${2:(EKEventStoreRequestAccessCompletionHandler)completion}

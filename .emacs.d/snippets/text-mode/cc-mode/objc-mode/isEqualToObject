@@ -1,0 +1,4 @@
+#name : isEqualToObject
+#group : JSValue
+# --
+isEqualToObject:${1:(id)value}

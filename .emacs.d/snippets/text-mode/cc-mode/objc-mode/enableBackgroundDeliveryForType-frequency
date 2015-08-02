@@ -1,0 +1,4 @@
+#name : enableBackgroundDeliveryForType:frequency
+#group : HKHealthStore
+# --
+enableBackgroundDeliveryForType:${1:(HKObjectType *)type} frequency:${2:(HKUpdateFrequency)frequency}

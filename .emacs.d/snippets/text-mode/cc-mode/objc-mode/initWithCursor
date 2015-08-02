@@ -1,0 +1,4 @@
+#name : initWithCursor
+#group : CKQueryOperation
+# --
+initWithCursor:${1:(CKQueryCursor *)cursor}

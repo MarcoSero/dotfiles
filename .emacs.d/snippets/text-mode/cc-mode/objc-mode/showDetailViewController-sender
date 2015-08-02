@@ -1,0 +1,4 @@
+#name : showDetailViewController:sender
+#group : UIViewController
+# --
+showDetailViewController:${1:(UIViewController *)vc} sender:${2:(id)sender}

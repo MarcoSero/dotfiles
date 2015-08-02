@@ -1,0 +1,4 @@
+#name : splitViewController:collapseSecondaryViewController:ontoPrimaryViewController
+#group : UISplitViewController
+# --
+splitViewController:${1:(UISplitViewController *)splitViewController} collapseSecondaryViewController:${2:(UIViewController *)secondaryViewController} ontoPrimaryViewController:${3:(UIViewController *)primaryViewController}

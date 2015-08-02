@@ -1,0 +1,4 @@
+#name : systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority
+#group : UIView
+# --
+systemLayoutSizeFittingSize:${1:(CGSize)targetSize} withHorizontalFittingPriority:${2:(UILayoutPriority)horizontalFittingPriority} verticalFittingPriority:${3:(UILayoutPriority)verticalFittingPriority}

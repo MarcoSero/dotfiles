@@ -1,0 +1,4 @@
+#name : preferredFontForTextStyle
+#group : UIFont
+# --
+preferredFontForTextStyle:${1:(NSString *)style}

@@ -1,0 +1,4 @@
+#name : activateConstraints
+#group : NSLayoutConstraint
+# --
+activateConstraints:${1:(NSArray *)constraints}

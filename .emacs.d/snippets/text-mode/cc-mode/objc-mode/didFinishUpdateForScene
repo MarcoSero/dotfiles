@@ -1,0 +1,4 @@
+#name : didFinishUpdateForScene
+#group : SKScene
+# --
+didFinishUpdateForScene:${1:(SKScene *)scene}

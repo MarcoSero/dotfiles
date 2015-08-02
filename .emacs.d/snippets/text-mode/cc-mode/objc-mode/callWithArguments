@@ -1,0 +1,4 @@
+#name : callWithArguments
+#group : JSValue
+# --
+callWithArguments:${1:(NSArray *)arguments}

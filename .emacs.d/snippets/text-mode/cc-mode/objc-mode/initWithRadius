@@ -1,0 +1,4 @@
+#name : initWithRadius
+#group : SKRegion
+# --
+initWithRadius:${1:(float)radius}

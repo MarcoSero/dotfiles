@@ -1,0 +1,4 @@
+#name : runAction:withKey
+#group : SKNode
+# --
+runAction:${1:(SKAction *)action} withKey:${2:(NSString *)key}

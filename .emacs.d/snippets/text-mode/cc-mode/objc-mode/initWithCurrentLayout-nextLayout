@@ -1,0 +1,4 @@
+#name : initWithCurrentLayout:nextLayout
+#group : UICollectionViewTransitionLayout
+# --
+initWithCurrentLayout:${1:(UICollectionViewLayout *)currentLayout} nextLayout:${2:(UICollectionViewLayout *)newLayout}

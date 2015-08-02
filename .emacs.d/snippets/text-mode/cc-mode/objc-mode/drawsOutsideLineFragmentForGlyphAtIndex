@@ -1,0 +1,4 @@
+#name : drawsOutsideLineFragmentForGlyphAtIndex
+#group : NSLayoutManager
+# --
+drawsOutsideLineFragmentForGlyphAtIndex:${1:(NSUInteger)glyphIndex}

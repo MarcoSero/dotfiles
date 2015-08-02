@@ -1,0 +1,4 @@
+#name : selectChallengeablePlayers
+#group : GKChallenge
+# --
+selectChallengeablePlayers:${1:(NSArray *)players}

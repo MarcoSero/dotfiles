@@ -1,0 +1,4 @@
+#name : constraintsAffectingLayoutForAxis
+#group : UIView
+# --
+constraintsAffectingLayoutForAxis:${1:(UILayoutConstraintAxis)axis}

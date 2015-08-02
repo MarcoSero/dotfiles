@@ -1,0 +1,4 @@
+#name : programIsOpaque
+#group : SCNShadable
+# --
+programIsOpaque:${1:(SCNProgram *)program}

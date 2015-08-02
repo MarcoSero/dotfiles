@@ -1,0 +1,4 @@
+#name : setLineFragmentRect:forGlyphRange:usedRect
+#group : NSLayoutManager
+# --
+setLineFragmentRect:${1:(CGRect)fragmentRect} forGlyphRange:${2:(NSRange)glyphRange} usedRect:${3:(CGRect)usedRect}

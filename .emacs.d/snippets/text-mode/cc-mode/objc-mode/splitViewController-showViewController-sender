@@ -1,0 +1,4 @@
+#name : splitViewController:showViewController:sender
+#group : UISplitViewController
+# --
+splitViewController:${1:(UISplitViewController *)splitViewController} showViewController:${2:(UIViewController *)vc} sender:${3:(id)sender}

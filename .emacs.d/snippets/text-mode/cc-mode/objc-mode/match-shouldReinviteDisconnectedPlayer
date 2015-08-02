@@ -1,0 +1,4 @@
+#name : match:shouldReinviteDisconnectedPlayer
+#group : GKMatch
+# --
+match:${1:(GKMatch *)match} shouldReinviteDisconnectedPlayer:${2:(GKPlayer *)player}

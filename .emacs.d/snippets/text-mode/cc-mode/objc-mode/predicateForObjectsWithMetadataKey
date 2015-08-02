@@ -1,0 +1,4 @@
+#name : predicateForObjectsWithMetadataKey
+#group : HKQuery
+# --
+predicateForObjectsWithMetadataKey:${1:(NSString *)key}

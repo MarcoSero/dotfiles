@@ -1,0 +1,4 @@
+#name : documentMenuWasCancelled
+#group : UIDocumentMenuViewController
+# --
+documentMenuWasCancelled:${1:(UIDocumentMenuViewController *)documentMenu}

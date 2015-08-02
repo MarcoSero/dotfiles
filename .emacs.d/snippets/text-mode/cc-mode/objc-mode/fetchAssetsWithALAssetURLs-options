@@ -1,0 +1,4 @@
+#name : fetchAssetsWithALAssetURLs:options
+#group : PHAsset
+# --
+fetchAssetsWithALAssetURLs:${1:(NSArray *)assetURLs} options:${2:(PHFetchOptions *)options}

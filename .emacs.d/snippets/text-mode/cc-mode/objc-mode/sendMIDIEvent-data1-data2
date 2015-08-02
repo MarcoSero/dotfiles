@@ -1,0 +1,4 @@
+#name : sendMIDIEvent:data1:data2
+#group : AVAudioUnitMIDIInstrument
+# --
+sendMIDIEvent:${1:(uint8_t)midiStatus} data1:${2:(uint8_t)data1} data2:${3:(uint8_t)data2}

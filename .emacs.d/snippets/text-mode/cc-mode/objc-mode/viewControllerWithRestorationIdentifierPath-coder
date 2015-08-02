@@ -1,0 +1,4 @@
+#name : viewControllerWithRestorationIdentifierPath:coder
+#group : UIStateRestoration
+# --
+viewControllerWithRestorationIdentifierPath:${1:(NSArray *)identifierComponents} coder:${2:(NSCoder *)coder}

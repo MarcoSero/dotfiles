@@ -1,0 +1,4 @@
+#name : documentPickerWasCancelled
+#group : UIDocumentPickerViewController
+# --
+documentPickerWasCancelled:${1:(UIDocumentPickerViewController *)controller}

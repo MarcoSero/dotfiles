@@ -1,0 +1,4 @@
+#name : performChangesAndWait
+#group : PHPhotoLibrary
+# --
+performChangesAndWait:${1:(dispatch_block_t)changeBlock}

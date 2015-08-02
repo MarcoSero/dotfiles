@@ -1,0 +1,4 @@
+#name : attachmentBoundsForTextContainer:proposedLineFragment:glyphPosition:characterIndex
+#group : NSTextAttachment
+# --
+attachmentBoundsForTextContainer:${1:(NSTextContainer *)textContainer} proposedLineFragment:${2:(CGRect)lineFrag} glyphPosition:${3:(CGPoint)position} characterIndex:${4:(NSUInteger)charIndex}

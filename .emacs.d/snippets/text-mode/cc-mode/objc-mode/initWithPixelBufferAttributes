@@ -1,0 +1,4 @@
+#name : initWithPixelBufferAttributes
+#group : AVPlayerItemOutput
+# --
+initWithPixelBufferAttributes:${1:(NSDictionary *)pixelBufferAttributes}

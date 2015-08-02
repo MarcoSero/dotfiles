@@ -1,0 +1,4 @@
+#name : shapeNodeWithRect
+#group : SKShapeNode
+# --
+shapeNodeWithRect:${1:(CGRect)rect}

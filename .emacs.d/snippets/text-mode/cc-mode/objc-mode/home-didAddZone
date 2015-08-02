@@ -1,0 +1,4 @@
+#name : home:didAddZone
+#group : HMHome
+# --
+home:${1:(HMHome *)home} didAddZone:${2:(HMZone *)zone}

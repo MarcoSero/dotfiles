@@ -1,0 +1,4 @@
+#name : captureStillImageBracketAsynchronouslyFromConnection:withSettingsArray
+#group : AVCaptureOutput
+# --
+captureStillImageBracketAsynchronouslyFromConnection:${1:(AVCaptureConnection *)connection} withSettingsArray:${2:(NSArray *)settings}

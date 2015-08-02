@@ -1,0 +1,4 @@
+#name : addAnnotation:withPinColor
+#group : WKInterfaceMap
+# --
+addAnnotation:${1:(CLLocationCoordinate2D)location} withPinColor:${2:(WKInterfaceMapPinColor)pinColor}

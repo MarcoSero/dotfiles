@@ -1,0 +1,4 @@
+#name : requestRecordPermission
+#group : AVAudioSession
+# --
+requestRecordPermission:${1:(PermissionBlock)response}

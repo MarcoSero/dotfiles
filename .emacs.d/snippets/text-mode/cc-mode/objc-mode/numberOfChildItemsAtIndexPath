@@ -1,0 +1,4 @@
+#name : numberOfChildItemsAtIndexPath
+#group : MPPlayableContentDataSource
+# --
+numberOfChildItemsAtIndexPath:${1:(NSIndexPath *)indexPath}

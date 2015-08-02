@@ -1,0 +1,4 @@
+#name : shaderWithSource
+#group : SKShader
+# --
+shaderWithSource:${1:(NSString *)source}

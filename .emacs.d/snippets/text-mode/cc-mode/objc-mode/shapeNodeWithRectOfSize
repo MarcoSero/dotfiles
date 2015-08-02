@@ -1,0 +1,4 @@
+#name : shapeNodeWithRectOfSize
+#group : SKShapeNode
+# --
+shapeNodeWithRectOfSize:${1:(CGSize)size}

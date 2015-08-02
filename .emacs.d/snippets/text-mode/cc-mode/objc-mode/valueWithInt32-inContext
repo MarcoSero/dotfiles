@@ -1,0 +1,4 @@
+#name : valueWithInt32:inContext
+#group : JSValue
+# --
+valueWithInt32:${1:(int32_t)value} inContext:${2:(JSContext *)context}

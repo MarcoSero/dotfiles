@@ -1,0 +1,4 @@
+#name : objectAtIndexedSubscript
+#group : PHFetchResult
+# --
+objectAtIndexedSubscript:${1:(NSUInteger)idx}

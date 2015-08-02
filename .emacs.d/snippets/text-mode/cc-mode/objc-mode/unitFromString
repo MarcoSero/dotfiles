@@ -1,0 +1,4 @@
+#name : unitFromString
+#group : HKUnit
+# --
+unitFromString:${1:(NSString *)string}

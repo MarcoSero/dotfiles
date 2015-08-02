@@ -1,0 +1,4 @@
+#name : pause
+#group : SCNView
+# --
+pause:${1:(id)sender}

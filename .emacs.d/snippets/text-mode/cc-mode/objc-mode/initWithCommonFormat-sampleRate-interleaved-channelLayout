@@ -1,0 +1,4 @@
+#name : initWithCommonFormat:sampleRate:interleaved:channelLayout
+#group : AVAudioFormat
+# --
+initWithCommonFormat:${1:(AVAudioCommonFormat)format} sampleRate:${2:(double)sampleRate} interleaved:${3:(BOOL)interleaved} channelLayout:${4:(AVAudioChannelLayout *)layout}

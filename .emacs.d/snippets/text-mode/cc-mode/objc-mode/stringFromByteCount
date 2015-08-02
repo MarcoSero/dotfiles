@@ -1,0 +1,4 @@
+#name : stringFromByteCount
+#group : NSByteCountFormatter
+# --
+stringFromByteCount:${1:(long long)byteCount}

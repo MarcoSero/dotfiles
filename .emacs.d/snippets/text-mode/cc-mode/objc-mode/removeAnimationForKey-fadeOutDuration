@@ -1,0 +1,4 @@
+#name : removeAnimationForKey:fadeOutDuration
+#group : SCNAnimation
+# --
+removeAnimationForKey:${1:(NSString *)key} fadeOutDuration:${2:(CGFloat)duration}

@@ -1,0 +1,4 @@
+#name : showBluetoothAccessoryPickerWithNameFilter:completion
+#group : EAAccessoryManager
+# --
+showBluetoothAccessoryPickerWithNameFilter:${1:(NSPredicate *)predicate} completion:${2:(EABluetoothAccessoryPickerCompletion)completion}

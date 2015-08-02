@@ -1,0 +1,4 @@
+#name : drawAtPoint:withAttributes
+#group : NSStringDrawing
+# --
+drawAtPoint:${1:(CGPoint)point} withAttributes:${2:(NSDictionary *)attrs}

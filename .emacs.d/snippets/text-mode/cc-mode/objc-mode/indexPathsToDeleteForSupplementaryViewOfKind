@@ -1,0 +1,4 @@
+#name : indexPathsToDeleteForSupplementaryViewOfKind
+#group : UICollectionViewLayout
+# --
+indexPathsToDeleteForSupplementaryViewOfKind:${1:(NSString *)elementKind}

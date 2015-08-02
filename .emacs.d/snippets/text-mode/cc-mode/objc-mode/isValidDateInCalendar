@@ -1,0 +1,4 @@
+#name : isValidDateInCalendar
+#group : NSCalendar
+# --
+isValidDateInCalendar:${1:(NSCalendar *)calendar}

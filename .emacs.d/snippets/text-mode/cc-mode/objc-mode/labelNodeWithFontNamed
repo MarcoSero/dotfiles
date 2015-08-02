@@ -1,0 +1,4 @@
+#name : labelNodeWithFontNamed
+#group : SKLabelNode
+# --
+labelNodeWithFontNamed:${1:(NSString *)fontName}

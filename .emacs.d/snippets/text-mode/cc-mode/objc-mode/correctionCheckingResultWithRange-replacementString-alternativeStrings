@@ -1,0 +1,4 @@
+#name : correctionCheckingResultWithRange:replacementString:alternativeStrings
+#group : NSTextCheckingResult
+# --
+correctionCheckingResultWithRange:${1:(NSRange)range} replacementString:${2:(NSString *)replacementString} alternativeStrings:${3:(NSArray *)alternativeStrings}

@@ -1,0 +1,4 @@
+#name : setDefaultLeaderboardIdentifier
+#group : GKLocalPlayer
+# --
+setDefaultLeaderboardIdentifier:${1:(NSString *)leaderboardIdentifier}

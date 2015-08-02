@@ -1,0 +1,4 @@
+#name : initForWriting:settings:commonFormat:interleaved:error
+#group : AVAudioFile
+# --
+initForWriting:${1:(NSURL *)fileURL} settings:${2:(NSDictionary *)settings} commonFormat:${3:(AVAudioCommonFormat)format} interleaved:${4:(BOOL)interleaved} error:${5:(NSError **)outError}

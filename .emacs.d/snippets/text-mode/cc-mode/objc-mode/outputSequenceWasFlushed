@@ -1,0 +1,4 @@
+#name : outputSequenceWasFlushed
+#group : AVPlayerItemOutput
+# --
+outputSequenceWasFlushed:${1:(AVPlayerItemOutput *)output}

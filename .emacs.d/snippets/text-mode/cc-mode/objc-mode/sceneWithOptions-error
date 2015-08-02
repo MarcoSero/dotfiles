@@ -1,0 +1,4 @@
+#name : sceneWithOptions:error
+#group : SCNSceneSource
+# --
+sceneWithOptions:${1:(NSDictionary *)options} error:${2:(NSError **)error}

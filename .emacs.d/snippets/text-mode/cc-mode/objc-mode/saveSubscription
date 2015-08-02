@@ -1,0 +1,4 @@
+#name : saveSubscription
+#group : CKDatabase
+# --
+saveSubscription:${1:(CKSubscription *)subscription}

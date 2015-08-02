@@ -1,0 +1,4 @@
+#name : initWithFontNamed
+#group : SKLabelNode
+# --
+initWithFontNamed:${1:(NSString *)fontName}

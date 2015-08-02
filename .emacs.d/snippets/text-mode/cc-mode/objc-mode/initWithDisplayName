@@ -1,0 +1,4 @@
+#name : initWithDisplayName
+#group : MCPeerID
+# --
+initWithDisplayName:${1:(NSString *)myDisplayName}

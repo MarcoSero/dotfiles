@@ -1,0 +1,4 @@
+#name : indexPathForItemAtPoint
+#group : UICollectionView
+# --
+indexPathForItemAtPoint:${1:(CGPoint)point}

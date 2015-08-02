@@ -1,0 +1,4 @@
+#name : player:receivedTurnEventForMatch:didBecomeActive
+#group : GKTurnBasedMatch
+# --
+player:${1:(GKPlayer *)player} receivedTurnEventForMatch:${2:(GKTurnBasedMatch *)match} didBecomeActive:${3:(BOOL)didBecomeActive}

@@ -1,0 +1,4 @@
+#name : sumQuantityForSource
+#group : HKStatistics
+# --
+sumQuantityForSource:${1:(HKSource *)source}

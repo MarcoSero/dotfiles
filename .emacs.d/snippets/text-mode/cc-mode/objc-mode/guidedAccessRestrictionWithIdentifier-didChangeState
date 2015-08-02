@@ -1,0 +1,4 @@
+#name : guidedAccessRestrictionWithIdentifier:didChangeState
+#group : UIGuidedAccessRestrictions
+# --
+guidedAccessRestrictionWithIdentifier:${1:(NSString *)restrictionIdentifier} didChangeState:${2:(UIGuidedAccessRestrictionState)newRestrictionState}

@@ -1,0 +1,4 @@
+#name : atlasWithDictionary
+#group : SKTextureAtlas
+# --
+atlasWithDictionary:${1:(NSDictionary *)properties}

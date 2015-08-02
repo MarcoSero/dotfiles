@@ -1,0 +1,4 @@
+#name : encodeRestorableStateWithCoder
+#group : UIViewController
+# --
+encodeRestorableStateWithCoder:${1:(NSCoder *)coder}

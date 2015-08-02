@@ -1,0 +1,4 @@
+#name : supportsURL
+#group : SSReadingList
+# --
+supportsURL:${1:(NSURL *)URL}

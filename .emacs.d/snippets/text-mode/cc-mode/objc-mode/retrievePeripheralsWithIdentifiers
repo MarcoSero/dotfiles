@@ -1,0 +1,4 @@
+#name : retrievePeripheralsWithIdentifiers
+#group : CBCentralManager
+# --
+retrievePeripheralsWithIdentifiers:${1:(NSArray *)identifiers}

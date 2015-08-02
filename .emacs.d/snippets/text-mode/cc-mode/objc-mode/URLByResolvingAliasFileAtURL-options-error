@@ -1,0 +1,4 @@
+#name : URLByResolvingAliasFileAtURL:options:error
+#group : NSURL
+# --
+URLByResolvingAliasFileAtURL:${1:(NSURL *)url} options:${2:(NSURLBookmarkResolutionOptions)options} error:${3:(NSError **)error}

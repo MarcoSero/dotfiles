@@ -1,0 +1,4 @@
+#name : setTemporaryResourceValue:forKey
+#group : NSURL
+# --
+setTemporaryResourceValue:${1:(id)value} forKey:${2:(NSString *)key}

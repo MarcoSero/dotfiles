@@ -1,0 +1,4 @@
+#name : invalidateItemsAtIndexPaths
+#group : UICollectionViewLayout
+# --
+invalidateItemsAtIndexPaths:${1:(NSArray *)indexPaths}

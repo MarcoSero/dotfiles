@@ -1,0 +1,4 @@
+#name : bodyWithTexture:size
+#group : SKPhysicsBody
+# --
+bodyWithTexture:${1:(SKTexture*)texture} size:${2:(CGSize)size}

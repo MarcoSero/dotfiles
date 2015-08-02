@@ -1,0 +1,4 @@
+#name : application:didRegisterUserNotificationSettings
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} didRegisterUserNotificationSettings:${2:(UIUserNotificationSettings *)notificationSettings}

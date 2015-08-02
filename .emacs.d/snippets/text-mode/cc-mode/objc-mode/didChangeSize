@@ -1,0 +1,4 @@
+#name : didChangeSize
+#group : SKScene
+# --
+didChangeSize:${1:(CGSize)oldSize}

@@ -1,0 +1,4 @@
+#name : initWithOptions
+#group : MKMapSnapshotter
+# --
+initWithOptions:${1:(MKMapSnapshotOptions *)options}

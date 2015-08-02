@@ -1,0 +1,4 @@
+#name : addAction
+#group : UIAlertController
+# --
+addAction:${1:(UIAlertAction *)action}

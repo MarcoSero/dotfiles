@@ -1,0 +1,4 @@
+#name : centralManager:willRestoreState
+#group : CBCentralManager
+# --
+centralManager:${1:(CBCentralManager *)central} willRestoreState:${2:(NSDictionary *)dict}

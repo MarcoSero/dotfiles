@@ -1,0 +1,4 @@
+#name : getEra:year:month:day:fromDate
+#group : NSCalendar
+# --
+getEra:${1:(out NSInteger *)eraValuePointer} year:${2:(out NSInteger *)yearValuePointer} month:${3:(out NSInteger *)monthValuePointer} day:${4:(out NSInteger *)dayValuePointer} fromDate:${5:(NSDate *)date}

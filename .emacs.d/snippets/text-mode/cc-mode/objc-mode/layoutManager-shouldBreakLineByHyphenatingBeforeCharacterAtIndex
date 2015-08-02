@@ -1,0 +1,4 @@
+#name : layoutManager:shouldBreakLineByHyphenatingBeforeCharacterAtIndex
+#group : NSLayoutManager
+# --
+layoutManager:${1:(NSLayoutManager *)layoutManager} shouldBreakLineByHyphenatingBeforeCharacterAtIndex:${2:(NSUInteger)charIndex}

@@ -1,0 +1,4 @@
+#name : layoutAttributesForDecorationViewOfKind:withIndexPath
+#group : UICollectionViewLayout
+# --
+layoutAttributesForDecorationViewOfKind:${1:(NSString *)decorationViewKind} withIndexPath:${2:(NSIndexPath*)indexPath}

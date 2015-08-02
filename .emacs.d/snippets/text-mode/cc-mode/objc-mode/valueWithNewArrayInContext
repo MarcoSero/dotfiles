@@ -1,0 +1,4 @@
+#name : valueWithNewArrayInContext
+#group : JSValue
+# --
+valueWithNewArrayInContext:${1:(JSContext *)context}

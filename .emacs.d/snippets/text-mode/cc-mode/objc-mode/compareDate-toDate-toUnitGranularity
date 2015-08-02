@@ -1,0 +1,4 @@
+#name : compareDate:toDate:toUnitGranularity
+#group : NSCalendar
+# --
+compareDate:${1:(NSDate *)date1} toDate:${2:(NSDate *)date2} toUnitGranularity:${3:(NSCalendarUnit)unit}

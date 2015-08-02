@@ -1,0 +1,4 @@
+#name : edited:range:changeInLength
+#group : NSTextStorage
+# --
+edited:${1:(NSTextStorageEditActions)editedMask} range:${2:(NSRange)editedRange} changeInLength:${3:(NSInteger)delta}

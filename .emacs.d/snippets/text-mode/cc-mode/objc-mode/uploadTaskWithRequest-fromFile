@@ -1,0 +1,4 @@
+#name : uploadTaskWithRequest:fromFile
+#group : NSURLSession
+# --
+uploadTaskWithRequest:${1:(NSURLRequest *)request} fromFile:${2:(NSURL *)fileURL}

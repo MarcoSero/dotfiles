@@ -1,0 +1,4 @@
+#name : initWithServiceType:discoveryInfo:session
+#group : MCAdvertiserAssistant
+# --
+initWithServiceType:${1:(NSString *)serviceType} discoveryInfo:${2:(NSDictionary *)info} session:${3:(MCSession *)session}

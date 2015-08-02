@@ -1,0 +1,4 @@
+#name : findPlayersForHostedRequest
+#group : GKMatchmaker
+# --
+findPlayersForHostedRequest:${1:(GKMatchRequest *)request}

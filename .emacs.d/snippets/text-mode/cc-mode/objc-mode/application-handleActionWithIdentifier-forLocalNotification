@@ -1,0 +1,4 @@
+#name : application:handleActionWithIdentifier:forLocalNotification
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} handleActionWithIdentifier:${2:(NSString *)identifier} forLocalNotification:${3:(UILocalNotification *)notification}

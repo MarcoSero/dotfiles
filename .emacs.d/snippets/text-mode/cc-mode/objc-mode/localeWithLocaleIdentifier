@@ -1,0 +1,4 @@
+#name : localeWithLocaleIdentifier
+#group : NSLocale
+# --
+localeWithLocaleIdentifier:${1:(NSString *)ident}

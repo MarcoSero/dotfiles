@@ -1,0 +1,4 @@
+#name : removeCachedResourceValueForKey
+#group : NSURL
+# --
+removeCachedResourceValueForKey:${1:(NSString *)key}

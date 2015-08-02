@@ -1,0 +1,4 @@
+#name : showAnnotations:animated
+#group : MKMapView
+# --
+showAnnotations:${1:(NSArray *)annotations} animated:${2:(BOOL)animated}

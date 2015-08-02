@@ -1,0 +1,4 @@
+#name : drawPrimitives:vertexStart:vertexCount
+#group : MTLRenderCommandEncoder
+# --
+drawPrimitives:${1:(MTLPrimitiveType)primitiveType} vertexStart:${2:(NSUInteger)vertexStart} vertexCount:${3:(NSUInteger)vertexCount}

@@ -1,0 +1,4 @@
+#name : setMinimumVolumeSliderImage:forState
+#group : MPVolumeView
+# --
+setMinimumVolumeSliderImage:${1:(UIImage *)image} forState:${2:(UIControlState)state}

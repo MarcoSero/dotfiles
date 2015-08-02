@@ -1,0 +1,4 @@
+#name : uploadTaskWithStreamedRequest
+#group : NSURLSession
+# --
+uploadTaskWithStreamedRequest:${1:(NSURLRequest *)request}

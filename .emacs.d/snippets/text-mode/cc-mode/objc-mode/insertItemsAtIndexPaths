@@ -1,0 +1,4 @@
+#name : insertItemsAtIndexPaths
+#group : UICollectionView
+# --
+insertItemsAtIndexPaths:${1:(NSArray *)indexPaths}

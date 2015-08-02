@@ -1,0 +1,4 @@
+#name : browserViewControllerDidFinish
+#group : MCBrowserViewController
+# --
+browserViewControllerDidFinish:${1:(MCBrowserViewController *)browserViewController}

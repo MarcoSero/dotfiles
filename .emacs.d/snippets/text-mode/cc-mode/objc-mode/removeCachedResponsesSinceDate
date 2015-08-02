@@ -1,0 +1,4 @@
+#name : removeCachedResponsesSinceDate
+#group : NSURLCache
+# --
+removeCachedResponsesSinceDate:${1:(NSDate *)date}

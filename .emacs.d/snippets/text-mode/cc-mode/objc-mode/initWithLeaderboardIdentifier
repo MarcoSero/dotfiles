@@ -1,0 +1,4 @@
+#name : initWithLeaderboardIdentifier
+#group : GKScore
+# --
+initWithLeaderboardIdentifier:${1:(NSString *)identifier}

@@ -1,0 +1,4 @@
+#name : isVideoStabilizationModeSupported
+#group : AVCaptureDevice
+# --
+isVideoStabilizationModeSupported:${1:(AVCaptureVideoStabilizationMode)videoStabilizationMode}

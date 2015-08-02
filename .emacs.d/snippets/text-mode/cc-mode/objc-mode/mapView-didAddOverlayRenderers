@@ -1,0 +1,4 @@
+#name : mapView:didAddOverlayRenderers
+#group : MKMapView
+# --
+mapView:${1:(MKMapView *)mapView} didAddOverlayRenderers:${2:(NSArray *)renderers}

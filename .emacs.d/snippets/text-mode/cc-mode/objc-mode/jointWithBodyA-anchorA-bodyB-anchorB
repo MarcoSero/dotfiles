@@ -1,0 +1,4 @@
+#name : jointWithBodyA:anchorA:bodyB:anchorB
+#group : SCNPhysicsBehavior
+# --
+jointWithBodyA:${1:(SCNPhysicsBody *)bodyA} anchorA:${2:(SCNVector3)anchorA} bodyB:${3:(SCNPhysicsBody *)bodyB} anchorB:${4:(SCNVector3)anchorB}

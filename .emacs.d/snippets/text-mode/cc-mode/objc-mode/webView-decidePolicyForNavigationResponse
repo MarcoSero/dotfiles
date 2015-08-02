@@ -1,0 +1,4 @@
+#name : webView:decidePolicyForNavigationResponse
+#group : WKNavigationDelegate
+# --
+webView:${1:(WKWebView *)webView} decidePolicyForNavigationResponse:${2:(WKNavigationResponse *)navigationResponse}

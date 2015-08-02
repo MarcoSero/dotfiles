@@ -1,0 +1,4 @@
+#name : distance:toPoint
+#group : SKConstraint
+# --
+distance:${1:(SKRange *)range} toPoint:${2:(CGPoint)point}

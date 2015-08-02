@@ -1,0 +1,4 @@
+#name : shapeWithShapes:transforms
+#group : SCNPhysicsShape
+# --
+shapeWithShapes:${1:(NSArray *)shapes} transforms:${2:(NSArray *)transforms}

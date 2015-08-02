@@ -1,0 +1,4 @@
+#name : replaceMaterialAtIndex:withMaterial
+#group : SCNGeometry
+# --
+replaceMaterialAtIndex:${1:(NSUInteger)index} withMaterial:${2:(SCNMaterial *)material}

@@ -1,0 +1,4 @@
+#name : addPasses
+#group : PKPassLibrary
+# --
+addPasses:${1:(NSArray *)passes}

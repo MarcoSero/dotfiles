@@ -1,0 +1,4 @@
+#name : initWithSource
+#group : SKShader
+# --
+initWithSource:${1:(NSString *)source}

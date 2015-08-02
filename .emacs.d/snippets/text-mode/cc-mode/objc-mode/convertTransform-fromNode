@@ -1,0 +1,4 @@
+#name : convertTransform:fromNode
+#group : SCNNode
+# --
+convertTransform:${1:(SCNMatrix4)transform} fromNode:${2:(SCNNode *)node}

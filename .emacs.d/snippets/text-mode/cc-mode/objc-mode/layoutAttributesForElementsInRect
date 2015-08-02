@@ -1,0 +1,4 @@
+#name : layoutAttributesForElementsInRect
+#group : UICollectionViewLayout
+# --
+layoutAttributesForElementsInRect:${1:(CGRect)rect}

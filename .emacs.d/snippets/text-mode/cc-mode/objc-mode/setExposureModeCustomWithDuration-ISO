@@ -1,0 +1,4 @@
+#name : setExposureModeCustomWithDuration:ISO
+#group : AVCaptureDevice
+# --
+setExposureModeCustomWithDuration:${1:(CMTime)duration} ISO:${2:(float)ISO}

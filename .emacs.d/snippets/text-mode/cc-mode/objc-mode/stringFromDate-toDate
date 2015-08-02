@@ -1,0 +1,4 @@
+#name : stringFromDate:toDate
+#group : NSDateIntervalFormatter
+# --
+stringFromDate:${1:(NSDate *)fromDate} toDate:${2:(NSDate *)toDate}

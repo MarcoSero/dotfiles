@@ -1,0 +1,4 @@
+#name : canPerformEditOperation
+#group : PHCollection
+# --
+canPerformEditOperation:${1:(PHCollectionEditOperation)anOperation}

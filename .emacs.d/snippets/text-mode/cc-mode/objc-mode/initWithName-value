@@ -1,0 +1,4 @@
+#name : initWithName:value
+#group : NSURL
+# --
+initWithName:${1:(NSString *)name} value:${2:(NSString *)value}

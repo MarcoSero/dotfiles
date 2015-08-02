@@ -1,0 +1,4 @@
+#name : goForward
+#group : WKWebView
+# --
+goForward:${1:(id)sender}

@@ -1,0 +1,4 @@
+#name : fetchAssetCollectionsWithType:subtype:options
+#group : PHCollection
+# --
+fetchAssetCollectionsWithType:${1:(PHAssetCollectionType)type} subtype:${2:(PHAssetCollectionSubtype)subtype} options:${3:(PHFetchOptions *)options}

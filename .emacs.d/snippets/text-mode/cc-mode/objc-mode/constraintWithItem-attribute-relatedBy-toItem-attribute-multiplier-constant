@@ -1,0 +1,4 @@
+#name : constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant
+#group : NSLayoutConstraint
+# --
+constraintWithItem:${1:(id)view1} attribute:${2:(NSLayoutAttribute)attr1} relatedBy:${3:(NSLayoutRelation)relation} toItem:${4:(id)view2} attribute:${5:(NSLayoutAttribute)attr2} multiplier:${6:(CGFloat)multiplier} constant:${7:(CGFloat)c}

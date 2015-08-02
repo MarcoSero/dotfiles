@@ -1,0 +1,4 @@
+#name : indexPathsToDeleteForDecorationViewOfKind
+#group : UICollectionViewLayout
+# --
+indexPathsToDeleteForDecorationViewOfKind:${1:(NSString *)elementKind}

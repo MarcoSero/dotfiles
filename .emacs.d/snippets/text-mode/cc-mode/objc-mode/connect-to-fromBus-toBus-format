@@ -1,0 +1,4 @@
+#name : connect:to:fromBus:toBus:format
+#group : AVAudioEngine
+# --
+connect:${1:(AVAudioNode *)node1} to:${2:(AVAudioNode *)node2} fromBus:${3:(AVAudioNodeBus)bus1} toBus:${4:(AVAudioNodeBus)bus2} format:${5:(AVAudioFormat *)format}

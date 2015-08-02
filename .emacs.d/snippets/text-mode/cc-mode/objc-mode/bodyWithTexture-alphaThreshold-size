@@ -1,0 +1,4 @@
+#name : bodyWithTexture:alphaThreshold:size
+#group : SKPhysicsBody
+# --
+bodyWithTexture:${1:(SKTexture*)texture} alphaThreshold:${2:(float)alphaThreshold} size:${3:(CGSize)size}

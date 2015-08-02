@@ -1,0 +1,4 @@
+#name : initialFrameForViewController
+#group : UIViewControllerTransitioning
+# --
+initialFrameForViewController:${1:(UIViewController *)vc}

@@ -1,0 +1,4 @@
+#name : replaceChildNode:with
+#group : SCNNode
+# --
+replaceChildNode:${1:(SCNNode *)oldChild} with:${2:(SCNNode *)newChild}

@@ -1,0 +1,4 @@
+#name : rotateByAngle:duration
+#group : SKAction
+# --
+rotateByAngle:${1:(CGFloat)radians} duration:${2:(NSTimeInterval)sec}

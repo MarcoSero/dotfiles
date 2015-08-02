@@ -1,0 +1,4 @@
+#name : addParticleSystem:withTransform
+#group : SCNParticleSystem
+# --
+addParticleSystem:${1:(SCNParticleSystem *)system} withTransform:${2:(SCNMatrix4)transform}

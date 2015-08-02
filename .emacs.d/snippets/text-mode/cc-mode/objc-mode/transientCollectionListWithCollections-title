@@ -1,0 +1,4 @@
+#name : transientCollectionListWithCollections:title
+#group : PHCollection
+# --
+transientCollectionListWithCollections:${1:(NSArray *)collections} title:${2:(NSString *)title}

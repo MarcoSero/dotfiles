@@ -1,0 +1,4 @@
+#name : applyAngularImpulse
+#group : SKPhysicsBody
+# --
+applyAngularImpulse:${1:(CGFloat)impulse}

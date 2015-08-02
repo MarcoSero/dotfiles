@@ -1,0 +1,4 @@
+#name : levelOfDetailWithGeometry:worldSpaceDistance
+#group : SCNLevelOfDetail
+# --
+levelOfDetailWithGeometry:${1:(SCNGeometry *)geometry} worldSpaceDistance:${2:(CGFloat)distance}

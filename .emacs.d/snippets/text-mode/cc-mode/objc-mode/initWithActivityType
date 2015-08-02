@@ -1,0 +1,4 @@
+#name : initWithActivityType
+#group : NSUserActivity
+# --
+initWithActivityType:${1:(NSString *)activityType}

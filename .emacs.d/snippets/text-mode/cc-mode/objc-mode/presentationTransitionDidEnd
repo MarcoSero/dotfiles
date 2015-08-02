@@ -1,0 +1,4 @@
+#name : presentationTransitionDidEnd
+#group : UIPresentationController
+# --
+presentationTransitionDidEnd:${1:(BOOL)completed}

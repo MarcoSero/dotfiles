@@ -1,0 +1,4 @@
+#name : shapeNodeWithPoints:count
+#group : SKShapeNode
+# --
+shapeNodeWithPoints:${1:(CGPoint *)points} count:${2:(size_t)numPoints}

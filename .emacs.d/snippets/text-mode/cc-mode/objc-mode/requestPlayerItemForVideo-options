@@ -1,0 +1,4 @@
+#name : requestPlayerItemForVideo:options
+#group : PHImageManager
+# --
+requestPlayerItemForVideo:${1:(PHAsset *)asset} options:${2:(PHVideoRequestOptions *)options}

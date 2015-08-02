@@ -1,0 +1,4 @@
+#name : valueWithSize:inContext
+#group : JSValue
+# --
+valueWithSize:${1:(CGSize)size} inContext:${2:(JSContext *)context}

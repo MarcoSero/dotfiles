@@ -1,0 +1,4 @@
+#name : deleteSections
+#group : UICollectionView
+# --
+deleteSections:${1:(NSIndexSet *)sections}

@@ -1,0 +1,4 @@
+#name : bodyWithEdgeFromPoint:toPoint
+#group : SKPhysicsBody
+# --
+bodyWithEdgeFromPoint:${1:(CGPoint)p1} toPoint:${2:(CGPoint)p2}

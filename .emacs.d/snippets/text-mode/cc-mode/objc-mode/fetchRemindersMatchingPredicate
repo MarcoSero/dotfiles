@@ -1,0 +1,4 @@
+#name : fetchRemindersMatchingPredicate
+#group : EKEventStore
+# --
+fetchRemindersMatchingPredicate:${1:(NSPredicate *)predicate}

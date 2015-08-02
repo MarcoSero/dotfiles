@@ -1,0 +1,4 @@
+#name : rowControllerAtIndex
+#group : WKInterfaceTable
+# --
+rowControllerAtIndex:${1:(NSInteger)index}

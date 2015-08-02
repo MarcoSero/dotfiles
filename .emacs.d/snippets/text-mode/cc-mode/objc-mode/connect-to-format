@@ -1,0 +1,4 @@
+#name : connect:to:format
+#group : AVAudioEngine
+# --
+connect:${1:(AVAudioNode *)node1} to:${2:(AVAudioNode *)node2} format:${3:(AVAudioFormat *)format}

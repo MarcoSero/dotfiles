@@ -1,0 +1,4 @@
+#name : uniformWithName:floatVector2
+#group : SKUniform
+# --
+uniformWithName:${1:(NSString *)name} floatVector2:${2:(GLKVector2)value}

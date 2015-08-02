@@ -1,0 +1,4 @@
+#name : reachTo:rootNode:velocity
+#group : SKAction
+# --
+reachTo:${1:(CGPoint)position} rootNode:${2:(SKNode *)root} velocity:${3:(CGFloat)velocity}

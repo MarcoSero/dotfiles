@@ -1,0 +1,4 @@
+#name : gestureRecognizer:shouldRequireFailureOfGestureRecognizer
+#group : UIGestureRecognizer
+# --
+gestureRecognizer:${1:(UIGestureRecognizer *)gestureRecognizer} shouldRequireFailureOfGestureRecognizer:${2:(UIGestureRecognizer *)otherGestureRecognizer}

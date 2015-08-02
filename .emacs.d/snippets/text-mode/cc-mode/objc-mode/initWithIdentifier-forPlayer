@@ -1,0 +1,4 @@
+#name : initWithIdentifier:forPlayer
+#group : GKAchievement
+# --
+initWithIdentifier:${1:(NSString *)identifier} forPlayer:${2:(NSString *)playerID}

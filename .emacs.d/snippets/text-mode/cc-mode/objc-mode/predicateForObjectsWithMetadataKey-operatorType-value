@@ -1,0 +1,4 @@
+#name : predicateForObjectsWithMetadataKey:operatorType:value
+#group : HKQuery
+# --
+predicateForObjectsWithMetadataKey:${1:(NSString *)key} operatorType:${2:(NSPredicateOperatorType)operatorType} value:${3:(id)value}

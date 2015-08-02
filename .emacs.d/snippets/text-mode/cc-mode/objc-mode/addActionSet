@@ -1,0 +1,4 @@
+#name : addActionSet
+#group : HMTrigger
+# --
+addActionSet:${1:(HMActionSet *)actionSet}

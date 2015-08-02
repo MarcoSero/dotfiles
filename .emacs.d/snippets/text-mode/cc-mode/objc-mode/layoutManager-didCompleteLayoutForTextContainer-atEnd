@@ -1,0 +1,4 @@
+#name : layoutManager:didCompleteLayoutForTextContainer:atEnd
+#group : NSLayoutManager
+# --
+layoutManager:${1:(NSLayoutManager *)layoutManager} didCompleteLayoutForTextContainer:${2:(NSTextContainer *)textContainer} atEnd:${3:(BOOL)layoutFinishedFlag}

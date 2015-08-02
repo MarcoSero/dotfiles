@@ -1,0 +1,4 @@
+#name : fixAttributesInRange
+#group : NSAttributedString
+# --
+fixAttributesInRange:${1:(NSRange)range}

@@ -1,0 +1,4 @@
+#name : canAddInputGroup
+#group : AVAssetWriter
+# --
+canAddInputGroup:${1:(AVAssetWriterInputGroup *)inputGroup}

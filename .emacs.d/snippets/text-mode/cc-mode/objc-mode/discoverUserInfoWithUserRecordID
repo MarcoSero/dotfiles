@@ -1,0 +1,4 @@
+#name : discoverUserInfoWithUserRecordID
+#group : CKContainer
+# --
+discoverUserInfoWithUserRecordID:${1:(CKRecordID *)userRecordID}

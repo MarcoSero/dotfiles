@@ -1,0 +1,4 @@
+#name : authorizationStatusForMediaType
+#group : AVCaptureDevice
+# --
+authorizationStatusForMediaType:${1:(NSString *)mediaType}

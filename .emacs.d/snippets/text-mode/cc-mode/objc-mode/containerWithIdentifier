@@ -1,0 +1,4 @@
+#name : containerWithIdentifier
+#group : CKContainer
+# --
+containerWithIdentifier:${1:(NSString *)containerIdentifier}

@@ -1,0 +1,4 @@
+#name : addScheduledHandler
+#group : MTLCommandBuffer
+# --
+addScheduledHandler:${1:(MTLCommandBufferHandler)block}

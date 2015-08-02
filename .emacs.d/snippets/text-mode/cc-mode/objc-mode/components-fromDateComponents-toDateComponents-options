@@ -1,0 +1,4 @@
+#name : components:fromDateComponents:toDateComponents:options
+#group : NSCalendar
+# --
+components:${1:(NSCalendarUnit)unitFlags} fromDateComponents:${2:(NSDateComponents *)startingDateComp} toDateComponents:${3:(NSDateComponents *)resultDateComp} options:${4:(NSCalendarOptions)options}

@@ -1,0 +1,4 @@
+#name : getFileSystemRepresentation:maxLength
+#group : NSURL
+# --
+getFileSystemRepresentation:${1:(char *)buffer} maxLength:${2:(NSUInteger)maxBufferLength}

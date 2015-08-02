@@ -1,0 +1,4 @@
+#name : initWithTileOverlay
+#group : MKTileOverlayRenderer
+# --
+initWithTileOverlay:${1:(MKTileOverlay *)overlay}

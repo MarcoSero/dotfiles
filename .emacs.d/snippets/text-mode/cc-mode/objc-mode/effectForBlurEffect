@@ -1,0 +1,4 @@
+#name : effectForBlurEffect
+#group : UIVisualEffectView
+# --
+effectForBlurEffect:${1:(UIBlurEffect *)blurEffect}

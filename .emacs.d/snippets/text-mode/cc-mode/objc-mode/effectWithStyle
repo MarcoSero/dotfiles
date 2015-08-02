@@ -1,0 +1,4 @@
+#name : effectWithStyle
+#group : UIVisualEffectView
+# --
+effectWithStyle:${1:(UIBlurEffectStyle)style}

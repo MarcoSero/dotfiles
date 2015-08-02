@@ -1,0 +1,4 @@
+#name : player:receivedExchangeRequest:forMatch
+#group : GKTurnBasedMatch
+# --
+player:${1:(GKPlayer *)player} receivedExchangeRequest:${2:(GKTurnBasedExchange *)exchange} forMatch:${3:(GKTurnBasedMatch *)match}

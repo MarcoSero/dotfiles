@@ -1,0 +1,4 @@
+#name : deviceWhiteBalanceGainsForTemperatureAndTintValues
+#group : AVCaptureDevice
+# --
+deviceWhiteBalanceGainsForTemperatureAndTintValues:${1:(AVCaptureWhiteBalanceTemperatureAndTintValues)tempAndTintValues}

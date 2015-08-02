@@ -1,0 +1,4 @@
+#name : addParticleSystem
+#group : SCNParticleSystem
+# --
+addParticleSystem:${1:(SCNParticleSystem *)system}

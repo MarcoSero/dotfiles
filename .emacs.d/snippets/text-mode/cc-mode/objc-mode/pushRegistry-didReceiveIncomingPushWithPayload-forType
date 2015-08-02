@@ -1,0 +1,4 @@
+#name : pushRegistry:didReceiveIncomingPushWithPayload:forType
+#group : PKPushRegistry
+# --
+pushRegistry:${1:(PKPushRegistry *)registry} didReceiveIncomingPushWithPayload:${2:(PKPushPayload *)payload} forType:${3:(NSString *)type}

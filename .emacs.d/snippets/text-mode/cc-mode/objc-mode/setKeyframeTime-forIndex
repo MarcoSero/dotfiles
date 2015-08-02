@@ -1,0 +1,4 @@
+#name : setKeyframeTime:forIndex
+#group : SKKeyframeSequence
+# --
+setKeyframeTime:${1:(CGFloat)time} forIndex:${2:(NSUInteger)index}

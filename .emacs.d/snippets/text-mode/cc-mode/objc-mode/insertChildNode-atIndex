@@ -1,0 +1,4 @@
+#name : insertChildNode:atIndex
+#group : SCNNode
+# --
+insertChildNode:${1:(SCNNode *)child} atIndex:${2:(NSUInteger)index}

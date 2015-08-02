@@ -1,0 +1,4 @@
+#name : removeChildrenInArray
+#group : SKNode
+# --
+removeChildrenInArray:${1:(NSArray *)nodes}

@@ -1,0 +1,4 @@
+#name : textWithString:extrusionDepth
+#group : SCNParametricGeometry
+# --
+textWithString:${1:(id)string} extrusionDepth:${2:(CGFloat)extrusionDepth}

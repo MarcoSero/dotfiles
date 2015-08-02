@@ -1,0 +1,4 @@
+#name : sceneNamed:inDirectory:options
+#group : SCNScene
+# --
+sceneNamed:${1:(NSString *)name} inDirectory:${2:(NSString *)directory} options:${3:(NSDictionary *)options}

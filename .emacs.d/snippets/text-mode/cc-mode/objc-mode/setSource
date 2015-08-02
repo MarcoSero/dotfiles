@@ -1,0 +1,4 @@
+#name : setSource
+#group : MKDirectionsRequest
+# --
+setSource:${1:(MKMapItem *)source}

@@ -1,0 +1,4 @@
+#name : accessoryBrowser:didUpdateState
+#group : EAWiFiUnconfiguredAccessoryBrowser
+# --
+accessoryBrowser:${1:(EAWiFiUnconfiguredAccessoryBrowser*)browser} didUpdateState:${2:(EAWiFiUnconfiguredAccessoryBrowserState)state}

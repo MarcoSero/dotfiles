@@ -1,0 +1,4 @@
+#name : addTextContainer
+#group : NSLayoutManager
+# --
+addTextContainer:${1:(NSTextContainer *)container}

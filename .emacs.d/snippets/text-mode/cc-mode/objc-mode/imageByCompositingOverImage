@@ -1,0 +1,4 @@
+#name : imageByCompositingOverImage
+#group : CIImage
+# --
+imageByCompositingOverImage:${1:(CIImage *)dest}

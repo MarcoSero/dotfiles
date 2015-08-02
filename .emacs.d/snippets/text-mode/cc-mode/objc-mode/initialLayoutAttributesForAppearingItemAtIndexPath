@@ -1,0 +1,4 @@
+#name : initialLayoutAttributesForAppearingItemAtIndexPath
+#group : UICollectionViewLayout
+# --
+initialLayoutAttributesForAppearingItemAtIndexPath:${1:(NSIndexPath *)itemIndexPath}

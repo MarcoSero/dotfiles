@@ -1,0 +1,4 @@
+#name : ensureGlyphsForGlyphRange
+#group : NSLayoutManager
+# --
+ensureGlyphsForGlyphRange:${1:(NSRange)glyphRange}

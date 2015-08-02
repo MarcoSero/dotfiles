@@ -1,0 +1,4 @@
+#name : dismissalTransitionDidEnd
+#group : UIPresentationController
+# --
+dismissalTransitionDidEnd:${1:(BOOL)completed}

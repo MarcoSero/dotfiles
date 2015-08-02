@@ -1,0 +1,4 @@
+#name : incrementImageForState
+#group : UIStepper
+# --
+incrementImageForState:${1:(UIControlState)state}

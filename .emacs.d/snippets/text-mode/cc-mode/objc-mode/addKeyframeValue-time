@@ -1,0 +1,4 @@
+#name : addKeyframeValue:time
+#group : SKKeyframeSequence
+# --
+addKeyframeValue:${1:(id)value} time:${2:(CGFloat)time}

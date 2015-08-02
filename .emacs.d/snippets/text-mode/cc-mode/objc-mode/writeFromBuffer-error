@@ -1,0 +1,4 @@
+#name : writeFromBuffer:error
+#group : AVAudioFile
+# --
+writeFromBuffer:${1:(const AVAudioPCMBuffer *)buffer} error:${2:(NSError **)outError}

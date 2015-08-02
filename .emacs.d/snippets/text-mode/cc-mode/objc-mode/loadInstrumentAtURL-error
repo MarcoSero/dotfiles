@@ -1,0 +1,4 @@
+#name : loadInstrumentAtURL:error
+#group : AVAudioUnitSampler
+# --
+loadInstrumentAtURL:${1:(NSURL *)instrumentURL} error:${2:(NSError **)outError}

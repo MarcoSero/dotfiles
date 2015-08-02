@@ -1,0 +1,4 @@
+#name : applyWithExtent
+#group : CIKernel
+# --
+applyWithExtent:${1:(CGRect)extent}

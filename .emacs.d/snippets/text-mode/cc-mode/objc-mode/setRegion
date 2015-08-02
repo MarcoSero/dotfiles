@@ -1,0 +1,4 @@
+#name : setRegion
+#group : WKInterfaceMap
+# --
+setRegion:${1:(MKCoordinateRegion)coordinateRegion}

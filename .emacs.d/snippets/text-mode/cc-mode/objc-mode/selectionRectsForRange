@@ -1,0 +1,4 @@
+#name : selectionRectsForRange
+#group : UITextInput
+# --
+selectionRectsForRange:${1:(UITextRange *)range}

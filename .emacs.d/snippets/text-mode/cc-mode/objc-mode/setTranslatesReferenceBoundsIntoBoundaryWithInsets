@@ -1,0 +1,4 @@
+#name : setTranslatesReferenceBoundsIntoBoundaryWithInsets
+#group : UICollisionBehavior
+# --
+setTranslatesReferenceBoundsIntoBoundaryWithInsets:${1:(UIEdgeInsets)insets}

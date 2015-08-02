@@ -1,0 +1,4 @@
+#name : spriteNodeWithTexture
+#group : SKSpriteNode
+# --
+spriteNodeWithTexture:${1:(SKTexture *)texture}

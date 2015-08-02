@@ -1,0 +1,4 @@
+#name : willMoveToAnimator
+#group : UIDynamicBehavior
+# --
+willMoveToAnimator:${1:(UIDynamicAnimator *)dynamicAnimator}

@@ -1,0 +1,4 @@
+#name : tabBarControllerPreferredInterfaceOrientationForPresentation
+#group : UITabBarController
+# --
+tabBarControllerPreferredInterfaceOrientationForPresentation:${1:(UITabBarController *)tabBarController}

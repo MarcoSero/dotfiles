@@ -1,0 +1,4 @@
+#name : textStorage:didProcessEditing:range:changeInLength
+#group : NSTextStorage
+# --
+textStorage:${1:(NSTextStorage *)textStorage} didProcessEditing:${2:(NSTextStorageEditActions)editedMask} range:${3:(NSRange)editedRange} changeInLength:${4:(NSInteger)delta}

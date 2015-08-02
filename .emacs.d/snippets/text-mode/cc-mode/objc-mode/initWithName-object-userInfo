@@ -1,0 +1,4 @@
+#name : initWithName:object:userInfo
+#group : NSNotification
+# --
+initWithName:${1:(NSString *)name} object:${2:(id)object} userInfo:${3:(NSDictionary *)userInfo}

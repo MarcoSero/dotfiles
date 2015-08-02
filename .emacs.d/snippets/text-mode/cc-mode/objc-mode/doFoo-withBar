@@ -1,0 +1,4 @@
+#name : doFoo:withBar
+#group : JSExport
+# --
+doFoo:${1:(id)foo} withBar:${2:(id)bar}

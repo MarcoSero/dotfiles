@@ -1,0 +1,4 @@
+#name : localizedValueForFieldKey
+#group : PKPass
+# --
+localizedValueForFieldKey:${1:(NSString *)key}

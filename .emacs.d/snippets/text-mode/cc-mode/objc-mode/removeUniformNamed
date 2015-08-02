@@ -1,0 +1,4 @@
+#name : removeUniformNamed
+#group : SKShader
+# --
+removeUniformNamed:${1:(NSString *)name}

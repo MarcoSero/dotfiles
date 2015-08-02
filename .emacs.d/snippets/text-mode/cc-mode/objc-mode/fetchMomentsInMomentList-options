@@ -1,0 +1,4 @@
+#name : fetchMomentsInMomentList:options
+#group : PHCollection
+# --
+fetchMomentsInMomentList:${1:(PHCollectionList *)momentList} options:${2:(PHFetchOptions *)options}

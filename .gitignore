@@ -1,0 +1,13 @@
+Library/
+.s3cfg
+.ssh/
+.netrc
+.gem
+.bash_profile
+.bashrc
+.irssi/
+.m2/
+.profile
+.zlogin
+.zprofile
+

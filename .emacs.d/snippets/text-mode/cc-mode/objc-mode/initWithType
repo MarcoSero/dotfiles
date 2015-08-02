@@ -1,0 +1,4 @@
+#name : initWithType
+#group : CAEmitterBehavior
+# --
+initWithType:${1:(NSString *)type}

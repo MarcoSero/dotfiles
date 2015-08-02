@@ -1,0 +1,4 @@
+#name : stringFromKilograms
+#group : NSMassFormatter
+# --
+stringFromKilograms:${1:(double)numberInKilograms}

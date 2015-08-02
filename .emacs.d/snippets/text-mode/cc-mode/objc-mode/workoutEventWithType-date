@@ -1,0 +1,4 @@
+#name : workoutEventWithType:date
+#group : HKWorkout
+# --
+workoutEventWithType:${1:(HKWorkoutEventType)type} date:${2:(NSDate *)date}

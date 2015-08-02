@@ -1,0 +1,4 @@
+#name : downloadTaskWithResumeData
+#group : NSURLSession
+# --
+downloadTaskWithResumeData:${1:(NSData *)resumeData}

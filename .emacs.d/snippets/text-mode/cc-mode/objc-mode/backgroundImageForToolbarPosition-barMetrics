@@ -1,0 +1,4 @@
+#name : backgroundImageForToolbarPosition:barMetrics
+#group : UIToolbar
+# --
+backgroundImageForToolbarPosition:${1:(UIBarPosition)topOrBottom} barMetrics:${2:(UIBarMetrics)barMetrics}

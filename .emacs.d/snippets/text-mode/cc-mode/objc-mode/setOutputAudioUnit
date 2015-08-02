@@ -1,0 +1,4 @@
+#name : setOutputAudioUnit
+#group : CAInterAppAudioTransportView
+# --
+setOutputAudioUnit:${1:(AudioUnit)au}

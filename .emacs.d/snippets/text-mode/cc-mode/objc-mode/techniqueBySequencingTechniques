@@ -1,0 +1,4 @@
+#name : techniqueBySequencingTechniques
+#group : SCNTechnique
+# --
+techniqueBySequencingTechniques:${1:(NSArray *)techniques}

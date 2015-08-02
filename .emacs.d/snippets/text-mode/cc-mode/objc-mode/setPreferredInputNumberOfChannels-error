@@ -1,0 +1,4 @@
+#name : setPreferredInputNumberOfChannels:error
+#group : AVAudioSession
+# --
+setPreferredInputNumberOfChannels:${1:(NSInteger)count} error:${2:(NSError **)outError}

@@ -1,0 +1,4 @@
+#name : startVideoCompositionRequest
+#group : AVVideoCompositing
+# --
+startVideoCompositionRequest:${1:(AVAsynchronousVideoCompositionRequest *)asyncVideoCompositionRequest}

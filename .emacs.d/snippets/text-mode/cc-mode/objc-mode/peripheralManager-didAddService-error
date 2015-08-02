@@ -1,0 +1,4 @@
+#name : peripheralManager:didAddService:error
+#group : CBPeripheralManager
+# --
+peripheralManager:${1:(CBPeripheralManager *)peripheral} didAddService:${2:(CBService *)service} error:${3:(NSError *)error}

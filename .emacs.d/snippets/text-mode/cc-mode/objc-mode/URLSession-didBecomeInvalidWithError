@@ -1,0 +1,4 @@
+#name : URLSession:didBecomeInvalidWithError
+#group : NSURLSession
+# --
+URLSession:${1:(NSURLSession *)session} didBecomeInvalidWithError:${2:(NSError *)error}

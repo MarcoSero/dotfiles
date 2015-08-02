@@ -1,0 +1,4 @@
+#name : repeatActionForever
+#group : SKAction
+# --
+repeatActionForever:${1:(SKAction *)action}

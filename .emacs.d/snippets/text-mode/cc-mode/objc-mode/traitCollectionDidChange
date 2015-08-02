@@ -1,0 +1,4 @@
+#name : traitCollectionDidChange
+#group : UITraitCollection
+# --
+traitCollectionDidChange:${1:(UITraitCollection *)previousTraitCollection}

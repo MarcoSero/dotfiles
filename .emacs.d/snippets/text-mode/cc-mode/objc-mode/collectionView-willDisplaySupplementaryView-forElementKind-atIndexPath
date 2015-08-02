@@ -1,0 +1,4 @@
+#name : collectionView:willDisplaySupplementaryView:forElementKind:atIndexPath
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} willDisplaySupplementaryView:${2:(UICollectionReusableView *)view} forElementKind:${3:(NSString *)elementKind} atIndexPath:${4:(NSIndexPath *)indexPath}

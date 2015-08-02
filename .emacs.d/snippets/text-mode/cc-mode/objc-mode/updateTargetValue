@@ -1,0 +1,4 @@
+#name : updateTargetValue
+#group : HMCharacteristicWriteAction
+# --
+updateTargetValue:${1:(id)targetValue}

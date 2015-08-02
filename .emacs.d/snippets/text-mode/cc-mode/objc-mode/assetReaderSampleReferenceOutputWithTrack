@@ -1,0 +1,4 @@
+#name : assetReaderSampleReferenceOutputWithTrack
+#group : AVAssetReaderOutput
+# --
+assetReaderSampleReferenceOutputWithTrack:${1:(AVAssetTrack *)track}

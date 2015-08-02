@@ -1,0 +1,4 @@
+#name : initWithFrame:options
+#group : SCNView
+# --
+initWithFrame:${1:(CGRect)frame} options:${2:(NSDictionary *)options}

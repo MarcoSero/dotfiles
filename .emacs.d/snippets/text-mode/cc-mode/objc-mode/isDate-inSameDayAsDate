@@ -1,0 +1,4 @@
+#name : isDate:inSameDayAsDate
+#group : NSCalendar
+# --
+isDate:${1:(NSDate *)date1} inSameDayAsDate:${2:(NSDate *)date2}

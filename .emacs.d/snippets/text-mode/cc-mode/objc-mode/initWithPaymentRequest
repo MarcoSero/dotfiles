@@ -1,0 +1,4 @@
+#name : initWithPaymentRequest
+#group : PKPaymentAuthorizationViewController
+# --
+initWithPaymentRequest:${1:(PKPaymentRequest *)request}

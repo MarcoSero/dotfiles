@@ -1,0 +1,4 @@
+#name : saveReminder:commit:error
+#group : EKEventStore
+# --
+saveReminder:${1:(EKReminder *)reminder} commit:${2:(BOOL)commit} error:${3:(NSError **)error}

@@ -1,0 +1,4 @@
+#name : openInMapsWithLaunchOptions
+#group : MKMapItem
+# --
+openInMapsWithLaunchOptions:${1:(NSDictionary *)launchOptions}

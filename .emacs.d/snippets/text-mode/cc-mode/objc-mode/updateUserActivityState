@@ -1,0 +1,4 @@
+#name : updateUserActivityState
+#group : UIResponder
+# --
+updateUserActivityState:${1:(NSUserActivity *)activity}

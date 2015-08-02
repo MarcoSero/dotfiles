@@ -1,0 +1,4 @@
+#name : match:player:didChangeConnectionState
+#group : GKMatch
+# --
+match:${1:(GKMatch *)match} player:${2:(GKPlayer *)player} didChangeConnectionState:${3:(GKPlayerConnectionState)state}

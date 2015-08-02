@@ -1,0 +1,4 @@
+#name : processEditingForTextStorage:edited:range:changeInLength:invalidatedRange
+#group : NSLayoutManager
+# --
+processEditingForTextStorage:${1:(NSTextStorage *)textStorage} edited:${2:(NSTextStorageEditActions)editMask} range:${3:(NSRange)newCharRange} changeInLength:${4:(NSInteger)delta} invalidatedRange:${5:(NSRange)invalidatedCharRange}

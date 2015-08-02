@@ -1,0 +1,4 @@
+#name : setPlayer:muted
+#group : GKVoiceChat
+# --
+setPlayer:${1:(GKPlayer *)player} muted:${2:(BOOL)isMuted}

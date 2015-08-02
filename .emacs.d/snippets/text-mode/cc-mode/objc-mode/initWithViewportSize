@@ -1,0 +1,4 @@
+#name : initWithViewportSize
+#group : SK3DNode
+# --
+initWithViewportSize:${1:(CGSize)viewportSize}

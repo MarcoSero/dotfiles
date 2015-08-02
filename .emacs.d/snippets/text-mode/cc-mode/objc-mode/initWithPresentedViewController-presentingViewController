@@ -1,0 +1,4 @@
+#name : initWithPresentedViewController:presentingViewController
+#group : UIPresentationController
+# --
+initWithPresentedViewController:${1:(UIViewController *)presentedViewController} presentingViewController:${2:(UIViewController *)presentingViewController}

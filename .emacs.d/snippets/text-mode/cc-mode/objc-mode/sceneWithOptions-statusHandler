@@ -1,0 +1,4 @@
+#name : sceneWithOptions:statusHandler
+#group : SCNSceneSource
+# --
+sceneWithOptions:${1:(NSDictionary *)options} statusHandler:${2:(SCNSceneSourceStatusHandler)statusHandler}

@@ -1,0 +1,4 @@
+#name : speechSynthesizer:willSpeakRangeOfSpeechString:utterance
+#group : AVSpeechSynthesis
+# --
+speechSynthesizer:${1:(AVSpeechSynthesizer *)synthesizer} willSpeakRangeOfSpeechString:${2:(NSRange)characterRange} utterance:${3:(AVSpeechUtterance *)utterance}

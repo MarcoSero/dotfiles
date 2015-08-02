@@ -1,0 +1,4 @@
+#name : layoutManager:boundingBoxForControlGlyphAtIndex:forTextContainer:proposedLineFragment:glyphPosition:characterIndex
+#group : NSLayoutManager
+# --
+layoutManager:${1:(NSLayoutManager *)layoutManager} boundingBoxForControlGlyphAtIndex:${2:(NSUInteger)glyphIndex} forTextContainer:${3:(NSTextContainer *)textContainer} proposedLineFragment:${4:(CGRect)proposedRect} glyphPosition:${5:(CGPoint)glyphPosition} characterIndex:${6:(NSUInteger)charIndex}

@@ -1,0 +1,4 @@
+#name : layoutManager:shouldUseAction:forControlCharacterAtIndex
+#group : NSLayoutManager
+# --
+layoutManager:${1:(NSLayoutManager *)layoutManager} shouldUseAction:${2:(NSControlCharacterAction)action} forControlCharacterAtIndex:${3:(NSUInteger)charIndex}

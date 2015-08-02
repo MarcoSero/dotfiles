@@ -1,0 +1,4 @@
+#name : initWithRecord:action
+#group : CKReference
+# --
+initWithRecord:${1:(CKRecord *)record} action:${2:(CKReferenceAction)action}

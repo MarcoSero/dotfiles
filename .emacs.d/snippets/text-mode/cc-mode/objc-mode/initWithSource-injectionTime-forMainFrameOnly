@@ -1,0 +1,4 @@
+#name : initWithSource:injectionTime:forMainFrameOnly
+#group : WKUserScript
+# --
+initWithSource:${1:(NSString *)source} injectionTime:${2:(WKUserScriptInjectionTime)injectionTime} forMainFrameOnly:${3:(BOOL)forMainFrameOnly}

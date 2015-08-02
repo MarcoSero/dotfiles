@@ -1,0 +1,4 @@
+#name : setBufferOffset:atIndex
+#group : MTLComputeCommandEncoder
+# --
+setBufferOffset:${1:(NSUInteger)offset} atIndex:${2:(NSUInteger)index}

@@ -1,0 +1,4 @@
+#name : associatedTracksOfType
+#group : AVAssetTrack
+# --
+associatedTracksOfType:${1:(NSString *)trackAssociationType}

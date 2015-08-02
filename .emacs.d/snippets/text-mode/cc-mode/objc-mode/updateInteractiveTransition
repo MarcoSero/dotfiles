@@ -1,0 +1,4 @@
+#name : updateInteractiveTransition
+#group : UIViewControllerTransitioning
+# --
+updateInteractiveTransition:${1:(CGFloat)percentComplete}

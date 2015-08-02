@@ -1,0 +1,4 @@
+#name : metadataOutputRectOfInterestForRect
+#group : AVCaptureVideoPreviewLayer
+# --
+metadataOutputRectOfInterestForRect:${1:(CGRect)rectInLayerCoordinates}

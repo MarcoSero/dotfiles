@@ -1,0 +1,4 @@
+#name : removeLayoutManager
+#group : NSTextStorage
+# --
+removeLayoutManager:${1:(NSLayoutManager *)aLayoutManager}

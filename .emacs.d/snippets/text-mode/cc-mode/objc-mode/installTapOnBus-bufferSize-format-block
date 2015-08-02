@@ -1,0 +1,4 @@
+#name : installTapOnBus:bufferSize:format:block
+#group : AVAudioNode
+# --
+installTapOnBus:${1:(AVAudioNodeBus)bus} bufferSize:${2:(AVAudioFrameCount)bufferSize} format:${3:(AVAudioFormat *)format} block:${4:(AVAudioNodeTapBlock)tapBlock}

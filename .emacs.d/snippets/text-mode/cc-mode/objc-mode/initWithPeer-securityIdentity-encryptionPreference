@@ -1,0 +1,4 @@
+#name : initWithPeer:securityIdentity:encryptionPreference
+#group : MCSession
+# --
+initWithPeer:${1:(MCPeerID *)myPeerID} securityIdentity:${2:(NSArray *)identity} encryptionPreference:${3:(MCEncryptionPreference)encryptionPreference}

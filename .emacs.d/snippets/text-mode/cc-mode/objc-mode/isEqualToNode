@@ -1,0 +1,4 @@
+#name : isEqualToNode
+#group : SKNode
+# --
+isEqualToNode:${1:(SKNode *)node}

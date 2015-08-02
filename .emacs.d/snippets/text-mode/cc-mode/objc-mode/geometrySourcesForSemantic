@@ -1,0 +1,4 @@
+#name : geometrySourcesForSemantic
+#group : SCNGeometry
+# --
+geometrySourcesForSemantic:${1:(NSString *)semantic}

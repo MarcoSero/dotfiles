@@ -1,0 +1,4 @@
+#name : stringFromValue:unit
+#group : NSMassFormatter
+# --
+stringFromValue:${1:(double)value} unit:${2:(NSMassFormatterUnit)unit}

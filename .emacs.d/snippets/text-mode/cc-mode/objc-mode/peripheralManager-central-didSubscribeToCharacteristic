@@ -1,0 +1,4 @@
+#name : peripheralManager:central:didSubscribeToCharacteristic
+#group : CBPeripheralManager
+# --
+peripheralManager:${1:(CBPeripheralManager *)peripheral} central:${2:(CBCentral *)central} didSubscribeToCharacteristic:${3:(CBCharacteristic *)characteristic}

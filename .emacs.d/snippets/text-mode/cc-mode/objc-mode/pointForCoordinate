@@ -1,0 +1,4 @@
+#name : pointForCoordinate
+#group : MKMapSnapshot
+# --
+pointForCoordinate:${1:(CLLocationCoordinate2D)coordinate}

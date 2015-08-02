@@ -1,0 +1,4 @@
+#name : layoutManager:shouldGenerateGlyphs:properties:characterIndexes:font:forGlyphRange
+#group : NSLayoutManager
+# --
+layoutManager:${1:(NSLayoutManager *)layoutManager} shouldGenerateGlyphs:${2:(const CGGlyph *)glyphs} properties:${3:(const NSGlyphProperty *)props} characterIndexes:${4:(const NSUInteger *)charIndexes} font:${5:(UIFont *)aFont} forGlyphRange:${6:(NSRange)glyphRange}

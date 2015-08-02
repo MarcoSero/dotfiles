@@ -1,0 +1,4 @@
+#name : fetchAssetsWithOptions
+#group : PHAsset
+# --
+fetchAssetsWithOptions:${1:(PHFetchOptions *)options}

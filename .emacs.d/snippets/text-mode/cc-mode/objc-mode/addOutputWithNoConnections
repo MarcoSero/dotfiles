@@ -1,0 +1,4 @@
+#name : addOutputWithNoConnections
+#group : AVCaptureSession
+# --
+addOutputWithNoConnections:${1:(AVCaptureOutput *)output}

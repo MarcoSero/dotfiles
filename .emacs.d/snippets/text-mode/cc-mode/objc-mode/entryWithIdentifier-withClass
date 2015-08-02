@@ -1,0 +1,4 @@
+#name : entryWithIdentifier:withClass
+#group : SCNSceneSource
+# --
+entryWithIdentifier:${1:(NSString *)uid} withClass:${2:(Class)entryClass}

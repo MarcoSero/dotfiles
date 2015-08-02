@@ -1,0 +1,4 @@
+#name : initWithRecordType:zoneID
+#group : CKRecord
+# --
+initWithRecordType:${1:(NSString *)recordType} zoneID:${2:(CKRecordZoneID *)zoneID}

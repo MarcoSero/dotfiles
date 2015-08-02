@@ -1,0 +1,4 @@
+#name : alignmentRectForFrame
+#group : UIView
+# --
+alignmentRectForFrame:${1:(CGRect)frame}

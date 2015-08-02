@@ -1,0 +1,4 @@
+#name : showCGGlyphs:positions:count:font:matrix:attributes:inContext
+#group : NSLayoutManager
+# --
+showCGGlyphs:${1:(const CGGlyph *)glyphs} positions:${2:(const CGPoint *)positions} count:${3:(NSUInteger)glyphCount} font:${4:(UIFont *)font} matrix:${5:(CGAffineTransform)textMatrix} attributes:${6:(NSDictionary *)attributes} inContext:${7:(CGContextRef)graphicsContext}

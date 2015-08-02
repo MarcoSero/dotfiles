@@ -1,0 +1,4 @@
+#name : propertyListForTextStyleRules
+#group : AVTextStyleRule
+# --
+propertyListForTextStyleRules:${1:(NSArray *)textStyleRules}

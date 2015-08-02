@@ -1,0 +1,4 @@
+#name : initWithAVPlayer
+#group : SKVideoNode
+# --
+initWithAVPlayer:${1:(AVPlayer*)player}

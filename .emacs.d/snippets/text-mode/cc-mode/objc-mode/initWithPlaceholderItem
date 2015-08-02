@@ -1,0 +1,4 @@
+#name : initWithPlaceholderItem
+#group : UIActivityItemProvider
+# --
+initWithPlaceholderItem:${1:(id)placeholderItem}

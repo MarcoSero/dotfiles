@@ -1,0 +1,4 @@
+#name : collisionBehavior
+#group : UICollisionBehavior
+# --
+collisionBehavior:${1:(UICollisionBehavior*)behavior}

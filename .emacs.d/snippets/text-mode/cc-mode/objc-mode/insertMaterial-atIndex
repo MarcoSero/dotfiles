@@ -1,0 +1,4 @@
+#name : insertMaterial:atIndex
+#group : SCNGeometry
+# --
+insertMaterial:${1:(SCNMaterial *)material} atIndex:${2:(NSUInteger)index}

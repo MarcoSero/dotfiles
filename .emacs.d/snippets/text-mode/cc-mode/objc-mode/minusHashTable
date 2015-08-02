@@ -1,0 +1,4 @@
+#name : minusHashTable
+#group : NSHashTable
+# --
+minusHashTable:${1:(NSHashTable *)other}

@@ -1,0 +1,4 @@
+#name : addChildNode
+#group : SCNNode
+# --
+addChildNode:${1:(SCNNode *)child}

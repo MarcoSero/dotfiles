@@ -1,0 +1,4 @@
+#name : popoverPresentationController:willRepositionPopoverToRect:inView
+#group : UIPopoverPresentationController
+# --
+popoverPresentationController:${1:(UIPopoverPresentationController *)popoverPresentationController} willRepositionPopoverToRect:${2:(inout CGRect *)rect} inView:${3:(inout UIView **)view}

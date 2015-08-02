@@ -1,0 +1,4 @@
+#name : cancelDownloads
+#group : SKPaymentQueue
+# --
+cancelDownloads:${1:(NSArray *)downloads}

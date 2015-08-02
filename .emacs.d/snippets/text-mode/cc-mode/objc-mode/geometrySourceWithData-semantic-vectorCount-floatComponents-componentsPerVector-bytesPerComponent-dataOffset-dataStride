@@ -1,0 +1,4 @@
+#name : geometrySourceWithData:semantic:vectorCount:floatComponents:componentsPerVector:bytesPerComponent:dataOffset:dataStride
+#group : SCNGeometry
+# --
+geometrySourceWithData:${1:(NSData *)data} semantic:${2:(NSString *)semantic} vectorCount:${3:(NSInteger)vectorCount} floatComponents:${4:(BOOL)floatComponents} componentsPerVector:${5:(NSInteger)componentsPerVector} bytesPerComponent:${6:(NSInteger)bytesPerComponent} dataOffset:${7:(NSInteger)offset} dataStride:${8:(NSInteger)stride}

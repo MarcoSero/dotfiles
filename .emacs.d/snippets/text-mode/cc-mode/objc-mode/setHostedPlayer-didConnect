@@ -1,0 +1,4 @@
+#name : setHostedPlayer:didConnect
+#group : GKMatchmakerViewController
+# --
+setHostedPlayer:${1:(GKPlayer *)player} didConnect:${2:(BOOL)connected}

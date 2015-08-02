@@ -1,0 +1,4 @@
+#name : containsPass
+#group : PKPassLibrary
+# --
+containsPass:${1:(PKPass *)pass}

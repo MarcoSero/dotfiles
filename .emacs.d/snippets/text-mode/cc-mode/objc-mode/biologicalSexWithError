@@ -1,0 +1,4 @@
+#name : biologicalSexWithError
+#group : HKHealthStore
+# --
+biologicalSexWithError:${1:(NSError **)error}

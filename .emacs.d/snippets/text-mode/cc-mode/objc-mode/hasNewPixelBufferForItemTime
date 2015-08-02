@@ -1,0 +1,4 @@
+#name : hasNewPixelBufferForItemTime
+#group : AVPlayerItemOutput
+# --
+hasNewPixelBufferForItemTime:${1:(CMTime)itemTime}

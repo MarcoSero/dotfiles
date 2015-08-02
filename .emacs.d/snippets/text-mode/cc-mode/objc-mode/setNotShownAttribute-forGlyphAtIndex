@@ -1,0 +1,4 @@
+#name : setNotShownAttribute:forGlyphAtIndex
+#group : NSLayoutManager
+# --
+setNotShownAttribute:${1:(BOOL)flag} forGlyphAtIndex:${2:(NSUInteger)glyphIndex}

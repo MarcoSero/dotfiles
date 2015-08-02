@@ -1,0 +1,4 @@
+#name : videoNodeWithVideoFileNamed
+#group : SKVideoNode
+# --
+videoNodeWithVideoFileNamed:${1:(NSString *)videoFile}

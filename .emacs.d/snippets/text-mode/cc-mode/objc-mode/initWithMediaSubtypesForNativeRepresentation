@@ -1,0 +1,4 @@
+#name : initWithMediaSubtypesForNativeRepresentation
+#group : AVPlayerItemOutput
+# --
+initWithMediaSubtypesForNativeRepresentation:${1:(NSArray *)subtypes}

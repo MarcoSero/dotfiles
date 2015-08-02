@@ -1,0 +1,4 @@
+#name : fontDescriptorWithSymbolicTraits
+#group : UIFontDescriptor
+# --
+fontDescriptorWithSymbolicTraits:${1:(UIFontDescriptorSymbolicTraits)symbolicTraits}

@@ -1,0 +1,4 @@
+#name : evaluatePolicy
+#group : LAContext
+# --
+evaluatePolicy:${1:(LAPolicy)policy}

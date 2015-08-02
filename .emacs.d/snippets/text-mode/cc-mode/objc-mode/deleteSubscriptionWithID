@@ -1,0 +1,4 @@
+#name : deleteSubscriptionWithID
+#group : CKDatabase
+# --
+deleteSubscriptionWithID:${1:(NSString *)subscriptionID}

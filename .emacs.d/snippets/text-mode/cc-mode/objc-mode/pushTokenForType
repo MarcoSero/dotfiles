@@ -1,0 +1,4 @@
+#name : pushTokenForType
+#group : PKPushRegistry
+# --
+pushTokenForType:${1:(NSString *)type}

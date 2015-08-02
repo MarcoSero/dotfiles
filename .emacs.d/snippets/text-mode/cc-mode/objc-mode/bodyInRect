@@ -1,0 +1,4 @@
+#name : bodyInRect
+#group : SKPhysicsWorld
+# --
+bodyInRect:${1:(CGRect)rect}

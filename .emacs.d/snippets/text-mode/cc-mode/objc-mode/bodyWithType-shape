@@ -1,0 +1,4 @@
+#name : bodyWithType:shape
+#group : SCNPhysicsBody
+# --
+bodyWithType:${1:(SCNPhysicsBodyType)type} shape:${2:(SCNPhysicsShape *)shape}

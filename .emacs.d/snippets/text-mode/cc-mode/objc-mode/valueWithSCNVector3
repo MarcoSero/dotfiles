@@ -1,0 +1,4 @@
+#name : valueWithSCNVector3
+#group : SceneKitTypes
+# --
+valueWithSCNVector3:${1:(SCNVector3)v}

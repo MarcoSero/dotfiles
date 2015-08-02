@@ -1,0 +1,4 @@
+#name : session:didReceiveData:fromPeer
+#group : MCSession
+# --
+session:${1:(MCSession *)session} didReceiveData:${2:(NSData *)data} fromPeer:${3:(MCPeerID *)peerID}

@@ -1,0 +1,4 @@
+#name : mediaSelectionCriteriaForMediaCharacteristic
+#group : AVPlayer
+# --
+mediaSelectionCriteriaForMediaCharacteristic:${1:(NSString *)mediaCharacteristic}

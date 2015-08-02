@@ -1,0 +1,4 @@
+#name : addMenuItemWithItemIcon:title:action
+#group : WKInterfaceController
+# --
+addMenuItemWithItemIcon:${1:(WKMenuItemIcon)itemIcon} title:${2:(NSString *)title} action:${3:(SEL)action}

@@ -1,0 +1,4 @@
+#name : changeRequestForCollectionList
+#group : PHCollectionListChangeRequest
+# --
+changeRequestForCollectionList:${1:(PHCollectionList *)collectionList}

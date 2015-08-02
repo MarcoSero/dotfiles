@@ -1,0 +1,4 @@
+#name : buttonWithType:style
+#group : PKPaymentButton
+# --
+buttonWithType:${1:(PKPaymentButtonType)buttonType} style:${2:(PKPaymentButtonStyle)buttonStyle}

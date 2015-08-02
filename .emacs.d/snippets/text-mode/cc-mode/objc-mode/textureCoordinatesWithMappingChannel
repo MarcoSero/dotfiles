@@ -1,0 +1,4 @@
+#name : textureCoordinatesWithMappingChannel
+#group : SCNSceneRenderer
+# --
+textureCoordinatesWithMappingChannel:${1:(NSInteger)channel}

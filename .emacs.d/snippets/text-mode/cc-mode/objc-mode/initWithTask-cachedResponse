@@ -1,0 +1,4 @@
+#name : initWithTask:cachedResponse
+#group : NSURLProtocol
+# --
+initWithTask:${1:(NSURLSessionTask *)task} cachedResponse:${2:(NSCachedURLResponse *)cachedResponse}

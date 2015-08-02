@@ -1,0 +1,4 @@
+#name : rotateToX:y:z:duration:shortestUnitArc
+#group : SCNAction
+# --
+rotateToX:${1:(CGFloat)xAngle} y:${2:(CGFloat)yAngle} z:${3:(CGFloat)zAngle} duration:${4:(NSTimeInterval)duration} shortestUnitArc:${5:(BOOL)shortestUnitArc}

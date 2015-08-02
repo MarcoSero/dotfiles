@@ -1,0 +1,4 @@
+#name : preloadTextureAtlases
+#group : SKTextureAtlas
+# --
+preloadTextureAtlases:${1:(NSArray *)textureAtlases}

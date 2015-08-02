@@ -1,0 +1,4 @@
+#name : reportScores
+#group : GKScore
+# --
+reportScores:${1:(NSArray *)scores}

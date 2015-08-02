@@ -1,0 +1,4 @@
+#name : voiceWithLanguage
+#group : AVSpeechSynthesis
+# --
+voiceWithLanguage:${1:(NSString *)language}

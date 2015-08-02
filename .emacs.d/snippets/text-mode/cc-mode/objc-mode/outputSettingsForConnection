@@ -1,0 +1,4 @@
+#name : outputSettingsForConnection
+#group : AVCaptureOutput
+# --
+outputSettingsForConnection:${1:(AVCaptureConnection *)connection}

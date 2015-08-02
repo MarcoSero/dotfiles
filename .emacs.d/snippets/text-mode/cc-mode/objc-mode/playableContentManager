@@ -1,0 +1,4 @@
+#name : playableContentManager
+#group : MPPlayableContentDelegate
+# --
+playableContentManager:${1:(MPPlayableContentManager *)contentManager}

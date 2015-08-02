@@ -1,0 +1,4 @@
+#name : fillBackgroundRectArray:count:forCharacterRange:color
+#group : NSLayoutManager
+# --
+fillBackgroundRectArray:${1:(const CGRect *)rectArray} count:${2:(NSUInteger)rectCount} forCharacterRange:${3:(NSRange)charRange} color:${4:(UIColor *)color}

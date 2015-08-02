@@ -1,0 +1,4 @@
+#name : legibleOutput:didOutputAttributedStrings:nativeSampleBuffers:forItemTime
+#group : AVPlayerItemOutput
+# --
+legibleOutput:${1:(AVPlayerItemLegibleOutput *)output} didOutputAttributedStrings:${2:(NSArray *)strings} nativeSampleBuffers:${3:(NSArray *)nativeSamples} forItemTime:${4:(CMTime)itemTime}

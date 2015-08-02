@@ -1,0 +1,4 @@
+#name : productViewControllerDidFinish
+#group : SKStoreProductViewController
+# --
+productViewControllerDidFinish:${1:(SKStoreProductViewController *)viewController}

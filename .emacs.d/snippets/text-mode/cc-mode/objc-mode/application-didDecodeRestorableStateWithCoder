@@ -1,0 +1,4 @@
+#name : application:didDecodeRestorableStateWithCoder
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} didDecodeRestorableStateWithCoder:${2:(NSCoder *)coder}

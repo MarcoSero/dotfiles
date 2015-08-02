@@ -1,0 +1,4 @@
+#name : insertRowsAtIndexes:withRowType
+#group : WKInterfaceTable
+# --
+insertRowsAtIndexes:${1:(NSIndexSet *)rows} withRowType:${2:(NSString *)rowType}

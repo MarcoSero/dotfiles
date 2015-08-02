@@ -1,0 +1,4 @@
+#name : invalidateDecorationElementsOfKind:atIndexPaths
+#group : UICollectionViewLayout
+# --
+invalidateDecorationElementsOfKind:${1:(NSString *)elementKind} atIndexPaths:${2:(NSArray *)indexPaths}

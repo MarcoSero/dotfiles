@@ -1,0 +1,4 @@
+#name : stringFromMeters
+#group : NSLengthFormatter
+# --
+stringFromMeters:${1:(double)numberInMeters}

@@ -1,0 +1,4 @@
+#name : finishWithComposedVideoFrame
+#group : AVVideoCompositing
+# --
+finishWithComposedVideoFrame:${1:(CVPixelBufferRef)composedVideoFrame}

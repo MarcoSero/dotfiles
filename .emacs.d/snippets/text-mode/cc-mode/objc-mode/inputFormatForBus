@@ -1,0 +1,4 @@
+#name : inputFormatForBus
+#group : AVAudioNode
+# --
+inputFormatForBus:${1:(AVAudioNodeBus)bus}

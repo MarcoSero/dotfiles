@@ -1,0 +1,4 @@
+#name : addServiceGroupWithName
+#group : HMHome
+# --
+addServiceGroupWithName:${1:(NSString *)serviceGroupName}

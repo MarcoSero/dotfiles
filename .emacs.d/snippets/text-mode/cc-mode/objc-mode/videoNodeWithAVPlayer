@@ -1,0 +1,4 @@
+#name : videoNodeWithAVPlayer
+#group : SKVideoNode
+# --
+videoNodeWithAVPlayer:${1:(AVPlayer*)player}

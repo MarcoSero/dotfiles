@@ -1,0 +1,4 @@
+#name : makeSampleCursorWithPresentationTimeStamp
+#group : AVAssetTrack
+# --
+makeSampleCursorWithPresentationTimeStamp:${1:(CMTime)presentationTimeStamp}

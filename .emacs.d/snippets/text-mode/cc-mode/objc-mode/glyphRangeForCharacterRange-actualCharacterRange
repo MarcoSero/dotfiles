@@ -1,0 +1,4 @@
+#name : glyphRangeForCharacterRange:actualCharacterRange
+#group : NSLayoutManager
+# --
+glyphRangeForCharacterRange:${1:(NSRange)charRange} actualCharacterRange:${2:(NSRangePointer)actualCharRange}

@@ -1,0 +1,4 @@
+#name : startStepCountingUpdatesToQueue
+#group : CMStepCounter
+# --
+startStepCountingUpdatesToQueue:${1:(NSOperationQueue *)queue}

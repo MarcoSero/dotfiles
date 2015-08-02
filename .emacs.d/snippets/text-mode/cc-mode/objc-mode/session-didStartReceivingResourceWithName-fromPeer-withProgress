@@ -1,0 +1,4 @@
+#name : session:didStartReceivingResourceWithName:fromPeer:withProgress
+#group : MCSession
+# --
+session:${1:(MCSession *)session} didStartReceivingResourceWithName:${2:(NSString *)resourceName} fromPeer:${3:(MCPeerID *)peerID} withProgress:${4:(NSProgress *)progress}

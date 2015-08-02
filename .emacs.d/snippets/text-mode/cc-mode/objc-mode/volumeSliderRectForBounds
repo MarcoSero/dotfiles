@@ -1,0 +1,4 @@
+#name : volumeSliderRectForBounds
+#group : MPVolumeView
+# --
+volumeSliderRectForBounds:${1:(CGRect)bounds}

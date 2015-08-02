@@ -1,0 +1,4 @@
+#name : webView:didReceiveAuthenticationChallenge
+#group : WKNavigationDelegate
+# --
+webView:${1:(WKWebView *)webView} didReceiveAuthenticationChallenge:${2:(NSURLAuthenticationChallenge *)challenge}

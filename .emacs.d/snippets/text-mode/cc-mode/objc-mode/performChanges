@@ -1,0 +1,4 @@
+#name : performChanges
+#group : PHPhotoLibrary
+# --
+performChanges:${1:(dispatch_block_t)changeBlock}

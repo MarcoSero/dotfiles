@@ -1,0 +1,4 @@
+#name : physicsWorld:didBeginContact
+#group : SCNPhysicsWorld
+# --
+physicsWorld:${1:(SCNPhysicsWorld *)world} didBeginContact:${2:(SCNPhysicsContact *)contact}

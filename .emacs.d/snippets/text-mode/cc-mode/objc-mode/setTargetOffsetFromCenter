@@ -1,0 +1,4 @@
+#name : setTargetOffsetFromCenter
+#group : UIPushBehavior
+# --
+setTargetOffsetFromCenter:${1:(UIOffset)o}

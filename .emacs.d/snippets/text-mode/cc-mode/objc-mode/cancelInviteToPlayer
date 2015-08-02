@@ -1,0 +1,4 @@
+#name : cancelInviteToPlayer
+#group : GKMatchmaker
+# --
+cancelInviteToPlayer:${1:(NSString *)playerID}

@@ -1,0 +1,4 @@
+#name : accessoryDidUpdateReachability
+#group : HMAccessory
+# --
+accessoryDidUpdateReachability:${1:(HMAccessory *)accessory}

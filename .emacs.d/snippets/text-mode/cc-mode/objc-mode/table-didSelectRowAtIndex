@@ -1,0 +1,4 @@
+#name : table:didSelectRowAtIndex
+#group : WKInterfaceController
+# --
+table:${1:(WKInterfaceTable *)table} didSelectRowAtIndex:${2:(NSInteger)rowIndex}

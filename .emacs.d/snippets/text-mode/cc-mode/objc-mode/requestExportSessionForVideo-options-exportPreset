@@ -1,0 +1,4 @@
+#name : requestExportSessionForVideo:options:exportPreset
+#group : PHImageManager
+# --
+requestExportSessionForVideo:${1:(PHAsset *)asset} options:${2:(PHVideoRequestOptions *)options} exportPreset:${3:(NSString *)exportPreset}

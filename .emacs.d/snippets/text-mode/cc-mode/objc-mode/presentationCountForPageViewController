@@ -1,0 +1,4 @@
+#name : presentationCountForPageViewController
+#group : UIPageViewController
+# --
+presentationCountForPageViewController:${1:(UIPageViewController *)pageViewController}

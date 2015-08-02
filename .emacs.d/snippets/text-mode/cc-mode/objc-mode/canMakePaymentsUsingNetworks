@@ -1,0 +1,4 @@
+#name : canMakePaymentsUsingNetworks
+#group : PKPaymentAuthorizationViewController
+# --
+canMakePaymentsUsingNetworks:${1:(NSArray *)supportedNetworks}

@@ -1,0 +1,4 @@
+#name : sampleAtTime
+#group : SKKeyframeSequence
+# --
+sampleAtTime:${1:(CGFloat)time}

@@ -1,0 +1,4 @@
+#name : doorsOpenHorizontalWithDuration
+#group : SKTransition
+# --
+doorsOpenHorizontalWithDuration:${1:(NSTimeInterval)sec}

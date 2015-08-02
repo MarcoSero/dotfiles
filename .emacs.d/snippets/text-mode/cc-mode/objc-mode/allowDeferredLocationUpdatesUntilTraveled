@@ -1,0 +1,4 @@
+#name : allowDeferredLocationUpdatesUntilTraveled
+#group : CLLocationManager
+# --
+allowDeferredLocationUpdatesUntilTraveled:${1:(CLLocationDistance)distance}

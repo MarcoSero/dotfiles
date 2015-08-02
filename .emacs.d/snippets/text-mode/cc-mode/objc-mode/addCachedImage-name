@@ -1,0 +1,4 @@
+#name : addCachedImage:name
+#group : WKInterfaceDevice
+# --
+addCachedImage:${1:(UIImage *)image} name:${2:(NSString *)name}

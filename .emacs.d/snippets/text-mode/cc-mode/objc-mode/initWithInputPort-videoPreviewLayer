@@ -1,0 +1,4 @@
+#name : initWithInputPort:videoPreviewLayer
+#group : AVCaptureSession
+# --
+initWithInputPort:${1:(AVCaptureInputPort *)port} videoPreviewLayer:${2:(AVCaptureVideoPreviewLayer *)layer}

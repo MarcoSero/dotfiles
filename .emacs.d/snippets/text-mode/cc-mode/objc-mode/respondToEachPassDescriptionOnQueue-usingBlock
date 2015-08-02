@@ -1,0 +1,4 @@
+#name : respondToEachPassDescriptionOnQueue:usingBlock
+#group : AVAssetWriterInput
+# --
+respondToEachPassDescriptionOnQueue:${1:(dispatch_queue_t)queue} usingBlock:${2:(dispatch_block_t)block}

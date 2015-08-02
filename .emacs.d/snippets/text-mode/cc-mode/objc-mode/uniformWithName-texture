@@ -1,0 +1,4 @@
+#name : uniformWithName:texture
+#group : SKUniform
+# --
+uniformWithName:${1:(NSString *)name} texture:${2:(SKTexture*)texture}

@@ -1,0 +1,4 @@
+#name : loadSoundBankInstrumentAtURL:program:bankMSB:bankLSB:error
+#group : AVAudioUnitSampler
+# --
+loadSoundBankInstrumentAtURL:${1:(NSURL *)bankURL} program:${2:(uint8_t)program} bankMSB:${3:(uint8_t)bankMSB} bankLSB:${4:(uint8_t)bankLSB} error:${5:(NSError **)outError}

@@ -1,0 +1,4 @@
+#name : homeManager:didAddHome
+#group : HMHomeManager
+# --
+homeManager:${1:(HMHomeManager *)manager} didAddHome:${2:(HMHome *)home}

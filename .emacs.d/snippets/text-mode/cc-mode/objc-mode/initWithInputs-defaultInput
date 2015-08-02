@@ -1,0 +1,4 @@
+#name : initWithInputs:defaultInput
+#group : AVAssetWriter
+# --
+initWithInputs:${1:(NSArray *)inputs} defaultInput:${2:(AVAssetWriterInput *)defaultInput}

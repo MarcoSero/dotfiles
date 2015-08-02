@@ -1,0 +1,4 @@
+#name : retrieveConnectedPeripheralsWithServices
+#group : CBCentralManager
+# --
+retrieveConnectedPeripheralsWithServices:${1:(NSArray *)serviceUUIDs}

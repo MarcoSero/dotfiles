@@ -1,0 +1,4 @@
+#name : setKeyframeValue:forIndex
+#group : SKKeyframeSequence
+# --
+setKeyframeValue:${1:(id)value} forIndex:${2:(NSUInteger)index}

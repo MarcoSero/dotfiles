@@ -1,0 +1,4 @@
+#name : pointerArrayWithPointerFunctions
+#group : NSPointerArray
+# --
+pointerArrayWithPointerFunctions:${1:(NSPointerFunctions *)functions}

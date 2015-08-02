@@ -1,0 +1,4 @@
+#name : javaScriptActionWithScript:duration
+#group : SCNAction
+# --
+javaScriptActionWithScript:${1:(NSString *)script} duration:${2:(NSTimeInterval)seconds}

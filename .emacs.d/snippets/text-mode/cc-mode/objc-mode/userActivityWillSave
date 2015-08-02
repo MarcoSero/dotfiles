@@ -1,0 +1,4 @@
+#name : userActivityWillSave
+#group : NSUserActivity
+# --
+userActivityWillSave:${1:(NSUserActivity *)userActivity}

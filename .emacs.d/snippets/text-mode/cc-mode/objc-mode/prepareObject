@@ -1,0 +1,4 @@
+#name : prepareObject
+#group : SCNSceneRenderer
+# --
+prepareObject:${1:(id)object}

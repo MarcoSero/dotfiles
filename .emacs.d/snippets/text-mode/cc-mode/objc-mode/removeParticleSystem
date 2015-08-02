@@ -1,0 +1,4 @@
+#name : removeParticleSystem
+#group : SCNParticleSystem
+# --
+removeParticleSystem:${1:(SCNParticleSystem *)system}

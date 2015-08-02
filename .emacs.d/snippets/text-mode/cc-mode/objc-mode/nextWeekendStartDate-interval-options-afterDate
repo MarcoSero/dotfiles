@@ -1,0 +1,4 @@
+#name : nextWeekendStartDate:interval:options:afterDate
+#group : NSCalendar
+# --
+nextWeekendStartDate:${1:(out NSDate **)datep} interval:${2:(out NSTimeInterval *)tip} options:${3:(NSCalendarOptions)options} afterDate:${4:(NSDate *)date}

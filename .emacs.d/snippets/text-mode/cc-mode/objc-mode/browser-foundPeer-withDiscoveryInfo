@@ -1,0 +1,4 @@
+#name : browser:foundPeer:withDiscoveryInfo
+#group : MCNearbyServiceBrowser
+# --
+browser:${1:(MCNearbyServiceBrowser *)browser} foundPeer:${2:(MCPeerID *)peerID} withDiscoveryInfo:${3:(NSDictionary *)info}

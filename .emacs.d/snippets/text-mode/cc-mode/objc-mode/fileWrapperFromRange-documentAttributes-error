@@ -1,0 +1,4 @@
+#name : fileWrapperFromRange:documentAttributes:error
+#group : NSAttributedString
+# --
+fileWrapperFromRange:${1:(NSRange)range} documentAttributes:${2:(NSDictionary *)dict} error:${3:(NSError **)error}

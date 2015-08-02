@@ -1,0 +1,4 @@
+#name : home:didRemoveTrigger
+#group : HMHome
+# --
+home:${1:(HMHome *)home} didRemoveTrigger:${2:(HMTrigger *)trigger}

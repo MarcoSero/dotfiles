@@ -1,0 +1,4 @@
+#name : textureWithRect:inTexture
+#group : SKTexture
+# --
+textureWithRect:${1:(CGRect)rect} inTexture:${2:(SKTexture *)texture}

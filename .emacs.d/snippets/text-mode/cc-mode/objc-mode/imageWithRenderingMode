@@ -1,0 +1,4 @@
+#name : imageWithRenderingMode
+#group : UIImage
+# --
+imageWithRenderingMode:${1:(UIImageRenderingMode)renderingMode}

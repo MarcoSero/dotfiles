@@ -1,0 +1,4 @@
+#name : geometrySourceWithNormals:count
+#group : SCNGeometry
+# --
+geometrySourceWithNormals:${1:(const SCNVector3 *)normals} count:${2:(NSInteger)count}

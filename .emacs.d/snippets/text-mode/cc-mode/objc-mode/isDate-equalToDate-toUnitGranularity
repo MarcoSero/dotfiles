@@ -1,0 +1,4 @@
+#name : isDate:equalToDate:toUnitGranularity
+#group : NSCalendar
+# --
+isDate:${1:(NSDate *)date1} equalToDate:${2:(NSDate *)date2} toUnitGranularity:${3:(NSCalendarUnit)unit}

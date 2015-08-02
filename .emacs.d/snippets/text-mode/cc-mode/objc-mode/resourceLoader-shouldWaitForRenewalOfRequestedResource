@@ -1,0 +1,4 @@
+#name : resourceLoader:shouldWaitForRenewalOfRequestedResource
+#group : AVAssetResourceLoader
+# --
+resourceLoader:${1:(AVAssetResourceLoader *)resourceLoader} shouldWaitForRenewalOfRequestedResource:${2:(AVAssetResourceRenewalRequest *)renewalRequest}

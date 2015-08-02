@@ -1,0 +1,4 @@
+#name : removeHome
+#group : HMHomeManager
+# --
+removeHome:${1:(HMHome *)home}

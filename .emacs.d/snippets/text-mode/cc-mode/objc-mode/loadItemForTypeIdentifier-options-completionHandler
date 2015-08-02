@@ -1,0 +1,4 @@
+#name : loadItemForTypeIdentifier:options:completionHandler
+#group : NSItemProvider
+# --
+loadItemForTypeIdentifier:${1:(NSString *)typeIdentifier} options:${2:(NSDictionary *)options} completionHandler:${3:(NSItemProviderCompletionHandler)completionHandler}

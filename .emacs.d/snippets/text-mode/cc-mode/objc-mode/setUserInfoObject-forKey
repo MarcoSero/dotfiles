@@ -1,0 +1,4 @@
+#name : setUserInfoObject:forKey
+#group : NSProgress
+# --
+setUserInfoObject:${1:(id)objectOrNil} forKey:${2:(NSString *)key}

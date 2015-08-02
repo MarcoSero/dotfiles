@@ -1,0 +1,4 @@
+#name : popoverPresentationControllerShouldDismissPopover
+#group : UIPopoverPresentationController
+# --
+popoverPresentationControllerShouldDismissPopover:${1:(UIPopoverPresentationController *)popoverPresentationController}

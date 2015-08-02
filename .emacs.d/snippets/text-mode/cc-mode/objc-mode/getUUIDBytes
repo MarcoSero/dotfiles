@@ -1,0 +1,4 @@
+#name : getUUIDBytes
+#group : NSUUID
+# --
+getUUIDBytes:${1:(uuid_t)uuid}

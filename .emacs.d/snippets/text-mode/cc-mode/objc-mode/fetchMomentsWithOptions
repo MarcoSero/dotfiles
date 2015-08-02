@@ -1,0 +1,4 @@
+#name : fetchMomentsWithOptions
+#group : PHCollection
+# --
+fetchMomentsWithOptions:${1:(PHFetchOptions *)options}

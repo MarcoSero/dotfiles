@@ -1,0 +1,4 @@
+#name : appearanceForTraitCollection
+#group : UIAppearance
+# --
+appearanceForTraitCollection:${1:(UITraitCollection *)trait}

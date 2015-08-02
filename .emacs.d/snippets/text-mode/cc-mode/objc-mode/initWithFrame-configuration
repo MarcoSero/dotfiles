@@ -1,0 +1,4 @@
+#name : initWithFrame:configuration
+#group : WKWebView
+# --
+initWithFrame:${1:(CGRect)frame} configuration:${2:(WKWebViewConfiguration *)configuration}

@@ -1,0 +1,4 @@
+#name : jointWithBodyA:bodyB:anchorA:anchorB
+#group : SKPhysicsJoint
+# --
+jointWithBodyA:${1:(SKPhysicsBody *)bodyA} bodyB:${2:(SKPhysicsBody *)bodyB} anchorA:${3:(CGPoint)anchorA} anchorB:${4:(CGPoint)anchorB}

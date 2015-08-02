@@ -1,0 +1,4 @@
+#name : dataFromRange:documentAttributes:error
+#group : NSAttributedString
+# --
+dataFromRange:${1:(NSRange)range} documentAttributes:${2:(NSDictionary *)dict} error:${3:(NSError **)error}

@@ -1,0 +1,4 @@
+#name : pauseAnimationForKey
+#group : SCNAnimation
+# --
+pauseAnimationForKey:${1:(NSString *)key}

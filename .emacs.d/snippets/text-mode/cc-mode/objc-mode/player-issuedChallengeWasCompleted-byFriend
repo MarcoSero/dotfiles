@@ -1,0 +1,4 @@
+#name : player:issuedChallengeWasCompleted:byFriend
+#group : GKEventListener
+# --
+player:${1:(GKPlayer *)player} issuedChallengeWasCompleted:${2:(GKChallenge *)challenge} byFriend:${3:(GKPlayer *)friendPlayer}

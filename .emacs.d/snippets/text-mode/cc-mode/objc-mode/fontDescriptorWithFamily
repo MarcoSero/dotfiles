@@ -1,0 +1,4 @@
+#name : fontDescriptorWithFamily
+#group : UIFontDescriptor
+# --
+fontDescriptorWithFamily:${1:(NSString *)newFamily}

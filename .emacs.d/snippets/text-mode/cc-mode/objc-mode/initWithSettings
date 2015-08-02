@@ -1,0 +1,4 @@
+#name : initWithSettings
+#group : AVAudioFormat
+# --
+initWithSettings:${1:(NSDictionary *)settings}

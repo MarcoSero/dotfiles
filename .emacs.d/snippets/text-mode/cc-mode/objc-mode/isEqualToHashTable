@@ -1,0 +1,4 @@
+#name : isEqualToHashTable
+#group : NSHashTable
+# --
+isEqualToHashTable:${1:(NSHashTable *)other}

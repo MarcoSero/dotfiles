@@ -1,0 +1,4 @@
+#name : initWithOAuth2Token
+#group : ACAccountCredential
+# --
+initWithOAuth2Token:${1:(NSString *)token}

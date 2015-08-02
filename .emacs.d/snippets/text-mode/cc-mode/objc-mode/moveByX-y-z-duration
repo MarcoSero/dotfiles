@@ -1,0 +1,4 @@
+#name : moveByX:y:z:duration
+#group : SCNAction
+# --
+moveByX:${1:(CGFloat)deltaX} y:${2:(CGFloat)deltaY} z:${3:(CGFloat)deltaZ} duration:${4:(NSTimeInterval)duration}

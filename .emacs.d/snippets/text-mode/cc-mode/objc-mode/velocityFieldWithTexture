@@ -1,0 +1,4 @@
+#name : velocityFieldWithTexture
+#group : SKFieldNode
+# --
+velocityFieldWithTexture:${1:(SKTexture *)velocityTexture}

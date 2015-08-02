@@ -1,0 +1,4 @@
+#name : applyImpulse:atPoint
+#group : SKPhysicsBody
+# --
+applyImpulse:${1:(CGVector)impulse} atPoint:${2:(CGPoint)point}

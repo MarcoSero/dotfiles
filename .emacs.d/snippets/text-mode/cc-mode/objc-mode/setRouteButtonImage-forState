@@ -1,0 +1,4 @@
+#name : setRouteButtonImage:forState
+#group : MPVolumeView
+# --
+setRouteButtonImage:${1:(UIImage *)image} forState:${2:(UIControlState)state}

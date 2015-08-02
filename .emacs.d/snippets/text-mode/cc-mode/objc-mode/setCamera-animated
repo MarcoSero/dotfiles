@@ -1,0 +1,4 @@
+#name : setCamera:animated
+#group : MKMapView
+# --
+setCamera:${1:(MKMapCamera *)camera} animated:${2:(BOOL)animated}

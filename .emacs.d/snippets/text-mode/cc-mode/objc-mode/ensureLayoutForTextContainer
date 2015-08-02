@@ -1,0 +1,4 @@
+#name : ensureLayoutForTextContainer
+#group : NSLayoutManager
+# --
+ensureLayoutForTextContainer:${1:(NSTextContainer *)container}

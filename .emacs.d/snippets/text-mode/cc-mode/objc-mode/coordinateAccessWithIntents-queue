@@ -1,0 +1,4 @@
+#name : coordinateAccessWithIntents:queue
+#group : NSFileCoordinator
+# --
+coordinateAccessWithIntents:${1:(NSArray *)intents} queue:${2:(NSOperationQueue *)queue}

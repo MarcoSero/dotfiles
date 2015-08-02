@@ -1,0 +1,4 @@
+#name : stringFromJoules
+#group : NSEnergyFormatter
+# --
+stringFromJoules:${1:(double)numberInJoules}

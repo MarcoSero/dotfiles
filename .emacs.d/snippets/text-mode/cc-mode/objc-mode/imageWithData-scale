@@ -1,0 +1,4 @@
+#name : imageWithData:scale
+#group : UIImage
+# --
+imageWithData:${1:(NSData *)data} scale:${2:(CGFloat)scale}

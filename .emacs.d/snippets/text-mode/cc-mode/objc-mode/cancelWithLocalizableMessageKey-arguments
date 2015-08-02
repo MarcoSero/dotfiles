@@ -1,0 +1,4 @@
+#name : cancelWithLocalizableMessageKey:arguments
+#group : GKTurnBasedMatch
+# --
+cancelWithLocalizableMessageKey:${1:(NSString *)key} arguments:${2:(NSArray *)arguments}

@@ -1,0 +1,4 @@
+#name : updateValue:forAnimatedKey
+#group : UICollectionViewTransitionLayout
+# --
+updateValue:${1:(CGFloat)value} forAnimatedKey:${2:(NSString *)key}

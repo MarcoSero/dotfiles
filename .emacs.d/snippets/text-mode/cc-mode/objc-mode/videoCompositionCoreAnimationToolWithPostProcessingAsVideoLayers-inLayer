@@ -1,0 +1,4 @@
+#name : videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers:inLayer
+#group : AVVideoComposition
+# --
+videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers:${1:(NSArray *)videoLayers} inLayer:${2:(CALayer *)animationLayer}

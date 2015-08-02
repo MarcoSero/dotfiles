@@ -1,0 +1,4 @@
+#name : performSelector:onTarget
+#group : SKAction
+# --
+performSelector:${1:(SEL)selector} onTarget:${2:(id)target}

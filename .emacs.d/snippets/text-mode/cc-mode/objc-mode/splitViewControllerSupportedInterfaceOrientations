@@ -1,0 +1,4 @@
+#name : splitViewControllerSupportedInterfaceOrientations
+#group : UISplitViewController
+# --
+splitViewControllerSupportedInterfaceOrientations:${1:(UISplitViewController *)splitViewController}

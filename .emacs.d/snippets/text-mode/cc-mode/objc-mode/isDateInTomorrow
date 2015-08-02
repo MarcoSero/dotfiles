@@ -1,0 +1,4 @@
+#name : isDateInTomorrow
+#group : NSCalendar
+# --
+isDateInTomorrow:${1:(NSDate *)date}

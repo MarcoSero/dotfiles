@@ -1,0 +1,4 @@
+#name : isDirectionsRequestURL
+#group : MKDirectionsRequest
+# --
+isDirectionsRequestURL:${1:(NSURL *)url}

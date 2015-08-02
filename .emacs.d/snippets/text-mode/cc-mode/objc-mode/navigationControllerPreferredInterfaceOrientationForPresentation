@@ -1,0 +1,4 @@
+#name : navigationControllerPreferredInterfaceOrientationForPresentation
+#group : UINavigationController
+# --
+navigationControllerPreferredInterfaceOrientationForPresentation:${1:(UINavigationController *)navigationController}

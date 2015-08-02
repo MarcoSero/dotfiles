@@ -1,0 +1,4 @@
+#name : removeTextContainerAtIndex
+#group : NSLayoutManager
+# --
+removeTextContainerAtIndex:${1:(NSUInteger)index}

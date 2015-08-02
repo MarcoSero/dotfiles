@@ -1,0 +1,4 @@
+#name : accessoryBrowser:didFinishConfiguringAccessory:withStatus
+#group : EAWiFiUnconfiguredAccessoryBrowser
+# --
+accessoryBrowser:${1:(EAWiFiUnconfiguredAccessoryBrowser*)browser} didFinishConfiguringAccessory:${2:(EAWiFiUnconfiguredAccessory*)accessory} withStatus:${3:(EAWiFiUnconfiguredAccessoryConfigurationStatus)status}

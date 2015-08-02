@@ -1,0 +1,4 @@
+#name : setBlendColorRed:green:blue:alpha
+#group : MTLRenderCommandEncoder
+# --
+setBlendColorRed:${1:(float)red} green:${2:(float)green} blue:${3:(float)blue} alpha:${4:(float)alpha}

@@ -1,0 +1,4 @@
+#name : updateAuthorizationData
+#group : HMCharacteristic
+# --
+updateAuthorizationData:${1:(NSData *)data}

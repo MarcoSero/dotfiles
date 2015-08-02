@@ -1,0 +1,4 @@
+#name : setVertexBytes:length:atIndex
+#group : MTLRenderCommandEncoder
+# --
+setVertexBytes:${1:(const void *)bytes} length:${2:(NSUInteger)length} atIndex:${3:(NSUInteger)index}

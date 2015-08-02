@@ -1,0 +1,4 @@
+#name : performActivityWithOptions:reason
+#group : NSProcessInfo
+# --
+performActivityWithOptions:${1:(NSActivityOptions)options} reason:${2:(NSString *)reason}

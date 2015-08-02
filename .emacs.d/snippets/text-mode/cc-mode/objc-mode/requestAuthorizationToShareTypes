@@ -1,0 +1,4 @@
+#name : requestAuthorizationToShareTypes
+#group : HKHealthStore
+# --
+requestAuthorizationToShareTypes:${1:(NSSet *)typesToShare}

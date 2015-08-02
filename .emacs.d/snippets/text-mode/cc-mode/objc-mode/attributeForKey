@@ -1,0 +1,4 @@
+#name : attributeForKey
+#group : SCNScene
+# --
+attributeForKey:${1:(NSString *)key}

@@ -1,0 +1,4 @@
+#name : initWithEffect
+#group : UIVisualEffectView
+# --
+initWithEffect:${1:(UIVisualEffect *)effect}

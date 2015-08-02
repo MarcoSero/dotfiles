@@ -1,0 +1,4 @@
+#name : moveChildCollectionsAtIndexes:toIndex
+#group : PHCollectionListChangeRequest
+# --
+moveChildCollectionsAtIndexes:${1:(NSIndexSet *)indexes} toIndex:${2:(NSUInteger)toIndex}

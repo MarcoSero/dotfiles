@@ -1,0 +1,4 @@
+#name : transitionWithCIFilter:duration
+#group : SKTransition
+# --
+transitionWithCIFilter:${1:(CIFilter*)filter} duration:${2:(NSTimeInterval)sec}

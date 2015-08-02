@@ -1,0 +1,4 @@
+#name : addRoomWithName
+#group : HMHome
+# --
+addRoomWithName:${1:(NSString *)roomName}

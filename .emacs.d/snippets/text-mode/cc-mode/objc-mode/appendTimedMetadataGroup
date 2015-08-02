@@ -1,0 +1,4 @@
+#name : appendTimedMetadataGroup
+#group : AVAssetWriterInput
+# --
+appendTimedMetadataGroup:${1:(AVTimedMetadataGroup *)timedMetadataGroup}

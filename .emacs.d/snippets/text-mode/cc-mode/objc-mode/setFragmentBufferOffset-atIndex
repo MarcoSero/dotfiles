@@ -1,0 +1,4 @@
+#name : setFragmentBufferOffset:atIndex
+#group : MTLRenderCommandEncoder
+# --
+setFragmentBufferOffset:${1:(NSUInteger)offset} atIndex:${2:(NSUInteger)index}

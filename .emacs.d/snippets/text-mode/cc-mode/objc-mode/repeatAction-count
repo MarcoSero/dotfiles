@@ -1,0 +1,4 @@
+#name : repeatAction:count
+#group : SKAction
+# --
+repeatAction:${1:(SKAction *)action} count:${2:(NSUInteger)count}

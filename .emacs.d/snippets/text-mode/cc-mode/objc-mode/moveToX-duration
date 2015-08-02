@@ -1,0 +1,4 @@
+#name : moveToX:duration
+#group : SKAction
+# --
+moveToX:${1:(CGFloat)x} duration:${2:(NSTimeInterval)sec}

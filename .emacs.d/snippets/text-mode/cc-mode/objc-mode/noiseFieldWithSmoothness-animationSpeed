@@ -1,0 +1,4 @@
+#name : noiseFieldWithSmoothness:animationSpeed
+#group : SKFieldNode
+# --
+noiseFieldWithSmoothness:${1:(CGFloat)smoothness} animationSpeed:${2:(CGFloat)speed}

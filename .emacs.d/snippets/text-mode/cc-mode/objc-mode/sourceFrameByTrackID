@@ -1,0 +1,4 @@
+#name : sourceFrameByTrackID
+#group : AVVideoCompositing
+# --
+sourceFrameByTrackID:${1:(CMPersistentTrackID)trackID}

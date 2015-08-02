@@ -1,0 +1,4 @@
+#name : getInputStream:outputStream
+#group : NSNetServices
+# --
+getInputStream:${1:(out __strong NSInputStream **)inputStream} outputStream:${2:(out __strong NSOutputStream **)outputStream}

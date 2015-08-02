@@ -1,0 +1,4 @@
+#name : pascalUnitWithMetricPrefix
+#group : HKUnit
+# --
+pascalUnitWithMetricPrefix:${1:(HKMetricPrefix)prefix}

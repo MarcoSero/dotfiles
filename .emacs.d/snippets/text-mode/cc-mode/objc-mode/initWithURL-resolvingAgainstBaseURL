@@ -1,0 +1,4 @@
+#name : initWithURL:resolvingAgainstBaseURL
+#group : NSURL
+# --
+initWithURL:${1:(NSURL *)url} resolvingAgainstBaseURL:${2:(BOOL)resolve}

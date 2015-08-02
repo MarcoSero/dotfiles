@@ -1,0 +1,4 @@
+#name : initWithReuseIdentifier
+#group : UITableViewHeaderFooterView
+# --
+initWithReuseIdentifier:${1:(NSString *)reuseIdentifier}

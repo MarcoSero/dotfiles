@@ -1,0 +1,4 @@
+#name : indexOfObject
+#group : PHFetchResult
+# --
+indexOfObject:${1:(id)anObject}

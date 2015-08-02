@@ -1,0 +1,4 @@
+#name : canAddTrackAssociationWithTrackOfInput:type
+#group : AVAssetWriterInput
+# --
+canAddTrackAssociationWithTrackOfInput:${1:(AVAssetWriterInput *)input} type:${2:(NSString *)trackAssociationType}

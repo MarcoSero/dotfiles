@@ -1,0 +1,4 @@
+#name : textContainerForGlyphAtIndex:effectiveRange
+#group : NSLayoutManager
+# --
+textContainerForGlyphAtIndex:${1:(NSUInteger)glyphIndex} effectiveRange:${2:(NSRangePointer)effectiveGlyphRange}

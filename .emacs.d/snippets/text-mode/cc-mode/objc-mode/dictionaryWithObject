@@ -1,0 +1,4 @@
+#name : dictionaryWithObject
+#group : NSDictionary
+# --
+dictionaryWithObject:${1:(id)object}

@@ -1,0 +1,4 @@
+#name : browserViewController:shouldPresentNearbyPeer:withDiscoveryInfo
+#group : MCBrowserViewController
+# --
+browserViewController:${1:(MCBrowserViewController *)browserViewController} shouldPresentNearbyPeer:${2:(MCPeerID *)peerID} withDiscoveryInfo:${3:(NSDictionary *)info}

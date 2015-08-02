@@ -1,0 +1,4 @@
+#name : sendPressure:onChannel
+#group : AVAudioUnitMIDIInstrument
+# --
+sendPressure:${1:(uint8_t)pressure} onChannel:${2:(uint8_t)channel}

@@ -1,0 +1,4 @@
+#name : remotePlayerDidCompleteChallenge
+#group : GKChallengeEventHandler
+# --
+remotePlayerDidCompleteChallenge:${1:(GKChallenge *)challenge}

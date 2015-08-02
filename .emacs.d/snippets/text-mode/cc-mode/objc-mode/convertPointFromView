@@ -1,0 +1,4 @@
+#name : convertPointFromView
+#group : SKScene
+# --
+convertPointFromView:${1:(CGPoint)point}

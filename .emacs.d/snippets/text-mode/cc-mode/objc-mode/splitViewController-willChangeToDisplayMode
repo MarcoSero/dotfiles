@@ -1,0 +1,4 @@
+#name : splitViewController:willChangeToDisplayMode
+#group : UISplitViewController
+# --
+splitViewController:${1:(UISplitViewController *)svc} willChangeToDisplayMode:${2:(UISplitViewControllerDisplayMode)displayMode}

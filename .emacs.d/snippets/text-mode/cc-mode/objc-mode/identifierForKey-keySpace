@@ -1,0 +1,4 @@
+#name : identifierForKey:keySpace
+#group : AVMetadataItem
+# --
+identifierForKey:${1:(id)key} keySpace:${2:(NSString *)keySpace}

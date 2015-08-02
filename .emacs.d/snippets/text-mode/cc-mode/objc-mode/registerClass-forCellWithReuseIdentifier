@@ -1,0 +1,4 @@
+#name : registerClass:forCellWithReuseIdentifier
+#group : UICollectionView
+# --
+registerClass:${1:(Class)cellClass} forCellWithReuseIdentifier:${2:(NSString *)identifier}

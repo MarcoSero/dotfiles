@@ -1,0 +1,4 @@
+#name : peripheralManager:willRestoreState
+#group : CBPeripheralManager
+# --
+peripheralManager:${1:(CBPeripheralManager *)peripheral} willRestoreState:${2:(NSDictionary *)dict}

@@ -1,0 +1,4 @@
+#name : serializedXMPFromFilters
+#group : CIFilter
+# --
+serializedXMPFromFilters:${1:(NSArray *)filters}

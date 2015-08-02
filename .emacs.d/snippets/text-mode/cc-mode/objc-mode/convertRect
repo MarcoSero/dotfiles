@@ -1,0 +1,4 @@
+#name : convertRect
+#group : UIView
+# --
+convertRect:${1:(CGRect)rect}

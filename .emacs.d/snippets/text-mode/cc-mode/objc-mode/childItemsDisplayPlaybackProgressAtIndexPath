@@ -1,0 +1,4 @@
+#name : childItemsDisplayPlaybackProgressAtIndexPath
+#group : MPPlayableContentDataSource
+# --
+childItemsDisplayPlaybackProgressAtIndexPath:${1:(NSIndexPath *)indexPath}

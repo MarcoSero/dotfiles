@@ -1,0 +1,4 @@
+#name : application:continueUserActivity
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} continueUserActivity:${2:(NSUserActivity *)userActivity}

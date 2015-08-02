@@ -1,0 +1,4 @@
+#name : initWithRecordZoneID:previousServerChangeToken
+#group : CKFetchRecordChangesOperation
+# --
+initWithRecordZoneID:${1:(CKRecordZoneID *)recordZoneID} previousServerChangeToken:${2:(CKServerChangeToken *)previousServerChangeToken}

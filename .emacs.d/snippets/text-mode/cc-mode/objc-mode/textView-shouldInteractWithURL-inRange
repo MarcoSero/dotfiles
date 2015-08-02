@@ -1,0 +1,4 @@
+#name : textView:shouldInteractWithURL:inRange
+#group : UITextView
+# --
+textView:${1:(UITextView *)textView} shouldInteractWithURL:${2:(NSURL *)URL} inRange:${3:(NSRange)characterRange}

@@ -1,0 +1,4 @@
+#name : textureNamed
+#group : SKTextureAtlas
+# --
+textureNamed:${1:(NSString *)name}

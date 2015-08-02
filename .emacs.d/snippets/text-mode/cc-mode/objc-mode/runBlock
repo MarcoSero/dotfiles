@@ -1,0 +1,4 @@
+#name : runBlock
+#group : SKAction
+# --
+runBlock:${1:(dispatch_block_t)block}

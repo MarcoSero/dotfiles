@@ -1,0 +1,4 @@
+#name : initWithQuantityType
+#group : HKStatisticsQuery
+# --
+initWithQuantityType:${1:(HKQuantityType *)quantityType}

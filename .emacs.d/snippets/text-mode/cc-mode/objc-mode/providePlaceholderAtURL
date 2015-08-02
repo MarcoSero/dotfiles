@@ -1,0 +1,4 @@
+#name : providePlaceholderAtURL
+#group : NSFileProviderExtension
+# --
+providePlaceholderAtURL:${1:(NSURL *)url}

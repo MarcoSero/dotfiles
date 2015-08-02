@@ -1,0 +1,4 @@
+#name : fadeAlphaTo:duration
+#group : SKAction
+# --
+fadeAlphaTo:${1:(CGFloat)alpha} duration:${2:(NSTimeInterval)sec}

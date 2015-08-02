@@ -1,0 +1,4 @@
+#name : rowActionWithStyle:title
+#group : UITableView
+# --
+rowActionWithStyle:${1:(UITableViewRowActionStyle)style} title:${2:(NSString *)title}

@@ -1,0 +1,4 @@
+#name : presentScene
+#group : SKView
+# --
+presentScene:${1:(SKScene *)scene}

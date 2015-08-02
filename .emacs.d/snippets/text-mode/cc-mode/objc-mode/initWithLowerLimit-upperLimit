@@ -1,0 +1,4 @@
+#name : initWithLowerLimit:upperLimit
+#group : SKConstraint
+# --
+initWithLowerLimit:${1:(CGFloat)lower} upperLimit:${2:(CGFloat)upper}

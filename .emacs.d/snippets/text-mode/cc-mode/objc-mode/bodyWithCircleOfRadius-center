@@ -1,0 +1,4 @@
+#name : bodyWithCircleOfRadius:center
+#group : SKPhysicsBody
+# --
+bodyWithCircleOfRadius:${1:(CGFloat)r} center:${2:(CGPoint)center}

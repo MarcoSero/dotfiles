@@ -1,0 +1,4 @@
+#name : webView:didReceiveServerRedirectForProvisionalNavigation
+#group : WKNavigationDelegate
+# --
+webView:${1:(WKWebView *)webView} didReceiveServerRedirectForProvisionalNavigation:${2:(WKNavigation *)navigation}

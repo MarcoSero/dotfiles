@@ -1,0 +1,4 @@
+#name : imageByApplyingOrientation
+#group : CIImage
+# --
+imageByApplyingOrientation:${1:(int)orientation}

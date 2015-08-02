@@ -1,0 +1,4 @@
+#name : isSubsetOfHashTable
+#group : NSHashTable
+# --
+isSubsetOfHashTable:${1:(NSHashTable *)other}

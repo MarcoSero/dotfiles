@@ -1,0 +1,4 @@
+#name : setAuthorization
+#group : NEVPNManager
+# --
+setAuthorization:${1:(AuthorizationRef)authorization}

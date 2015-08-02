@@ -1,0 +1,4 @@
+#name : requestForServiceType:requestMethod:URL:parameters
+#group : SLRequest
+# --
+requestForServiceType:${1:(NSString *)serviceType} requestMethod:${2:(SLRequestMethod)requestMethod} URL:${3:(NSURL *)url} parameters:${4:(NSDictionary *)parameters}

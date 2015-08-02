@@ -1,0 +1,4 @@
+#name : queryActivityStartingFromDate
+#group : CMMotionActivityManager
+# --
+queryActivityStartingFromDate:${1:(NSDate *)start}

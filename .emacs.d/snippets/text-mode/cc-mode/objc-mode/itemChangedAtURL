@@ -1,0 +1,4 @@
+#name : itemChangedAtURL
+#group : NSFileProviderExtension
+# --
+itemChangedAtURL:${1:(NSURL *)url}

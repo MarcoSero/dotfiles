@@ -1,0 +1,4 @@
+#name : energyFormatterUnitFromUnit
+#group : HKUnit
+# --
+energyFormatterUnitFromUnit:${1:(HKUnit *)unit}

@@ -1,0 +1,4 @@
+#name : uniformWithName
+#group : SKUniform
+# --
+uniformWithName:${1:(NSString *)name}

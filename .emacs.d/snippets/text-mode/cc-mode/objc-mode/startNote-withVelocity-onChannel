@@ -1,0 +1,4 @@
+#name : startNote:withVelocity:onChannel
+#group : AVAudioUnitMIDIInstrument
+# --
+startNote:${1:(uint8_t)note} withVelocity:${2:(uint8_t)velocity} onChannel:${3:(uint8_t)channel}

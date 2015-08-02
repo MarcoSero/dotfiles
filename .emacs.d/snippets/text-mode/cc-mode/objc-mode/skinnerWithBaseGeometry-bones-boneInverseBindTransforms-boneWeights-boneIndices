@@ -1,0 +1,4 @@
+#name : skinnerWithBaseGeometry:bones:boneInverseBindTransforms:boneWeights:boneIndices
+#group : SCNSkinner
+# --
+skinnerWithBaseGeometry:${1:(SCNGeometry *)baseGeometry} bones:${2:(NSArray *)bones} boneInverseBindTransforms:${3:(NSArray *)boneInverseBindTransforms} boneWeights:${4:(SCNGeometrySource *)boneWeights} boneIndices:${5:(SCNGeometrySource *)boneIndices}

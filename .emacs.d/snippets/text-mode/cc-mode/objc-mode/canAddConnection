@@ -1,0 +1,4 @@
+#name : canAddConnection
+#group : AVCaptureSession
+# --
+canAddConnection:${1:(AVCaptureConnection *)connection}

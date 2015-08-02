@@ -1,0 +1,4 @@
+#name : evaluateScript
+#group : JSContext
+# --
+evaluateScript:${1:(NSString *)script}

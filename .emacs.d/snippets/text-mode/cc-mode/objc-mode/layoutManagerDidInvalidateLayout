@@ -1,0 +1,4 @@
+#name : layoutManagerDidInvalidateLayout
+#group : NSLayoutManager
+# --
+layoutManagerDidInvalidateLayout:${1:(NSLayoutManager *)sender}

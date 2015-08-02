@@ -1,0 +1,4 @@
+#name : flipVerticalWithDuration
+#group : SKTransition
+# --
+flipVerticalWithDuration:${1:(NSTimeInterval)sec}

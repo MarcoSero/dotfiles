@@ -1,0 +1,4 @@
+#name : getGlyphsInRange:glyphs:properties:characterIndexes:bidiLevels
+#group : NSLayoutManager
+# --
+getGlyphsInRange:${1:(NSRange)glyphRange} glyphs:${2:(CGGlyph *)glyphBuffer} properties:${3:(NSGlyphProperty *)props} characterIndexes:${4:(NSUInteger *)charIndexBuffer} bidiLevels:${5:(unsigned char *)bidiLevelBuffer}

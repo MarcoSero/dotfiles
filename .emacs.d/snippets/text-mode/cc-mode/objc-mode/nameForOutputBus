@@ -1,0 +1,4 @@
+#name : nameForOutputBus
+#group : AVAudioNode
+# --
+nameForOutputBus:${1:(AVAudioNodeBus)bus}

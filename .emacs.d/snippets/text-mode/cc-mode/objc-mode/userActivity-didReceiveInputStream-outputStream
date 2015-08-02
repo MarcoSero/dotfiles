@@ -1,0 +1,4 @@
+#name : userActivity:didReceiveInputStream:outputStream
+#group : NSUserActivity
+# --
+userActivity:${1:(NSUserActivity *)userActivity} didReceiveInputStream:${2:(NSInputStream *)inputStream} outputStream:${3:(NSOutputStream *)outputStream}

@@ -1,0 +1,4 @@
+#name : initWithData:soundBankURL:error
+#group : AVMIDIPlayer
+# --
+initWithData:${1:(NSData *)data} soundBankURL:${2:(NSURL *)bankURL} error:${3:(NSError **)outError}

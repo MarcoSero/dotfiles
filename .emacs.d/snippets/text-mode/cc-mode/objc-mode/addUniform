@@ -1,0 +1,4 @@
+#name : addUniform
+#group : SKShader
+# --
+addUniform:${1:(SKUniform *)uniform}

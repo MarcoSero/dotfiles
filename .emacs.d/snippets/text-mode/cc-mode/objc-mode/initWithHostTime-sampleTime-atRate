@@ -1,0 +1,4 @@
+#name : initWithHostTime:sampleTime:atRate
+#group : AVAudioTime
+# --
+initWithHostTime:${1:(uint64_t)hostTime} sampleTime:${2:(AVAudioFramePosition)sampleTime} atRate:${3:(double)sampleRate}

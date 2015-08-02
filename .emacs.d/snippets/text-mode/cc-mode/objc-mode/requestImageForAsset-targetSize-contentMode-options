@@ -1,0 +1,4 @@
+#name : requestImageForAsset:targetSize:contentMode:options
+#group : PHImageManager
+# --
+requestImageForAsset:${1:(PHAsset *)asset} targetSize:${2:(CGSize)targetSize} contentMode:${3:(PHImageContentMode)contentMode} options:${4:(PHImageRequestOptions *)options}

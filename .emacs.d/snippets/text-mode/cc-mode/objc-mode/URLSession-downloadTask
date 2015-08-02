@@ -1,0 +1,4 @@
+#name : URLSession:downloadTask
+#group : NSURLSession
+# --
+URLSession:${1:(NSURLSession *)session} downloadTask:${2:(NSURLSessionDownloadTask *)downloadTask}

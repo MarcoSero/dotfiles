@@ -1,0 +1,4 @@
+#name : pushRegistry:didInvalidatePushTokenForType
+#group : PKPushRegistry
+# --
+pushRegistry:${1:(PKPushRegistry *)registry} didInvalidatePushTokenForType:${2:(NSString *)type}

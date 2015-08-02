@@ -1,0 +1,4 @@
+#name : bodyWithEdgeLoopFromRect
+#group : SKPhysicsBody
+# --
+bodyWithEdgeLoopFromRect:${1:(CGRect)rect}

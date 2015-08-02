@@ -1,0 +1,4 @@
+#name : dynamicAnimatorWillResume
+#group : UIDynamicAnimator
+# --
+dynamicAnimatorWillResume:${1:(UIDynamicAnimator*)animator}

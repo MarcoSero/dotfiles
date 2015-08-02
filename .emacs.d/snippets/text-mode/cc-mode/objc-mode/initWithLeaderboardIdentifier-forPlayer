@@ -1,0 +1,4 @@
+#name : initWithLeaderboardIdentifier:forPlayer
+#group : GKScore
+# --
+initWithLeaderboardIdentifier:${1:(NSString *)identifier} forPlayer:${2:(NSString *)playerID}

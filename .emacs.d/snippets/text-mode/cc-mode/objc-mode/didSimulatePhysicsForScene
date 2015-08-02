@@ -1,0 +1,4 @@
+#name : didSimulatePhysicsForScene
+#group : SKScene
+# --
+didSimulatePhysicsForScene:${1:(SKScene *)scene}

@@ -1,0 +1,4 @@
+#name : peripheral:didModifyServices
+#group : CBPeripheral
+# --
+peripheral:${1:(CBPeripheral *)peripheral} didModifyServices:${2:(NSArray *)invalidatedServices}

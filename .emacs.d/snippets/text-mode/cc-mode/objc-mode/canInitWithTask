@@ -1,0 +1,4 @@
+#name : canInitWithTask
+#group : NSURLProtocol
+# --
+canInitWithTask:${1:(NSURLSessionTask *)task}

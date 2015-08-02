@@ -1,0 +1,4 @@
+#name : startOfDayForDate
+#group : NSCalendar
+# --
+startOfDayForDate:${1:(NSDate *)date}

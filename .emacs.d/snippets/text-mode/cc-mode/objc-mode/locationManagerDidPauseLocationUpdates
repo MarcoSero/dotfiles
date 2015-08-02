@@ -1,0 +1,4 @@
+#name : locationManagerDidPauseLocationUpdates
+#group : CLLocationManagerDelegate
+# --
+locationManagerDidPauseLocationUpdates:${1:(CLLocationManager *)manager}

@@ -1,0 +1,4 @@
+#name : pageViewController:willTransitionToViewControllers
+#group : UIPageViewController
+# --
+pageViewController:${1:(UIPageViewController *)pageViewController} willTransitionToViewControllers:${2:(NSArray *)pendingViewControllers}

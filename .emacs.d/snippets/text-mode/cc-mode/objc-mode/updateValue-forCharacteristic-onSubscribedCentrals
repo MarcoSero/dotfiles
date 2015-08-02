@@ -1,0 +1,4 @@
+#name : updateValue:forCharacteristic:onSubscribedCentrals
+#group : CBPeripheralManager
+# --
+updateValue:${1:(NSData *)value} forCharacteristic:${2:(CBMutableCharacteristic *)characteristic} onSubscribedCentrals:${3:(NSArray *)centrals}

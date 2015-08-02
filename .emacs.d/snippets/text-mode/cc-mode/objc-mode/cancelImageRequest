@@ -1,0 +1,4 @@
+#name : cancelImageRequest
+#group : PHImageManager
+# --
+cancelImageRequest:${1:(PHImageRequestID)requestID}

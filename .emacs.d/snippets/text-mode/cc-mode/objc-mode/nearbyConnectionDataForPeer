@@ -1,0 +1,4 @@
+#name : nearbyConnectionDataForPeer
+#group : MCSession
+# --
+nearbyConnectionDataForPeer:${1:(MCPeerID *)peerID}

@@ -1,0 +1,4 @@
+#name : collectionView:didEndDisplayingSupplementaryView:forElementOfKind:atIndexPath
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} didEndDisplayingSupplementaryView:${2:(UICollectionReusableView *)view} forElementOfKind:${3:(NSString *)elementKind} atIndexPath:${4:(NSIndexPath *)indexPath}

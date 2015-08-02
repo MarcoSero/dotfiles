@@ -1,0 +1,4 @@
+#name : executeQuery
+#group : HKHealthStore
+# --
+executeQuery:${1:(HKQuery *)query}

@@ -1,0 +1,4 @@
+#name : sendExchangeToParticipants
+#group : GKTurnBasedMatch
+# --
+sendExchangeToParticipants:${1:(NSArray *)participants}

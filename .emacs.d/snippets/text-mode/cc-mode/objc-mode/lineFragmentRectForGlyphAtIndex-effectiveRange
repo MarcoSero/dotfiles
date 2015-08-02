@@ -1,0 +1,4 @@
+#name : lineFragmentRectForGlyphAtIndex:effectiveRange
+#group : NSLayoutManager
+# --
+lineFragmentRectForGlyphAtIndex:${1:(NSUInteger)glyphIndex} effectiveRange:${2:(NSRangePointer)effectiveGlyphRange}

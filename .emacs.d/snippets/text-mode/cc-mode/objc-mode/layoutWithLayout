@@ -1,0 +1,4 @@
+#name : layoutWithLayout
+#group : AVAudioChannelLayout
+# --
+layoutWithLayout:${1:(const AudioChannelLayout *)layout}

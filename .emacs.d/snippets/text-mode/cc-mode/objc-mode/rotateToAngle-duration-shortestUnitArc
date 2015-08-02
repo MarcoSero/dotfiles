@@ -1,0 +1,4 @@
+#name : rotateToAngle:duration:shortestUnitArc
+#group : SKAction
+# --
+rotateToAngle:${1:(CGFloat)radians} duration:${2:(NSTimeInterval)sec} shortestUnitArc:${3:(BOOL)shortestUnitArc}

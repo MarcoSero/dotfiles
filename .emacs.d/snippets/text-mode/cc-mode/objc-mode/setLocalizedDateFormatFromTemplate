@@ -1,0 +1,4 @@
+#name : setLocalizedDateFormatFromTemplate
+#group : NSDateFormatter
+# --
+setLocalizedDateFormatFromTemplate:${1:(NSString *)dateFormatTemplate}

@@ -1,0 +1,4 @@
+#name : home:didAddServiceGroup
+#group : HMHome
+# --
+home:${1:(HMHome *)home} didAddServiceGroup:${2:(HMServiceGroup *)group}

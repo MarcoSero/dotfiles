@@ -1,0 +1,4 @@
+#name : setThreadgroupMemoryLength:atIndex
+#group : MTLComputeCommandEncoder
+# --
+setThreadgroupMemoryLength:${1:(NSUInteger)length} atIndex:${2:(NSUInteger)index}

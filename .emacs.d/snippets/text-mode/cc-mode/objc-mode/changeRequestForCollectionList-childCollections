@@ -1,0 +1,4 @@
+#name : changeRequestForCollectionList:childCollections
+#group : PHCollectionListChangeRequest
+# --
+changeRequestForCollectionList:${1:(PHCollectionList *)collectionList} childCollections:${2:(PHFetchResult *)childCollections}

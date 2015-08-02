@@ -1,0 +1,4 @@
+#name : removePointerAtIndex
+#group : NSPointerArray
+# --
+removePointerAtIndex:${1:(NSUInteger)index}

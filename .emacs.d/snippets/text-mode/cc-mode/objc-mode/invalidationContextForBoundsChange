@@ -1,0 +1,4 @@
+#name : invalidationContextForBoundsChange
+#group : UICollectionViewLayout
+# --
+invalidationContextForBoundsChange:${1:(CGRect)newBounds}

@@ -1,0 +1,4 @@
+#name : accessibilityScrollStatusForScrollView
+#group : UIAccessibilityAdditions
+# --
+accessibilityScrollStatusForScrollView:${1:(UIScrollView *)scrollView}

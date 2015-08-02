@@ -1,0 +1,4 @@
+#name : initWithPath
+#group : SKRegion
+# --
+initWithPath:${1:(CGPathRef)path}

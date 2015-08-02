@@ -1,0 +1,4 @@
+#name : playSoundFileNamed:waitForCompletion
+#group : SKAction
+# --
+playSoundFileNamed:${1:(NSString*)soundFile} waitForCompletion:${2:(BOOL)wait}

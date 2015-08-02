@@ -1,0 +1,4 @@
+#name : splitViewController:separateSecondaryViewControllerFromPrimaryViewController
+#group : UISplitViewController
+# --
+splitViewController:${1:(UISplitViewController *)splitViewController} separateSecondaryViewControllerFromPrimaryViewController:${2:(UIViewController *)primaryViewController}

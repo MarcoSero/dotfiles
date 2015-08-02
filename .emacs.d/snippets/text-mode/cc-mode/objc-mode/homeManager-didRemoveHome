@@ -1,0 +1,4 @@
+#name : homeManager:didRemoveHome
+#group : HMHomeManager
+# --
+homeManager:${1:(HMHomeManager *)manager} didRemoveHome:${2:(HMHome *)home}

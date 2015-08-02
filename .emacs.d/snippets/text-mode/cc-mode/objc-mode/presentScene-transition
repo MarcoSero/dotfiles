@@ -1,0 +1,4 @@
+#name : presentScene:transition
+#group : SKView
+# --
+presentScene:${1:(SKScene *)scene} transition:${2:(SKTransition *)transition}

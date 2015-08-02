@@ -1,0 +1,4 @@
+#name : pauseSpeakingAtBoundary
+#group : AVSpeechSynthesis
+# --
+pauseSpeakingAtBoundary:${1:(AVSpeechBoundary)boundary}

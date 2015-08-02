@@ -1,0 +1,4 @@
+#name : textureCubeDescriptorWithPixelFormat:size:mipmapped
+#group : MTLTexture
+# --
+textureCubeDescriptorWithPixelFormat:${1:(MTLPixelFormat)pixelFormat} size:${2:(NSUInteger)size} mipmapped:${3:(BOOL)mipmapped}

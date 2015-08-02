@@ -1,0 +1,4 @@
+#name : turbulenceFieldWithSmoothness:animationSpeed
+#group : SKFieldNode
+# --
+turbulenceFieldWithSmoothness:${1:(CGFloat)smoothness} animationSpeed:${2:(CGFloat)speed}

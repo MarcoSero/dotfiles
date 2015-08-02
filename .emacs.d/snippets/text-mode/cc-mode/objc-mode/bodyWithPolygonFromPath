@@ -1,0 +1,4 @@
+#name : bodyWithPolygonFromPath
+#group : SKPhysicsBody
+# --
+bodyWithPolygonFromPath:${1:(CGPathRef)path}

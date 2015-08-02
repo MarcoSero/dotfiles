@@ -1,0 +1,4 @@
+#name : timeWithAudioTimeStamp:sampleRate
+#group : AVAudioTime
+# --
+timeWithAudioTimeStamp:${1:(const AudioTimeStamp *)ts} sampleRate:${2:(double)sampleRate}

@@ -1,0 +1,4 @@
+#name : unblockAccessory
+#group : HMHome
+# --
+unblockAccessory:${1:(HMAccessory *)accessory}

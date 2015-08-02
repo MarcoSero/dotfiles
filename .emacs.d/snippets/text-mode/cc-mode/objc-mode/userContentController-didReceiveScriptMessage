@@ -1,0 +1,4 @@
+#name : userContentController:didReceiveScriptMessage
+#group : WKScriptMessageHandler
+# --
+userContentController:${1:(WKUserContentController *)userContentController} didReceiveScriptMessage:${2:(WKScriptMessage *)message}

@@ -1,0 +1,4 @@
+#name : initWithName:floatVector2
+#group : SKUniform
+# --
+initWithName:${1:(NSString *)name} floatVector2:${2:(GLKVector2)value}

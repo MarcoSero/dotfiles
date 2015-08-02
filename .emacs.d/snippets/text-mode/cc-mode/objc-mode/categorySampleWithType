@@ -1,0 +1,4 @@
+#name : categorySampleWithType
+#group : HKCategorySample
+# --
+categorySampleWithType:${1:(HKCategoryType *)type}

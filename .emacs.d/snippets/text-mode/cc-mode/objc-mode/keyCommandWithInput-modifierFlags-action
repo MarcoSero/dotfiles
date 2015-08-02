@@ -1,0 +1,4 @@
+#name : keyCommandWithInput:modifierFlags:action
+#group : UIResponder
+# --
+keyCommandWithInput:${1:(NSString *)input} modifierFlags:${2:(UIKeyModifierFlags)modifierFlags} action:${3:(SEL)action}

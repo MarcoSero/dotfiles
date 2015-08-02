@@ -1,0 +1,4 @@
+#name : kernelWithString
+#group : CIKernel
+# --
+kernelWithString:${1:(NSString *)string}

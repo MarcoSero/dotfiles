@@ -1,0 +1,4 @@
+#name : accessoryDidUpdateName
+#group : HMAccessory
+# --
+accessoryDidUpdateName:${1:(HMAccessory *)accessory}

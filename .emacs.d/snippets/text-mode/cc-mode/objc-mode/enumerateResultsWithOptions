@@ -1,0 +1,4 @@
+#name : enumerateResultsWithOptions
+#group : NSMetadata
+# --
+enumerateResultsWithOptions:${1:(NSEnumerationOptions)opts}

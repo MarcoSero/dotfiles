@@ -1,0 +1,4 @@
+#name : deselectItemAtIndexPath:animated
+#group : UICollectionView
+# --
+deselectItemAtIndexPath:${1:(NSIndexPath *)indexPath} animated:${2:(BOOL)animated}

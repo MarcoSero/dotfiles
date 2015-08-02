@@ -1,0 +1,4 @@
+#name : bodyWithRectangleOfSize:center
+#group : SKPhysicsBody
+# --
+bodyWithRectangleOfSize:${1:(CGSize)s} center:${2:(CGPoint)center}

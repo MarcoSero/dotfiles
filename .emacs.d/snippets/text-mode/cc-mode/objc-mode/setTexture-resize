@@ -1,0 +1,4 @@
+#name : setTexture:resize
+#group : SKAction
+# --
+setTexture:${1:(SKTexture *)texture} resize:${2:(BOOL)resize}

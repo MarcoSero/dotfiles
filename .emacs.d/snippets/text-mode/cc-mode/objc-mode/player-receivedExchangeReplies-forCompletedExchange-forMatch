@@ -1,0 +1,4 @@
+#name : player:receivedExchangeReplies:forCompletedExchange:forMatch
+#group : GKTurnBasedMatch
+# --
+player:${1:(GKPlayer *)player} receivedExchangeReplies:${2:(NSArray *)replies} forCompletedExchange:${3:(GKTurnBasedExchange *)exchange} forMatch:${4:(GKTurnBasedMatch *)match}

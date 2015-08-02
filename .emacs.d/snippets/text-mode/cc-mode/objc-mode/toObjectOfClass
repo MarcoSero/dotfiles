@@ -1,0 +1,4 @@
+#name : toObjectOfClass
+#group : JSValue
+# --
+toObjectOfClass:${1:(Class)expectedClass}

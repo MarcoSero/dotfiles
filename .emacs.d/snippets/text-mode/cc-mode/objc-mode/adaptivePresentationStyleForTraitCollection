@@ -1,0 +1,4 @@
+#name : adaptivePresentationStyleForTraitCollection
+#group : UIPresentationController
+# --
+adaptivePresentationStyleForTraitCollection:${1:(UITraitCollection *)traitCollection}

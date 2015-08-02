@@ -1,0 +1,4 @@
+#name : stringFromTimeInterval
+#group : NSDateComponentsFormatter
+# --
+stringFromTimeInterval:${1:(NSTimeInterval)ti}

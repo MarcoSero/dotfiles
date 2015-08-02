@@ -1,0 +1,4 @@
+#name : promisedItemResourceValuesForKeys:error
+#group : NSURL
+# --
+promisedItemResourceValuesForKeys:${1:(NSArray *)keys} error:${2:(NSError **)error}

@@ -1,0 +1,4 @@
+#name : uniformWithName:float
+#group : SKUniform
+# --
+uniformWithName:${1:(NSString *)name} float:${2:(float)value}

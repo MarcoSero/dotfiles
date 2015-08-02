@@ -1,0 +1,4 @@
+#name : addMultipartData
+#group : SLRequest
+# --
+addMultipartData:${1:(NSData *)data}

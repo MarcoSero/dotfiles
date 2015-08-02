@@ -1,0 +1,4 @@
+#name : initWithKeyPath:type
+#group : UIMotionEffect
+# --
+initWithKeyPath:${1:(NSString *)keyPath} type:${2:(UIInterpolatingMotionEffectType)type}

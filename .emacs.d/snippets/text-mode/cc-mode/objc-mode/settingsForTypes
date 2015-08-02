@@ -1,0 +1,4 @@
+#name : settingsForTypes
+#group : UIUserNotificationSettings
+# --
+settingsForTypes:${1:(UIUserNotificationType)types}

@@ -1,0 +1,4 @@
+#name : initWithImageNamed
+#group : SKSpriteNode
+# --
+initWithImageNamed:${1:(NSString *)name}

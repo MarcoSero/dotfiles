@@ -1,0 +1,4 @@
+#name : cancelContentEditingInputRequest
+#group : PHAssetChangeRequest
+# --
+cancelContentEditingInputRequest:${1:(PHContentEditingInputRequestID)requestID}

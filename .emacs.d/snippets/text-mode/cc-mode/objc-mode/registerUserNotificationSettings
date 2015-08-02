@@ -1,0 +1,4 @@
+#name : registerUserNotificationSettings
+#group : UIApplication
+# --
+registerUserNotificationSettings:${1:(UIUserNotificationSettings *)notificationSettings}

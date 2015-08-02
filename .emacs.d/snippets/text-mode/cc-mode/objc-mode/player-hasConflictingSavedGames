@@ -1,0 +1,4 @@
+#name : player:hasConflictingSavedGames
+#group : GKSavedGameListener
+# --
+player:${1:(GKPlayer *)player} hasConflictingSavedGames:${2:(NSArray *)savedGames}

@@ -1,0 +1,4 @@
+#name : snapshotViewAfterScreenUpdates
+#group : UIView
+# --
+snapshotViewAfterScreenUpdates:${1:(BOOL)afterUpdates}

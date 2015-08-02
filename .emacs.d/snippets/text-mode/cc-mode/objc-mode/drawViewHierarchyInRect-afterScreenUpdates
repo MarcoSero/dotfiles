@@ -1,0 +1,4 @@
+#name : drawViewHierarchyInRect:afterScreenUpdates
+#group : UIView
+# --
+drawViewHierarchyInRect:${1:(CGRect)rect} afterScreenUpdates:${2:(BOOL)afterUpdates}

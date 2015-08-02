@@ -1,0 +1,4 @@
+#name : resourceLoader:shouldWaitForResponseToAuthenticationChallenge
+#group : AVAssetResourceLoader
+# --
+resourceLoader:${1:(AVAssetResourceLoader *)resourceLoader} shouldWaitForResponseToAuthenticationChallenge:${2:(NSURLAuthenticationChallenge *)authenticationChallenge}

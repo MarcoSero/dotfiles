@@ -1,0 +1,4 @@
+#name : compare
+#group : HKQuantity
+# --
+compare:${1:(HKQuantity *)quantity}

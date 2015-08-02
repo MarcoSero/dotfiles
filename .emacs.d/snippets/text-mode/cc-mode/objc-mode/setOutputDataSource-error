@@ -1,0 +1,4 @@
+#name : setOutputDataSource:error
+#group : AVAudioSession
+# --
+setOutputDataSource:${1:(AVAudioSessionDataSourceDescription *)dataSource} error:${2:(NSError **)outError}

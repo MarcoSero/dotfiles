@@ -1,0 +1,4 @@
+#name : filteredOrderedSetUsingPredicate
+#group : NSPredicate
+# --
+filteredOrderedSetUsingPredicate:${1:(NSPredicate *)p}

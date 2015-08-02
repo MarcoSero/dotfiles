@@ -1,0 +1,4 @@
+#name : rangeWithConstantValue
+#group : SKConstraint
+# --
+rangeWithConstantValue:${1:(CGFloat)value}

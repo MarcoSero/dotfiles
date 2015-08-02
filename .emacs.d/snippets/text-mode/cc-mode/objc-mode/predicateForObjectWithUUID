@@ -1,0 +1,4 @@
+#name : predicateForObjectWithUUID
+#group : HKQuery
+# --
+predicateForObjectWithUUID:${1:(NSUUID *)UUID}

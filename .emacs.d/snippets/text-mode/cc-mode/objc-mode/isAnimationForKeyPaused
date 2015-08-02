@@ -1,0 +1,4 @@
+#name : isAnimationForKeyPaused
+#group : SCNAnimation
+# --
+isAnimationForKeyPaused:${1:(NSString *)key}

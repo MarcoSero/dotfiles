@@ -1,0 +1,4 @@
+#name : isEqualWithTypeCoercionToObject
+#group : JSValue
+# --
+isEqualWithTypeCoercionToObject:${1:(id)value}

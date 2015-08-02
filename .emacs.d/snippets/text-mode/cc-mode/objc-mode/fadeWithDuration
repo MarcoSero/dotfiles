@@ -1,0 +1,4 @@
+#name : fadeWithDuration
+#group : SKTransition
+# --
+fadeWithDuration:${1:(NSTimeInterval)sec}

@@ -1,0 +1,4 @@
+#name : initWithReferenceView
+#group : UIDynamicAnimator
+# --
+initWithReferenceView:${1:(UIView*)view}

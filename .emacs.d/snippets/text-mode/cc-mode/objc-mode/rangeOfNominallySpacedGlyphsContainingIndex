@@ -1,0 +1,4 @@
+#name : rangeOfNominallySpacedGlyphsContainingIndex
+#group : NSLayoutManager
+# --
+rangeOfNominallySpacedGlyphsContainingIndex:${1:(NSUInteger)glyphIndex}

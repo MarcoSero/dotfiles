@@ -1,0 +1,4 @@
+#name : layoutAttributesForCellAtIndexPath
+#group : UIDynamicAnimator
+# --
+layoutAttributesForCellAtIndexPath:${1:(NSIndexPath*)indexPath}

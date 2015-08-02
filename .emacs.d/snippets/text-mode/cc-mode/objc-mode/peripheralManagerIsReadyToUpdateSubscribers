@@ -1,0 +1,4 @@
+#name : peripheralManagerIsReadyToUpdateSubscribers
+#group : CBPeripheralManager
+# --
+peripheralManagerIsReadyToUpdateSubscribers:${1:(CBPeripheralManager *)peripheral}

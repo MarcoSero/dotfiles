@@ -1,0 +1,4 @@
+#name : metadataOutput:didOutputTimedMetadataGroups:fromPlayerItemTrack
+#group : AVPlayerItemOutput
+# --
+metadataOutput:${1:(AVPlayerItemMetadataOutput *)output} didOutputTimedMetadataGroups:${2:(NSArray *)groups} fromPlayerItemTrack:${3:(AVPlayerItemTrack *)track}

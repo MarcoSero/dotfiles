@@ -1,0 +1,4 @@
+#name : initWithInputPorts:output
+#group : AVCaptureSession
+# --
+initWithInputPorts:${1:(NSArray *)ports} output:${2:(AVCaptureOutput *)output}

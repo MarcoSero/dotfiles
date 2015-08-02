@@ -1,0 +1,4 @@
+#name : moleUnitWithMetricPrefix:molarMass
+#group : HKUnit
+# --
+moleUnitWithMetricPrefix:${1:(HKMetricPrefix)prefix} molarMass:${2:(double)gramsPerMole}

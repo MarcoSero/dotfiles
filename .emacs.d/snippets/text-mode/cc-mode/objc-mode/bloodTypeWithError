@@ -1,0 +1,4 @@
+#name : bloodTypeWithError
+#group : HKHealthStore
+# --
+bloodTypeWithError:${1:(NSError **)error}

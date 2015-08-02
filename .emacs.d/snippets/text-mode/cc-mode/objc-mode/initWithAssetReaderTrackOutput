@@ -1,0 +1,4 @@
+#name : initWithAssetReaderTrackOutput
+#group : AVAssetReaderOutput
+# --
+initWithAssetReaderTrackOutput:${1:(AVAssetReaderTrackOutput *)trackOutput}

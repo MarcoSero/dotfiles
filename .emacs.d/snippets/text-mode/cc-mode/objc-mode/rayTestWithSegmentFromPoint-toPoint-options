@@ -1,0 +1,4 @@
+#name : rayTestWithSegmentFromPoint:toPoint:options
+#group : SCNPhysicsWorld
+# --
+rayTestWithSegmentFromPoint:${1:(SCNVector3)origin} toPoint:${2:(SCNVector3)dest} options:${3:(NSDictionary *)options}

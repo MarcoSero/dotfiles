@@ -1,0 +1,4 @@
+#name : customActionWithDuration
+#group : SKAction
+# --
+customActionWithDuration:${1:(NSTimeInterval)seconds}

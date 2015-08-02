@@ -1,0 +1,4 @@
+#name : setEnabled
+#group : WKInterfaceSwitch
+# --
+setEnabled:${1:(BOOL)enabled}

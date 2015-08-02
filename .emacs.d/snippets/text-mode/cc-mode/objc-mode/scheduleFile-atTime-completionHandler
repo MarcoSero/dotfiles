@@ -1,0 +1,4 @@
+#name : scheduleFile:atTime:completionHandler
+#group : AVAudioPlayerNode
+# --
+scheduleFile:${1:(AVAudioFile *)file} atTime:${2:(AVAudioTime *)when} completionHandler:${3:(AVAudioNodeCompletionHandler)completionHandler}

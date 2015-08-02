@@ -1,0 +1,4 @@
+#name : removeRoom
+#group : HMZone
+# --
+removeRoom:${1:(HMRoom *)room}

@@ -1,0 +1,4 @@
+#name : isCompatibleWithUnit
+#group : HKQuantity
+# --
+isCompatibleWithUnit:${1:(HKUnit *)unit}

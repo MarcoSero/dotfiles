@@ -1,0 +1,4 @@
+#name : startInteractiveTransitionToCollectionViewLayout:completion
+#group : UICollectionView
+# --
+startInteractiveTransitionToCollectionViewLayout:${1:(UICollectionViewLayout *)layout} completion:${2:(UICollectionViewLayoutInteractiveTransitionCompletion)completion}

@@ -1,0 +1,4 @@
+#name : date:matchesComponents
+#group : NSCalendar
+# --
+date:${1:(NSDate *)date} matchesComponents:${2:(NSDateComponents *)components}

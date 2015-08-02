@@ -1,0 +1,4 @@
+#name : capitalizedStringWithLocale
+#group : NSString
+# --
+capitalizedStringWithLocale:${1:(NSLocale *)locale}

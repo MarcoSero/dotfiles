@@ -1,0 +1,4 @@
+#name : preloadTextures
+#group : SKTexture
+# --
+preloadTextures:${1:(NSArray *)textures}

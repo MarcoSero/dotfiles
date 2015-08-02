@@ -1,0 +1,4 @@
+#name : initWithData:error
+#group : PKPass
+# --
+initWithData:${1:(NSData *)data} error:${2:(NSError **)error}

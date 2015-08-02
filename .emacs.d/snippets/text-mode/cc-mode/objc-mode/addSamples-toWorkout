@@ -1,0 +1,4 @@
+#name : addSamples:toWorkout
+#group : HKHealthStore
+# --
+addSamples:${1:(NSArray *)samples} toWorkout:${2:(HKWorkout *)workout}

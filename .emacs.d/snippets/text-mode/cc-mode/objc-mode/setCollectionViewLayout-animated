@@ -1,0 +1,4 @@
+#name : setCollectionViewLayout:animated
+#group : UICollectionView
+# --
+setCollectionViewLayout:${1:(UICollectionViewLayout *)layout} animated:${2:(BOOL)animated}

@@ -1,0 +1,4 @@
+#name : registerItemForTypeIdentifier:loadHandler
+#group : NSItemProvider
+# --
+registerItemForTypeIdentifier:${1:(NSString *)typeIdentifier} loadHandler:${2:(NSItemProviderLoadHandler)loadHandler}

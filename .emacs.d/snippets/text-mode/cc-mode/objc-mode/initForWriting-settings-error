@@ -1,0 +1,4 @@
+#name : initForWriting:settings:error
+#group : AVAudioFile
+# --
+initForWriting:${1:(NSURL *)fileURL} settings:${2:(NSDictionary *)settings} error:${3:(NSError **)outError}

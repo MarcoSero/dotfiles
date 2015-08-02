@@ -1,0 +1,4 @@
+#name : registerImage:withTraitCollection
+#group : UIImageAsset
+# --
+registerImage:${1:(UIImage *)image} withTraitCollection:${2:(UITraitCollection *)traitCollection}

@@ -1,0 +1,4 @@
+#name : dynamicAnimatorDidPause
+#group : UIDynamicAnimator
+# --
+dynamicAnimatorDidPause:${1:(UIDynamicAnimator*)animator}

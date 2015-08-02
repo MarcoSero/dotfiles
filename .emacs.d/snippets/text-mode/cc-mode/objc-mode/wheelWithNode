@@ -1,0 +1,4 @@
+#name : wheelWithNode
+#group : SCNPhysicsBehavior
+# --
+wheelWithNode:${1:(SCNNode *)node}

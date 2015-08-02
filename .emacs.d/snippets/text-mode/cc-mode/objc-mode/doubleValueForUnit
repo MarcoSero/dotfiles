@@ -1,0 +1,4 @@
+#name : doubleValueForUnit
+#group : HKQuantity
+# --
+doubleValueForUnit:${1:(HKUnit *)unit}

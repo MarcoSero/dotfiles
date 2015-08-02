@@ -1,0 +1,4 @@
+#name : player:didAcceptInvite
+#group : GKMatchmaker
+# --
+player:${1:(GKPlayer *)player} didAcceptInvite:${2:(GKInvite *)invite}

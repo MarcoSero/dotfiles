@@ -1,0 +1,4 @@
+#name : rangeOfWeekendStartDate:interval:containingDate
+#group : NSCalendar
+# --
+rangeOfWeekendStartDate:${1:(out NSDate **)datep} interval:${2:(out NSTimeInterval *)tip} containingDate:${3:(NSDate *)date}

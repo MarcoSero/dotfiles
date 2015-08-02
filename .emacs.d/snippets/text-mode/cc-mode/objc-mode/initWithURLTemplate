@@ -1,0 +1,4 @@
+#name : initWithURLTemplate
+#group : MKTileOverlay
+# --
+initWithURLTemplate:${1:(NSString *)URLTemplate}

@@ -1,0 +1,4 @@
+#name : spriteNodeWithImageNamed:normalMapped
+#group : SKSpriteNode
+# --
+spriteNodeWithImageNamed:${1:(NSString *)name} normalMapped:${2:(BOOL)generateNormalMap}

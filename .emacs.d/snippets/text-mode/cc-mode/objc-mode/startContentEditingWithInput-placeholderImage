@@ -1,0 +1,4 @@
+#name : startContentEditingWithInput:placeholderImage
+#group : PHContentEditingController
+# --
+startContentEditingWithInput:${1:(PHContentEditingInput *)contentEditingInput} placeholderImage:${2:(UIImage *)placeholderImage}

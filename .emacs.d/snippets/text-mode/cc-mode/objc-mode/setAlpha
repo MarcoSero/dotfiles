@@ -1,0 +1,4 @@
+#name : setAlpha
+#group : WKInterfaceObject
+# --
+setAlpha:${1:(CGFloat)alpha}

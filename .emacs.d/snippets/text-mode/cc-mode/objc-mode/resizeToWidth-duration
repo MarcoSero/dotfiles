@@ -1,0 +1,4 @@
+#name : resizeToWidth:duration
+#group : SKAction
+# --
+resizeToWidth:${1:(CGFloat)width} duration:${2:(NSTimeInterval)duration}

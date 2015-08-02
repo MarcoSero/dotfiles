@@ -1,0 +1,4 @@
+#name : scheduleSegment:startingFrame:frameCount:atTime:completionHandler
+#group : AVAudioPlayerNode
+# --
+scheduleSegment:${1:(AVAudioFile *)file} startingFrame:${2:(AVAudioFramePosition)startFrame} frameCount:${3:(AVAudioFrameCount)numberFrames} atTime:${4:(AVAudioTime *)when} completionHandler:${5:(AVAudioNodeCompletionHandler)completionHandler}

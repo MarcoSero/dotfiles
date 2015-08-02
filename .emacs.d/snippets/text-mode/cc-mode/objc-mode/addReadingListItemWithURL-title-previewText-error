@@ -1,0 +1,4 @@
+#name : addReadingListItemWithURL:title:previewText:error
+#group : SSReadingList
+# --
+addReadingListItemWithURL:${1:(NSURL *)URL} title:${2:(NSString *)title} previewText:${3:(NSString *)previewText} error:${4:(NSError **)error}

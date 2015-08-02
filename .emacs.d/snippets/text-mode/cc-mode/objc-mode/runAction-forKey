@@ -1,0 +1,4 @@
+#name : runAction:forKey
+#group : SCNAction
+# --
+runAction:${1:(SCNAction *)action} forKey:${2:(NSString *)key}

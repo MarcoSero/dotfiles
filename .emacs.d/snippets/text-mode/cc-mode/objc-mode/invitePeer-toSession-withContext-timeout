@@ -1,0 +1,4 @@
+#name : invitePeer:toSession:withContext:timeout
+#group : MCNearbyServiceBrowser
+# --
+invitePeer:${1:(MCPeerID *)peerID} toSession:${2:(MCSession *)session} withContext:${3:(NSData *)context} timeout:${4:(NSTimeInterval)timeout}

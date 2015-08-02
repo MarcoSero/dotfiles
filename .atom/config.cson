@@ -1,0 +1,16 @@
+"*":
+  "exception-reporting":
+    userId: "37b3e955-8fd8-1f01-c001-cef520189340"
+  welcome:
+    showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
+    fontFamily: "Source Code Pro"
+    fontSize: 13
+  "ide-haskell": {}
+  "haskell-ghc-mod":
+    additionalPathDirectories: [
+      "/Users/marco/Library/Haskell/bin"
+    ]
+    debug: true

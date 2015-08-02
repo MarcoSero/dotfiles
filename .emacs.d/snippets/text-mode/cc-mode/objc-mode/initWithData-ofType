@@ -1,0 +1,4 @@
+#name : initWithData:ofType
+#group : NSTextAttachment
+# --
+initWithData:${1:(NSData *)contentData} ofType:${2:(NSString *)uti}

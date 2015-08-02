@@ -1,0 +1,4 @@
+#name : beginRequestWithExtensionContext
+#group : NSExtensionRequestHandling
+# --
+beginRequestWithExtensionContext:${1:(NSExtensionContext *)context}

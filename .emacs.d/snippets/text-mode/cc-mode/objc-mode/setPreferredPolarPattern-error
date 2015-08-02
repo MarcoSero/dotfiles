@@ -1,0 +1,4 @@
+#name : setPreferredPolarPattern:error
+#group : AVAudioSession
+# --
+setPreferredPolarPattern:${1:(NSString *)pattern} error:${2:(NSError **)outError}

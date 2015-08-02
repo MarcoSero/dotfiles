@@ -1,0 +1,4 @@
+#name : clearTextInputContextIdentifier
+#group : UIResponder
+# --
+clearTextInputContextIdentifier:${1:(NSString *)identifier}

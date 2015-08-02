@@ -1,0 +1,4 @@
+#name : addAccessory
+#group : HMHome
+# --
+addAccessory:${1:(HMAccessory *)accessory}

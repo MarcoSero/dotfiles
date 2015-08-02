@@ -1,0 +1,4 @@
+#name : stopRangingBeaconsInRegion
+#group : CLLocationManager
+# --
+stopRangingBeaconsInRegion:${1:(CLBeaconRegion *)region}

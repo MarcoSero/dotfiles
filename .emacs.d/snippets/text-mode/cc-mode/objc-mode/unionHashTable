@@ -1,0 +1,4 @@
+#name : unionHashTable
+#group : NSHashTable
+# --
+unionHashTable:${1:(NSHashTable *)other}

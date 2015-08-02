@@ -1,0 +1,4 @@
+#name : addHomeWithName
+#group : HMHomeManager
+# --
+addHomeWithName:${1:(NSString *)homeName}

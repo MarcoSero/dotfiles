@@ -1,0 +1,4 @@
+#name : player:didModifySavedGame
+#group : GKSavedGameListener
+# --
+player:${1:(GKPlayer *)player} didModifySavedGame:${2:(GKSavedGame *)savedGame}

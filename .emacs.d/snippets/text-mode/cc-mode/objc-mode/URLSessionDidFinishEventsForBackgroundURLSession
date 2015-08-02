@@ -1,0 +1,4 @@
+#name : URLSessionDidFinishEventsForBackgroundURLSession
+#group : NSURLSession
+# --
+URLSessionDidFinishEventsForBackgroundURLSession:${1:(NSURLSession *)session}

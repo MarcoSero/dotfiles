@@ -1,0 +1,4 @@
+#name : mapViewWillStartRenderingMap
+#group : MKMapView
+# --
+mapViewWillStartRenderingMap:${1:(MKMapView *)mapView}

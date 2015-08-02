@@ -1,0 +1,4 @@
+#name : itemsInRect
+#group : UIDynamicAnimator
+# --
+itemsInRect:${1:(CGRect)rect}

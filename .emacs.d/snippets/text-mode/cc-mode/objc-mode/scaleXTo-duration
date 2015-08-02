@@ -1,0 +1,4 @@
+#name : scaleXTo:duration
+#group : SKAction
+# --
+scaleXTo:${1:(CGFloat)scale} duration:${2:(NSTimeInterval)sec}

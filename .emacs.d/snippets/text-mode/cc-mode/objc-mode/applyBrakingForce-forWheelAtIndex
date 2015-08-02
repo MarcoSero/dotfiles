@@ -1,0 +1,4 @@
+#name : applyBrakingForce:forWheelAtIndex
+#group : SCNPhysicsBehavior
+# --
+applyBrakingForce:${1:(CGFloat)value} forWheelAtIndex:${2:(NSInteger)index}

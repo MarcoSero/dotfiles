@@ -1,0 +1,4 @@
+#name : regionOfInterestForImage:inRect
+#group : CIImage
+# --
+regionOfInterestForImage:${1:(CIImage *)im} inRect:${2:(CGRect)r}

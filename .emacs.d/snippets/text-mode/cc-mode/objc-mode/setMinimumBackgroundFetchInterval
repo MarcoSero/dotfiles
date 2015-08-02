@@ -1,0 +1,4 @@
+#name : setMinimumBackgroundFetchInterval
+#group : UIApplication
+# --
+setMinimumBackgroundFetchInterval:${1:(NSTimeInterval)minimumBackgroundFetchInterval}

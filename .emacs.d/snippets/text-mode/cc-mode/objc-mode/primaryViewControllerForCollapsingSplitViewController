@@ -1,0 +1,4 @@
+#name : primaryViewControllerForCollapsingSplitViewController
+#group : UISplitViewController
+# --
+primaryViewControllerForCollapsingSplitViewController:${1:(UISplitViewController *)splitViewController}

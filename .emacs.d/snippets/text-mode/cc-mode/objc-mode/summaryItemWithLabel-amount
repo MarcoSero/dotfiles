@@ -1,0 +1,4 @@
+#name : summaryItemWithLabel:amount
+#group : PKPaymentRequest
+# --
+summaryItemWithLabel:${1:(NSString *)label} amount:${2:(NSDecimalNumber *)amount}

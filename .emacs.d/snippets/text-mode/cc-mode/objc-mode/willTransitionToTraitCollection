@@ -1,0 +1,4 @@
+#name : willTransitionToTraitCollection
+#group : UIViewController
+# --
+willTransitionToTraitCollection:${1:(UITraitCollection *)newCollection}

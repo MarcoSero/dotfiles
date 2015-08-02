@@ -1,0 +1,4 @@
+#name : canPerformWithActivityItems
+#group : UIActivity
+# --
+canPerformWithActivityItems:${1:(NSArray *)activityItems}

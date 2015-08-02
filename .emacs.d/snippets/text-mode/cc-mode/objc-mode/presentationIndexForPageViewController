@@ -1,0 +1,4 @@
+#name : presentationIndexForPageViewController
+#group : UIPageViewController
+# --
+presentationIndexForPageViewController:${1:(UIPageViewController *)pageViewController}

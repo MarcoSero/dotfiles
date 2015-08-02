@@ -1,0 +1,4 @@
+#name : initWithParent:userInfo
+#group : NSProgress
+# --
+initWithParent:${1:(NSProgress *)parentProgressOrNil} userInfo:${2:(NSDictionary *)userInfoOrNil}

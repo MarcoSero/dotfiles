@@ -1,0 +1,4 @@
+#name : fontDescriptorWithSize
+#group : UIFontDescriptor
+# --
+fontDescriptorWithSize:${1:(CGFloat)newPointSize}

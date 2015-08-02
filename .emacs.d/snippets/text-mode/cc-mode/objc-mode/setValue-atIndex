@@ -1,0 +1,4 @@
+#name : setValue:atIndex
+#group : JSValue
+# --
+setValue:${1:(id)value} atIndex:${2:(NSUInteger)index}

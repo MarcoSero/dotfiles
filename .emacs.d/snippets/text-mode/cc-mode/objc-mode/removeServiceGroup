@@ -1,0 +1,4 @@
+#name : removeServiceGroup
+#group : HMHome
+# --
+removeServiceGroup:${1:(HMServiceGroup *)group}

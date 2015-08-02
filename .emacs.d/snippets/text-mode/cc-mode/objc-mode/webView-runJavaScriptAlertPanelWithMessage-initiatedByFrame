@@ -1,0 +1,4 @@
+#name : webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame
+#group : WKUIDelegate
+# --
+webView:${1:(WKWebView *)webView} runJavaScriptAlertPanelWithMessage:${2:(NSString *)message} initiatedByFrame:${3:(WKFrameInfo *)frame}

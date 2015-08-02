@@ -1,0 +1,4 @@
+#name : constraintsWithVisualFormat:options:metrics:views
+#group : NSLayoutConstraint
+# --
+constraintsWithVisualFormat:${1:(NSString *)format} options:${2:(NSLayoutFormatOptions)opts} metrics:${3:(NSDictionary *)metrics} views:${4:(NSDictionary *)views}

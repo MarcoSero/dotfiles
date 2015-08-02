@@ -1,0 +1,4 @@
+#name : nodeTimeForPlayerTime
+#group : AVAudioPlayerNode
+# --
+nodeTimeForPlayerTime:${1:(AVAudioTime *)playerTime}

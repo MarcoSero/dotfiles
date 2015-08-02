@@ -1,0 +1,4 @@
+#name : valueWithNewRegularExpressionFromPattern:flags:inContext
+#group : JSValue
+# --
+valueWithNewRegularExpressionFromPattern:${1:(NSString *)pattern} flags:${2:(NSString *)flags} inContext:${3:(JSContext *)context}

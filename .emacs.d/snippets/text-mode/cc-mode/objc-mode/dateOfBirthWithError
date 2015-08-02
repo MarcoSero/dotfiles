@@ -1,0 +1,4 @@
+#name : dateOfBirthWithError
+#group : HKHealthStore
+# --
+dateOfBirthWithError:${1:(NSError **)error}

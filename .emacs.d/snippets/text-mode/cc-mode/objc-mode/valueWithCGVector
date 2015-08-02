@@ -1,0 +1,4 @@
+#name : valueWithCGVector
+#group : UIGeometry
+# --
+valueWithCGVector:${1:(CGVector)vector}

@@ -1,0 +1,4 @@
+#name : setPreferredInput:error
+#group : AVAudioSession
+# --
+setPreferredInput:${1:(AVAudioSessionPortDescription*)inPort} error:${2:(NSError **)outError}

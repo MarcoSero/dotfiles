@@ -1,0 +1,4 @@
+#name : webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures
+#group : WKUIDelegate
+# --
+webView:${1:(WKWebView *)webView} createWebViewWithConfiguration:${2:(WKWebViewConfiguration *)configuration} forNavigationAction:${3:(WKNavigationAction *)navigationAction} windowFeatures:${4:(WKWindowFeatures *)windowFeatures}

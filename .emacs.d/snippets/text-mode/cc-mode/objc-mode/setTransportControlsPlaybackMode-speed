@@ -1,0 +1,4 @@
+#name : setTransportControlsPlaybackMode:speed
+#group : AVCaptureDevice
+# --
+setTransportControlsPlaybackMode:${1:(AVCaptureDeviceTransportControlsPlaybackMode)mode} speed:${2:(AVCaptureDeviceTransportControlsSpeed)speed}

@@ -1,0 +1,4 @@
+#name : printerWithURL
+#group : UIPrinter
+# --
+printerWithURL:${1:(NSURL *)url}

@@ -1,0 +1,4 @@
+#name : calculateDirectionsWithCompletionHandler
+#group : MKDirections
+# --
+calculateDirectionsWithCompletionHandler:${1:(MKDirectionsHandler)completionHandler}

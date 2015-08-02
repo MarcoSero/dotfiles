@@ -1,0 +1,4 @@
+#name : distance:toNode
+#group : SKConstraint
+# --
+distance:${1:(SKRange *)range} toNode:${2:(SKNode *)node}

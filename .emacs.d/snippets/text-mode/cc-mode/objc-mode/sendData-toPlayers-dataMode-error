@@ -1,0 +1,4 @@
+#name : sendData:toPlayers:dataMode:error
+#group : GKMatch
+# --
+sendData:${1:(NSData *)data} toPlayers:${2:(NSArray *)players} dataMode:${3:(GKMatchSendDataMode)mode} error:${4:(NSError **)error}

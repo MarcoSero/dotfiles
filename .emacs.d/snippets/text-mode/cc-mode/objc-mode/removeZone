@@ -1,0 +1,4 @@
+#name : removeZone
+#group : HMHome
+# --
+removeZone:${1:(HMZone *)zone}

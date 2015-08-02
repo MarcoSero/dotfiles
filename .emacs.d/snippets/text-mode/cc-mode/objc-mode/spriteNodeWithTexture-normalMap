@@ -1,0 +1,4 @@
+#name : spriteNodeWithTexture:normalMap
+#group : SKSpriteNode
+# --
+spriteNodeWithTexture:${1:(SKTexture *)texture} normalMap:${2:(SKTexture *)normalMap}

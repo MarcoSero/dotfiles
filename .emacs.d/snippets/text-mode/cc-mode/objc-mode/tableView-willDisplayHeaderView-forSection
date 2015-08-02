@@ -1,0 +1,4 @@
+#name : tableView:willDisplayHeaderView:forSection
+#group : UITableView
+# --
+tableView:${1:(UITableView *)tableView} willDisplayHeaderView:${2:(UIView *)view} forSection:${3:(NSInteger)section}

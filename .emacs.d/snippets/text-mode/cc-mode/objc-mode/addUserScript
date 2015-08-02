@@ -1,0 +1,4 @@
+#name : addUserScript
+#group : WKUserContentController
+# --
+addUserScript:${1:(WKUserScript *)userScript}

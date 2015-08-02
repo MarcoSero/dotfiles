@@ -1,0 +1,4 @@
+#name : layoutAttributesForCellWithIndexPath
+#group : UICollectionViewLayout
+# --
+layoutAttributesForCellWithIndexPath:${1:(NSIndexPath *)indexPath}

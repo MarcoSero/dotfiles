@@ -1,0 +1,4 @@
+#name : addOutput
+#group : AVPlayerItem
+# --
+addOutput:${1:(AVPlayerItemOutput *)output}

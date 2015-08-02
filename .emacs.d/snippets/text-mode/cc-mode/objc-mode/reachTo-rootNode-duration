@@ -1,0 +1,4 @@
+#name : reachTo:rootNode:duration
+#group : SKAction
+# --
+reachTo:${1:(CGPoint)position} rootNode:${2:(SKNode *)root} duration:${3:(NSTimeInterval)sec}

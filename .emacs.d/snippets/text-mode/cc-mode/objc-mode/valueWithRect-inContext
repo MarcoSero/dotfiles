@@ -1,0 +1,4 @@
+#name : valueWithRect:inContext
+#group : JSValue
+# --
+valueWithRect:${1:(CGRect)rect} inContext:${2:(JSContext *)context}

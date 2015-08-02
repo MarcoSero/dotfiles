@@ -1,0 +1,4 @@
+#name : printerPickerControllerParentViewController
+#group : UIPrinterPickerController
+# --
+printerPickerControllerParentViewController:${1:(UIPrinterPickerController *)printerPickerController}

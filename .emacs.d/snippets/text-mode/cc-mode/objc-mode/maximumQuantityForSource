@@ -1,0 +1,4 @@
+#name : maximumQuantityForSource
+#group : HKStatistics
+# --
+maximumQuantityForSource:${1:(HKSource *)source}

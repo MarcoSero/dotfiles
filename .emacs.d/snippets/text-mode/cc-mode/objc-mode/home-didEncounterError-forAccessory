@@ -1,0 +1,4 @@
+#name : home:didEncounterError:forAccessory
+#group : HMHome
+# --
+home:${1:(HMHome *)home} didEncounterError:${2:(NSError*)error} forAccessory:${3:(HMAccessory *)accessory}

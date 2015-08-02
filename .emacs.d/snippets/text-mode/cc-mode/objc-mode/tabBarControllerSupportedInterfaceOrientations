@@ -1,0 +1,4 @@
+#name : tabBarControllerSupportedInterfaceOrientations
+#group : UITabBarController
+# --
+tabBarControllerSupportedInterfaceOrientations:${1:(UITabBarController *)tabBarController}

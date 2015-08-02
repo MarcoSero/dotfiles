@@ -1,0 +1,4 @@
+#name : initWithLowerAngleLimit:upperAngleLimit
+#group : SKReachConstraints
+# --
+initWithLowerAngleLimit:${1:(CGFloat)lowerAngleLimit} upperAngleLimit:${2:(CGFloat)upperAngleLimit}

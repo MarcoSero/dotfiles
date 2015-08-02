@@ -1,0 +1,4 @@
+#name : setWhiteBalanceModeLockedWithDeviceWhiteBalanceGains
+#group : AVCaptureDevice
+# --
+setWhiteBalanceModeLockedWithDeviceWhiteBalanceGains:${1:(AVCaptureWhiteBalanceGains)whiteBalanceGains}

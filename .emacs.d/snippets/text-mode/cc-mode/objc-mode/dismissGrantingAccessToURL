@@ -1,0 +1,4 @@
+#name : dismissGrantingAccessToURL
+#group : UIDocumentPickerExtensionViewController
+# --
+dismissGrantingAccessToURL:${1:(NSURL *)url}

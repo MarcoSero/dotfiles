@@ -1,0 +1,4 @@
+#name : registerNib:forCellWithReuseIdentifier
+#group : UICollectionView
+# --
+registerNib:${1:(UINib *)nib} forCellWithReuseIdentifier:${2:(NSString *)identifier}

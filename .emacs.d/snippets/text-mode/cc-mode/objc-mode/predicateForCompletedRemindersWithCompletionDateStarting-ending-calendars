@@ -1,0 +1,4 @@
+#name : predicateForCompletedRemindersWithCompletionDateStarting:ending:calendars
+#group : EKEventStore
+# --
+predicateForCompletedRemindersWithCompletionDateStarting:${1:(NSDate *)startDate} ending:${2:(NSDate *)endDate} calendars:${3:(NSArray *)calendars}

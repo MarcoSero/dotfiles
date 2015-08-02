@@ -1,0 +1,4 @@
+#name : newLibraryWithSource:options
+#group : MTLDevice
+# --
+newLibraryWithSource:${1:(NSString *)source} options:${2:(MTLCompileOptions *)options}

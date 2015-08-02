@@ -1,0 +1,4 @@
+#name : setRequiresSecureCoding
+#group : NSKeyedArchiver
+# --
+setRequiresSecureCoding:${1:(BOOL)b}
