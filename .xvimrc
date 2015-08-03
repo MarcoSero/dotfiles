@@ -4,6 +4,8 @@
 
 nmap :q :xccmd<Space>closeDocument
 
+set blinkcursor
+
 " Comments
 nnoremap gcc :xccmd commentAndUncommentCurrentLines<CR>
 
@@ -23,8 +25,6 @@ set hlsearch
 
 " stop highlighting search result
 nnoremap <CR> :nohlsearch<cr>
-
-nnoremap <Space>4 /~<CR>
 
 " Setup the number line
 set number
@@ -86,3 +86,6 @@ xnoremap p pgvy
 nmap <space>D :xccmd showDeveloperDocumentation<CR>
 nmap <space>d :xcmenucmd Quick Help for Selected Item<CR>
 
+" Highlight balance delimiters
+" nmap vv :xcmenucmd Balance Delimiter<CR>
+nmap vv :xccmd balance<CR>
