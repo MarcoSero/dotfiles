@@ -17,6 +17,7 @@ vim-airline
 vim-carthage
 vim-commentary
 vim-expand-region
+vim-fugitive
 vim-git
 vim-markdown
 vim-nerdtree-tabs

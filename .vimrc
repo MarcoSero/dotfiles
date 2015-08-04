@@ -87,6 +87,8 @@ NeoBundle 'keith/swift.vim'
 
 NeoBundle 'cfdrake/vim-carthage'
 
+NeoBundle 'tpope/vim-fugitive'
+
 " Required:
 call neobundle#end()
 
