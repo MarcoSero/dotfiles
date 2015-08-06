@@ -88,6 +88,7 @@ NeoBundle 'keith/swift.vim'
 NeoBundle 'cfdrake/vim-carthage'
 
 NeoBundle 'tpope/vim-fugitive'
+set diffopt+=vertical
 
 " Required:
 call neobundle#end()
