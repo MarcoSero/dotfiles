@@ -7,65 +7,69 @@
 	excludesfile = /Users/Marco/.gitignore_global
     # editor = mvim -f --nomru -c \"au VimLeave * !open -a iTerm\"
     editor = vim
-
-[difftool "Kaleidoscope"]
-  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-
-# If you want to set up Kaleidoscope as the default diff tool,
-# then also set the following variables:
+	pager = less -F -X
+[pager]
+    difftool = true
 [difftool]
 	prompt = false
 [diff]
-	tool = fugitive
-
+    tool = icdiff
+    #tool = fugitive
+    #tool = mvimdiff
+[difftool "Kaleidoscope"]
+    cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+[difftool "mvimdiff"]
+    cmd = "~/.bin/mvimgitdiff.sh " $LOCAL $REMOTE
+[difftool "icdiff"]
+    cmd = icdiff $LOCAL $REMOTE --no-bold
 [mergetool]
 	prompt = false
-
+    keepbackup=false
 [merge]
-	tool = fugitive
-	conflictstyle = diff3
-
+    tool = fugitive
+    #tool = mvimdiff
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-
+[mergetool "mvimdiff"]
+      # cmd="/Applications/MacVim.app/Contents/MacOS/Vim -g -f '+windo set diff scrollbind scrollopt+=hor nowrap' -c 'Gdiff' $MERGED -c 'au VimLeave * !open -a iTerm'"
+      cmd="mvim -c 'Gdiff' $MERGED"     # use fugitive.vim for 3-way merge
+[mergetool "fugitive"]
+	cmd = vim -f -c \"Gdiff\" \"$MERGED\"
 [mergetool "Kaleidoscope"]
-  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
-
+    cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
 [heroku]
 	account = personal
 [push]
 	default = simple
-
 [alias]
+    # cleanup merged branches
 	cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+    # cleanup merged remote branches
     cleanupr = "!git fetch --prune ; git branch -r --merged | grep origin | grep -v '>' | grep  -v '\\*\\|master\\|develop' | xargs -L1 | cut -d"/" -f2- | xargs git push origin --delete"
     cleanupr2 = "!git branch -r --merged | awk -F'/' '/^ *origin/{if(!match($0, /(>|master)/)){print $2}}' | xargs git push origin --delete"
 	cleanf = clean -d -x -f
-    sidediff = icdiff --no-bold
+    # Yammer-specific
     update-shared = !git add Shared && git commit -m 'Update Shared submodule'
-    ps = "!f(){ git push --recurse-submodules=check && curl http://clients.int.yammer.com:8080/git/notifyCommit?url=$(git config --get remote.origin.url);  }; f"
-    pl = "!f(){ git pull --ff-only "$@" && git submodule update --init --recursive && [ -f Podfile.lock  ] && pod install;  }; f"
-    
-    # Fancy logging.
-    #   h = head
-    #   hp = head with patch
-    #   r = recent commits, only current branch
-    #   ra = recent commits, all reachable refs
-    #   l = all commits, only current branch
-    #   la = all commits, all reachable refs
+    # h = head
     head = !git r -1
     h = !git head
+    # hp = head with patch
     hp = "!. ~/.githelpers && show_git_head"
+    # r = recent commits, only current branch
     r = !GIT_NO_PAGER=1 git l -30
+    # ra = recent commits, all reachable refs
     ra = !git r --all
+    # l = all commits, only current branch
     l = "!. ~/.githelpers && pretty_git_log"
+    # la = all commits, all reachable refs
     la = !git l --all
 	lg1 = log --graph --oneline --all
 	lg2 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 	lg3 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
 	lg = !"git lg2"
-
     ds = diff --staged
     st = status -sb
     amend = commit --amend -C HEAD
@@ -73,7 +77,7 @@
     ls = log --pretty=format:"%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]" --decorate --date=short
     standup = log --since '1 day ago' --oneline --author marco@marcosero.com
     graph = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
-
+    dt = difftool
 [Color]
   	diff = auto
   	status = auto
@@ -84,19 +88,13 @@
   	untracked = red
 [help]
 	autocorrect = -1
-
 [filter "media"]
 	required = true
 	clean = git media clean %f
 	smudge = git media smudge %f
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
-[mergetool "fugitive"]
-	cmd = vim -f -c \"Gdiff\" \"$MERGED\"
-[difftool "fugitive"]
-	cmd = vim -f -c \"Gdiff\" \"$MERGED\"
+
