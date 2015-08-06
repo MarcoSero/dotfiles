@@ -14,23 +14,23 @@
 # If you want to set up Kaleidoscope as the default diff tool,
 # then also set the following variables:
 [difftool]
-  prompt = false
+	prompt = false
 [diff]
-  tool = Kaleidoscope
+	tool = fugitive
 
-[mergetool "Kaleidoscope"]
-  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
-
-# If you want to set up Kaleidoscope as the default merge tool,
-# then also set the following variables:
 [mergetool]
-  prompt = false
+	prompt = false
+
 [merge]
-  tool = Kaleidoscope
+	tool = fugitive
+	conflictstyle = diff3
 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+
+[mergetool "Kaleidoscope"]
+  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
 
 [heroku]
 	account = personal
@@ -96,3 +96,7 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+[mergetool "fugitive"]
+	cmd = vim -f -c \"Gdiff\" \"$MERGED\"
+[difftool "fugitive"]
+	cmd = vim -f -c \"Gdiff\" \"$MERGED\"
