@@ -37,7 +37,7 @@ set clipboard=unnamed
 set gdefault
 
 " noremap <space>b to toggle a breakpoint at the current line
-nnoremap ,b :xccmd toggleBreakpointAtCurrentLine<CR>
+nnoremap <space>b :xccmd toggleBreakpointAtCurrentLine<CR>
 
 " Better navigation
 nnoremap H ^
@@ -89,3 +89,10 @@ nmap <space>d :xcmenucmd Quick Help for Selected Item<CR>
 " Highlight balance delimiters
 " nmap vv :xcmenucmd Balance Delimiter<CR>
 nmap vv :xccmd balance<CR>
+
+" Debugging
+nmap <space>c :xccmd pauseOrContinue<CR>
+nmap <space>o :xccmd stepOver<CR>
+nmap <space>in :xccmd stepInto<CR>
+nmap <space>out :xccmd stepOut<CR>
+
