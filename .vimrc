@@ -50,7 +50,6 @@ NeoBundle 'eagletmt/ghcmod-vim'
 
 NeoBundle 'eagletmt/neco-ghc'
 
-"NeoBundle 'scrooloose/nerdcommenter'
 NeoBundle 'tpope/vim-commentary'
 
 NeoBundle 'jistr/vim-nerdtree-tabs'
@@ -90,6 +89,13 @@ NeoBundle 'cfdrake/vim-carthage'
 NeoBundle 'tpope/vim-fugitive'
 set diffopt+=vertical
 
+NeoBundle 'majutsushi/tagbar'
+
+NeoBundle 'rizzatti/dash.vim'
+
+" Make vim understand readline
+NeoBundle 'tpope/vim-rsi'
+
 " Required:
 call neobundle#end()
 
@@ -99,13 +105,6 @@ filetype plugin indent on
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
 NeoBundleCheck
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Leader
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-let mapleader = "\<Space>"
-let maplocalleader = ","
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -175,6 +174,39 @@ set shiftwidth=4
 "Round indent to nearest shiftwidth multiple
 set shiftround
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Leader
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let mapleader = "\<Space>"
+let maplocalleader = ","
+
+" stop highlighting search result
+nnoremap <Leader>c :nohlsearch<cr>
+
+" toogle nerd tree visibility
+nnoremap <Leader>e :NERDTreeToggle<CR>
+
+map <leader>tt :TagbarToggle<CR>
+
+" open file
+nnoremap <Leader>o :CtrlP<CR>
+nnoremap <leader>. :CtrlPTag<cr>
+
+" save file
+nnoremap <Leader>s :w<CR>
+
+" copy and paste to system clipboard
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>p "+p
+vmap <Leader>P "+P
+
+" visual line mode
+nmap <Leader><Leader> V
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Search
@@ -190,33 +222,6 @@ set smarttab
 set hlsearch
 " show search matches as you type
 set incsearch
-" stop highlighting search result
-nnoremap <CR> :nohlsearch<cr>
-
-"=====[ Highlight matches when jumping to next ]=============
-
-" This rewires n and N to do the highlighing...
-nnoremap <silent> n   n:call HLNext(0.4)<cr>
-nnoremap <silent> N   N:call HLNext(0.4)<cr>
-
-" ring the match in red...
-function! HLNext (blinktime)
-    highlight RedOnRed ctermfg=red ctermbg=red
-    let [bufnum, lnum, col, off] = getpos('.')
-    let matchlen = strlen(matchstr(strpart(getline('.'),col-1),@/))
-    echo matchlen
-    let ring_pat = (lnum > 1 ? '\%'.(lnum-1).'l\%>'.max([col-4,1]) .'v\%<'.(col+matchlen+3).'v.\|' : '')
-            \ . '\%'.lnum.'l\%>'.max([col-4,1]) .'v\%<'.col.'v.'
-            \ . '\|'
-            \ . '\%'.lnum.'l\%>'.max([col+matchlen-1,1]) .'v\%<'.(col+matchlen+3).'v.'
-            \ . '\|'
-            \ . '\%'.(lnum+1).'l\%>'.max([col-4,1]) .'v\%<'.(col+matchlen+3).'v.'
-    let ring = matchadd('RedOnRed', ring_pat, 101)
-    redraw
-    exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
-    call matchdelete(ring)
-    redraw
-endfunction
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Bindings
@@ -225,6 +230,24 @@ endfunction
 " map j to gj and k to gk, so line navigation ignores line wrap
 nmap j gj
 nmap k gk
+
+" Easily exit insert mode
+" Can be typed even faster than jj.
+:imap jk <Esc>
+
+" If want to avoid jk in certain languages can use:
+" (and to make it where order doesn't matter, the second mapping also)
+:imap jw <Esc>
+:imap wj <Esc>
+
+" Press i to enter insert mode, and ii to exit.
+:imap ii <Esc>
+
+" Pressing Ctrl-L leaves insert mode in evim, so why not in regular vim, too.
+:imap <C-L> <Esc>
+
+" Two semicolons are easy to type.
+:imap ;; <Esc>
 
 " do not lose register when pasting over a word
 xnoremap p pgvy
@@ -251,10 +274,40 @@ vmap <expr> D DVB_Duplicate()
 " disable macro
 nnoremap Q <nop>
 
+" stop macro window
+map q: :q
+
+" region expanding
+vmap v <Plug>(expand_region_expand)
+vmap <C-v> <Plug>(expand_region_shrink)
+
+" Make computers make sense
+nnoremap Y y$
+
+"reselect visual block after indent
+vnoremap < <gv
+vnoremap > >gv
+
+" auto center
+nnoremap n nzz
+nnoremap N Nzz
+
+" quickly select text you just pasted
+noremap gV `[v`]
+
+" Type 12<Enter> to go to line 12 (12G breaks my wrist)
+" Hit Enter to go to end of file.
+" Hit Backspace to go to beginning of file.
+nnoremap <CR> G
+nnoremap <BS> gg
+
 " don't move the cursor back 1 position when exiting insert mode
 autocmd InsertEnter * let CursorColumnI = col('.')
 autocmd CursorMovedI * let CursorColumnI = col('.')
 autocmd InsertLeave * if col('.') != CursorColumnI | call cursor(0, col('.')+1) | endif
+
+command! Q q " Bind :Q to :q
+command! Qall qall
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors and appearance
@@ -317,9 +370,6 @@ filetype plugin indent on
 " This lets you use w!! to do that after you opened the file already
 cmap w!! w !sudo tee % >/dev/null
 
-" toogle nerd tree visibility
-nnoremap <Leader>e :NERDTreeToggle<CR>
-
 " Configure browser for haskell_doc.vim
 let g:haddock_browser = "open"
 let g:haddock_browser_callformat = "%s %s"
@@ -359,64 +409,6 @@ let g:ycm_filetype_blacklist = {
       \ 'objc' : 1
       \}
 
-" Tags {{{
-
-set tags=tags;/,codex.tags;/
-
-let g:tagbar_type_haskell = {
-    \ 'ctagsbin'  : 'hasktags',
-    \ 'ctagsargs' : '-x -c -o-',
-    \ 'kinds'     : [
-        \  'm:modules:0:1',
-        \  'd:data: 0:1',
-        \  'd_gadt: data gadt:0:1',
-        \  't:type names:0:1',
-        \  'nt:new types:0:1',
-        \  'c:classes:0:1',
-        \  'cons:constructors:1:1',
-        \  'c_gadt:constructor gadt:1:1',
-        \  'c_a:constructor accessors:1:1',
-        \  'ft:function types:1:1',
-        \  'fi:function implementations:0:1',
-        \  'o:others:0:1'
-    \ ],
-    \ 'sro'        : '.',
-    \ 'kind2scope' : {
-        \ 'm' : 'module',
-        \ 'c' : 'class',
-        \ 'd' : 'data',
-        \ 't' : 'type'
-    \ },
-    \ 'scope2kind' : {
-        \ 'module' : 'm',
-        \ 'class'  : 'c',
-        \ 'data'   : 'd',
-        \ 'type'   : 't'
-    \ }
-\ }
-
-" Generate haskell tags with codex and hscope
-map <leader>tg :!codex update --force<CR>:call system("git hscope -X TemplateHaskell")<CR><CR>:call LoadHscope()<CR>
-
-map <leader>tt :TagbarToggle<CR>
-
-set csprg=~/.haskell-vim-now/bin/hscope
-set csto=1 " search codex tags first
-set cst
-set csverb
-nnoremap <silent> <C-\> :cs find c <C-R>=expand("<cword>")<CR><CR>
-
-" Automatically make cscope connections
-function! LoadHscope()
-  let db = findfile("hscope.out", ".;")
-  if (!empty(db))
-    let path = strpart(db, 0, match(db, "/hscope.out$"))
-    set nocscopeverbose " suppress 'duplicate connection' error
-    exe "cs add " . db . " " . path
-    set cscopeverbose
-  endif
-endfunction
-au BufEnter /*.hs call LoadHscope()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ctrlPVimRc
@@ -571,49 +563,4 @@ autocmd BufRead,BufNewFile *.md setlocal spell
 
 " words completion if spelling is enabled
 set complete+=kspell
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Most Used Actions
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" open file
-nnoremap <Leader>o :CtrlP<CR>
-nnoremap <leader>. :CtrlPTag<cr>
-
-" save file
-nnoremap <Leader>w :w<CR>
-
-" copy and paste to system clipboard
-vmap <Leader>y "+y
-vmap <Leader>d "+d
-nmap <Leader>p "+p
-nmap <Leader>P "+P
-vmap <Leader>p "+p
-vmap <Leader>P "+P
-
-" visual line mode
-nmap <Leader><Leader> V
-
-" region expanding
-vmap v <Plug>(expand_region_expand)
-vmap <C-v> <Plug>(expand_region_shrink)
-
-" Search and replace
-vnoremap <silent> s //e<C-r>=&selection=='exclusive'?'+1':''<CR><CR>
-    \:<C-u>call histdel('search',-1)<Bar>let @/=histget('search',-1)<CR>gv
-omap s :normal vs<CR>
-
-" stop macro window
-map q: :q
-
-nnoremap Y y$
-
-"reselect visual block after indent
-vnoremap < <gv
-vnoremap > >gv
-
-" auto center
-nnoremap n nzz
-nnoremap N Nzz
-
 

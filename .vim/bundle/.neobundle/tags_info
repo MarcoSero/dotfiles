@@ -5,6 +5,7 @@ YouCompleteMe
 auto-pairs
 base16-vim
 ctrlp.vim
+dash.vim
 editorconfig-vim
 ghcmod-vim
 neco-ghc
@@ -13,6 +14,7 @@ nerdtree
 swift.vim
 syntastic
 tabular
+tagbar
 vim-airline
 vim-carthage
 vim-commentary
@@ -21,6 +23,7 @@ vim-fugitive
 vim-git
 vim-markdown
 vim-nerdtree-tabs
+vim-rsi
 vim-surround
 vim2hs
 vimproc.vim
