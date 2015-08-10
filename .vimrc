@@ -96,6 +96,17 @@ NeoBundle 'rizzatti/dash.vim'
 " Make vim understand readline
 NeoBundle 'tpope/vim-rsi'
 
+NeoBundle 'vitalk/vim-simple-todo'
+let g:simple_todo_map_keys = 0
+nmap <silent><LocalLeader>i <Plug>(simple-todo-new)
+nmap <silent><LocalLeader>I <Plug>(simple-todo-new-start-of-line)
+nmap <silent><LocalLeader>o <Plug>(simple-todo-below)
+nmap <silent><LocalLeader>O <Plug>(simple-todo-above)
+nmap <silent><LocalLeader>x <Plug>(simple-todo-mark-as-done)
+vmap <silent><LocalLeader>x <Plug>(simple-todo-mark-as-done)
+nmap <silent><LocalLeader>X <Plug>(simple-todo-mark-as-undone)
+vmap <silent><LocalLeader>X <Plug>(simple-todo-mark-as-undone)
+
 " Required:
 call neobundle#end()
 
