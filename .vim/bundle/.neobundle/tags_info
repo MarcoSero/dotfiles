@@ -24,6 +24,7 @@ vim-git
 vim-markdown
 vim-nerdtree-tabs
 vim-rsi
+vim-simple-todo
 vim-surround
 vim2hs
 vimproc.vim

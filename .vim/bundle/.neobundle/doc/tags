@@ -219,6 +219,12 @@
 :YcmForceCompileAndDiagnostics	youcompleteme.txt	/*:YcmForceCompileAndDiagnostics*
 :YcmRestartServer	youcompleteme.txt	/*:YcmRestartServer*
 :YcmShowDetailedDiagnostic	youcompleteme.txt	/*:YcmShowDetailedDiagnostic*
+<Plug>(simple-todo-above)	simple-todo.txt	/*<Plug>(simple-todo-above)*
+<Plug>(simple-todo-below)	simple-todo.txt	/*<Plug>(simple-todo-below)*
+<Plug>(simple-todo-mark-as-done)	simple-todo.txt	/*<Plug>(simple-todo-mark-as-done)*
+<Plug>(simple-todo-mark-as-undone)	simple-todo.txt	/*<Plug>(simple-todo-mark-as-undone)*
+<Plug>(simple-todo-new)	simple-todo.txt	/*<Plug>(simple-todo-new)*
+<Plug>(simple-todo-new-start-of-line)	simple-todo.txt	/*<Plug>(simple-todo-new-start-of-line)*
 CTRL-sub-U	youcompleteme.txt	/*CTRL-sub-U*
 ClearAllCtrlPCaches	ctrlp.txt	/*ClearAllCtrlPCaches*
 ClearCompilationFlagCache	youcompleteme.txt	/*ClearCompilationFlagCache*
@@ -710,6 +716,11 @@ rsi-META-p	rsi.txt	/*rsi-META-p*
 rsi-about	rsi.txt	/*rsi-about*
 rsi-maps	rsi.txt	/*rsi-maps*
 rsi.txt	rsi.txt	/*rsi.txt*
+simple-todo	simple-todo.txt	/*simple-todo*
+simple-todo-contrib	simple-todo.txt	/*simple-todo-contrib*
+simple-todo-into	simple-todo.txt	/*simple-todo-into*
+simple-todo-maps	simple-todo.txt	/*simple-todo-maps*
+simple-todo.txt	simple-todo.txt	/*simple-todo.txt*
 surround	surround.txt	/*surround*
 surround-customizing	surround.txt	/*surround-customizing*
 surround-issues	surround.txt	/*surround-issues*
