@@ -242,20 +242,20 @@ set incsearch
 nmap j gj
 nmap k gk
 
-" Easily exit insert mode
-" Can be typed even faster than jj.
-:imap jk <Esc>
+" " Easily exit insert mode
+" " Can be typed even faster than jj.
+" :imap jk <Esc>
 
-" If want to avoid jk in certain languages can use:
-" (and to make it where order doesn't matter, the second mapping also)
-:imap jw <Esc>
-:imap wj <Esc>
+" " If want to avoid jk in certain languages can use:
+" " (and to make it where order doesn't matter, the second mapping also)
+" :imap jw <Esc>
+" :imap wj <Esc>
 
-" Press i to enter insert mode, and ii to exit.
-:imap ii <Esc>
+" " Press i to enter insert mode, and ii to exit.
+" :imap ii <Esc>
 
-" Pressing Ctrl-L leaves insert mode in evim, so why not in regular vim, too.
-:imap <C-L> <Esc>
+" " Pressing Ctrl-L leaves insert mode in evim, so why not in regular vim, too.
+" :imap <C-L> <Esc>
 
 " Two semicolons are easy to type.
 :imap ;; <Esc>
