@@ -28,8 +28,8 @@
 	prompt = false
     keepbackup=false
 [merge]
-    tool = fugitive
-    #tool = mvimdiff
+    tool = mvimdiff
+    #tool = fugitive
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
