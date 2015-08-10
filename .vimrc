@@ -192,8 +192,8 @@ set shiftround
 let mapleader = "\<Space>"
 let maplocalleader = ","
 
-" stop highlighting search result
-nnoremap <Leader>c :nohlsearch<cr>
+" stop highlighting search result keeping Esc behavior
+nnoremap <Esc> :noh<CR><Esc>
 
 " toogle nerd tree visibility
 nnoremap <Leader>e :NERDTreeToggle<CR>
