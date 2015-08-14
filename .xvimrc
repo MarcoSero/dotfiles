@@ -7,13 +7,12 @@ nmap :q :xccmd<Space>closeDocument
 set blinkcursor
 
 " Comments
-nnoremap gcc :xccmd commentAndUncommentCurrentLines<CR>
+nmap gcc :xccmd commentAndUncommentCurrentLines<CR>
+vmap gc :xccmd commentAndUncommentCurrentLines<CR>
 
 " Emulate CTRL-P
-noremap <C-p> :xccmd openQuickly<CR>
-nnoremap <Space>o :xccmd openQuickly<CR>
+nmap <Space>o :xccmd openQuickly<CR>
 
-i kk <Esc>
 set incsearch
 
 " Case-insensitive searching.
@@ -25,6 +24,9 @@ set hlsearch
 
 " stop highlighting search result keeping Esc behavior
 nnoremap <Esc> :noh<CR><Esc>
+
+" save when esc
+ino <Esc> <Esc>:xcmenucmd Save<CR>
 
 " Setup the number line
 set number
@@ -87,7 +89,6 @@ xnoremap p pgvy
 " Hit Backspace to go to beginning of file.
 nnoremap <CR> G
 nnoremap <BS> gg
-
 
 " Documentation
 nmap <space>D :xccmd showDeveloperDocumentation<CR>
