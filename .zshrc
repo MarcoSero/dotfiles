@@ -50,4 +50,4 @@ bindkey -v
 export KEYTIMEOUT=1
 
 # Print TODOs
-cat ~/todo.txt
+cat ~/Dropbox/todo.txt
