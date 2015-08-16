@@ -1,5 +1,11 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
+export DOTFILES=$HOME/Dropbox/Mackup
+
+export EDITOR='vim'
+
+# reload zsh config
+alias reload!='source ~/.zshrc'
 
 ZSH_THEME="agnoster"
 DEFAULT_USER="marco"
@@ -49,5 +55,20 @@ bindkey '^Z' fancy-ctrl-z
 bindkey -v
 export KEYTIMEOUT=1
 
-# Print TODOs
-cat ~/Dropbox/todo.txt
+# Colors
+function light() {
+    export BACKGROUND="light" && reload!
+}
+
+function dark() {
+    export BACKGROUND="dark" && reload!
+}
+
+export THEME="base16-ocean"
+if [ -z "$BACKGROUND" ]; then
+    export BACKGROUND="dark"
+fi
+BASE16_SHELL="$DOTFILES/.config/base16-shell/$THEME.$BACKGROUND.sh"
+# [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+source $BASE16_SHELL
+

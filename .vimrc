@@ -1,23 +1,19 @@
 if has('vim_starting')
   if &compatible
-    set nocompatible               " Be iMproved
+    set nocompatible
   endif
-
-  " Required:
   set runtimepath+=/Users/marco/.vim/bundle/neobundle.vim/
 endif
 
-" Required:
 call neobundle#begin(expand('/Users/marco/.vim/bundle'))
 
 " Let NeoBundle manage NeoBundle
-" Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-" YouCompleteMe can take a while to installlet
+" YouCompleteMe can take a while to install
 let g:neobundle#install_process_timeout = 1500
 
-" Add or remove your Bundles here:
+" Bundles
 
 NeoBundle 'Valloric/YouCompleteMe', {
 \ 'build'      : {
@@ -96,27 +92,17 @@ NeoBundle 'rizzatti/dash.vim'
 " Make vim understand readline
 NeoBundle 'tpope/vim-rsi'
 
-NeoBundle 'vitalk/vim-simple-todo'
-let g:simple_todo_map_keys = 0
-nmap <silent><LocalLeader>i <Plug>(simple-todo-new)
-nmap <silent><LocalLeader>I <Plug>(simple-todo-new-start-of-line)
-nmap <silent><LocalLeader>o <Plug>(simple-todo-below)
-nmap <silent><LocalLeader>O <Plug>(simple-todo-above)
-nmap <silent><LocalLeader>x <Plug>(simple-todo-mark-as-done)
-vmap <silent><LocalLeader>x <Plug>(simple-todo-mark-as-done)
-nmap <silent><LocalLeader>X <Plug>(simple-todo-mark-as-undone)
-vmap <silent><LocalLeader>X <Plug>(simple-todo-mark-as-undone)
+NeoBundle 'christoomey/vim-tmux-navigator'
 
-" Required:
+NeoBundle 'sjl/vitality.vim'
+
 call neobundle#end()
 
-" Required:
 filetype plugin indent on
 
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
 NeoBundleCheck
-
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sanity Mode
@@ -193,7 +179,7 @@ let mapleader = "\<Space>"
 let maplocalleader = ","
 
 " stop highlighting search result keeping Esc behavior
-nnoremap <Esc> :noh<CR><Esc>
+nnoremap <CR> :noh<CR>
 
 " toogle nerd tree visibility
 nnoremap <Leader>e :NERDTreeToggle<CR>
@@ -291,8 +277,8 @@ noremap gV `[v`]
 " Type 12<Enter> to go to line 12 (12G breaks my wrist)
 " Hit Enter to go to end of file.
 " Hit Backspace to go to beginning of file.
-nnoremap <CR> G
-nnoremap <BS> gg
+" nnoremap <CR> G
+" nnoremap <BS> gg
 
 " don't move the cursor back 1 position when exiting insert mode
 autocmd InsertEnter * let CursorColumnI = col('.')
@@ -318,14 +304,15 @@ highlight ColorColumn ctermbg=6
 au FileType gitcommit set colorcolumn=50
 
 " color scheme
-"colorscheme base16-ocean
-colorscheme spacegray
-set background=dark
+let base16colorspace=256
+execute "set background=".$BACKGROUND
+execute "colorscheme ".$THEME
 
 if has('gui_running')
     "set guifont=Inconsolata\ for\ Powerline:h15
+    colorscheme spacegray
+    set background=dark
     set guifont=Source\ Code\ Pro\ for\ Powerline:h13
-    
     set guioptions-=r "remove scrollbars
     set guioptions-=R "remove scrollbars
     set guioptions-=l "remove scrollbars
