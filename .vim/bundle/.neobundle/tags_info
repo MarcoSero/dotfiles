@@ -2,6 +2,7 @@ MacVimSmartGUITabs
 VimAutoMakeDirectory
 VimCleanColors
 YouCompleteMe
+ack.vim
 auto-pairs
 base16-vim
 ctrlp.vim
