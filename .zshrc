@@ -7,7 +7,7 @@ export EDITOR='vim'
 # reload zsh config
 alias reload!='source ~/.zshrc'
 
-ZSH_THEME="agnoster"
+ZSH_THEME="avit"
 DEFAULT_USER="marco"
 
 plugins=(git zsh-syntax-highlighting vi-mode)
