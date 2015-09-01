@@ -51,6 +51,8 @@ fancy-ctrl-z () {
 zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
 
+function clip { [ -t 0  ] && pbpaste || pbcopy  }
+
 # Use vi-mode
 bindkey -v
 export KEYTIMEOUT=1
@@ -71,4 +73,7 @@ fi
 BASE16_SHELL="$DOTFILES/.config/base16-shell/$THEME.$BACKGROUND.sh"
 # [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 source $BASE16_SHELL
+
+# Setup cdpath
+cdpath=(~/Dropbox ~/Dropbox/Dev/iOS ~/Yammer ~/Dropbox/WorkSeeking/Technical\ Prep)
 
