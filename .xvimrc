@@ -1,6 +1,6 @@
-
-" use ; for ;w ;wq - much easier 
-" nnoremap ; :
+" avoid shift key to enter command mode
+map ; :
+noremap ;; ;
 
 nmap :q :xccmd<Space>closeDocument
 
