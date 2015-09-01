@@ -185,9 +185,6 @@ set shiftround
 let mapleader = "\<Space>"
 let maplocalleader = ","
 
-" stop highlighting search result keeping Esc behavior
-nnoremap <CR> :noh<CR>
-
 " toogle nerd tree visibility
 nnoremap <Leader>e :NERDTreeToggle<CR>
 
@@ -231,6 +228,10 @@ set incsearch
 " Bindings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" avoid shift key to enter command mode
+map ; :
+noremap ;; ;
+
 " map j to gj and k to gk, so line navigation ignores line wrap
 nmap j gj
 nmap k gk
@@ -262,6 +263,9 @@ nnoremap Q <nop>
 
 " stop macro window
 map q: :q
+
+" stop highlighting search result keeping Esc behavior
+nnoremap <CR> :noh<CR>
 
 " region expanding
 vmap v <Plug>(expand_region_expand)
