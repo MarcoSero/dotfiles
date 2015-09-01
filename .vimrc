@@ -571,3 +571,8 @@ autocmd BufRead,BufNewFile *.md setlocal spell
 " words completion if spelling is enabled
 set complete+=kspell
 
+
+" quick compile and run
+autocmd FileType c map <Leader>r :w <CR> :!gcc % -o %< && ./%< <CR>
+autocmd FileType cpp map <Leader>r :w <CR> :!clang++ -stdlib=libc++ % -o %< && ./%< <CR>
+autocmd FileType objc map <Leader>r :w <CR> :!clang % -fobjc-arc -framework Foundation -o %< && ./%< <CR>
