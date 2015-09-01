@@ -64,6 +64,8 @@ NeoBundle 'tpope/vim-markdown'
 
 NeoBundle 'tpope/vim-surround'
 
+NeoBundle 'tpope/vim-unimpaired'
+
 NeoBundle 'dag/vim2hs'
 
 NeoBundle 'jordwalke/VimAutoMakeDirectory'
