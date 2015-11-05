@@ -1,221 +1,194 @@
-
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "https://marmalade-repo.org/packages/")
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
 
 (package-initialize)
 
-;; (add-to-list 'default-frame-alist '(font . "Inconsolata-g-13" ))
-;; (set-face-attribute 'default t :font "Inconsolata-g-13")
-(set-frame-font "Inconsolata-15" nil)
+(let ((default-directory "~/.emacs.d/lisp/"))
+  (normal-top-level-add-subdirs-to-load-path))
+(let ((default-directory "/usr/local/share/emacs/site-lisp/"))
+  (normal-top-level-add-subdirs-to-load-path))
 
-
-(load-theme 'base16-ocean t)
-
-(set-face-background 'mode-line "#b48ead")
-(set-face-background 'mode-line-inactive "#a7adba")
-(set-face-foreground 'mode-line "#2b303b")
-(set-face-foreground 'mode-line-inactive "#2b303b")
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Essentials
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
 
+(setq scroll-step 1)
 (setq inhibit-splash-screen t)
 (setq inhibit-startup-message t)
-(tool-bar-mode -1)
 (scroll-bar-mode -1)
 (global-linum-mode t)
-
+(setq backup-directory-alist `(("." . "~/.Trash")))
 (setq frame-title-format "%b")
-
-(setq visible-bell t)
-
+(setq ring-bell-function 'ignore)
 (desktop-save-mode 1)
-
 (defalias 'yes-or-no-p 'y-or-n-p)
-
-(when (memq window-system '(mac ns))
-  (exec-path-from-shell-initialize))
-
-;; Keybonds
-
-(setq mac-command-modifier 'meta)
-(global-set-key (kbd "M-`") 'other-frame)
-
-;; (global-set-key [(meta a)] 'mark-whole-buffer)
-;; (global-set-key [(meta v)] 'yank)
-;; (global-set-key [(meta c)] 'kill-ring-save)
-;; (global-set-key [(meta s)] 'save-buffer)
-;; (global-set-key [(meta l)] 'goto-line)
-;; (global-set-key [(meta w)] 'delete-window)
-;; (global-set-key [(meta z)] 'undo)
-;; (global-set-key [(meta q)] 'save-buffers-kill-terminal)
-
-(autoload 'markdown-mode "markdown-mode"
-   "Major mode for editing Markdown files" t)
-(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
-
-(ido-mode 1)
-(setq ido-enable-flex-matching t)
-(setq ido-everywhere t)
-(show-paren-mode 1)
-(column-number-mode 1)
 (line-number-mode 1)
-(size-indication-mode 1)
 (transient-mark-mode 1)
 (delete-selection-mode 1)
-(setq tab-width 2)
-(setq scroll-step 1)
 (setq-default cursor-type 'bar) 
 
-(fset 'yes-or-no-p 'y-or-n-p)
+(require 'whitespace)
+(setq whitespace-line-column 100)
+(setq whitespace-style '(face lines-tail))
 
-(setq require-final-new)
+(add-hook 'prog-mode-hook 'whitespace-mode)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; evil
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Font and style
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; (load-theme 'spacegray t)
+; (load-theme 'base16-ocean t)
+; (load-theme 'aurora t)
+(load-theme 'atom-one-dark t)
 
-;; (require 'evil)
-;; (evil-mode 1)
+(custom-set-faces
+ '(default ((t (:family "Source Code Pro for Powerline" :foundry "nil" :slant normal :weight normal :height 130 :width normal))))
+ '(mode-line ((t (:foreground "#2B303B" :background "#B48EAD" :box nil))))
+ '(mode-line-inactive ((t (:foreground "#2B303B" :background "#A7ADBA" :box nil)))))
 
-;; (blink-cursor-mode 0)
+(custom-set-variables
+ '(blink-cursor-mode nil)
+ '(column-number-mode t)
+ '(display-time-mode t)
+ '(show-paren-mode t)
+ '(size-indication-mode t)
+ '(tool-bar-mode nil))
 
-;; (setq evil-emacs-state-cursor '("red" box))
-;; (setq evil-normal-state-cursor '("red" box))
-;; (setq evil-visual-state-cursor '("orange" box))
-;; (setq evil-insert-state-cursor '("green" bar))
-;; (setq evil-replace-state-cursor '("green" bar))
-;; (setq evil-operator-state-cursor '("green" hollow))
+; Show line numbers, dynamically with spaces on either side:
+(global-linum-mode 1)
+(defadvice linum-update-window (around linum-dynamic activate)
+  (let* ((w (length (number-to-string
+                     (count-lines (point-min) (point-max)))))
+         (linum-format (concat " %" (number-to-string w) "d ")))
+    ad-do-it))
 
-;; (define-key evil-normal-state-map [escape] 'keyboard-quit)
-;; (define-key evil-visual-state-map [escape] 'keyboard-quit)
-;; (define-key minibuffer-local-map [escape] 'minibuffer-keyboard-quit)
-;; (define-key minibuffer-local-ns-map [escape] 'minibuffer-keyboard-quit)
-;; (define-key minibuffer-local-completion-map [escape] 'minibuffer-keyboard-quit)
-;; (define-key minibuffer-local-must-match-map [escape] 'minibuffer-keyboard-quit)
-;; (define-key minibuffer-local-isearch-map [escape] 'minibuffer-keyboard-quit)
+; Highlight the current line number (requires hlinum):
+(require 'hlinum)
+(hlinum-activate)
 
-;; (define-key evil-motion-state-map ";" 'evil-ex)
-;; (setq evil-move-cursor-back nil)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Powerline
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; (require 'powerline)
+; (powerline-center-evil-theme)
 
-;; (evil-define-key 'insert haskell-interactive-mode-map (kbd "RET") 'haskell-interactive-mode-return)
-;; (evil-define-key 'normal haskell-interactive-mode-map (kbd "RET") 'haskell-interactive-mode-return)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Helm & projectile
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(require 'helm-config)
+(helm-mode 1)
+(helm-autoresize-mode 1)
+(setq helm-buffers-fuzzy-matching t)
+(setq helm-M-x-fuzzy-match t)
+(setq helm-apropos-fuzzy-match t)
+(setq helm-recentf-fuzzy-match t)
+(setq helm-locate-fuzzy-match t)
+(setq helm-file-cache-fuzzy-match t)
+(setq helm-semantic-fuzzy-match t)
+(setq helm-imenu-fuzzy-match t)
+(setq helm-lisp-fuzzy-completion t)
+(setq helm-completion-in-region-fuzzy-match t)
+(setq helm-mode-fuzzy-match t)
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
 
-
-;; (add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
-;; (require 'powerline)
-
-;; (custom-set-faces
-;;  '(mode-line ((t (:foreground "#2B303B" :background "#8FA1B3" :box nil))))
-;;  '(mode-line-inactive ((t (:foreground "#2B303B" :background "#343D46" :box nil)))))
-
-;; (setq powerline-color1 "#343D46")
-;; (setq powerline-color "#8FA1B3")
-
-;; evil nerd commenter
-;; (evilnc-default-hotkeys)
-
-;; (setq-default cursor-type 'bar) 
-
-;; (require 'evil-surround)
-;; (global-evil-surround-mode 1)
-
-(setq backup-directory-alist `(("." . "~/.Trash")))
-
-(require 'popwin)
-(popwin-mode 1)
-
-(require 'auto-complete-config)
-(ac-config-default)
-
-;; spelling
-;; (add-hook 'text-mode-hook 'flyspell-mode)
-;; (add-hook 'prog-mode-hook 'flyspell-prog-mode)
-
-;; (defun turn-spell-checking-on ()
-;;   "Turn speck-mode or flyspell-mode on."
-;;   (flyspell-mode 1)
-;;   )
-
-(add-hook 'text-mode-hook 'turn-spell-checking-on)
-
-(require 'langtool)
-(setq langtool-language-tool-jar "~/bin/LanguageTool-2.7/languagetool-commandline.jarq"
-      langtool-mother-tongue "en-US"
-      langtool-disabled-rules '("WHITESPACE_RULE"
-                                "EN_UNPAIRED_BRACKETS"
-                                "COMMA_PARENTHESIS_WHITESPACE"
-                                "EN_QUOTES"))
-
-;; Global keybindings
-
-;; (global-set-key (kbd "A-<right>") 'forward-word)
-;; (global-set-key (kbd "A-<left>") 'backward-word)
-;; (global-set-key (kbd "M-<right>") 'end-of-
-;; (global-set-key (kbd "M-<left>") 'beginning-of-line)
-;; (global-set-key (kbd "M-<up>") 'beginning-of-buffer)
-;; (global-set-key (kbd "M-<down>") 'end-of-buffer)
-
-(global-set-key (kbd "M-;") 'comment-dwim-line)
-(global-set-key (kbd "M-g") 'goto-line)
-(global-set-key (kbd "M-o") 'ido-switch-buffer)
-
-(global-set-key (kbd "A-M-<left>") 'windmove-left)
-(global-set-key (kbd "A-M-<right>") 'windmove-right)
-(global-set-key (kbd "A-M-<up>") 'windmove-up)
-(global-set-key (kbd "A-M-<down>") 'windmove-down)
-;; (global-set-key (kbd "C-w") 'clipboard-kill-region)
-;; (global-set-key (kbd "M-w") 'clipboard-kill-ring-save)
-;; (global-set-key (kbd "C-y") 'clipboard-yank)
-
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
-(global-set-key (kbd "C-c M-x") 'execute-extended-command)
-
-
+;; Projectile
 (projectile-global-mode)
-(setq projectile-enable-caching t)
+; disable fuzzy match to avoid searching directories
+; (setq helm-projectile-fuzzy-match nil)
+(require 'helm-projectile)
+(setq projectile-completion-system 'helm)
+(helm-projectile-on)
 
-(require 'neotree)
-(global-set-key [f8] 'neotree-toggle)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Evil mode
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; evil
+(require 'evil)
+(evil-mode t)
 
+(setq evil-emacs-state-cursor '("red" box))
+(setq evil-normal-state-cursor '("red" box))
+(setq evil-visual-state-cursor '("orange" box))
+(setq evil-insert-state-cursor '("green" bar))
+(setq evil-replace-state-cursor '("green" bar))
+(setq evil-operator-state-cursor '("green" hollow))
 
-;; --- Obj-C switch between header and source ---
+(define-key evil-motion-state-map ";" 'evil-ex)
+(setq evil-move-cursor-back nil)
 
-(setq cc-other-file-alist
+; Leader
+(global-evil-leader-mode)
+(evil-leader/set-leader "<SPC>")
+(evil-leader/set-key (kbd "h") 'projectile-find-other-file)
+(evil-leader/set-key (kbd "o") 'projectile-find-file)
+; copy and paste from clipboard
+(evil-leader/set-key (kbd "p") 'clipboard-yank)
+(evil-leader/set-key (kbd "d") 'clipboard-kill-region)
+(evil-leader/set-key (kbd "y") 'clipboard-kill-ring-save)
 
-      `(("\\.cpp$" (".hpp" ".h"))
-        ("\\.h$" (".c" ".cpp" ".m" ".mm"))
-        ("\\.hpp$" (".cpp" ".c"))
-        ("\\.m$" (".h"))
-        ("\\.mm$" (".h"))
-        ))
-(add-hook 'c-mode-common-hook (lambda() (local-set-key (kbd "C-c o") 'ff-find-other-file)))
+(define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
+(define-key evil-normal-state-map (kbd "C-j") 'evil-window-down)
+(define-key evil-normal-state-map (kbd "C-k") 'evil-window-up)
+(define-key evil-normal-state-map (kbd "C-l") 'evil-window-right)
 
+;; ycmd
+(require 'ycmd)
+(defconst google-ycmd--extra-conf "~/code/google3/googlemac/iPhone/Timely/.ycm_extra_conf.py")
+(set-variable 'ycmd-server-command '("python" "/Users/msero/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd"))
+(setq ycmd-global-config google-ycmd--extra-conf)
+(add-to-list 'ycmd-extra-conf-whitelist google-ycmd--extra-conf)
 
-;; yasnippet for objective-c
+(add-hook 'after-init-hook 'global-company-mode)
+(require 'company-ycmd)
+(company-ycmd-setup)
+(add-hook 'after-init-hook 'global-company-mode)
+(add-hook 'prog-mode-hook 'ycmd-mode)
 
-(require 'yasnippet)
+;; 'company-clang' does not work in google3; we do not want company to ever
+;; fall back to it.
+(delq 'company-clang company-backends)
 
-;; yasnippet
-(setq yas/trigger-key (kbd "C-c <kp-multiply>"))
-(yas/initialize)
+;; Autocomplete
+; (require 'auto-complete-config)
+; (add-to-list 'ac-dictionary-directories "~/.emacs.d/dict")
+; (ac-config-default)
+; (ac-set-trigger-key "TAB")
+; (setq ac-use-menu-map t)
+; (define-key ac-completing-map "\t" 'ac-complete)
+; (define-key ac-completing-map "\r" nil)
 
-;; This is where your snippets will lie.
-(setq yas/root-directory '("~/.emacs.d/snippets"))
-(mapc 'yas/load-directory yas/root-directory)
+; ; irony mode
+; (add-hook 'c++-mode-hook 'irony-mode)
+; (add-hook 'c-mode-hook 'irony-mode)
+; (add-hook 'objc-mode-hook 'irony-mode)
 
+; ;; replace the `completion-at-point' and `complete-symbol' bindings in
+; ;; irony-mode's buffers by irony-mode's function
+; (defun my-irony-mode-hook ()
+;   (define-key irony-mode-map [remap completion-at-point]
+;     'irony-completion-at-point-async)
+;   (define-key irony-mode-map [remap complete-symbol]
+;     'irony-completion-at-point-async))
+; (add-hook 'irony-mode-hook 'my-irony-mode-hook)
+; (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
 
-;; auto-complete
-(add-to-list 'load-path "~/.emacs.d/elpa/auto-complete-20141208.809")
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20141208.809/dict")
+; (eval-after-load 'company
+;   '(add-to-list 'company-backends 'company-irony))
 
-(setq-default ac-sources '(ac-source-yasnippet ac-source-abbrev ac-source-dictionary ac-source-words-in-same-mode-buffers))
-(add-hook 'emacs-lisp-mode-hook 'ac-emacs-lisp-mode-setup)
-(add-hook 'c-mode-common-hook 'ac-cc-mode-setup)
-(add-hook 'ruby-mode-hook 'ac-ruby-mode-setup)
-(add-hook 'css-mode-hook 'ac-css-mode-setup)
-(add-hook 'auto-complete-mode-hook 'ac-common-setup)
-(global-auto-complete-mode t)
-(add-to-list 'ac-modes 'objc-mode)
+; Google stuff
+; (setq google-paths-use-installed nil)
+; (add-to-list 'load-path "~/code/google3/devtools/editors/emacs")
+; (require 'google)
+; (require 'p4-google)                ;; g4-annotate, improves find-file-at-point
+; (require 'compilation-colorization) ;; colorizes output of (i)grep
+; (require 'rotate-clients)           ;; google-rotate-client
+; (require 'rotate-among-files)       ;; google-rotate-among-files
+; (require 'googlemenu)               ;; handy Google menu bar
+; (require 'p4-files)                 ;; transparent support for Perforce filesystem
+; (require 'google3)                  ;; magically set paths for compiling google3 code
+; (require 'google3-build)            ;; support for blaze builds
+; (require 'csearch)                  ;; Search the whole Google code base.
+
