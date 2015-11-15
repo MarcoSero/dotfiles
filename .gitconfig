@@ -71,7 +71,7 @@
     amend = commit --amend -C HEAD
     undo = reset --soft HEAD^
     ls = log --pretty=format:"%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]" --decorate --date=short
-    standup = log --since '1 day ago' --oneline --author marco@marcosero.com
+    standup = log --since '1 day ago' --oneline --author msero@google.com
     graph = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
     dt = difftool
 [Color]
@@ -94,3 +94,5 @@
 	smudge = git-lfs smudge %f
 	required = true
 
+[oh-my-zsh]
+	hide-status = 0
