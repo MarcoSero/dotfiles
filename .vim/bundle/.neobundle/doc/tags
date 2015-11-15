@@ -1002,6 +1002,10 @@ vitality.txt	vitality.txt	/*vitality.txt*
 vitality_always_assume_iterm	vitality.txt	/*vitality_always_assume_iterm*
 vitality_fix_cursor	vitality.txt	/*vitality_fix_cursor*
 vitality_fix_focus	vitality.txt	/*vitality_fix_focus*
+xcodebuild	xcodebuild.txt	/*xcodebuild*
+xcodebuild-configuration	xcodebuild.txt	/*xcodebuild-configuration*
+xcodebuild-contents	xcodebuild.txt	/*xcodebuild-contents*
+xcodebuild.txt	xcodebuild.txt	/*xcodebuild.txt*
 yO	unimpaired.txt	/*yO*
 yS	surround.txt	/*yS*
 ySS	surround.txt	/*ySS*

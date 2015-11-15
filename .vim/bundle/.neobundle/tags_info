@@ -28,6 +28,7 @@ vim-rsi
 vim-surround
 vim-tmux-navigator
 vim-unimpaired
+vim-xcodebuild
 vim2hs
 vimproc.vim
 vitality.vim

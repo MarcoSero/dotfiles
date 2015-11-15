@@ -2,10 +2,10 @@ if has('vim_starting')
   if &compatible
     set nocompatible
   endif
-  set runtimepath+=/Users/marco/.vim/bundle/neobundle.vim/
+  set runtimepath+=/Users/msero/.vim/bundle/neobundle.vim/
 endif
 
-call neobundle#begin(expand('/Users/marco/.vim/bundle'))
+call neobundle#begin(expand('/Users/msero/.vim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
@@ -102,6 +102,8 @@ NeoBundle 'mileszs/ack.vim'
 if executable('ag')
     let g:ackprg = 'ag --vimgrep'
 endif
+
+NeoBundle 'gfontenot/vim-xcodebuild'
 
 call neobundle#end()
 
@@ -411,9 +413,7 @@ let g:ycm_filetype_blacklist = {
       \ 'pandoc' : 1,
       \ 'infolog' : 1,
       \ 'mail' : 1,
-      \ 'gitcommit' : 1,
-      \ 'objcpp' : 1,
-      \ 'objc' : 1
+      \ 'gitcommit' : 1
       \}
 
 
@@ -452,8 +452,8 @@ let g:ctrlp_match_window_bottom = 1
 let g:ctrlp_match_window = 'bottom,order:btt,min:13,max:13'
 " enable caching
 let g:ctrlp_use_caching = 1
-" speed up by not removing clearing cache evertime
-let g:ctrlp_clear_cache_on_exit=0
+" always fresh cache
+let g:ctrlp_clear_cache_on_exit=1
 " show me dotfiles
 let g:ctrlp_show_hidden = 1
 " number of recently opened files
@@ -462,20 +462,20 @@ let g:ctrlp_max_depth = 7
 let g:ctrlp_max_files = 30000
 
 " See https://github.com/kien/ctrlp.vim/issues/389
-let g:ctrlp_prompt_mappings = {
-        \ 'CreateNewFile()':      [''],
-        \ 'ToggleType(1)':        ['<c-u>', '<c-up>'],
-        \ 'ToggleType(-1)':       ['<c-y>', '<c-down>'],
-        \ 'PrtCurLeft()':         ['<c-b>', '<left>', '<c-^>'],
-        \ 'PrtCurRight()':        ['<c-f>', '<right>'],
-        \ 'AcceptSelection("e")': ['<c-t>'],
-        \ 'AcceptSelection("h")': ['<c-v>'],
-        \ 'AcceptSelection("v")': ['<c-s>'],
-        \ 'AcceptSelection("t")': ['<cr>', '<2-LeftMouse>'],
-        \ 'PrtClearCache()':      ['<D-C>'],
-        \ 'PrtDeleteEnt()':       ['<F7>'],
-        \ 'PrtExit()':            ['<c-l>', '<esc>', '<c-c>', '<c-g>'],
-        \ }
+" let g:ctrlp_prompt_mappings = {
+"         \ 'CreateNewFile()':      [''],
+"         \ 'ToggleType(1)':        ['<c-u>', '<c-up>'],
+"         \ 'ToggleType(-1)':       ['<c-y>', '<c-down>'],
+"         \ 'PrtCurLeft()':         ['<c-b>', '<left>', '<c-^>'],
+"         \ 'PrtCurRight()':        ['<c-f>', '<right>'],
+"         \ 'AcceptSelection("e")': ['<c-t>'],
+"         \ 'AcceptSelection("h")': ['<c-v>'],
+"         \ 'AcceptSelection("v")': ['<c-s>'],
+"         \ 'AcceptSelection("t")': ['<cr>', '<2-LeftMouse>'],
+"         \ 'PrtClearCache()':      ['<D-C>'],
+"         \ 'PrtDeleteEnt()':       ['<F7>'],
+"         \ 'PrtExit()':            ['<c-l>', '<esc>', '<c-c>', '<c-g>'],
+"         \ }
 
 " TODO: add javascript and some other languages who doesn't have ctags support
 " coffee: https://gist.github.com/michaelglass/5210282
